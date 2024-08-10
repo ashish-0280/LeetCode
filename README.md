@@ -4,6 +4,7 @@
 ## Array
 |  |
 | ------- |
+| [1528-kids-with-the-greatest-number-of-candies](https://github.com/ashish-0280/LeetCode/tree/master/1528-kids-with-the-greatest-number-of-candies) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/ashish-0280/LeetCode/tree/master/2163-kth-distinct-string-in-an-array) |
 ## Hash Table
 |  |
