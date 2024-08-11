@@ -4,6 +4,7 @@
 ## Array
 |  |
 | ------- |
+| [0605-can-place-flowers](https://github.com/ashish-0280/LeetCode/tree/master/0605-can-place-flowers) |
 | [1528-kids-with-the-greatest-number-of-candies](https://github.com/ashish-0280/LeetCode/tree/master/1528-kids-with-the-greatest-number-of-candies) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/ashish-0280/LeetCode/tree/master/2163-kth-distinct-string-in-an-array) |
 | [3516-design-neighbor-sum-service](https://github.com/ashish-0280/LeetCode/tree/master/3516-design-neighbor-sum-service) |
@@ -37,4 +38,8 @@
 |  |
 | ------- |
 | [3516-design-neighbor-sum-service](https://github.com/ashish-0280/LeetCode/tree/master/3516-design-neighbor-sum-service) |
+## Greedy
+|  |
+| ------- |
+| [0605-can-place-flowers](https://github.com/ashish-0280/LeetCode/tree/master/0605-can-place-flowers) |
 <!---LeetCode Topics End-->
