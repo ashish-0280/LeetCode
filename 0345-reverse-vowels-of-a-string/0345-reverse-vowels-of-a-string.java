@@ -16,12 +16,13 @@ class Solution {
         set.add('O');
         set.add('U');
         while(p<=q){
-            if(!set.contains(s.charAt(p))){
-                p++;
-                continue;
-            }
-            if(!set.contains(s.charAt(q))){
-                q--;
+            if(!set.contains(s.charAt(p)) || !set.contains(s.charAt(q))){
+                if(!set.contains(s.charAt(p))){
+                    p++;
+                } 
+                if(!set.contains(s.charAt(q))){
+                    q--;
+                }
                 continue;
             }
             swap(c, p, q);
