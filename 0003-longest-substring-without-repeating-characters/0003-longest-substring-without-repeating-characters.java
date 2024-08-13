@@ -4,24 +4,17 @@ class Solution {
             return 0;
         }
         HashSet <Character> set = new HashSet<>();
-        int cnt = 0;
+        int p = 0;
         int max = Integer.MIN_VALUE;
-        int i = 0;
-        while(i<s.length()){
-            int j = i;
-            while(j<s.length()){
-                if(!set.contains(s.charAt(j))){
-                    set.add(s.charAt(j));
-                    cnt++;
-                    max = Math.max(max, cnt);
-                } else {
-                    cnt = 0;
-                    set.clear();
-                    break;
+        for(int i=0; i<s.length(); i++){
+            if(set.contains(s.charAt(i))){
+                while(p<i && set.contains(s.charAt(i))){
+                    set.remove(s.charAt(p));
+                    p++;
                 }
-                j++;
             }
-            i++;
+                set.add(s.charAt(i));
+                max = Math.max(max, i-p+1);
         }
         return max == Integer.MIN_VALUE ? 0 : max;
     }
