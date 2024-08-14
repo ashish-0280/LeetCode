@@ -7,6 +7,7 @@
 | [0238-product-of-array-except-self](https://github.com/ashish-0280/LeetCode/tree/master/0238-product-of-array-except-self) |
 | [0334-increasing-triplet-subsequence](https://github.com/ashish-0280/LeetCode/tree/master/0334-increasing-triplet-subsequence) |
 | [0605-can-place-flowers](https://github.com/ashish-0280/LeetCode/tree/master/0605-can-place-flowers) |
+| [0966-binary-subarrays-with-sum](https://github.com/ashish-0280/LeetCode/tree/master/0966-binary-subarrays-with-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/ashish-0280/LeetCode/tree/master/1046-max-consecutive-ones-iii) |
 | [1528-kids-with-the-greatest-number-of-candies](https://github.com/ashish-0280/LeetCode/tree/master/1528-kids-with-the-greatest-number-of-candies) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/ashish-0280/LeetCode/tree/master/1798-max-number-of-k-sum-pairs) |
@@ -17,6 +18,7 @@
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/ashish-0280/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0424-longest-repeating-character-replacement](https://github.com/ashish-0280/LeetCode/tree/master/0424-longest-repeating-character-replacement) |
+| [0966-binary-subarrays-with-sum](https://github.com/ashish-0280/LeetCode/tree/master/0966-binary-subarrays-with-sum) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/ashish-0280/LeetCode/tree/master/1798-max-number-of-k-sum-pairs) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/ashish-0280/LeetCode/tree/master/2163-kth-distinct-string-in-an-array) |
 | [3516-design-neighbor-sum-service](https://github.com/ashish-0280/LeetCode/tree/master/3516-design-neighbor-sum-service) |
@@ -69,11 +71,13 @@
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/ashish-0280/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0424-longest-repeating-character-replacement](https://github.com/ashish-0280/LeetCode/tree/master/0424-longest-repeating-character-replacement) |
+| [0966-binary-subarrays-with-sum](https://github.com/ashish-0280/LeetCode/tree/master/0966-binary-subarrays-with-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/ashish-0280/LeetCode/tree/master/1046-max-consecutive-ones-iii) |
 ## Prefix Sum
 |  |
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/ashish-0280/LeetCode/tree/master/0238-product-of-array-except-self) |
+| [0966-binary-subarrays-with-sum](https://github.com/ashish-0280/LeetCode/tree/master/0966-binary-subarrays-with-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/ashish-0280/LeetCode/tree/master/1046-max-consecutive-ones-iii) |
 ## Binary Search
 |  |
