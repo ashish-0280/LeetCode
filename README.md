@@ -11,6 +11,7 @@
 | [0605-can-place-flowers](https://github.com/ashish-0280/LeetCode/tree/master/0605-can-place-flowers) |
 | [0643-maximum-average-subarray-i](https://github.com/ashish-0280/LeetCode/tree/master/0643-maximum-average-subarray-i) |
 | [0724-find-pivot-index](https://github.com/ashish-0280/LeetCode/tree/master/0724-find-pivot-index) |
+| [0735-asteroid-collision](https://github.com/ashish-0280/LeetCode/tree/master/0735-asteroid-collision) |
 | [0966-binary-subarrays-with-sum](https://github.com/ashish-0280/LeetCode/tree/master/0966-binary-subarrays-with-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/ashish-0280/LeetCode/tree/master/1046-max-consecutive-ones-iii) |
 | [1370-count-number-of-nice-subarrays](https://github.com/ashish-0280/LeetCode/tree/master/1370-count-number-of-nice-subarrays) |
@@ -71,6 +72,7 @@
 ## Simulation
 |  |
 | ------- |
+| [0735-asteroid-collision](https://github.com/ashish-0280/LeetCode/tree/master/0735-asteroid-collision) |
 | [2428-equal-row-and-column-pairs](https://github.com/ashish-0280/LeetCode/tree/master/2428-equal-row-and-column-pairs) |
 | [2470-removing-stars-from-a-string](https://github.com/ashish-0280/LeetCode/tree/master/2470-removing-stars-from-a-string) |
 | [3516-design-neighbor-sum-service](https://github.com/ashish-0280/LeetCode/tree/master/3516-design-neighbor-sum-service) |
@@ -125,6 +127,7 @@
 ## Stack
 |  |
 | ------- |
+| [0735-asteroid-collision](https://github.com/ashish-0280/LeetCode/tree/master/0735-asteroid-collision) |
 | [1078-remove-outermost-parentheses](https://github.com/ashish-0280/LeetCode/tree/master/1078-remove-outermost-parentheses) |
 | [2470-removing-stars-from-a-string](https://github.com/ashish-0280/LeetCode/tree/master/2470-removing-stars-from-a-string) |
 ## String Matching
