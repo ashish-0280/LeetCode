@@ -23,6 +23,7 @@
 | [2163-kth-distinct-string-in-an-array](https://github.com/ashish-0280/LeetCode/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2428-equal-row-and-column-pairs](https://github.com/ashish-0280/LeetCode/tree/master/2428-equal-row-and-column-pairs) |
 | [3516-design-neighbor-sum-service](https://github.com/ashish-0280/LeetCode/tree/master/3516-design-neighbor-sum-service) |
+| [3522-find-the-power-of-k-size-subarrays-i](https://github.com/ashish-0280/LeetCode/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
 ## Hash Table
 |  |
 | ------- |
@@ -106,6 +107,7 @@
 | [1046-max-consecutive-ones-iii](https://github.com/ashish-0280/LeetCode/tree/master/1046-max-consecutive-ones-iii) |
 | [1370-count-number-of-nice-subarrays](https://github.com/ashish-0280/LeetCode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/ashish-0280/LeetCode/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
+| [3522-find-the-power-of-k-size-subarrays-i](https://github.com/ashish-0280/LeetCode/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
 | [3543-count-substrings-that-satisfy-k-constraint-i](https://github.com/ashish-0280/LeetCode/tree/master/3543-count-substrings-that-satisfy-k-constraint-i) |
 ## Prefix Sum
 |  |
