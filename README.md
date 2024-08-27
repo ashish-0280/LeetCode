@@ -164,4 +164,8 @@
 |  |
 | ------- |
 | [1236-n-th-tribonacci-number](https://github.com/ashish-0280/LeetCode/tree/master/1236-n-th-tribonacci-number) |
+## Linked List
+|  |
+| ------- |
+| [0328-odd-even-linked-list](https://github.com/ashish-0280/LeetCode/tree/master/0328-odd-even-linked-list) |
 <!---LeetCode Topics End-->
