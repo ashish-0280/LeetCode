@@ -43,6 +43,7 @@
 | [0003-longest-substring-without-repeating-characters](https://github.com/ashish-0280/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0345-reverse-vowels-of-a-string](https://github.com/ashish-0280/LeetCode/tree/master/0345-reverse-vowels-of-a-string) |
 | [0392-is-subsequence](https://github.com/ashish-0280/LeetCode/tree/master/0392-is-subsequence) |
+| [0394-decode-string](https://github.com/ashish-0280/LeetCode/tree/master/0394-decode-string) |
 | [0424-longest-repeating-character-replacement](https://github.com/ashish-0280/LeetCode/tree/master/0424-longest-repeating-character-replacement) |
 | [0443-string-compression](https://github.com/ashish-0280/LeetCode/tree/master/0443-string-compression) |
 | [0812-rotate-string](https://github.com/ashish-0280/LeetCode/tree/master/0812-rotate-string) |
@@ -134,6 +135,7 @@
 ## Stack
 |  |
 | ------- |
+| [0394-decode-string](https://github.com/ashish-0280/LeetCode/tree/master/0394-decode-string) |
 | [0735-asteroid-collision](https://github.com/ashish-0280/LeetCode/tree/master/0735-asteroid-collision) |
 | [1078-remove-outermost-parentheses](https://github.com/ashish-0280/LeetCode/tree/master/1078-remove-outermost-parentheses) |
 | [2236-maximum-twin-sum-of-a-linked-list](https://github.com/ashish-0280/LeetCode/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
@@ -171,4 +173,8 @@
 | ------- |
 | [0328-odd-even-linked-list](https://github.com/ashish-0280/LeetCode/tree/master/0328-odd-even-linked-list) |
 | [2236-maximum-twin-sum-of-a-linked-list](https://github.com/ashish-0280/LeetCode/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
+## Recursion
+|  |
+| ------- |
+| [0394-decode-string](https://github.com/ashish-0280/LeetCode/tree/master/0394-decode-string) |
 <!---LeetCode Topics End-->
