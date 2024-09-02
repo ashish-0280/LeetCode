@@ -7,17 +7,18 @@ class Solution {
             graph.computeIfAbsent(u, value -> new ArrayList<>()).add(v);
             graph.computeIfAbsent(v, value -> new ArrayList<>()).add(u);
         }
+        Queue <Integer> q = new LinkedList<>();
         boolean vis[] = new boolean[n];
-        return dfs(graph, source, destination, vis, n);
-    }
-    private boolean dfs(Map <Integer, List<Integer>> graph, int src, int dest, boolean vis[], int n){
-        if(src == dest) return true;
-        vis[src] = true;
+        q.add(source);
+        vis[source] = true;
+        while(!q.isEmpty()){
+            int curr = q.poll();
+            if(curr == destination) return true;
 
-        for(int neighbour: graph.get(src)){
-            if(!vis[neighbour]){
-                if(dfs(graph, neighbour, dest, vis, n)){
-                    return true;
+            for(int neighbour: graph.get(curr)){
+                if(!vis[neighbour]){
+                    q.add(neighbour);
+                    vis[neighbour] = true;
                 }
             }
         }
