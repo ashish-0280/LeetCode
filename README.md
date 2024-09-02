@@ -183,6 +183,7 @@
 | [0102-binary-tree-level-order-traversal](https://github.com/ashish-0280/LeetCode/tree/master/0102-binary-tree-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/ashish-0280/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0199-binary-tree-right-side-view](https://github.com/ashish-0280/LeetCode/tree/master/0199-binary-tree-right-side-view) |
+| [1007-numbers-with-same-consecutive-differences](https://github.com/ashish-0280/LeetCode/tree/master/1007-numbers-with-same-consecutive-differences) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/ashish-0280/LeetCode/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/ashish-0280/LeetCode/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [2121-find-if-path-exists-in-graph](https://github.com/ashish-0280/LeetCode/tree/master/2121-find-if-path-exists-in-graph) |
@@ -235,4 +236,8 @@
 |  |
 | ------- |
 | [2121-find-if-path-exists-in-graph](https://github.com/ashish-0280/LeetCode/tree/master/2121-find-if-path-exists-in-graph) |
+## Backtracking
+|  |
+| ------- |
+| [1007-numbers-with-same-consecutive-differences](https://github.com/ashish-0280/LeetCode/tree/master/1007-numbers-with-same-consecutive-differences) |
 <!---LeetCode Topics End-->
