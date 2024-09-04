@@ -166,6 +166,7 @@
 | ------- |
 | [0102-binary-tree-level-order-traversal](https://github.com/ashish-0280/LeetCode/tree/master/0102-binary-tree-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/ashish-0280/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0112-path-sum](https://github.com/ashish-0280/LeetCode/tree/master/0112-path-sum) |
 | [0199-binary-tree-right-side-view](https://github.com/ashish-0280/LeetCode/tree/master/0199-binary-tree-right-side-view) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/ashish-0280/LeetCode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0783-search-in-a-binary-search-tree](https://github.com/ashish-0280/LeetCode/tree/master/0783-search-in-a-binary-search-tree) |
@@ -177,6 +178,7 @@
 |  |
 | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/ashish-0280/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0112-path-sum](https://github.com/ashish-0280/LeetCode/tree/master/0112-path-sum) |
 | [0199-binary-tree-right-side-view](https://github.com/ashish-0280/LeetCode/tree/master/0199-binary-tree-right-side-view) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/ashish-0280/LeetCode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0904-leaf-similar-trees](https://github.com/ashish-0280/LeetCode/tree/master/0904-leaf-similar-trees) |
@@ -189,6 +191,7 @@
 | ------- |
 | [0102-binary-tree-level-order-traversal](https://github.com/ashish-0280/LeetCode/tree/master/0102-binary-tree-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/ashish-0280/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0112-path-sum](https://github.com/ashish-0280/LeetCode/tree/master/0112-path-sum) |
 | [0199-binary-tree-right-side-view](https://github.com/ashish-0280/LeetCode/tree/master/0199-binary-tree-right-side-view) |
 | [1007-numbers-with-same-consecutive-differences](https://github.com/ashish-0280/LeetCode/tree/master/1007-numbers-with-same-consecutive-differences) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/ashish-0280/LeetCode/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
@@ -199,6 +202,7 @@
 | ------- |
 | [0102-binary-tree-level-order-traversal](https://github.com/ashish-0280/LeetCode/tree/master/0102-binary-tree-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/ashish-0280/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0112-path-sum](https://github.com/ashish-0280/LeetCode/tree/master/0112-path-sum) |
 | [0199-binary-tree-right-side-view](https://github.com/ashish-0280/LeetCode/tree/master/0199-binary-tree-right-side-view) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/ashish-0280/LeetCode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0783-search-in-a-binary-search-tree](https://github.com/ashish-0280/LeetCode/tree/master/0783-search-in-a-binary-search-tree) |
