@@ -18,10 +18,9 @@ class Solution {
         if(root == null){
             return false;
         }
-        targetSum = targetSum-root.val;
-        if(targetSum == 0 && root.left == null && root.right == null){
+        if(targetSum == root.val && root.left == null && root.right == null){
             return true;
         }
-        return hasPathSum(root.left, targetSum) || hasPathSum(root.right, targetSum);
+        return hasPathSum(root.left, targetSum-root.val) || hasPathSum(root.right, targetSum-root.val);
     }
 }
