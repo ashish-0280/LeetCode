@@ -14,34 +14,29 @@
  * }
  */
 class Solution {
+    int cnt = 0;
     public int pathSum(TreeNode root, int targetSum) {
         if(root == null){
             return 0;
         }
-        int arr[] = new int[1];
-        Queue <TreeNode> q = new LinkedList<>();
-        q.add(root);
-        while(!q.isEmpty()){
-            TreeNode curr = q.poll();
-            solve(curr, targetSum, 0, arr);
-            if(curr.left != null){
-                q.add(curr.left);
-            }
-            if(curr.right != null){
-                q.add(curr.right);
-            }
-        }
-        return arr[0];
+        HashMap <Long, Integer> hm = new HashMap<>();
+        hm.put(0l,1);
+        solve(root, targetSum, 0, hm);
+        return cnt;
     }
-    public void solve(TreeNode root, int target, long currSum, int arr[]){
+    public void solve(TreeNode root, int target, long currSum, Map<Long, Integer> hm){
         if(root == null){
             return;
         }
         currSum += root.val;
-        if(target == currSum){
-            arr[0]++;
+        if(hm.containsKey(currSum-target)){
+            cnt += hm.get(currSum-target);
+            System.out.println(hm);
+            System.out.println(currSum-target);
         }
-        solve(root.left, target, currSum, arr);
-        solve(root.right, target, currSum, arr);
+        hm.put(currSum, hm.getOrDefault(currSum, 0)+1);
+        solve(root.left, target, currSum, hm);
+        solve(root.right, target, currSum, hm);
+        hm.put(currSum, hm.getOrDefault(currSum, 1)-1);
     }
 }
