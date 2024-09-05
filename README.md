@@ -24,6 +24,7 @@
 | [1833-find-the-highest-altitude](https://github.com/ashish-0280/LeetCode/tree/master/1833-find-the-highest-altitude) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/ashish-0280/LeetCode/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/ashish-0280/LeetCode/tree/master/2132-convert-1d-array-into-2d-array) |
+| [2155-find-missing-observations](https://github.com/ashish-0280/LeetCode/tree/master/2155-find-missing-observations) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/ashish-0280/LeetCode/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2428-equal-row-and-column-pairs](https://github.com/ashish-0280/LeetCode/tree/master/2428-equal-row-and-column-pairs) |
 | [3516-design-neighbor-sum-service](https://github.com/ashish-0280/LeetCode/tree/master/3516-design-neighbor-sum-service) |
@@ -71,6 +72,7 @@
 | [1236-n-th-tribonacci-number](https://github.com/ashish-0280/LeetCode/tree/master/1236-n-th-tribonacci-number) |
 | [1370-count-number-of-nice-subarrays](https://github.com/ashish-0280/LeetCode/tree/master/1370-count-number-of-nice-subarrays) |
 | [2032-largest-odd-number-in-string](https://github.com/ashish-0280/LeetCode/tree/master/2032-largest-odd-number-in-string) |
+| [2155-find-missing-observations](https://github.com/ashish-0280/LeetCode/tree/master/2155-find-missing-observations) |
 ## Design
 |  |
 | ------- |
@@ -90,6 +92,7 @@
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/ashish-0280/LeetCode/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2076-sum-of-digits-of-string-after-convert](https://github.com/ashish-0280/LeetCode/tree/master/2076-sum-of-digits-of-string-after-convert) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/ashish-0280/LeetCode/tree/master/2132-convert-1d-array-into-2d-array) |
+| [2155-find-missing-observations](https://github.com/ashish-0280/LeetCode/tree/master/2155-find-missing-observations) |
 | [2428-equal-row-and-column-pairs](https://github.com/ashish-0280/LeetCode/tree/master/2428-equal-row-and-column-pairs) |
 | [2470-removing-stars-from-a-string](https://github.com/ashish-0280/LeetCode/tree/master/2470-removing-stars-from-a-string) |
 | [3516-design-neighbor-sum-service](https://github.com/ashish-0280/LeetCode/tree/master/3516-design-neighbor-sum-service) |
