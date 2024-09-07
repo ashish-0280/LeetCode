@@ -73,6 +73,7 @@
 ## Math
 |  |
 | ------- |
+| [0062-unique-paths](https://github.com/ashish-0280/LeetCode/tree/master/0062-unique-paths) |
 | [1146-greatest-common-divisor-of-strings](https://github.com/ashish-0280/LeetCode/tree/master/1146-greatest-common-divisor-of-strings) |
 | [1236-n-th-tribonacci-number](https://github.com/ashish-0280/LeetCode/tree/master/1236-n-th-tribonacci-number) |
 | [1370-count-number-of-nice-subarrays](https://github.com/ashish-0280/LeetCode/tree/master/1370-count-number-of-nice-subarrays) |
@@ -155,6 +156,7 @@
 ## Dynamic Programming
 |  |
 | ------- |
+| [0062-unique-paths](https://github.com/ashish-0280/LeetCode/tree/master/0062-unique-paths) |
 | [0392-is-subsequence](https://github.com/ashish-0280/LeetCode/tree/master/0392-is-subsequence) |
 | [1236-n-th-tribonacci-number](https://github.com/ashish-0280/LeetCode/tree/master/1236-n-th-tribonacci-number) |
 | [1474-longest-zigzag-path-in-a-binary-tree](https://github.com/ashish-0280/LeetCode/tree/master/1474-longest-zigzag-path-in-a-binary-tree) |
@@ -283,4 +285,8 @@
 |  |
 | ------- |
 | [0969-number-of-recent-calls](https://github.com/ashish-0280/LeetCode/tree/master/0969-number-of-recent-calls) |
+## Combinatorics
+|  |
+| ------- |
+| [0062-unique-paths](https://github.com/ashish-0280/LeetCode/tree/master/0062-unique-paths) |
 <!---LeetCode Topics End-->
