@@ -25,7 +25,6 @@ class Solution {
                 if(startCol<=endCol && startRow<=endRow){
                     if(temp != null){
                         ans[startRow][i] = temp.val;
-                        System.out.println(ans[startRow][i]);
                         temp = temp.next;
                     } else {
                         break;
