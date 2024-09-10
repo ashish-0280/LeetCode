@@ -15,26 +15,16 @@
  */
 class Solution {
     public TreeNode searchBST(TreeNode root, int val) {
-        if(root == null || root.val == val){
+        if(root == null){
+            return null;
+        }
+        if(root.val == val){
             return root;
+        } else if(root.val < val){
+            return searchBST(root.right, val);
+        } else {
+            return searchBST(root.left, val);
         }
-        Queue <TreeNode> q = new LinkedList<>();
-        q.add(root);
-        while(!q.isEmpty()){
-            int cnt = q.size();
-            for(int i=0; i<cnt; i++){
-                TreeNode node = q.poll();
-                if(node.val == val){
-                    return node;
-                }
-                if(node.left != null){
-                    q.add(node.left);
-                }
-                if(node.right != null){
-                    q.add(node.right);
-                }
-            }
-        }
-        return null;
+        
     }
 }
