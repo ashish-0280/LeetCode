@@ -20,18 +20,19 @@ class Solution {
             ListNode p = new ListNode(value);
             temp.next = p;
             p.next = temp1;
-            temp = temp.next.next;
+            temp = temp1;
             temp1 = temp1.next;
         }
         return head;
     }
     public int gcd(int a, int b){
-        int min = Math.min(a,b);
-        for(int i=min; i>=1; i--){
-            if(a % i == 0 && b % i == 0){
-                return i;
-            }
+        //Euclidean algorithm to find gcd of a, b
+        //it says the gcd og (a, b) is same as gcd of((b, a%b));
+        while(b != 0){
+            int restoredValue = b;
+            b = a % b;
+            a = restoredValue;
         }
-        return 1;
+        return a;
     }
 }
