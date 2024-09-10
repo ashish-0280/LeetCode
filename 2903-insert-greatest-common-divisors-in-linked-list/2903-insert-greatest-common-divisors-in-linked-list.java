@@ -15,20 +15,15 @@ class Solution {
         }
         ListNode temp = head;
         ListNode temp1 = head.next;
-        ListNode l = new ListNode(0);
-        ListNode tail = l;
-        tail.next = new ListNode(temp.val);
-        tail = tail.next;
         while(temp != null && temp1 != null){
             int value = gcd(temp.val, temp1.val);
-            tail.next = new ListNode(value);
-            tail = tail.next;
-            tail.next = new ListNode(temp1.val);
-            tail = tail.next;
+            ListNode p = new ListNode(value);
+            temp.next = p;
+            p.next = temp1;
+            temp = temp.next.next;
             temp1 = temp1.next;
-            temp = temp.next;
         }
-        return l.next;
+        return head;
     }
     public int gcd(int a, int b){
         int min = Math.min(a,b);
