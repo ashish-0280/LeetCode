@@ -1,19 +1,13 @@
 class Solution {
-    public int[] countBits(int n) {
-        int ans[] = new int[n+1];
-        for(int i=0; i<=n; i++){
-            ans[i] = helper(i);
-        }
-        return ans;
-    }
-    public int helper(int n){
-        int cnt = 0;
-        while(n > 0){
-            if((n & 1) == 1){
-                cnt++;
+    public int[] countBits(int num) {
+        int result[] = new int[num + 1];
+        int offset = 1;
+        for (int index = 1; index < num + 1; ++index){
+            if (offset * 2 == index){
+                offset *= 2;
             }
-            n>>=1;
+            result[index] = result[index - offset] + 1;
         }
-        return cnt;
+        return result;
     }
 }
