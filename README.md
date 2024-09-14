@@ -31,6 +31,7 @@
 | [2163-kth-distinct-string-in-an-array](https://github.com/ashish-0280/LeetCode/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2411-spiral-matrix-iv](https://github.com/ashish-0280/LeetCode/tree/master/2411-spiral-matrix-iv) |
 | [2428-equal-row-and-column-pairs](https://github.com/ashish-0280/LeetCode/tree/master/2428-equal-row-and-column-pairs) |
+| [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/ashish-0280/LeetCode/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/ashish-0280/LeetCode/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3516-design-neighbor-sum-service](https://github.com/ashish-0280/LeetCode/tree/master/3516-design-neighbor-sum-service) |
 | [3522-find-the-power-of-k-size-subarrays-i](https://github.com/ashish-0280/LeetCode/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
@@ -320,4 +321,9 @@
 | [1435-xor-queries-of-a-subarray](https://github.com/ashish-0280/LeetCode/tree/master/1435-xor-queries-of-a-subarray) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/ashish-0280/LeetCode/tree/master/1786-count-the-number-of-consistent-strings) |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/ashish-0280/LeetCode/tree/master/2323-minimum-bit-flips-to-convert-number) |
+| [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/ashish-0280/LeetCode/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
+## Brainteaser
+|  |
+| ------- |
+| [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/ashish-0280/LeetCode/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 <!---LeetCode Topics End-->
