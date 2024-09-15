@@ -45,6 +45,7 @@
 | [0966-binary-subarrays-with-sum](https://github.com/ashish-0280/LeetCode/tree/master/0966-binary-subarrays-with-sum) |
 | [1370-count-number-of-nice-subarrays](https://github.com/ashish-0280/LeetCode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1392-find-the-difference-of-two-arrays](https://github.com/ashish-0280/LeetCode/tree/master/1392-find-the-difference-of-two-arrays) |
+| [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/ashish-0280/LeetCode/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
 | [1777-determine-if-two-strings-are-close](https://github.com/ashish-0280/LeetCode/tree/master/1777-determine-if-two-strings-are-close) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/ashish-0280/LeetCode/tree/master/1786-count-the-number-of-consistent-strings) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/ashish-0280/LeetCode/tree/master/1798-max-number-of-k-sum-pairs) |
@@ -66,6 +67,7 @@
 | [0812-rotate-string](https://github.com/ashish-0280/LeetCode/tree/master/0812-rotate-string) |
 | [1078-remove-outermost-parentheses](https://github.com/ashish-0280/LeetCode/tree/master/1078-remove-outermost-parentheses) |
 | [1146-greatest-common-divisor-of-strings](https://github.com/ashish-0280/LeetCode/tree/master/1146-greatest-common-divisor-of-strings) |
+| [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/ashish-0280/LeetCode/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
 | [1777-determine-if-two-strings-are-close](https://github.com/ashish-0280/LeetCode/tree/master/1777-determine-if-two-strings-are-close) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/ashish-0280/LeetCode/tree/master/1786-count-the-number-of-consistent-strings) |
 | [2032-largest-odd-number-in-string](https://github.com/ashish-0280/LeetCode/tree/master/2032-largest-odd-number-in-string) |
@@ -160,6 +162,7 @@
 | [0966-binary-subarrays-with-sum](https://github.com/ashish-0280/LeetCode/tree/master/0966-binary-subarrays-with-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/ashish-0280/LeetCode/tree/master/1046-max-consecutive-ones-iii) |
 | [1435-xor-queries-of-a-subarray](https://github.com/ashish-0280/LeetCode/tree/master/1435-xor-queries-of-a-subarray) |
+| [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/ashish-0280/LeetCode/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
 | [1833-find-the-highest-altitude](https://github.com/ashish-0280/LeetCode/tree/master/1833-find-the-highest-altitude) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/ashish-0280/LeetCode/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 ## Binary Search
@@ -321,6 +324,7 @@
 | ------- |
 | [0338-counting-bits](https://github.com/ashish-0280/LeetCode/tree/master/0338-counting-bits) |
 | [1435-xor-queries-of-a-subarray](https://github.com/ashish-0280/LeetCode/tree/master/1435-xor-queries-of-a-subarray) |
+| [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/ashish-0280/LeetCode/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/ashish-0280/LeetCode/tree/master/1786-count-the-number-of-consistent-strings) |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/ashish-0280/LeetCode/tree/master/2323-minimum-bit-flips-to-convert-number) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/ashish-0280/LeetCode/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
