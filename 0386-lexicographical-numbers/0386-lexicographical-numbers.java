@@ -19,7 +19,11 @@ class Solution {
             list.add(curr);
             for(int i=0; i<=9; i++){
                 int nextNum = 10 * curr + i;
-                solve(nextNum, limit, list);
+                if(nextNum <= limit){
+                    solve(nextNum, limit, list);
+                } else {
+                    break;
+                }
             }
         }
     }
