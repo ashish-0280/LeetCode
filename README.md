@@ -35,6 +35,7 @@
 | [2411-spiral-matrix-iv](https://github.com/ashish-0280/LeetCode/tree/master/2411-spiral-matrix-iv) |
 | [2428-equal-row-and-column-pairs](https://github.com/ashish-0280/LeetCode/tree/master/2428-equal-row-and-column-pairs) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/ashish-0280/LeetCode/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
+| [2553-total-cost-to-hire-k-workers](https://github.com/ashish-0280/LeetCode/tree/master/2553-total-cost-to-hire-k-workers) |
 | [2636-maximum-subsequence-score](https://github.com/ashish-0280/LeetCode/tree/master/2636-maximum-subsequence-score) |
 | [2755-extra-characters-in-a-string](https://github.com/ashish-0280/LeetCode/tree/master/2755-extra-characters-in-a-string) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/ashish-0280/LeetCode/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
@@ -133,6 +134,7 @@
 | [2411-spiral-matrix-iv](https://github.com/ashish-0280/LeetCode/tree/master/2411-spiral-matrix-iv) |
 | [2428-equal-row-and-column-pairs](https://github.com/ashish-0280/LeetCode/tree/master/2428-equal-row-and-column-pairs) |
 | [2470-removing-stars-from-a-string](https://github.com/ashish-0280/LeetCode/tree/master/2470-removing-stars-from-a-string) |
+| [2553-total-cost-to-hire-k-workers](https://github.com/ashish-0280/LeetCode/tree/master/2553-total-cost-to-hire-k-workers) |
 | [3516-design-neighbor-sum-service](https://github.com/ashish-0280/LeetCode/tree/master/3516-design-neighbor-sum-service) |
 ## Greedy
 |  |
@@ -154,6 +156,7 @@
 | [0443-string-compression](https://github.com/ashish-0280/LeetCode/tree/master/0443-string-compression) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/ashish-0280/LeetCode/tree/master/1798-max-number-of-k-sum-pairs) |
 | [2236-maximum-twin-sum-of-a-linked-list](https://github.com/ashish-0280/LeetCode/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
+| [2553-total-cost-to-hire-k-workers](https://github.com/ashish-0280/LeetCode/tree/master/2553-total-cost-to-hire-k-workers) |
 ## Sorting
 |  |
 | ------- |
@@ -312,6 +315,7 @@
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/ashish-0280/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
 | [2413-smallest-number-in-infinite-set](https://github.com/ashish-0280/LeetCode/tree/master/2413-smallest-number-in-infinite-set) |
+| [2553-total-cost-to-hire-k-workers](https://github.com/ashish-0280/LeetCode/tree/master/2553-total-cost-to-hire-k-workers) |
 | [2636-maximum-subsequence-score](https://github.com/ashish-0280/LeetCode/tree/master/2636-maximum-subsequence-score) |
 ## Quickselect
 |  |
