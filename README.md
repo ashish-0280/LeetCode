@@ -19,6 +19,7 @@
 | [0729-my-calendar-i](https://github.com/ashish-0280/LeetCode/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/ashish-0280/LeetCode/tree/master/0731-my-calendar-ii) |
 | [0735-asteroid-collision](https://github.com/ashish-0280/LeetCode/tree/master/0735-asteroid-collision) |
+| [0739-daily-temperatures](https://github.com/ashish-0280/LeetCode/tree/master/0739-daily-temperatures) |
 | [0859-design-circular-deque](https://github.com/ashish-0280/LeetCode/tree/master/0859-design-circular-deque) |
 | [0906-walking-robot-simulation](https://github.com/ashish-0280/LeetCode/tree/master/0906-walking-robot-simulation) |
 | [0966-binary-subarrays-with-sum](https://github.com/ashish-0280/LeetCode/tree/master/0966-binary-subarrays-with-sum) |
@@ -234,6 +235,7 @@
 | ------- |
 | [0394-decode-string](https://github.com/ashish-0280/LeetCode/tree/master/0394-decode-string) |
 | [0735-asteroid-collision](https://github.com/ashish-0280/LeetCode/tree/master/0735-asteroid-collision) |
+| [0739-daily-temperatures](https://github.com/ashish-0280/LeetCode/tree/master/0739-daily-temperatures) |
 | [1078-remove-outermost-parentheses](https://github.com/ashish-0280/LeetCode/tree/master/1078-remove-outermost-parentheses) |
 | [2236-maximum-twin-sum-of-a-linked-list](https://github.com/ashish-0280/LeetCode/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
 | [2470-removing-stars-from-a-string](https://github.com/ashish-0280/LeetCode/tree/master/2470-removing-stars-from-a-string) |
@@ -427,4 +429,8 @@
 |  |
 | ------- |
 | [0432-all-oone-data-structure](https://github.com/ashish-0280/LeetCode/tree/master/0432-all-oone-data-structure) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0739-daily-temperatures](https://github.com/ashish-0280/LeetCode/tree/master/0739-daily-temperatures) |
 <!---LeetCode Topics End-->
