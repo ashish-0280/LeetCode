@@ -107,6 +107,7 @@
 | [1923-sentence-similarity-iii](https://github.com/ashish-0280/LeetCode/tree/master/1923-sentence-similarity-iii) |
 | [2032-largest-odd-number-in-string](https://github.com/ashish-0280/LeetCode/tree/master/2032-largest-odd-number-in-string) |
 | [2076-sum-of-digits-of-string-after-convert](https://github.com/ashish-0280/LeetCode/tree/master/2076-sum-of-digits-of-string-after-convert) |
+| [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/ashish-0280/LeetCode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/ashish-0280/LeetCode/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2470-removing-stars-from-a-string](https://github.com/ashish-0280/LeetCode/tree/master/2470-removing-stars-from-a-string) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/ashish-0280/LeetCode/tree/master/2494-sum-of-prefix-scores-of-strings) |
@@ -178,6 +179,7 @@
 | [0605-can-place-flowers](https://github.com/ashish-0280/LeetCode/tree/master/0605-can-place-flowers) |
 | [0649-dota2-senate](https://github.com/ashish-0280/LeetCode/tree/master/0649-dota2-senate) |
 | [2032-largest-odd-number-in-string](https://github.com/ashish-0280/LeetCode/tree/master/2032-largest-odd-number-in-string) |
+| [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/ashish-0280/LeetCode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2636-maximum-subsequence-score](https://github.com/ashish-0280/LeetCode/tree/master/2636-maximum-subsequence-score) |
 ## Two Pointers
 |  |
@@ -190,6 +192,7 @@
 | [0567-permutation-in-string](https://github.com/ashish-0280/LeetCode/tree/master/0567-permutation-in-string) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/ashish-0280/LeetCode/tree/master/1798-max-number-of-k-sum-pairs) |
 | [1923-sentence-similarity-iii](https://github.com/ashish-0280/LeetCode/tree/master/1923-sentence-similarity-iii) |
+| [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/ashish-0280/LeetCode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2236-maximum-twin-sum-of-a-linked-list](https://github.com/ashish-0280/LeetCode/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
 | [2553-total-cost-to-hire-k-workers](https://github.com/ashish-0280/LeetCode/tree/master/2553-total-cost-to-hire-k-workers) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/ashish-0280/LeetCode/tree/master/2581-divide-players-into-teams-of-equal-skill) |
@@ -260,6 +263,7 @@
 | [0739-daily-temperatures](https://github.com/ashish-0280/LeetCode/tree/master/0739-daily-temperatures) |
 | [0937-online-stock-span](https://github.com/ashish-0280/LeetCode/tree/master/0937-online-stock-span) |
 | [1078-remove-outermost-parentheses](https://github.com/ashish-0280/LeetCode/tree/master/1078-remove-outermost-parentheses) |
+| [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/ashish-0280/LeetCode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2236-maximum-twin-sum-of-a-linked-list](https://github.com/ashish-0280/LeetCode/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
 | [2470-removing-stars-from-a-string](https://github.com/ashish-0280/LeetCode/tree/master/2470-removing-stars-from-a-string) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/ashish-0280/LeetCode/tree/master/2800-minimum-string-length-after-removing-substrings) |
