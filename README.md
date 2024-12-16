@@ -54,6 +54,7 @@
 | [3516-design-neighbor-sum-service](https://github.com/ashish-0280/LeetCode/tree/master/3516-design-neighbor-sum-service) |
 | [3522-find-the-power-of-k-size-subarrays-i](https://github.com/ashish-0280/LeetCode/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
 | [3523-find-the-power-of-k-size-subarrays-ii](https://github.com/ashish-0280/LeetCode/tree/master/3523-find-the-power-of-k-size-subarrays-ii) |
+| [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/ashish-0280/LeetCode/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 ## Hash Table
 |  |
 | ------- |
@@ -139,6 +140,7 @@
 | [2032-largest-odd-number-in-string](https://github.com/ashish-0280/LeetCode/tree/master/2032-largest-odd-number-in-string) |
 | [2155-find-missing-observations](https://github.com/ashish-0280/LeetCode/tree/master/2155-find-missing-observations) |
 | [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/ashish-0280/LeetCode/tree/master/2903-insert-greatest-common-divisors-in-linked-list) |
+| [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/ashish-0280/LeetCode/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 ## Design
 |  |
 | ------- |
@@ -172,6 +174,7 @@
 | [2553-total-cost-to-hire-k-workers](https://github.com/ashish-0280/LeetCode/tree/master/2553-total-cost-to-hire-k-workers) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/ashish-0280/LeetCode/tree/master/2800-minimum-string-length-after-removing-substrings) |
 | [3516-design-neighbor-sum-service](https://github.com/ashish-0280/LeetCode/tree/master/3516-design-neighbor-sum-service) |
+| [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/ashish-0280/LeetCode/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 ## Greedy
 |  |
 | ------- |
@@ -380,6 +383,7 @@
 | [2413-smallest-number-in-infinite-set](https://github.com/ashish-0280/LeetCode/tree/master/2413-smallest-number-in-infinite-set) |
 | [2553-total-cost-to-hire-k-workers](https://github.com/ashish-0280/LeetCode/tree/master/2553-total-cost-to-hire-k-workers) |
 | [2636-maximum-subsequence-score](https://github.com/ashish-0280/LeetCode/tree/master/2636-maximum-subsequence-score) |
+| [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/ashish-0280/LeetCode/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 ## Quickselect
 |  |
 | ------- |
