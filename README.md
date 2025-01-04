@@ -61,6 +61,7 @@
 | [0003-longest-substring-without-repeating-characters](https://github.com/ashish-0280/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0424-longest-repeating-character-replacement](https://github.com/ashish-0280/LeetCode/tree/master/0424-longest-repeating-character-replacement) |
 | [0432-all-oone-data-structure](https://github.com/ashish-0280/LeetCode/tree/master/0432-all-oone-data-structure) |
+| [0438-find-all-anagrams-in-a-string](https://github.com/ashish-0280/LeetCode/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0567-permutation-in-string](https://github.com/ashish-0280/LeetCode/tree/master/0567-permutation-in-string) |
 | [0906-walking-robot-simulation](https://github.com/ashish-0280/LeetCode/tree/master/0906-walking-robot-simulation) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/ashish-0280/LeetCode/tree/master/0920-uncommon-words-from-two-sentences) |
@@ -94,6 +95,7 @@
 | [0392-is-subsequence](https://github.com/ashish-0280/LeetCode/tree/master/0392-is-subsequence) |
 | [0394-decode-string](https://github.com/ashish-0280/LeetCode/tree/master/0394-decode-string) |
 | [0424-longest-repeating-character-replacement](https://github.com/ashish-0280/LeetCode/tree/master/0424-longest-repeating-character-replacement) |
+| [0438-find-all-anagrams-in-a-string](https://github.com/ashish-0280/LeetCode/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0443-string-compression](https://github.com/ashish-0280/LeetCode/tree/master/0443-string-compression) |
 | [0539-minimum-time-difference](https://github.com/ashish-0280/LeetCode/tree/master/0539-minimum-time-difference) |
 | [0567-permutation-in-string](https://github.com/ashish-0280/LeetCode/tree/master/0567-permutation-in-string) |
@@ -218,6 +220,7 @@
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/ashish-0280/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0424-longest-repeating-character-replacement](https://github.com/ashish-0280/LeetCode/tree/master/0424-longest-repeating-character-replacement) |
+| [0438-find-all-anagrams-in-a-string](https://github.com/ashish-0280/LeetCode/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0567-permutation-in-string](https://github.com/ashish-0280/LeetCode/tree/master/0567-permutation-in-string) |
 | [0643-maximum-average-subarray-i](https://github.com/ashish-0280/LeetCode/tree/master/0643-maximum-average-subarray-i) |
 | [0966-binary-subarrays-with-sum](https://github.com/ashish-0280/LeetCode/tree/master/0966-binary-subarrays-with-sum) |
