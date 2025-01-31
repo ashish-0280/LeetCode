@@ -280,6 +280,7 @@
 | [0053-maximum-subarray](https://github.com/ashish-0280/LeetCode/tree/master/0053-maximum-subarray) |
 | [0062-unique-paths](https://github.com/ashish-0280/LeetCode/tree/master/0062-unique-paths) |
 | [0072-edit-distance](https://github.com/ashish-0280/LeetCode/tree/master/0072-edit-distance) |
+| [0124-binary-tree-maximum-path-sum](https://github.com/ashish-0280/LeetCode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0152-maximum-product-subarray](https://github.com/ashish-0280/LeetCode/tree/master/0152-maximum-product-subarray) |
 | [0198-house-robber](https://github.com/ashish-0280/LeetCode/tree/master/0198-house-robber) |
 | [0241-different-ways-to-add-parentheses](https://github.com/ashish-0280/LeetCode/tree/master/0241-different-ways-to-add-parentheses) |
@@ -318,6 +319,7 @@
 | [0104-maximum-depth-of-binary-tree](https://github.com/ashish-0280/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/ashish-0280/LeetCode/tree/master/0112-path-sum) |
 | [0113-path-sum-ii](https://github.com/ashish-0280/LeetCode/tree/master/0113-path-sum-ii) |
+| [0124-binary-tree-maximum-path-sum](https://github.com/ashish-0280/LeetCode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0199-binary-tree-right-side-view](https://github.com/ashish-0280/LeetCode/tree/master/0199-binary-tree-right-side-view) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/ashish-0280/LeetCode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0437-path-sum-iii](https://github.com/ashish-0280/LeetCode/tree/master/0437-path-sum-iii) |
@@ -336,6 +338,7 @@
 | [0104-maximum-depth-of-binary-tree](https://github.com/ashish-0280/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/ashish-0280/LeetCode/tree/master/0112-path-sum) |
 | [0113-path-sum-ii](https://github.com/ashish-0280/LeetCode/tree/master/0113-path-sum-ii) |
+| [0124-binary-tree-maximum-path-sum](https://github.com/ashish-0280/LeetCode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0199-binary-tree-right-side-view](https://github.com/ashish-0280/LeetCode/tree/master/0199-binary-tree-right-side-view) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/ashish-0280/LeetCode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0386-lexicographical-numbers](https://github.com/ashish-0280/LeetCode/tree/master/0386-lexicographical-numbers) |
@@ -371,6 +374,7 @@
 | [0104-maximum-depth-of-binary-tree](https://github.com/ashish-0280/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/ashish-0280/LeetCode/tree/master/0112-path-sum) |
 | [0113-path-sum-ii](https://github.com/ashish-0280/LeetCode/tree/master/0113-path-sum-ii) |
+| [0124-binary-tree-maximum-path-sum](https://github.com/ashish-0280/LeetCode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0199-binary-tree-right-side-view](https://github.com/ashish-0280/LeetCode/tree/master/0199-binary-tree-right-side-view) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/ashish-0280/LeetCode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0437-path-sum-iii](https://github.com/ashish-0280/LeetCode/tree/master/0437-path-sum-iii) |
