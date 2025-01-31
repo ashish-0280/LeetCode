@@ -14,6 +14,7 @@
 | [0078-subsets](https://github.com/ashish-0280/LeetCode/tree/master/0078-subsets) |
 | [0084-largest-rectangle-in-histogram](https://github.com/ashish-0280/LeetCode/tree/master/0084-largest-rectangle-in-histogram) |
 | [0090-subsets-ii](https://github.com/ashish-0280/LeetCode/tree/master/0090-subsets-ii) |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/ashish-0280/LeetCode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0152-maximum-product-subarray](https://github.com/ashish-0280/LeetCode/tree/master/0152-maximum-product-subarray) |
 | [0162-find-peak-element](https://github.com/ashish-0280/LeetCode/tree/master/0162-find-peak-element) |
 | [0179-largest-number](https://github.com/ashish-0280/LeetCode/tree/master/0179-largest-number) |
@@ -74,6 +75,7 @@
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/ashish-0280/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0037-sudoku-solver](https://github.com/ashish-0280/LeetCode/tree/master/0037-sudoku-solver) |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/ashish-0280/LeetCode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0229-majority-element-ii](https://github.com/ashish-0280/LeetCode/tree/master/0229-majority-element-ii) |
 | [0424-longest-repeating-character-replacement](https://github.com/ashish-0280/LeetCode/tree/master/0424-longest-repeating-character-replacement) |
 | [0432-all-oone-data-structure](https://github.com/ashish-0280/LeetCode/tree/master/0432-all-oone-data-structure) |
@@ -317,6 +319,7 @@
 | ------- |
 | [0102-binary-tree-level-order-traversal](https://github.com/ashish-0280/LeetCode/tree/master/0102-binary-tree-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/ashish-0280/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/ashish-0280/LeetCode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0112-path-sum](https://github.com/ashish-0280/LeetCode/tree/master/0112-path-sum) |
 | [0113-path-sum-ii](https://github.com/ashish-0280/LeetCode/tree/master/0113-path-sum-ii) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/ashish-0280/LeetCode/tree/master/0124-binary-tree-maximum-path-sum) |
@@ -372,6 +375,7 @@
 | ------- |
 | [0102-binary-tree-level-order-traversal](https://github.com/ashish-0280/LeetCode/tree/master/0102-binary-tree-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/ashish-0280/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/ashish-0280/LeetCode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0112-path-sum](https://github.com/ashish-0280/LeetCode/tree/master/0112-path-sum) |
 | [0113-path-sum-ii](https://github.com/ashish-0280/LeetCode/tree/master/0113-path-sum-ii) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/ashish-0280/LeetCode/tree/master/0124-binary-tree-maximum-path-sum) |
@@ -414,6 +418,7 @@
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/ashish-0280/LeetCode/tree/master/0053-maximum-subarray) |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/ashish-0280/LeetCode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0215-kth-largest-element-in-an-array](https://github.com/ashish-0280/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
 ## Heap (Priority Queue)
 |  |
