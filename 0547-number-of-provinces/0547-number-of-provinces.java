@@ -12,23 +12,26 @@ class Solution {
             }
             adj.add(list);
         }
-        System.out.println(adj);
         int cnt = 0;
         boolean vis[] = new boolean[adj.size()];
+        Queue <Integer> q = new LinkedList<>();
         for(int i=0; i<adj.size(); i++){
             if(!vis[i]){
                 cnt++;
-                dfs(adj, i, vis);
+                q.offer(i);
+                bfs(adj, q, vis);
             }
         }
         return cnt;
     }
-    public void dfs(List<List<Integer>> adj, int curr, boolean vis[]){
-        vis[curr] = true;
-        for(int i=0; i<adj.get(curr).size(); i++){
-            int neighbour = adj.get(curr).get(i);
-            if(!vis[neighbour]){
-                dfs(adj, neighbour, vis);
+    public void bfs(List<List<Integer>> adj, Queue <Integer> q, boolean vis[]){
+        while(!q.isEmpty()){
+            int curr = q.poll();
+            for(int i=0; i<adj.get(curr).size(); i++){
+                if(!vis[adj.get(curr).get(i)]){
+                    q.offer(adj.get(curr).get(i));
+                    vis[adj.get(curr).get(i)] = true;
+                }
             }
         }
     }
