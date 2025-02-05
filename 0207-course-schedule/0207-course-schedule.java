@@ -8,30 +8,30 @@ class Solution {
         for(int i=0; i<prerequisites.length; i++){
             adj.get(prerequisites[i][1]).add(prerequisites[i][0]);
         }
-        System.out.println(adj);
-        int indegree[] = new int[adj.size()];
+        boolean vis[] = new boolean[adj.size()];
+        boolean rec[] = new boolean[adj.size()];
         for(int i=0; i<adj.size(); i++){
-            for(int neighbour: adj.get(i)){
-                indegree[neighbour]++;
-            }
-        }
-        Queue <Integer> q = new LinkedList<>();
-        for(int i=0; i<adj.size(); i++){
-            if(indegree[i] == 0){
-                q.offer(i);
-            }
-        }
-        ArrayList<Integer> list = new ArrayList<>();
-        while(!q.isEmpty()){
-            int data = q.poll();
-            list.add(data);
-            for(int j=0; j<adj.get(data).size(); j++){
-                indegree[adj.get(data).get(j)]--;
-                if(indegree[adj.get(data).get(j)] == 0){
-                    q.add(adj.get(data).get(j));
+            if(!vis[i]){
+                if(dfs(adj, vis, i, rec)){
+                    return false;
                 }
             }
         }
-        return list.size() == adj.size();
+        return true;
+    }
+    public boolean dfs(List<List<Integer>> adj, boolean vis[], int curr, boolean rec[]){
+        vis[curr] = true; rec[curr] = true;
+        for(int i=0; i<adj.get(curr).size(); i++){
+            int neighbour = adj.get(curr).get(i);
+            if(!vis[neighbour]){
+                if(dfs(adj, vis, neighbour, rec)){
+                    return true;
+                }
+            } else if(rec[neighbour]){
+                return true;
+            }
+        }
+        rec[curr] = false;
+        return false;
     }
 }
