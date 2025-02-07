@@ -36,6 +36,7 @@
 | [0735-asteroid-collision](https://github.com/ashish-0280/LeetCode/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/ashish-0280/LeetCode/tree/master/0739-daily-temperatures) |
 | [0859-design-circular-deque](https://github.com/ashish-0280/LeetCode/tree/master/0859-design-circular-deque) |
+| [0890-lemonade-change](https://github.com/ashish-0280/LeetCode/tree/master/0890-lemonade-change) |
 | [0906-walking-robot-simulation](https://github.com/ashish-0280/LeetCode/tree/master/0906-walking-robot-simulation) |
 | [0966-binary-subarrays-with-sum](https://github.com/ashish-0280/LeetCode/tree/master/0966-binary-subarrays-with-sum) |
 | [1002-maximum-width-ramp](https://github.com/ashish-0280/LeetCode/tree/master/1002-maximum-width-ramp) |
@@ -218,6 +219,7 @@
 | [0334-increasing-triplet-subsequence](https://github.com/ashish-0280/LeetCode/tree/master/0334-increasing-triplet-subsequence) |
 | [0605-can-place-flowers](https://github.com/ashish-0280/LeetCode/tree/master/0605-can-place-flowers) |
 | [0649-dota2-senate](https://github.com/ashish-0280/LeetCode/tree/master/0649-dota2-senate) |
+| [0890-lemonade-change](https://github.com/ashish-0280/LeetCode/tree/master/0890-lemonade-change) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/ashish-0280/LeetCode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [2032-largest-odd-number-in-string](https://github.com/ashish-0280/LeetCode/tree/master/2032-largest-odd-number-in-string) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/ashish-0280/LeetCode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
