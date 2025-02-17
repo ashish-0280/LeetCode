@@ -14,9 +14,9 @@ class Solution {
             return;
         }
         for(int i=j; i<l.size(); i++){
-            swap(l, j, i);
+            swap(l, i, j);
             solve(list, j+1, l);
-            swap(l, j, i);
+            swap(l, i, j);
         }
     }
     public void swap(List<Integer> l, int i, int j){
