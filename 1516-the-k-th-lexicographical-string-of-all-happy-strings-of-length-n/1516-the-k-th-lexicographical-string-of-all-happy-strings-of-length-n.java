@@ -2,7 +2,6 @@ class Solution {
     public String getHappyString(int n, int k) {
         List<String> list = new ArrayList<>();
         solve(list, n, new StringBuilder(), -1);
-        System.out.println(list);
         return k>list.size() ? "" : list.get(k-1);
     }
     public void solve(List<String> list, int n, StringBuilder s, int idx){
