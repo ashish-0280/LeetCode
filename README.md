@@ -14,6 +14,7 @@
 | [0051-n-queens](https://github.com/ashish-0280/LeetCode/tree/master/0051-n-queens) |
 | [0053-maximum-subarray](https://github.com/ashish-0280/LeetCode/tree/master/0053-maximum-subarray) |
 | [0078-subsets](https://github.com/ashish-0280/LeetCode/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/ashish-0280/LeetCode/tree/master/0079-word-search) |
 | [0084-largest-rectangle-in-histogram](https://github.com/ashish-0280/LeetCode/tree/master/0084-largest-rectangle-in-histogram) |
 | [0090-subsets-ii](https://github.com/ashish-0280/LeetCode/tree/master/0090-subsets-ii) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/ashish-0280/LeetCode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
@@ -139,6 +140,7 @@
 | [0017-letter-combinations-of-a-phone-number](https://github.com/ashish-0280/LeetCode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0022-generate-parentheses](https://github.com/ashish-0280/LeetCode/tree/master/0022-generate-parentheses) |
 | [0072-edit-distance](https://github.com/ashish-0280/LeetCode/tree/master/0072-edit-distance) |
+| [0079-word-search](https://github.com/ashish-0280/LeetCode/tree/master/0079-word-search) |
 | [0179-largest-number](https://github.com/ashish-0280/LeetCode/tree/master/0179-largest-number) |
 | [0214-shortest-palindrome](https://github.com/ashish-0280/LeetCode/tree/master/0214-shortest-palindrome) |
 | [0241-different-ways-to-add-parentheses](https://github.com/ashish-0280/LeetCode/tree/master/0241-different-ways-to-add-parentheses) |
@@ -234,6 +236,7 @@
 |  |
 | ------- |
 | [0037-sudoku-solver](https://github.com/ashish-0280/LeetCode/tree/master/0037-sudoku-solver) |
+| [0079-word-search](https://github.com/ashish-0280/LeetCode/tree/master/0079-word-search) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/ashish-0280/LeetCode/tree/master/2132-convert-1d-array-into-2d-array) |
 | [2411-spiral-matrix-iv](https://github.com/ashish-0280/LeetCode/tree/master/2411-spiral-matrix-iv) |
 | [2428-equal-row-and-column-pairs](https://github.com/ashish-0280/LeetCode/tree/master/2428-equal-row-and-column-pairs) |
@@ -413,6 +416,7 @@
 ## Depth-First Search
 |  |
 | ------- |
+| [0079-word-search](https://github.com/ashish-0280/LeetCode/tree/master/0079-word-search) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/ashish-0280/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/ashish-0280/LeetCode/tree/master/0112-path-sum) |
 | [0113-path-sum-ii](https://github.com/ashish-0280/LeetCode/tree/master/0113-path-sum-ii) |
@@ -551,6 +555,7 @@
 | [0051-n-queens](https://github.com/ashish-0280/LeetCode/tree/master/0051-n-queens) |
 | [0077-combinations](https://github.com/ashish-0280/LeetCode/tree/master/0077-combinations) |
 | [0078-subsets](https://github.com/ashish-0280/LeetCode/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/ashish-0280/LeetCode/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/ashish-0280/LeetCode/tree/master/0090-subsets-ii) |
 | [0113-path-sum-ii](https://github.com/ashish-0280/LeetCode/tree/master/0113-path-sum-ii) |
 | [0216-combination-sum-iii](https://github.com/ashish-0280/LeetCode/tree/master/0216-combination-sum-iii) |
