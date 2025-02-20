@@ -1,18 +1,14 @@
 class Solution {
     public List<String> generateParenthesis(int n) {
         List<String> list = new ArrayList<>();
-        List<String> l = new ArrayList<>();
         solve(list, n*2, 0, new StringBuilder());
-        for(int i=0; i<list.size(); i++){
-            if(solve2(list.get(i))){
-                l.add(list.get(i));
-            }
-        }
-        return l;
+        return list;
     }
     public void solve(List<String> list, int n, int idx, StringBuilder s){
         if(s.length() == n){
-            list.add(s.toString());
+            if(solve2(s.toString())){
+                list.add(s.toString());
+            }
             return;
         }
         if(idx >= n){
