@@ -137,6 +137,7 @@
 | [0008-string-to-integer-atoi](https://github.com/ashish-0280/LeetCode/tree/master/0008-string-to-integer-atoi) |
 | [0013-roman-to-integer](https://github.com/ashish-0280/LeetCode/tree/master/0013-roman-to-integer) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/ashish-0280/LeetCode/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0022-generate-parentheses](https://github.com/ashish-0280/LeetCode/tree/master/0022-generate-parentheses) |
 | [0072-edit-distance](https://github.com/ashish-0280/LeetCode/tree/master/0072-edit-distance) |
 | [0179-largest-number](https://github.com/ashish-0280/LeetCode/tree/master/0179-largest-number) |
 | [0214-shortest-palindrome](https://github.com/ashish-0280/LeetCode/tree/master/0214-shortest-palindrome) |
@@ -346,6 +347,7 @@
 ## Dynamic Programming
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/ashish-0280/LeetCode/tree/master/0022-generate-parentheses) |
 | [0042-trapping-rain-water](https://github.com/ashish-0280/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/ashish-0280/LeetCode/tree/master/0053-maximum-subarray) |
 | [0062-unique-paths](https://github.com/ashish-0280/LeetCode/tree/master/0062-unique-paths) |
@@ -540,6 +542,7 @@
 |  |
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/ashish-0280/LeetCode/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0022-generate-parentheses](https://github.com/ashish-0280/LeetCode/tree/master/0022-generate-parentheses) |
 | [0037-sudoku-solver](https://github.com/ashish-0280/LeetCode/tree/master/0037-sudoku-solver) |
 | [0039-combination-sum](https://github.com/ashish-0280/LeetCode/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/ashish-0280/LeetCode/tree/master/0040-combination-sum-ii) |
