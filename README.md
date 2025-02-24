@@ -75,6 +75,7 @@
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/ashish-0280/LeetCode/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/ashish-0280/LeetCode/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 | [2553-total-cost-to-hire-k-workers](https://github.com/ashish-0280/LeetCode/tree/master/2553-total-cost-to-hire-k-workers) |
+| [2564-most-profitable-path-in-a-tree](https://github.com/ashish-0280/LeetCode/tree/master/2564-most-profitable-path-in-a-tree) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/ashish-0280/LeetCode/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 | [2636-maximum-subsequence-score](https://github.com/ashish-0280/LeetCode/tree/master/2636-maximum-subsequence-score) |
 | [2755-extra-characters-in-a-string](https://github.com/ashish-0280/LeetCode/tree/master/2755-extra-characters-in-a-string) |
@@ -422,6 +423,7 @@
 | [1474-longest-zigzag-path-in-a-binary-tree](https://github.com/ashish-0280/LeetCode/tree/master/1474-longest-zigzag-path-in-a-binary-tree) |
 | [1484-linked-list-in-binary-tree](https://github.com/ashish-0280/LeetCode/tree/master/1484-linked-list-in-binary-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/ashish-0280/LeetCode/tree/master/1544-count-good-nodes-in-binary-tree) |
+| [2564-most-profitable-path-in-a-tree](https://github.com/ashish-0280/LeetCode/tree/master/2564-most-profitable-path-in-a-tree) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -449,6 +451,7 @@
 | [1484-linked-list-in-binary-tree](https://github.com/ashish-0280/LeetCode/tree/master/1484-linked-list-in-binary-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/ashish-0280/LeetCode/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [2121-find-if-path-exists-in-graph](https://github.com/ashish-0280/LeetCode/tree/master/2121-find-if-path-exists-in-graph) |
+| [2564-most-profitable-path-in-a-tree](https://github.com/ashish-0280/LeetCode/tree/master/2564-most-profitable-path-in-a-tree) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -466,6 +469,7 @@
 | [1484-linked-list-in-binary-tree](https://github.com/ashish-0280/LeetCode/tree/master/1484-linked-list-in-binary-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/ashish-0280/LeetCode/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [2121-find-if-path-exists-in-graph](https://github.com/ashish-0280/LeetCode/tree/master/2121-find-if-path-exists-in-graph) |
+| [2564-most-profitable-path-in-a-tree](https://github.com/ashish-0280/LeetCode/tree/master/2564-most-profitable-path-in-a-tree) |
 ## Binary Tree
 |  |
 | ------- |
@@ -558,6 +562,7 @@
 | [0547-number-of-provinces](https://github.com/ashish-0280/LeetCode/tree/master/0547-number-of-provinces) |
 | [0871-keys-and-rooms](https://github.com/ashish-0280/LeetCode/tree/master/0871-keys-and-rooms) |
 | [2121-find-if-path-exists-in-graph](https://github.com/ashish-0280/LeetCode/tree/master/2121-find-if-path-exists-in-graph) |
+| [2564-most-profitable-path-in-a-tree](https://github.com/ashish-0280/LeetCode/tree/master/2564-most-profitable-path-in-a-tree) |
 ## Backtracking
 |  |
 | ------- |
