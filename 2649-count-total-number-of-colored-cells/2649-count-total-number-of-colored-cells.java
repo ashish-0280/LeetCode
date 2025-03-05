@@ -1,12 +1,10 @@
 class Solution {
     public long coloredCells(int n) {
-        return solve(n, n-1);
-    }
-    public long solve(int n, int i){
-        if(n == 1){
-            return 1;
+        if(n == 1) return 1;
+        long ans = 1;
+        for(int i=1; i<n; i++){
+            ans = ans + 4*i;
         }
-        long l = solve(n-1, i-1);
-        return l + 4*(i);
+        return ans;
     }
 }
