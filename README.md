@@ -235,6 +235,7 @@
 | [2032-largest-odd-number-in-string](https://github.com/ashish-0280/LeetCode/tree/master/2032-largest-odd-number-in-string) |
 | [2155-find-missing-observations](https://github.com/ashish-0280/LeetCode/tree/master/2155-find-missing-observations) |
 | [2448-count-number-of-bad-pairs](https://github.com/ashish-0280/LeetCode/tree/master/2448-count-number-of-bad-pairs) |
+| [2610-closest-prime-numbers-in-range](https://github.com/ashish-0280/LeetCode/tree/master/2610-closest-prime-numbers-in-range) |
 | [2649-count-total-number-of-colored-cells](https://github.com/ashish-0280/LeetCode/tree/master/2649-count-total-number-of-colored-cells) |
 | [2802-find-the-punishment-number-of-an-integer](https://github.com/ashish-0280/LeetCode/tree/master/2802-find-the-punishment-number-of-an-integer) |
 | [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/ashish-0280/LeetCode/tree/master/2903-insert-greatest-common-divisors-in-linked-list) |
@@ -633,6 +634,7 @@
 ## Number Theory
 |  |
 | ------- |
+| [2610-closest-prime-numbers-in-range](https://github.com/ashish-0280/LeetCode/tree/master/2610-closest-prime-numbers-in-range) |
 | [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/ashish-0280/LeetCode/tree/master/2903-insert-greatest-common-divisors-in-linked-list) |
 ## Bit Manipulation
 |  |
