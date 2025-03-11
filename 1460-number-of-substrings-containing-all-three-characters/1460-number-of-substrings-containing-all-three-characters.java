@@ -20,8 +20,6 @@ class Solution {
             while(j<=s.length()){
                 if(check(arr)){
                     cnt += s.length()-j+1;
-                    System.out.println(cnt);
-                    System.out.println(j);
                     break;
                 }
                 if(j==s.length()) break;
