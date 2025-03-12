@@ -1,23 +1,30 @@
 class Solution {
     public int numberOfAlternatingGroups(int[] colors, int k) {
-        int n = colors.length;
-        int[] temp = new int[n + k - 1];
-        System.arraycopy(colors, 0, temp, 0, n);
-        System.arraycopy(colors, 0, temp, n, k - 1); 
-
-        int count = 0;
-        int left = 0;
-        
-        for (int right = 0; right < temp.length; right++) {
-            if (right > 0 && temp[right] == temp[right - 1]) {
-                left = right;  
+        if(k>colors.length) return 0;
+        int n = colors.length + k -1; int cnt = 0;
+        int arr[] = new int[n];
+        for(int i=0; i<n; i++){
+            arr[i] = colors[i%colors.length];
+        }
+        int n1 = colors.length;
+        int i=0; int j=0;
+        while(j<n){
+            if(j>0 && arr[j-1] == arr[j]){
+                i = j;
             }
-            
-            if (right - left + 1 >= k) {
-                count++;  
+            if(j-i+1 >= k){
+                cnt++;
+            }
+            j++; 
+        }
+        return cnt;
+    }
+    public boolean solve(int arr[], int i, int j){
+        for(int k=i; k<j; k++){
+            if(arr[k] == arr[k+1]){
+                return false;
             }
         }
-        
-        return count;
+        return true;
     }
 }
