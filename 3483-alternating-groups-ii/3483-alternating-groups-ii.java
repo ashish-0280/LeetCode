@@ -19,12 +19,4 @@ class Solution {
         }
         return cnt;
     }
-    public boolean solve(int arr[], int i, int j){
-        for(int k=i; k<j; k++){
-            if(arr[k] == arr[k+1]){
-                return false;
-            }
-        }
-        return true;
-    }
 }
