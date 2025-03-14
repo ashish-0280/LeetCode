@@ -47,6 +47,7 @@
 | [1002-maximum-width-ramp](https://github.com/ashish-0280/LeetCode/tree/master/1002-maximum-width-ramp) |
 | [1046-max-consecutive-ones-iii](https://github.com/ashish-0280/LeetCode/tree/master/1046-max-consecutive-ones-iii) |
 | [1256-rank-transform-of-an-array](https://github.com/ashish-0280/LeetCode/tree/master/1256-rank-transform-of-an-array) |
+| [1335-maximum-candies-allocated-to-k-children](https://github.com/ashish-0280/LeetCode/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1364-tuple-with-same-product](https://github.com/ashish-0280/LeetCode/tree/master/1364-tuple-with-same-product) |
 | [1370-count-number-of-nice-subarrays](https://github.com/ashish-0280/LeetCode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1392-find-the-difference-of-two-arrays](https://github.com/ashish-0280/LeetCode/tree/master/1392-find-the-difference-of-two-arrays) |
@@ -389,6 +390,7 @@
 | [0729-my-calendar-i](https://github.com/ashish-0280/LeetCode/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/ashish-0280/LeetCode/tree/master/0731-my-calendar-ii) |
 | [1046-max-consecutive-ones-iii](https://github.com/ashish-0280/LeetCode/tree/master/1046-max-consecutive-ones-iii) |
+| [1335-maximum-candies-allocated-to-k-children](https://github.com/ashish-0280/LeetCode/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/ashish-0280/LeetCode/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/ashish-0280/LeetCode/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 | [3643-zero-array-transformation-ii](https://github.com/ashish-0280/LeetCode/tree/master/3643-zero-array-transformation-ii) |
