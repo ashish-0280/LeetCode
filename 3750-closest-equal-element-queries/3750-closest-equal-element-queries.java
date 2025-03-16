@@ -13,23 +13,24 @@ class Solution {
         for(int i=0; i<queries.length; i++){
             int idx = queries[i];
             int num = nums[idx];
-            int n = map.get(num).size();
+            List<Integer> l = map.get(num);
+            int n = l.size();
             if(n == 1){
                 list.add(-1);
                 continue;
             }
-            else if(map.get(num).get(0) == idx){
-                int dist = Math.min(map.get(num).get(1)-map.get(num).get(0), nums.length - map.get(num).get(n-1) + map.get(num).get(0));
+            else if(l.get(0) == idx){
+                int dist = Math.min(l.get(1)-l.get(0), nums.length - l.get(n-1) + l.get(0));
                 list.add(dist);
                 continue;
             }
-            else if(idx == map.get(num).get(n-1)){
-                int dist = Math.min(map.get(num).get(n-1) - map.get(num).get(n-2), nums.length - map.get(num).get(n-1) + map.get(num).get(0));
+            else if(idx == l.get(n-1)){
+                int dist = Math.min(l.get(n-1) - l.get(n-2), nums.length - l.get(n-1) + l.get(0));
                 list.add(dist);
                 continue;
             }
-            int j = Collections.binarySearch(map.get(num), idx);
-            list.add(Math.min(map.get(num).get(j)-map.get(num).get(j-1), map.get(num).get(j+1)-map.get(num).get(j)));
+            int j = Collections.binarySearch(l, idx);
+            list.add(Math.min(l.get(j)-l.get(j-1), l.get(j+1)-l.get(j)));
         }
         return list;
     }
