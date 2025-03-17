@@ -1,29 +1,27 @@
 class Solution {
     public int[] assignElements(int[] groups, int[] elements) {
-        Map<Integer, Integer> elementIndexMap = new HashMap<>();
-        for (int i = 0; i < elements.length; i++) {
-            elementIndexMap.putIfAbsent(elements[i], i);
+        HashMap <Integer, Integer> map = new HashMap<>();
+        int ans[] = new int[groups.length];
+        for(int i=0; i<elements.length; i++){
+            map.putIfAbsent(elements[i], i);
         }
-
-        int[] result = new int[groups.length];
-        for (int i = 0; i < groups.length; i++) {
-            result[i] = findSmallestIndex(groups[i], elementIndexMap);
+        for(int i=0; i<groups.length; i++){
+            ans[i] = solve(groups[i], map);
         }
-        return result;
+        return ans;
     }
-
-    private int findSmallestIndex(int groupSize, Map<Integer, Integer> elementIndexMap) {
-        int minIndex = Integer.MAX_VALUE;
-        for (int i = 1; i * i <= groupSize; i++) {
-            if (groupSize % i == 0) {
-                if (elementIndexMap.containsKey(i)) {
-                    minIndex = Math.min(minIndex, elementIndexMap.get(i));
+    public int solve(int num, HashMap<Integer, Integer> map){
+        int minIdx = Integer.MAX_VALUE-1;
+        for(int i=1; i*i<=num; i++){
+            if(num % i == 0){
+                if(map.containsKey(i)){
+                    minIdx = Math.min(minIdx, map.get(i));
                 }
-                if (i != groupSize / i && elementIndexMap.containsKey(groupSize / i)) {
-                    minIndex = Math.min(minIndex, elementIndexMap.get(groupSize / i));
+                if(i != num/i && map.containsKey(num/i)){
+                    minIdx = Math.min(minIdx, map.get(num/i));
                 }
             }
         }
-        return (minIndex == Integer.MAX_VALUE) ? -1 : minIndex;
+        return (minIdx == Integer.MAX_VALUE-1) ? -1 : minIdx;
     }
 }
