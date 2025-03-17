@@ -1,22 +1,39 @@
-class Solution {
-    public long maxSum(int[][] grid, int[] limits, int k) {
-        PriorityQueue<int[]> pq = new PriorityQueue<>((a,b) -> b[0]-a[0]);
-        for(int i=0; i<grid.length; i++){
-            for(int j=0; j<grid[0].length; j++){
-                pq.add(new int[]{grid[i][j], i});
-            }
-        }
-        System.out.println(pq);
+class Solution
+{
+    public long maxSum(int[][] grid, int[] limits, int k)
+    {
+        int n = grid.length, m = grid[0].length;
         long sum = 0;
-        while(k>0 && !pq.isEmpty()){
-            int arr[] = pq.poll();
-            if(limits[arr[1]] != 0){
-                sum += arr[0];
-            } else {
-                continue;
+
+        // Step 1: Use a max heap to store elements in descending order
+        PriorityQueue<int[]> result = new PriorityQueue<>((a, b) -> b[0] - a[0]);
+
+        // Step 2: Push all grid elements into the heap with their row indices
+        for (int i = 0; i < n; i++)
+        {
+            for (int j = 0; j < m; j++)
+            {
+                result.add(new int[]{grid[i][j], i});
             }
-            limits[arr[1]]--; k--;
         }
+
+        // Step 3: Track elements taken from each row
+        int[] caught = new int[n]; 
+
+        // Step 4: Extract the largest element from the heap while respecting constraints
+        while (k > 0 && !result.isEmpty())
+        {
+            int[] limited = result.poll();
+            int value = limited[0], row = limited[1];
+
+            if (caught[row] < limits[row])
+            {
+                sum += value;
+                caught[row]++;
+                k--;
+            }
+        }
+
         return sum;
     }
 }
