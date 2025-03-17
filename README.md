@@ -5,6 +5,7 @@
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/ashish-0280/LeetCode/tree/master/0011-container-with-most-water) |
+| [0035-search-insert-position](https://github.com/ashish-0280/LeetCode/tree/master/0035-search-insert-position) |
 | [0037-sudoku-solver](https://github.com/ashish-0280/LeetCode/tree/master/0037-sudoku-solver) |
 | [0039-combination-sum](https://github.com/ashish-0280/LeetCode/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/ashish-0280/LeetCode/tree/master/0040-combination-sum-ii) |
@@ -399,6 +400,7 @@
 ## Binary Search
 |  |
 | ------- |
+| [0035-search-insert-position](https://github.com/ashish-0280/LeetCode/tree/master/0035-search-insert-position) |
 | [0162-find-peak-element](https://github.com/ashish-0280/LeetCode/tree/master/0162-find-peak-element) |
 | [0729-my-calendar-i](https://github.com/ashish-0280/LeetCode/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/ashish-0280/LeetCode/tree/master/0731-my-calendar-ii) |
