@@ -1,24 +1,29 @@
 class Solution {
     public boolean isSubsequence(String s, String t) {
-        if(s.length()>t.length()){
-            return false;
-        } else if(s.length() == 0){
-            return true;
+        return lcs(s, t) == s.length();
+    }
+    public int lcs(String s1, String s2) {
+        // code here
+        int m = s1.length();
+        int n = s2.length();
+        int dp[][] = new int[m+1][n+1];
+        for(int row[]: dp){
+            Arrays.fill(row, -1);
         }
-        Stack <Character> stk = new Stack<>();
-        for(int i=0; i<t.length(); i++){
-            stk.push(t.charAt(i));
+        return solve(s1, s2, m-1, n-1, dp);
+    }
+    public int solve(String s1, String s2, int m, int n, int dp[][]){
+        if(m < 0 || n < 0){
+            return 0;
         }
-        int j = s.length()-1;
-        while(!stk.isEmpty()){
-            if(j>=0 && stk.peek() == s.charAt(j)){
-                j--;
-            }
-                if(j<0){
-                    return true;
-                    }
-            stk.pop();
+        if(dp[m][n] != -1){
+            return dp[m][n];
         }
-        return false;
+        if(s1.charAt(m) == s2.charAt(n)){
+            return 1 + solve(s1, s2, m-1, n-1, dp);
+        }
+        int ans1 = solve(s1, s2, m-1, n, dp);
+        int ans2 = solve(s1, s2, m, n-1, dp);
+        return dp[m][n] = Math.max(ans1, ans2);
     }
 }
