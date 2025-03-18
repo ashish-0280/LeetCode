@@ -4,19 +4,16 @@ class Solution {
         if(target >= letters[high]){
             return letters[0];
         }
-        int arr[] = new int[high+1];
-        for(int i=0; i<high+1; i++){
-            arr[i] = letters[i]-'a';
-        }
         int goal = target-'a';
         while(low<high){
             int mid = (low + high)/2;
-            if(arr[mid] == goal){
-                while(mid < arr.length-1 && arr[mid] == arr[mid+1]){
+            int k = letters[mid]-'a';
+            if(k == goal){
+                while(mid < letters.length-1 && k == letters[mid+1]-'a'){
                     mid++;
                 }
                 return letters[mid+1];
-            } else if(arr[mid] > goal){
+            } else if(k > goal){
                 high = mid;
             } else {
                 low = mid+1;
