@@ -271,6 +271,7 @@
 | [2802-find-the-punishment-number-of-an-integer](https://github.com/ashish-0280/LeetCode/tree/master/2802-find-the-punishment-number-of-an-integer) |
 | [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/ashish-0280/LeetCode/tree/master/2903-insert-greatest-common-divisors-in-linked-list) |
 | [3227-find-missing-and-repeated-values](https://github.com/ashish-0280/LeetCode/tree/master/3227-find-missing-and-repeated-values) |
+| [3270-minimum-moves-to-capture-the-queen](https://github.com/ashish-0280/LeetCode/tree/master/3270-minimum-moves-to-capture-the-queen) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/ashish-0280/LeetCode/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 ## Design
 |  |
@@ -791,4 +792,8 @@
 | [1724-customer-who-visited-but-did-not-make-any-transactions](https://github.com/ashish-0280/LeetCode/tree/master/1724-customer-who-visited-but-did-not-make-any-transactions) |
 | [1827-invalid-tweets](https://github.com/ashish-0280/LeetCode/tree/master/1827-invalid-tweets) |
 | [1908-recyclable-and-low-fat-products](https://github.com/ashish-0280/LeetCode/tree/master/1908-recyclable-and-low-fat-products) |
+## Enumeration
+|  |
+| ------- |
+| [3270-minimum-moves-to-capture-the-queen](https://github.com/ashish-0280/LeetCode/tree/master/3270-minimum-moves-to-capture-the-queen) |
 <!---LeetCode Topics End-->
