@@ -59,6 +59,7 @@
 | [1364-tuple-with-same-product](https://github.com/ashish-0280/LeetCode/tree/master/1364-tuple-with-same-product) |
 | [1370-count-number-of-nice-subarrays](https://github.com/ashish-0280/LeetCode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1392-find-the-difference-of-two-arrays](https://github.com/ashish-0280/LeetCode/tree/master/1392-find-the-difference-of-two-arrays) |
+| [1428-jump-game-iii](https://github.com/ashish-0280/LeetCode/tree/master/1428-jump-game-iii) |
 | [1435-xor-queries-of-a-subarray](https://github.com/ashish-0280/LeetCode/tree/master/1435-xor-queries-of-a-subarray) |
 | [1477-product-of-the-last-k-numbers](https://github.com/ashish-0280/LeetCode/tree/master/1477-product-of-the-last-k-numbers) |
 | [1528-kids-with-the-greatest-number-of-candies](https://github.com/ashish-0280/LeetCode/tree/master/1528-kids-with-the-greatest-number-of-candies) |
@@ -567,6 +568,7 @@
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/ashish-0280/LeetCode/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/ashish-0280/LeetCode/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/ashish-0280/LeetCode/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
+| [1428-jump-game-iii](https://github.com/ashish-0280/LeetCode/tree/master/1428-jump-game-iii) |
 | [1474-longest-zigzag-path-in-a-binary-tree](https://github.com/ashish-0280/LeetCode/tree/master/1474-longest-zigzag-path-in-a-binary-tree) |
 | [1484-linked-list-in-binary-tree](https://github.com/ashish-0280/LeetCode/tree/master/1484-linked-list-in-binary-tree) |
 | [1492-time-needed-to-inform-all-employees](https://github.com/ashish-0280/LeetCode/tree/master/1492-time-needed-to-inform-all-employees) |
@@ -597,6 +599,7 @@
 | [1171-shortest-path-in-binary-matrix](https://github.com/ashish-0280/LeetCode/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1229-shortest-path-with-alternating-colors](https://github.com/ashish-0280/LeetCode/tree/master/1229-shortest-path-with-alternating-colors) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/ashish-0280/LeetCode/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
+| [1428-jump-game-iii](https://github.com/ashish-0280/LeetCode/tree/master/1428-jump-game-iii) |
 | [1484-linked-list-in-binary-tree](https://github.com/ashish-0280/LeetCode/tree/master/1484-linked-list-in-binary-tree) |
 | [1492-time-needed-to-inform-all-employees](https://github.com/ashish-0280/LeetCode/tree/master/1492-time-needed-to-inform-all-employees) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/ashish-0280/LeetCode/tree/master/1544-count-good-nodes-in-binary-tree) |
