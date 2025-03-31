@@ -23,6 +23,7 @@
 | [0162-find-peak-element](https://github.com/ashish-0280/LeetCode/tree/master/0162-find-peak-element) |
 | [0179-largest-number](https://github.com/ashish-0280/LeetCode/tree/master/0179-largest-number) |
 | [0198-house-robber](https://github.com/ashish-0280/LeetCode/tree/master/0198-house-robber) |
+| [0200-number-of-islands](https://github.com/ashish-0280/LeetCode/tree/master/0200-number-of-islands) |
 | [0215-kth-largest-element-in-an-array](https://github.com/ashish-0280/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0216-combination-sum-iii](https://github.com/ashish-0280/LeetCode/tree/master/0216-combination-sum-iii) |
 | [0229-majority-element-ii](https://github.com/ashish-0280/LeetCode/tree/master/0229-majority-element-ii) |
@@ -313,6 +314,7 @@
 | ------- |
 | [0037-sudoku-solver](https://github.com/ashish-0280/LeetCode/tree/master/0037-sudoku-solver) |
 | [0079-word-search](https://github.com/ashish-0280/LeetCode/tree/master/0079-word-search) |
+| [0200-number-of-islands](https://github.com/ashish-0280/LeetCode/tree/master/0200-number-of-islands) |
 | [0542-01-matrix](https://github.com/ashish-0280/LeetCode/tree/master/0542-01-matrix) |
 | [0971-shortest-bridge](https://github.com/ashish-0280/LeetCode/tree/master/0971-shortest-bridge) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/ashish-0280/LeetCode/tree/master/1171-shortest-path-in-binary-matrix) |
@@ -556,6 +558,7 @@
 | [0113-path-sum-ii](https://github.com/ashish-0280/LeetCode/tree/master/0113-path-sum-ii) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/ashish-0280/LeetCode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0199-binary-tree-right-side-view](https://github.com/ashish-0280/LeetCode/tree/master/0199-binary-tree-right-side-view) |
+| [0200-number-of-islands](https://github.com/ashish-0280/LeetCode/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/ashish-0280/LeetCode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/ashish-0280/LeetCode/tree/master/0210-course-schedule-ii) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/ashish-0280/LeetCode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
@@ -590,6 +593,7 @@
 | [0104-maximum-depth-of-binary-tree](https://github.com/ashish-0280/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/ashish-0280/LeetCode/tree/master/0112-path-sum) |
 | [0199-binary-tree-right-side-view](https://github.com/ashish-0280/LeetCode/tree/master/0199-binary-tree-right-side-view) |
+| [0200-number-of-islands](https://github.com/ashish-0280/LeetCode/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/ashish-0280/LeetCode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/ashish-0280/LeetCode/tree/master/0210-course-schedule-ii) |
 | [0322-coin-change](https://github.com/ashish-0280/LeetCode/tree/master/0322-coin-change) |
@@ -705,6 +709,7 @@
 ## Union Find
 |  |
 | ------- |
+| [0200-number-of-islands](https://github.com/ashish-0280/LeetCode/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/ashish-0280/LeetCode/tree/master/0547-number-of-provinces) |
 | [0801-is-graph-bipartite](https://github.com/ashish-0280/LeetCode/tree/master/0801-is-graph-bipartite) |
 | [2121-find-if-path-exists-in-graph](https://github.com/ashish-0280/LeetCode/tree/master/2121-find-if-path-exists-in-graph) |
