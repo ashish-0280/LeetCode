@@ -143,6 +143,7 @@
 | [0496-next-greater-element-i](https://github.com/ashish-0280/LeetCode/tree/master/0496-next-greater-element-i) |
 | [0567-permutation-in-string](https://github.com/ashish-0280/LeetCode/tree/master/0567-permutation-in-string) |
 | [0768-partition-labels](https://github.com/ashish-0280/LeetCode/tree/master/0768-partition-labels) |
+| [0893-all-nodes-distance-k-in-binary-tree](https://github.com/ashish-0280/LeetCode/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/ashish-0280/LeetCode/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [0906-walking-robot-simulation](https://github.com/ashish-0280/LeetCode/tree/master/0906-walking-robot-simulation) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/ashish-0280/LeetCode/tree/master/0920-uncommon-words-from-two-sentences) |
@@ -535,6 +536,7 @@
 | [0543-diameter-of-binary-tree](https://github.com/ashish-0280/LeetCode/tree/master/0543-diameter-of-binary-tree) |
 | [0606-construct-string-from-binary-tree](https://github.com/ashish-0280/LeetCode/tree/master/0606-construct-string-from-binary-tree) |
 | [0783-search-in-a-binary-search-tree](https://github.com/ashish-0280/LeetCode/tree/master/0783-search-in-a-binary-search-tree) |
+| [0893-all-nodes-distance-k-in-binary-tree](https://github.com/ashish-0280/LeetCode/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0904-leaf-similar-trees](https://github.com/ashish-0280/LeetCode/tree/master/0904-leaf-similar-trees) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/ashish-0280/LeetCode/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/ashish-0280/LeetCode/tree/master/1093-recover-a-tree-from-preorder-traversal) |
@@ -567,6 +569,7 @@
 | [0813-all-paths-from-source-to-target](https://github.com/ashish-0280/LeetCode/tree/master/0813-all-paths-from-source-to-target) |
 | [0820-find-eventual-safe-states](https://github.com/ashish-0280/LeetCode/tree/master/0820-find-eventual-safe-states) |
 | [0871-keys-and-rooms](https://github.com/ashish-0280/LeetCode/tree/master/0871-keys-and-rooms) |
+| [0893-all-nodes-distance-k-in-binary-tree](https://github.com/ashish-0280/LeetCode/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0904-leaf-similar-trees](https://github.com/ashish-0280/LeetCode/tree/master/0904-leaf-similar-trees) |
 | [0971-shortest-bridge](https://github.com/ashish-0280/LeetCode/tree/master/0971-shortest-bridge) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/ashish-0280/LeetCode/tree/master/1093-recover-a-tree-from-preorder-traversal) |
@@ -597,6 +600,7 @@
 | [0813-all-paths-from-source-to-target](https://github.com/ashish-0280/LeetCode/tree/master/0813-all-paths-from-source-to-target) |
 | [0820-find-eventual-safe-states](https://github.com/ashish-0280/LeetCode/tree/master/0820-find-eventual-safe-states) |
 | [0871-keys-and-rooms](https://github.com/ashish-0280/LeetCode/tree/master/0871-keys-and-rooms) |
+| [0893-all-nodes-distance-k-in-binary-tree](https://github.com/ashish-0280/LeetCode/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0971-shortest-bridge](https://github.com/ashish-0280/LeetCode/tree/master/0971-shortest-bridge) |
 | [1007-numbers-with-same-consecutive-differences](https://github.com/ashish-0280/LeetCode/tree/master/1007-numbers-with-same-consecutive-differences) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/ashish-0280/LeetCode/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
@@ -628,6 +632,7 @@
 | [0543-diameter-of-binary-tree](https://github.com/ashish-0280/LeetCode/tree/master/0543-diameter-of-binary-tree) |
 | [0606-construct-string-from-binary-tree](https://github.com/ashish-0280/LeetCode/tree/master/0606-construct-string-from-binary-tree) |
 | [0783-search-in-a-binary-search-tree](https://github.com/ashish-0280/LeetCode/tree/master/0783-search-in-a-binary-search-tree) |
+| [0893-all-nodes-distance-k-in-binary-tree](https://github.com/ashish-0280/LeetCode/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0904-leaf-similar-trees](https://github.com/ashish-0280/LeetCode/tree/master/0904-leaf-similar-trees) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/ashish-0280/LeetCode/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/ashish-0280/LeetCode/tree/master/1093-recover-a-tree-from-preorder-traversal) |
