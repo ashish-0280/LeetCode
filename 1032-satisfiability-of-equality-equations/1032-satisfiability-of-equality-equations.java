@@ -5,7 +5,6 @@ class Solution {
             parent[i] = i;
         }
         int rank[] = new int[26];
-        Arrays.fill(rank, 0);
         for(String s: equations){
             if(s.charAt(1) == '='){
                 union(s.charAt(0)-'a', s.charAt(3)-'a', parent, rank);
@@ -15,9 +14,10 @@ class Solution {
             if(s.charAt(1) == '!'){
                 int parent_first = find(s.charAt(0)-'a', parent);
                 int parent_second = find(s.charAt(3)-'a', parent);
+
                 if(parent_first == parent_second){
                     return false;
-                } 
+                }
             }
         }
         return true;
