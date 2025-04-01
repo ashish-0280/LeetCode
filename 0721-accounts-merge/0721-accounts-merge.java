@@ -1,36 +1,39 @@
 class Solution {
     public List<List<String>> accountsMerge(List<List<String>> accounts) {
-        List<List<String>> result = new ArrayList<>();
         int n = accounts.size();
         int parent[] = new int[n];
-        for(int i=0; i<parent.length; i++){
+        for(int i=0; i<n; i++){
             parent[i] = i;
         }
         int rank[] = new int[n];
         Arrays.fill(rank, 0);
-        HashMap<String, Integer> emailToId = new HashMap<>();
+        Map<String, Integer> map1 = new HashMap<>();
         for(int i=0; i<n; i++){
             List<String> account = accounts.get(i);
-            String name = account.get(0);
             for(int j=1; j<account.size(); j++){
                 String email = account.get(j);
-                if(emailToId.containsKey(email)){
-                    union(i, emailToId.get(email), parent, rank);
+                if(map1.containsKey(email)){
+                    union(i, map1.get(email), parent, rank); 
                 }
-                emailToId.put(email, i);
+                map1.put(email, i);
             }
         }
-        HashMap<Integer, TreeSet<String>> merge = new HashMap<>();
-        for(Map.Entry<String, Integer> entry: emailToId.entrySet()){
-            String email = entry.getKey();
+        Map <Integer, TreeSet<String>> map2 = new HashMap<>();
+        for(Map.Entry<String, Integer> entry: map1.entrySet()){
             int root = find(entry.getValue(), parent);
-            merge.computeIfAbsent(root, k -> new TreeSet<>()).add(email);
+            if(map2.containsKey(root)){
+                map2.get(root).add(entry.getKey());
+                continue;
+            }
+            map2.put(root, new TreeSet<String>());
+            map2.get(root).add(entry.getKey());
         }
-        for (Map.Entry<Integer, TreeSet<String>> entry : merge.entrySet()) {
-            List<String> mergedList = new ArrayList<>();
-            mergedList.add(accounts.get(entry.getKey()).get(0));  // Add name
-            mergedList.addAll(entry.getValue());  // Add sorted emails
-            result.add(mergedList);
+        List<List<String>> result = new ArrayList<>();
+        for(Map.Entry<Integer, TreeSet<String>> entry: map2.entrySet()){
+            List<String> l = new ArrayList<>();
+            l.add(accounts.get(entry.getKey()).get(0));
+            l.addAll(entry.getValue());
+            result.add(l);
         }
         return result;
     }
@@ -43,7 +46,6 @@ class Solution {
     public void union(int x, int y, int parent[], int rank[]){
         int x_parent = find(x, parent);
         int y_parent = find(y, parent);
-
         if(x_parent == y_parent){
             return;
         }
