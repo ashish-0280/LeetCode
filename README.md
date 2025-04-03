@@ -780,6 +780,7 @@
 | [1032-satisfiability-of-equality-equations](https://github.com/ashish-0280/LeetCode/tree/master/1032-satisfiability-of-equality-equations) |
 | [1039-find-the-town-judge](https://github.com/ashish-0280/LeetCode/tree/master/1039-find-the-town-judge) |
 | [1229-shortest-path-with-alternating-colors](https://github.com/ashish-0280/LeetCode/tree/master/1229-shortest-path-with-alternating-colors) |
+| [1661-minimum-number-of-vertices-to-reach-all-nodes](https://github.com/ashish-0280/LeetCode/tree/master/1661-minimum-number-of-vertices-to-reach-all-nodes) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/ashish-0280/LeetCode/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2121-find-if-path-exists-in-graph](https://github.com/ashish-0280/LeetCode/tree/master/2121-find-if-path-exists-in-graph) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/ashish-0280/LeetCode/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
