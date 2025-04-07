@@ -20,7 +20,6 @@ class Solution {
             for(char ch: arr.get(i).toCharArray()){
                 freq[ch-'a']--;
             }
-            solve(arr, sb, i+1, freq);
         }
     }
     public boolean check(String word, int[] freq) {
