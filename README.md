@@ -306,6 +306,7 @@
 | [0089-gray-code](https://github.com/ashish-0280/LeetCode/tree/master/0089-gray-code) |
 | [0231-power-of-two](https://github.com/ashish-0280/LeetCode/tree/master/0231-power-of-two) |
 | [0241-different-ways-to-add-parentheses](https://github.com/ashish-0280/LeetCode/tree/master/0241-different-ways-to-add-parentheses) |
+| [0279-perfect-squares](https://github.com/ashish-0280/LeetCode/tree/master/0279-perfect-squares) |
 | [0368-largest-divisible-subset](https://github.com/ashish-0280/LeetCode/tree/master/0368-largest-divisible-subset) |
 | [0539-minimum-time-difference](https://github.com/ashish-0280/LeetCode/tree/master/0539-minimum-time-difference) |
 | [0795-k-th-symbol-in-grammar](https://github.com/ashish-0280/LeetCode/tree/master/0795-k-th-symbol-in-grammar) |
@@ -522,6 +523,7 @@
 | [0152-maximum-product-subarray](https://github.com/ashish-0280/LeetCode/tree/master/0152-maximum-product-subarray) |
 | [0198-house-robber](https://github.com/ashish-0280/LeetCode/tree/master/0198-house-robber) |
 | [0241-different-ways-to-add-parentheses](https://github.com/ashish-0280/LeetCode/tree/master/0241-different-ways-to-add-parentheses) |
+| [0279-perfect-squares](https://github.com/ashish-0280/LeetCode/tree/master/0279-perfect-squares) |
 | [0322-coin-change](https://github.com/ashish-0280/LeetCode/tree/master/0322-coin-change) |
 | [0338-counting-bits](https://github.com/ashish-0280/LeetCode/tree/master/0338-counting-bits) |
 | [0368-largest-divisible-subset](https://github.com/ashish-0280/LeetCode/tree/master/0368-largest-divisible-subset) |
@@ -652,6 +654,7 @@
 | [0200-number-of-islands](https://github.com/ashish-0280/LeetCode/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/ashish-0280/LeetCode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/ashish-0280/LeetCode/tree/master/0210-course-schedule-ii) |
+| [0279-perfect-squares](https://github.com/ashish-0280/LeetCode/tree/master/0279-perfect-squares) |
 | [0322-coin-change](https://github.com/ashish-0280/LeetCode/tree/master/0322-coin-change) |
 | [0433-minimum-genetic-mutation](https://github.com/ashish-0280/LeetCode/tree/master/0433-minimum-genetic-mutation) |
 | [0542-01-matrix](https://github.com/ashish-0280/LeetCode/tree/master/0542-01-matrix) |
