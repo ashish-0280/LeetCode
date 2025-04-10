@@ -275,6 +275,7 @@
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/ashish-0280/LeetCode/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [2755-extra-characters-in-a-string](https://github.com/ashish-0280/LeetCode/tree/master/2755-extra-characters-in-a-string) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/ashish-0280/LeetCode/tree/master/2800-minimum-string-length-after-removing-substrings) |
+| [3243-count-the-number-of-powerful-integers](https://github.com/ashish-0280/LeetCode/tree/master/3243-count-the-number-of-powerful-integers) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/ashish-0280/LeetCode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3447-clear-digits](https://github.com/ashish-0280/LeetCode/tree/master/3447-clear-digits) |
 | [3543-count-substrings-that-satisfy-k-constraint-i](https://github.com/ashish-0280/LeetCode/tree/master/3543-count-substrings-that-satisfy-k-constraint-i) |
@@ -328,6 +329,7 @@
 | [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/ashish-0280/LeetCode/tree/master/2903-insert-greatest-common-divisors-in-linked-list) |
 | [3001-apply-operations-to-maximize-score](https://github.com/ashish-0280/LeetCode/tree/master/3001-apply-operations-to-maximize-score) |
 | [3227-find-missing-and-repeated-values](https://github.com/ashish-0280/LeetCode/tree/master/3227-find-missing-and-repeated-values) |
+| [3243-count-the-number-of-powerful-integers](https://github.com/ashish-0280/LeetCode/tree/master/3243-count-the-number-of-powerful-integers) |
 | [3270-minimum-moves-to-capture-the-queen](https://github.com/ashish-0280/LeetCode/tree/master/3270-minimum-moves-to-capture-the-queen) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/ashish-0280/LeetCode/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 ## Design
@@ -547,6 +549,7 @@
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/ashish-0280/LeetCode/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2262-solving-questions-with-brainpower](https://github.com/ashish-0280/LeetCode/tree/master/2262-solving-questions-with-brainpower) |
 | [2755-extra-characters-in-a-string](https://github.com/ashish-0280/LeetCode/tree/master/2755-extra-characters-in-a-string) |
+| [3243-count-the-number-of-powerful-integers](https://github.com/ashish-0280/LeetCode/tree/master/3243-count-the-number-of-powerful-integers) |
 ## Stack
 |  |
 | ------- |
