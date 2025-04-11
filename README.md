@@ -76,6 +76,7 @@
 | [1435-xor-queries-of-a-subarray](https://github.com/ashish-0280/LeetCode/tree/master/1435-xor-queries-of-a-subarray) |
 | [1457-minimum-difficulty-of-a-job-schedule](https://github.com/ashish-0280/LeetCode/tree/master/1457-minimum-difficulty-of-a-job-schedule) |
 | [1477-product-of-the-last-k-numbers](https://github.com/ashish-0280/LeetCode/tree/master/1477-product-of-the-last-k-numbers) |
+| [1503-reducing-dishes](https://github.com/ashish-0280/LeetCode/tree/master/1503-reducing-dishes) |
 | [1528-kids-with-the-greatest-number-of-candies](https://github.com/ashish-0280/LeetCode/tree/master/1528-kids-with-the-greatest-number-of-candies) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/ashish-0280/LeetCode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/ashish-0280/LeetCode/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
@@ -402,6 +403,7 @@
 | [0768-partition-labels](https://github.com/ashish-0280/LeetCode/tree/master/0768-partition-labels) |
 | [0890-lemonade-change](https://github.com/ashish-0280/LeetCode/tree/master/0890-lemonade-change) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/ashish-0280/LeetCode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
+| [1503-reducing-dishes](https://github.com/ashish-0280/LeetCode/tree/master/1503-reducing-dishes) |
 | [2032-largest-odd-number-in-string](https://github.com/ashish-0280/LeetCode/tree/master/2032-largest-odd-number-in-string) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/ashish-0280/LeetCode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/ashish-0280/LeetCode/tree/master/2456-construct-smallest-number-from-di-string) |
@@ -444,6 +446,7 @@
 | [0721-accounts-merge](https://github.com/ashish-0280/LeetCode/tree/master/0721-accounts-merge) |
 | [1256-rank-transform-of-an-array](https://github.com/ashish-0280/LeetCode/tree/master/1256-rank-transform-of-an-array) |
 | [1352-maximum-profit-in-job-scheduling](https://github.com/ashish-0280/LeetCode/tree/master/1352-maximum-profit-in-job-scheduling) |
+| [1503-reducing-dishes](https://github.com/ashish-0280/LeetCode/tree/master/1503-reducing-dishes) |
 | [1777-determine-if-two-strings-are-close](https://github.com/ashish-0280/LeetCode/tree/master/1777-determine-if-two-strings-are-close) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/ashish-0280/LeetCode/tree/master/1798-max-number-of-k-sum-pairs) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/ashish-0280/LeetCode/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
@@ -548,6 +551,7 @@
 | [1352-maximum-profit-in-job-scheduling](https://github.com/ashish-0280/LeetCode/tree/master/1352-maximum-profit-in-job-scheduling) |
 | [1457-minimum-difficulty-of-a-job-schedule](https://github.com/ashish-0280/LeetCode/tree/master/1457-minimum-difficulty-of-a-job-schedule) |
 | [1474-longest-zigzag-path-in-a-binary-tree](https://github.com/ashish-0280/LeetCode/tree/master/1474-longest-zigzag-path-in-a-binary-tree) |
+| [1503-reducing-dishes](https://github.com/ashish-0280/LeetCode/tree/master/1503-reducing-dishes) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/ashish-0280/LeetCode/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/ashish-0280/LeetCode/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/ashish-0280/LeetCode/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
