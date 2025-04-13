@@ -1,25 +1,22 @@
 class Solution {
     static final long MOD = 1000000007;
-
     public int countGoodNumbers(long n) {
-        long evenPositions = (n + 1) / 2; 
-        long oddPositions = n / 2;        
+        long oddPositions = (n/2);
+        long evenPositions = (n+1)/2;
+        
+        long ans1 = solve(4, oddPositions);
+        long ans2 = solve(5, evenPositions);
 
-        long pow5 = modPow(5, evenPositions, MOD);
-        long pow4 = modPow(4, oddPositions, MOD);
-
-        return (int)((pow5 * pow4) % MOD);
+        int ans = (int)((ans1 * ans2) % MOD);
+        return ans;
     }
-
-    private long modPow(long base, long exp, long mod) {
+    public long solve(long base, long exp){
         long result = 1;
-        base %= mod;
-
-        while (exp > 0) {
-            if ((exp & 1) == 1) {
-                result = (result * base) % mod;
+        while(exp > 0){
+            if((exp & 1) == 1){
+                result = (base * result)%MOD;
             }
-            base = (base * base) % mod;
+            base = (base * base)%MOD;
             exp >>= 1;
         }
         return result;
