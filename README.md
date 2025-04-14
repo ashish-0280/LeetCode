@@ -316,6 +316,7 @@
 | [0233-number-of-digit-one](https://github.com/ashish-0280/LeetCode/tree/master/0233-number-of-digit-one) |
 | [0241-different-ways-to-add-parentheses](https://github.com/ashish-0280/LeetCode/tree/master/0241-different-ways-to-add-parentheses) |
 | [0279-perfect-squares](https://github.com/ashish-0280/LeetCode/tree/master/0279-perfect-squares) |
+| [0357-count-numbers-with-unique-digits](https://github.com/ashish-0280/LeetCode/tree/master/0357-count-numbers-with-unique-digits) |
 | [0368-largest-divisible-subset](https://github.com/ashish-0280/LeetCode/tree/master/0368-largest-divisible-subset) |
 | [0539-minimum-time-difference](https://github.com/ashish-0280/LeetCode/tree/master/0539-minimum-time-difference) |
 | [0795-k-th-symbol-in-grammar](https://github.com/ashish-0280/LeetCode/tree/master/0795-k-th-symbol-in-grammar) |
@@ -545,6 +546,7 @@
 | [0279-perfect-squares](https://github.com/ashish-0280/LeetCode/tree/master/0279-perfect-squares) |
 | [0322-coin-change](https://github.com/ashish-0280/LeetCode/tree/master/0322-coin-change) |
 | [0338-counting-bits](https://github.com/ashish-0280/LeetCode/tree/master/0338-counting-bits) |
+| [0357-count-numbers-with-unique-digits](https://github.com/ashish-0280/LeetCode/tree/master/0357-count-numbers-with-unique-digits) |
 | [0368-largest-divisible-subset](https://github.com/ashish-0280/LeetCode/tree/master/0368-largest-divisible-subset) |
 | [0392-is-subsequence](https://github.com/ashish-0280/LeetCode/tree/master/0392-is-subsequence) |
 | [0416-partition-equal-subset-sum](https://github.com/ashish-0280/LeetCode/tree/master/0416-partition-equal-subset-sum) |
@@ -860,6 +862,7 @@
 | [0113-path-sum-ii](https://github.com/ashish-0280/LeetCode/tree/master/0113-path-sum-ii) |
 | [0131-palindrome-partitioning](https://github.com/ashish-0280/LeetCode/tree/master/0131-palindrome-partitioning) |
 | [0216-combination-sum-iii](https://github.com/ashish-0280/LeetCode/tree/master/0216-combination-sum-iii) |
+| [0357-count-numbers-with-unique-digits](https://github.com/ashish-0280/LeetCode/tree/master/0357-count-numbers-with-unique-digits) |
 | [0813-all-paths-from-source-to-target](https://github.com/ashish-0280/LeetCode/tree/master/0813-all-paths-from-source-to-target) |
 | [1007-numbers-with-same-consecutive-differences](https://github.com/ashish-0280/LeetCode/tree/master/1007-numbers-with-same-consecutive-differences) |
 | [1160-letter-tile-possibilities](https://github.com/ashish-0280/LeetCode/tree/master/1160-letter-tile-possibilities) |
