@@ -313,6 +313,7 @@
 | [0062-unique-paths](https://github.com/ashish-0280/LeetCode/tree/master/0062-unique-paths) |
 | [0089-gray-code](https://github.com/ashish-0280/LeetCode/tree/master/0089-gray-code) |
 | [0231-power-of-two](https://github.com/ashish-0280/LeetCode/tree/master/0231-power-of-two) |
+| [0233-number-of-digit-one](https://github.com/ashish-0280/LeetCode/tree/master/0233-number-of-digit-one) |
 | [0241-different-ways-to-add-parentheses](https://github.com/ashish-0280/LeetCode/tree/master/0241-different-ways-to-add-parentheses) |
 | [0279-perfect-squares](https://github.com/ashish-0280/LeetCode/tree/master/0279-perfect-squares) |
 | [0368-largest-divisible-subset](https://github.com/ashish-0280/LeetCode/tree/master/0368-largest-divisible-subset) |
@@ -539,6 +540,7 @@
 | [0131-palindrome-partitioning](https://github.com/ashish-0280/LeetCode/tree/master/0131-palindrome-partitioning) |
 | [0152-maximum-product-subarray](https://github.com/ashish-0280/LeetCode/tree/master/0152-maximum-product-subarray) |
 | [0198-house-robber](https://github.com/ashish-0280/LeetCode/tree/master/0198-house-robber) |
+| [0233-number-of-digit-one](https://github.com/ashish-0280/LeetCode/tree/master/0233-number-of-digit-one) |
 | [0241-different-ways-to-add-parentheses](https://github.com/ashish-0280/LeetCode/tree/master/0241-different-ways-to-add-parentheses) |
 | [0279-perfect-squares](https://github.com/ashish-0280/LeetCode/tree/master/0279-perfect-squares) |
 | [0322-coin-change](https://github.com/ashish-0280/LeetCode/tree/master/0322-coin-change) |
@@ -757,6 +759,7 @@
 | ------- |
 | [0060-permutation-sequence](https://github.com/ashish-0280/LeetCode/tree/master/0060-permutation-sequence) |
 | [0231-power-of-two](https://github.com/ashish-0280/LeetCode/tree/master/0231-power-of-two) |
+| [0233-number-of-digit-one](https://github.com/ashish-0280/LeetCode/tree/master/0233-number-of-digit-one) |
 | [0241-different-ways-to-add-parentheses](https://github.com/ashish-0280/LeetCode/tree/master/0241-different-ways-to-add-parentheses) |
 | [0394-decode-string](https://github.com/ashish-0280/LeetCode/tree/master/0394-decode-string) |
 | [0795-k-th-symbol-in-grammar](https://github.com/ashish-0280/LeetCode/tree/master/0795-k-th-symbol-in-grammar) |
