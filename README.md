@@ -103,6 +103,7 @@
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/ashish-0280/LeetCode/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2262-solving-questions-with-brainpower](https://github.com/ashish-0280/LeetCode/tree/master/2262-solving-questions-with-brainpower) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/ashish-0280/LeetCode/tree/master/2265-partition-array-according-to-given-pivot) |
+| [2280-count-good-triplets-in-an-array](https://github.com/ashish-0280/LeetCode/tree/master/2280-count-good-triplets-in-an-array) |
 | [2308-divide-array-into-equal-pairs](https://github.com/ashish-0280/LeetCode/tree/master/2308-divide-array-into-equal-pairs) |
 | [2411-spiral-matrix-iv](https://github.com/ashish-0280/LeetCode/tree/master/2411-spiral-matrix-iv) |
 | [2428-equal-row-and-column-pairs](https://github.com/ashish-0280/LeetCode/tree/master/2428-equal-row-and-column-pairs) |
@@ -523,6 +524,7 @@
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/ashish-0280/LeetCode/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1352-maximum-profit-in-job-scheduling](https://github.com/ashish-0280/LeetCode/tree/master/1352-maximum-profit-in-job-scheduling) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/ashish-0280/LeetCode/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
+| [2280-count-good-triplets-in-an-array](https://github.com/ashish-0280/LeetCode/tree/master/2280-count-good-triplets-in-an-array) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/ashish-0280/LeetCode/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 | [2665-minimum-time-to-repair-cars](https://github.com/ashish-0280/LeetCode/tree/master/2665-minimum-time-to-repair-cars) |
 | [2690-house-robber-iv](https://github.com/ashish-0280/LeetCode/tree/master/2690-house-robber-iv) |
@@ -774,6 +776,7 @@
 | [0215-kth-largest-element-in-an-array](https://github.com/ashish-0280/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/ashish-0280/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/ashish-0280/LeetCode/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
+| [2280-count-good-triplets-in-an-array](https://github.com/ashish-0280/LeetCode/tree/master/2280-count-good-triplets-in-an-array) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -945,11 +948,13 @@
 | ------- |
 | [0729-my-calendar-i](https://github.com/ashish-0280/LeetCode/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/ashish-0280/LeetCode/tree/master/0731-my-calendar-ii) |
+| [2280-count-good-triplets-in-an-array](https://github.com/ashish-0280/LeetCode/tree/master/2280-count-good-triplets-in-an-array) |
 ## Ordered Set
 |  |
 | ------- |
 | [0729-my-calendar-i](https://github.com/ashish-0280/LeetCode/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/ashish-0280/LeetCode/tree/master/0731-my-calendar-ii) |
+| [2280-count-good-triplets-in-an-array](https://github.com/ashish-0280/LeetCode/tree/master/2280-count-good-triplets-in-an-array) |
 | [2434-design-a-number-container-system](https://github.com/ashish-0280/LeetCode/tree/master/2434-design-a-number-container-system) |
 ## Doubly-Linked List
 |  |
@@ -1006,4 +1011,12 @@
 |  |
 | ------- |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/ashish-0280/LeetCode/tree/master/2090-number-of-ways-to-arrive-at-destination) |
+## Binary Indexed Tree
+|  |
+| ------- |
+| [2280-count-good-triplets-in-an-array](https://github.com/ashish-0280/LeetCode/tree/master/2280-count-good-triplets-in-an-array) |
+## Merge Sort
+|  |
+| ------- |
+| [2280-count-good-triplets-in-an-array](https://github.com/ashish-0280/LeetCode/tree/master/2280-count-good-triplets-in-an-array) |
 <!---LeetCode Topics End-->
