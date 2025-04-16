@@ -55,6 +55,7 @@
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/ashish-0280/LeetCode/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [0906-walking-robot-simulation](https://github.com/ashish-0280/LeetCode/tree/master/0906-walking-robot-simulation) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/ashish-0280/LeetCode/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
+| [0938-numbers-at-most-n-given-digit-set](https://github.com/ashish-0280/LeetCode/tree/master/0938-numbers-at-most-n-given-digit-set) |
 | [0966-binary-subarrays-with-sum](https://github.com/ashish-0280/LeetCode/tree/master/0966-binary-subarrays-with-sum) |
 | [0971-shortest-bridge](https://github.com/ashish-0280/LeetCode/tree/master/0971-shortest-bridge) |
 | [1002-maximum-width-ramp](https://github.com/ashish-0280/LeetCode/tree/master/1002-maximum-width-ramp) |
@@ -252,6 +253,7 @@
 | [0812-rotate-string](https://github.com/ashish-0280/LeetCode/tree/master/0812-rotate-string) |
 | [0869-similar-string-groups](https://github.com/ashish-0280/LeetCode/tree/master/0869-similar-string-groups) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/ashish-0280/LeetCode/tree/master/0920-uncommon-words-from-two-sentences) |
+| [0938-numbers-at-most-n-given-digit-set](https://github.com/ashish-0280/LeetCode/tree/master/0938-numbers-at-most-n-given-digit-set) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/ashish-0280/LeetCode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [0962-flip-string-to-monotone-increasing](https://github.com/ashish-0280/LeetCode/tree/master/0962-flip-string-to-monotone-increasing) |
 | [1032-satisfiability-of-equality-equations](https://github.com/ashish-0280/LeetCode/tree/master/1032-satisfiability-of-equality-equations) |
@@ -323,6 +325,7 @@
 | [0368-largest-divisible-subset](https://github.com/ashish-0280/LeetCode/tree/master/0368-largest-divisible-subset) |
 | [0539-minimum-time-difference](https://github.com/ashish-0280/LeetCode/tree/master/0539-minimum-time-difference) |
 | [0795-k-th-symbol-in-grammar](https://github.com/ashish-0280/LeetCode/tree/master/0795-k-th-symbol-in-grammar) |
+| [0938-numbers-at-most-n-given-digit-set](https://github.com/ashish-0280/LeetCode/tree/master/0938-numbers-at-most-n-given-digit-set) |
 | [1146-greatest-common-divisor-of-strings](https://github.com/ashish-0280/LeetCode/tree/master/1146-greatest-common-divisor-of-strings) |
 | [1236-n-th-tribonacci-number](https://github.com/ashish-0280/LeetCode/tree/master/1236-n-th-tribonacci-number) |
 | [1370-count-number-of-nice-subarrays](https://github.com/ashish-0280/LeetCode/tree/master/1370-count-number-of-nice-subarrays) |
@@ -523,6 +526,7 @@
 | [0729-my-calendar-i](https://github.com/ashish-0280/LeetCode/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/ashish-0280/LeetCode/tree/master/0731-my-calendar-ii) |
 | [0745-find-smallest-letter-greater-than-target](https://github.com/ashish-0280/LeetCode/tree/master/0745-find-smallest-letter-greater-than-target) |
+| [0938-numbers-at-most-n-given-digit-set](https://github.com/ashish-0280/LeetCode/tree/master/0938-numbers-at-most-n-given-digit-set) |
 | [1046-max-consecutive-ones-iii](https://github.com/ashish-0280/LeetCode/tree/master/1046-max-consecutive-ones-iii) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/ashish-0280/LeetCode/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1352-maximum-profit-in-job-scheduling](https://github.com/ashish-0280/LeetCode/tree/master/1352-maximum-profit-in-job-scheduling) |
@@ -559,6 +563,7 @@
 | [0518-coin-change-ii](https://github.com/ashish-0280/LeetCode/tree/master/0518-coin-change-ii) |
 | [0542-01-matrix](https://github.com/ashish-0280/LeetCode/tree/master/0542-01-matrix) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/ashish-0280/LeetCode/tree/master/0905-length-of-longest-fibonacci-subsequence) |
+| [0938-numbers-at-most-n-given-digit-set](https://github.com/ashish-0280/LeetCode/tree/master/0938-numbers-at-most-n-given-digit-set) |
 | [0962-flip-string-to-monotone-increasing](https://github.com/ashish-0280/LeetCode/tree/master/0962-flip-string-to-monotone-increasing) |
 | [1025-minimum-cost-for-tickets](https://github.com/ashish-0280/LeetCode/tree/master/1025-minimum-cost-for-tickets) |
 | [1170-shortest-common-supersequence](https://github.com/ashish-0280/LeetCode/tree/master/1170-shortest-common-supersequence) |
