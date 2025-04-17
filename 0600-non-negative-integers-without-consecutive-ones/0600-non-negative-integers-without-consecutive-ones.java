@@ -22,6 +22,7 @@ class Solution {
             int newTight = (i == limit && tight == 1) ? 1 : 0;
             ans += solve(s, idx+1, newTight, i);
         }
-        return dp[idx][prevBit] = ans;
+        if(tight == 0) dp[idx][prevBit] = ans;
+        return ans;
     }
 }
