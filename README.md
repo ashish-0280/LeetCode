@@ -327,6 +327,7 @@
 | [0539-minimum-time-difference](https://github.com/ashish-0280/LeetCode/tree/master/0539-minimum-time-difference) |
 | [0795-k-th-symbol-in-grammar](https://github.com/ashish-0280/LeetCode/tree/master/0795-k-th-symbol-in-grammar) |
 | [0938-numbers-at-most-n-given-digit-set](https://github.com/ashish-0280/LeetCode/tree/master/0938-numbers-at-most-n-given-digit-set) |
+| [1057-numbers-with-repeated-digits](https://github.com/ashish-0280/LeetCode/tree/master/1057-numbers-with-repeated-digits) |
 | [1146-greatest-common-divisor-of-strings](https://github.com/ashish-0280/LeetCode/tree/master/1146-greatest-common-divisor-of-strings) |
 | [1236-n-th-tribonacci-number](https://github.com/ashish-0280/LeetCode/tree/master/1236-n-th-tribonacci-number) |
 | [1370-count-number-of-nice-subarrays](https://github.com/ashish-0280/LeetCode/tree/master/1370-count-number-of-nice-subarrays) |
@@ -568,6 +569,7 @@
 | [0938-numbers-at-most-n-given-digit-set](https://github.com/ashish-0280/LeetCode/tree/master/0938-numbers-at-most-n-given-digit-set) |
 | [0962-flip-string-to-monotone-increasing](https://github.com/ashish-0280/LeetCode/tree/master/0962-flip-string-to-monotone-increasing) |
 | [1025-minimum-cost-for-tickets](https://github.com/ashish-0280/LeetCode/tree/master/1025-minimum-cost-for-tickets) |
+| [1057-numbers-with-repeated-digits](https://github.com/ashish-0280/LeetCode/tree/master/1057-numbers-with-repeated-digits) |
 | [1170-shortest-common-supersequence](https://github.com/ashish-0280/LeetCode/tree/master/1170-shortest-common-supersequence) |
 | [1236-n-th-tribonacci-number](https://github.com/ashish-0280/LeetCode/tree/master/1236-n-th-tribonacci-number) |
 | [1352-maximum-profit-in-job-scheduling](https://github.com/ashish-0280/LeetCode/tree/master/1352-maximum-profit-in-job-scheduling) |
