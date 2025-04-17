@@ -1,40 +1,30 @@
 class Solution {
     public int numDupDigitsAtMostN(int n) {
-        return n - countUniqueDigits(n);
-    }
-
-    private int countUniqueDigits(int n) {
         String s = String.valueOf(n);
-        int len = s.length();
-        int ans = 0;
-
-        // Count numbers with length less than n
-        for (int i = 1; i < len; i++) {
-            ans += 9 * perm(9, i - 1);
-        }
-
-        // Count numbers with same length as n
-        boolean[] used = new boolean[10];
-        for (int i = 0; i < len; i++) {
-            int digit = s.charAt(i) - '0';
-            for (int d = (i == 0 ? 1 : 0); d < digit; d++) {
-                if (!used[d]) {
-                    ans += perm(9 - i, len - i - 1);
-                }
-            }
-            if (used[digit]) break;
-            used[digit] = true;
-            if (i == len - 1) ans++;  // n itself has unique digits
-        }
-
-        return ans;
+        return n - countUniqueDigits(s, 0, 0, 1, 1, new boolean[10]);
     }
 
-    private int perm(int m, int k) {
-        int res = 1;
-        for (int i = 0; i < k; i++) {
-            res *= (m - i);
+    public int countUniqueDigits(String s, int idx, int mask, int tight, int leadingZero, boolean[] used) {
+        if (idx == s.length()) {
+            return leadingZero == 1 ? 0 : 1;
         }
-        return res;
+
+        int limit = tight == 1 ? s.charAt(idx) - '0' : 9;
+        int total = 0;
+
+        for (int d = 0; d <= limit; d++) {
+            int newTight = (tight == 1 && d == limit) ? 1 : 0;
+            int newLeadingZero = (leadingZero == 1 && d == 0) ? 1 : 0;
+
+            if (newLeadingZero == 1) {
+                // Still leading zeros, don't mark digit as used
+                total += countUniqueDigits(s, idx + 1, mask, newTight, newLeadingZero, used);
+            } else {
+                if (((mask >> d) & 1) == 1) continue; // digit already used
+                total += countUniqueDigits(s, idx + 1, mask | (1 << d), newTight, 0, used);
+            }
+        }
+
+        return total;
     }
 }
