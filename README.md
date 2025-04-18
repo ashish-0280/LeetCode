@@ -14,6 +14,7 @@
 | [0047-permutations-ii](https://github.com/ashish-0280/LeetCode/tree/master/0047-permutations-ii) |
 | [0051-n-queens](https://github.com/ashish-0280/LeetCode/tree/master/0051-n-queens) |
 | [0053-maximum-subarray](https://github.com/ashish-0280/LeetCode/tree/master/0053-maximum-subarray) |
+| [0064-minimum-path-sum](https://github.com/ashish-0280/LeetCode/tree/master/0064-minimum-path-sum) |
 | [0078-subsets](https://github.com/ashish-0280/LeetCode/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/ashish-0280/LeetCode/tree/master/0079-word-search) |
 | [0084-largest-rectangle-in-histogram](https://github.com/ashish-0280/LeetCode/tree/master/0084-largest-rectangle-in-histogram) |
@@ -370,6 +371,7 @@
 |  |
 | ------- |
 | [0037-sudoku-solver](https://github.com/ashish-0280/LeetCode/tree/master/0037-sudoku-solver) |
+| [0064-minimum-path-sum](https://github.com/ashish-0280/LeetCode/tree/master/0064-minimum-path-sum) |
 | [0079-word-search](https://github.com/ashish-0280/LeetCode/tree/master/0079-word-search) |
 | [0200-number-of-islands](https://github.com/ashish-0280/LeetCode/tree/master/0200-number-of-islands) |
 | [0542-01-matrix](https://github.com/ashish-0280/LeetCode/tree/master/0542-01-matrix) |
@@ -547,6 +549,7 @@
 | [0042-trapping-rain-water](https://github.com/ashish-0280/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/ashish-0280/LeetCode/tree/master/0053-maximum-subarray) |
 | [0062-unique-paths](https://github.com/ashish-0280/LeetCode/tree/master/0062-unique-paths) |
+| [0064-minimum-path-sum](https://github.com/ashish-0280/LeetCode/tree/master/0064-minimum-path-sum) |
 | [0072-edit-distance](https://github.com/ashish-0280/LeetCode/tree/master/0072-edit-distance) |
 | [0115-distinct-subsequences](https://github.com/ashish-0280/LeetCode/tree/master/0115-distinct-subsequences) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/ashish-0280/LeetCode/tree/master/0124-binary-tree-maximum-path-sum) |
