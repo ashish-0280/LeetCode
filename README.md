@@ -121,6 +121,7 @@
 | [2478-longest-nice-subarray](https://github.com/ashish-0280/LeetCode/tree/master/2478-longest-nice-subarray) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/ashish-0280/LeetCode/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/ashish-0280/LeetCode/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
+| [2527-count-subarrays-with-fixed-bounds](https://github.com/ashish-0280/LeetCode/tree/master/2527-count-subarrays-with-fixed-bounds) |
 | [2551-apply-operations-to-an-array](https://github.com/ashish-0280/LeetCode/tree/master/2551-apply-operations-to-an-array) |
 | [2553-total-cost-to-hire-k-workers](https://github.com/ashish-0280/LeetCode/tree/master/2553-total-cost-to-hire-k-workers) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/ashish-0280/LeetCode/tree/master/2564-most-profitable-path-in-a-tree) |
@@ -524,6 +525,7 @@
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/ashish-0280/LeetCode/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/ashish-0280/LeetCode/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [2478-longest-nice-subarray](https://github.com/ashish-0280/LeetCode/tree/master/2478-longest-nice-subarray) |
+| [2527-count-subarrays-with-fixed-bounds](https://github.com/ashish-0280/LeetCode/tree/master/2527-count-subarrays-with-fixed-bounds) |
 | [2626-count-the-number-of-good-subarrays](https://github.com/ashish-0280/LeetCode/tree/master/2626-count-the-number-of-good-subarrays) |
 | [2856-count-complete-subarrays-in-an-array](https://github.com/ashish-0280/LeetCode/tree/master/2856-count-complete-subarrays-in-an-array) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/ashish-0280/LeetCode/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
@@ -938,6 +940,7 @@
 | [0649-dota2-senate](https://github.com/ashish-0280/LeetCode/tree/master/0649-dota2-senate) |
 | [0859-design-circular-deque](https://github.com/ashish-0280/LeetCode/tree/master/0859-design-circular-deque) |
 | [0969-number-of-recent-calls](https://github.com/ashish-0280/LeetCode/tree/master/0969-number-of-recent-calls) |
+| [2527-count-subarrays-with-fixed-bounds](https://github.com/ashish-0280/LeetCode/tree/master/2527-count-subarrays-with-fixed-bounds) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/ashish-0280/LeetCode/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 ## Data Stream
 |  |
@@ -1029,6 +1032,7 @@
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/ashish-0280/LeetCode/tree/master/0239-sliding-window-maximum) |
+| [2527-count-subarrays-with-fixed-bounds](https://github.com/ashish-0280/LeetCode/tree/master/2527-count-subarrays-with-fixed-bounds) |
 ## Topological Sort
 |  |
 | ------- |
