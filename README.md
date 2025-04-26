@@ -61,6 +61,7 @@
 | [0966-binary-subarrays-with-sum](https://github.com/ashish-0280/LeetCode/tree/master/0966-binary-subarrays-with-sum) |
 | [0971-shortest-bridge](https://github.com/ashish-0280/LeetCode/tree/master/0971-shortest-bridge) |
 | [1002-maximum-width-ramp](https://github.com/ashish-0280/LeetCode/tree/master/1002-maximum-width-ramp) |
+| [1016-subarray-sums-divisible-by-k](https://github.com/ashish-0280/LeetCode/tree/master/1016-subarray-sums-divisible-by-k) |
 | [1025-minimum-cost-for-tickets](https://github.com/ashish-0280/LeetCode/tree/master/1025-minimum-cost-for-tickets) |
 | [1032-satisfiability-of-equality-equations](https://github.com/ashish-0280/LeetCode/tree/master/1032-satisfiability-of-equality-equations) |
 | [1034-subarrays-with-k-different-integers](https://github.com/ashish-0280/LeetCode/tree/master/1034-subarrays-with-k-different-integers) |
@@ -186,6 +187,7 @@
 | [0920-uncommon-words-from-two-sentences](https://github.com/ashish-0280/LeetCode/tree/master/0920-uncommon-words-from-two-sentences) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/ashish-0280/LeetCode/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [0966-binary-subarrays-with-sum](https://github.com/ashish-0280/LeetCode/tree/master/0966-binary-subarrays-with-sum) |
+| [1016-subarray-sums-divisible-by-k](https://github.com/ashish-0280/LeetCode/tree/master/1016-subarray-sums-divisible-by-k) |
 | [1034-subarrays-with-k-different-integers](https://github.com/ashish-0280/LeetCode/tree/master/1034-subarrays-with-k-different-integers) |
 | [1039-find-the-town-judge](https://github.com/ashish-0280/LeetCode/tree/master/1039-find-the-town-judge) |
 | [1160-letter-tile-possibilities](https://github.com/ashish-0280/LeetCode/tree/master/1160-letter-tile-possibilities) |
@@ -528,6 +530,7 @@
 | [0724-find-pivot-index](https://github.com/ashish-0280/LeetCode/tree/master/0724-find-pivot-index) |
 | [0731-my-calendar-ii](https://github.com/ashish-0280/LeetCode/tree/master/0731-my-calendar-ii) |
 | [0966-binary-subarrays-with-sum](https://github.com/ashish-0280/LeetCode/tree/master/0966-binary-subarrays-with-sum) |
+| [1016-subarray-sums-divisible-by-k](https://github.com/ashish-0280/LeetCode/tree/master/1016-subarray-sums-divisible-by-k) |
 | [1046-max-consecutive-ones-iii](https://github.com/ashish-0280/LeetCode/tree/master/1046-max-consecutive-ones-iii) |
 | [1393-maximum-value-of-k-coins-from-piles](https://github.com/ashish-0280/LeetCode/tree/master/1393-maximum-value-of-k-coins-from-piles) |
 | [1435-xor-queries-of-a-subarray](https://github.com/ashish-0280/LeetCode/tree/master/1435-xor-queries-of-a-subarray) |
