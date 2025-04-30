@@ -81,6 +81,7 @@
 | [1380-number-of-closed-islands](https://github.com/ashish-0280/LeetCode/tree/master/1380-number-of-closed-islands) |
 | [1392-find-the-difference-of-two-arrays](https://github.com/ashish-0280/LeetCode/tree/master/1392-find-the-difference-of-two-arrays) |
 | [1393-maximum-value-of-k-coins-from-piles](https://github.com/ashish-0280/LeetCode/tree/master/1393-maximum-value-of-k-coins-from-piles) |
+| [1421-find-numbers-with-even-number-of-digits](https://github.com/ashish-0280/LeetCode/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1428-jump-game-iii](https://github.com/ashish-0280/LeetCode/tree/master/1428-jump-game-iii) |
 | [1435-xor-queries-of-a-subarray](https://github.com/ashish-0280/LeetCode/tree/master/1435-xor-queries-of-a-subarray) |
 | [1457-minimum-difficulty-of-a-job-schedule](https://github.com/ashish-0280/LeetCode/tree/master/1457-minimum-difficulty-of-a-job-schedule) |
@@ -358,6 +359,7 @@
 | [1146-greatest-common-divisor-of-strings](https://github.com/ashish-0280/LeetCode/tree/master/1146-greatest-common-divisor-of-strings) |
 | [1236-n-th-tribonacci-number](https://github.com/ashish-0280/LeetCode/tree/master/1236-n-th-tribonacci-number) |
 | [1370-count-number-of-nice-subarrays](https://github.com/ashish-0280/LeetCode/tree/master/1370-count-number-of-nice-subarrays) |
+| [1421-find-numbers-with-even-number-of-digits](https://github.com/ashish-0280/LeetCode/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1477-product-of-the-last-k-numbers](https://github.com/ashish-0280/LeetCode/tree/master/1477-product-of-the-last-k-numbers) |
 | [1500-count-largest-group](https://github.com/ashish-0280/LeetCode/tree/master/1500-count-largest-group) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/ashish-0280/LeetCode/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
