@@ -1,38 +1,45 @@
 class Solution {
+    Long dp[][];
+    public long numberOfPowerfulInt(long start, long finish, int limit, String s) {
+        String s1 = Long.toString(start - 1);
+        String s2 = Long.toString(finish);
+        int len = Math.max(s1.length(), s2.length());
+        s1 = padLeftZeros(s1, len);
+        s2 = padLeftZeros(s2, len);
 
-    public long numberOfPowerfulInt(long rangeStart, long rangeEnd, int chakraLimit, String clanSymbolSuffix) {
-        return countPowerfulShinobi(rangeEnd, chakraLimit, clanSymbolSuffix)
-             - countPowerfulShinobi(rangeStart - 1, chakraLimit, clanSymbolSuffix);
+        int suffixStart = len - s.length();
+        if (suffixStart < 0) return 0;
+        dp = new Long[len][2];
+        long res1 = solve(s2, s, suffixStart, 0, 1, limit);
+        dp = new Long[len][2];
+        long res2 = solve(s1, s, suffixStart, 0, 1, limit);
+        return res1 - res2;
     }
 
-    private long countPowerfulShinobi(long chakraCap, int chakraLimit, String clanSymbol) {
-        String chakraFlow = Long.toString(chakraCap);  // The full chakra path
-        int prefixLength = chakraFlow.length() - clanSymbol.length();
+    private String padLeftZeros(String s, int n) {
+        while (s.length() < n) s = "0" + s;
+        return s;
+    }
+    public long solve(String s, String suffix, int suffixStart, int idx, int tight, int limit) {
+        if (idx == s.length()) {
+            return 1;
+        }
+        if(dp[idx][tight] != null){
+            return dp[idx][tight];
+        }
+        long ans = 0;
+        int lmt = tight == 1 ? s.charAt(idx) - '0' : limit;
+        lmt = Math.min(lmt, limit);
 
-        // If the chakra flow is too short to even hold the clan symbol – mission fails
-        if (prefixLength < 0) return 0;
-
-        long[][] rasenganScroll = new long[prefixLength + 1][2]; // [i][tightMode]
-
-        // Base case: chakra prefix is complete; now check if the suffix meets the clan symbol
-        rasenganScroll[prefixLength][0] = 1; // Not bound to chakraCap
-        rasenganScroll[prefixLength][1] = chakraFlow.substring(prefixLength).compareTo(clanSymbol) >= 0 ? 1 : 0;
-
-        // Iterate backward like a careful strategist
-        for (int i = prefixLength - 1; i >= 0; i--) {
-            int currentChakra = chakraFlow.charAt(i) - '0';
-
-            // If not tight to chakraCap, any digit from 0 to chakraLimit is okay
-            rasenganScroll[i][0] = (chakraLimit + 1) * rasenganScroll[i + 1][0];
-
-            // If we're still under chakraCap, be careful
-            if (currentChakra <= chakraLimit) {
-                rasenganScroll[i][1] = (long) currentChakra * rasenganScroll[i + 1][0] + rasenganScroll[i + 1][1];
-            } else {
-                rasenganScroll[i][1] = (long) (chakraLimit + 1) * rasenganScroll[i + 1][0];
+        for (int d = 0; d <= lmt; d++) {
+            if (idx >= suffixStart) {
+                int sufIdx = idx - suffixStart;
+                if (d != suffix.charAt(sufIdx) - '0') continue;
             }
+            int newTight = (tight == 1 && d == s.charAt(idx)-'0') ? 1 : 0;
+            ans += solve(s, suffix, suffixStart, idx + 1, newTight, limit);
         }
 
-        return rasenganScroll[0][1];
+        return dp[idx][tight] = ans;
     }
 }
