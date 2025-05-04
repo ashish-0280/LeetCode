@@ -73,6 +73,7 @@
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/ashish-0280/LeetCode/tree/master/1049-minimum-domino-rotations-for-equal-row) |
 | [1073-number-of-enclaves](https://github.com/ashish-0280/LeetCode/tree/master/1073-number-of-enclaves) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/ashish-0280/LeetCode/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1227-number-of-equivalent-domino-pairs](https://github.com/ashish-0280/LeetCode/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1256-rank-transform-of-an-array](https://github.com/ashish-0280/LeetCode/tree/master/1256-rank-transform-of-an-array) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/ashish-0280/LeetCode/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1352-maximum-profit-in-job-scheduling](https://github.com/ashish-0280/LeetCode/tree/master/1352-maximum-profit-in-job-scheduling) |
@@ -205,6 +206,7 @@
 | [1039-find-the-town-judge](https://github.com/ashish-0280/LeetCode/tree/master/1039-find-the-town-judge) |
 | [1160-letter-tile-possibilities](https://github.com/ashish-0280/LeetCode/tree/master/1160-letter-tile-possibilities) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/ashish-0280/LeetCode/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
+| [1227-number-of-equivalent-domino-pairs](https://github.com/ashish-0280/LeetCode/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1256-rank-transform-of-an-array](https://github.com/ashish-0280/LeetCode/tree/master/1256-rank-transform-of-an-array) |
 | [1364-tuple-with-same-product](https://github.com/ashish-0280/LeetCode/tree/master/1364-tuple-with-same-product) |
 | [1370-count-number-of-nice-subarrays](https://github.com/ashish-0280/LeetCode/tree/master/1370-count-number-of-nice-subarrays) |
@@ -329,6 +331,7 @@
 | [0920-uncommon-words-from-two-sentences](https://github.com/ashish-0280/LeetCode/tree/master/0920-uncommon-words-from-two-sentences) |
 | [1034-subarrays-with-k-different-integers](https://github.com/ashish-0280/LeetCode/tree/master/1034-subarrays-with-k-different-integers) |
 | [1160-letter-tile-possibilities](https://github.com/ashish-0280/LeetCode/tree/master/1160-letter-tile-possibilities) |
+| [1227-number-of-equivalent-domino-pairs](https://github.com/ashish-0280/LeetCode/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1364-tuple-with-same-product](https://github.com/ashish-0280/LeetCode/tree/master/1364-tuple-with-same-product) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/ashish-0280/LeetCode/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 | [1777-determine-if-two-strings-are-close](https://github.com/ashish-0280/LeetCode/tree/master/1777-determine-if-two-strings-are-close) |
