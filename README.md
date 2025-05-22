@@ -38,6 +38,7 @@
 | [0347-top-k-frequent-elements](https://github.com/ashish-0280/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0368-largest-divisible-subset](https://github.com/ashish-0280/LeetCode/tree/master/0368-largest-divisible-subset) |
 | [0416-partition-equal-subset-sum](https://github.com/ashish-0280/LeetCode/tree/master/0416-partition-equal-subset-sum) |
+| [0494-target-sum](https://github.com/ashish-0280/LeetCode/tree/master/0494-target-sum) |
 | [0496-next-greater-element-i](https://github.com/ashish-0280/LeetCode/tree/master/0496-next-greater-element-i) |
 | [0518-coin-change-ii](https://github.com/ashish-0280/LeetCode/tree/master/0518-coin-change-ii) |
 | [0523-continuous-subarray-sum](https://github.com/ashish-0280/LeetCode/tree/master/0523-continuous-subarray-sum) |
@@ -660,6 +661,7 @@
 | [0368-largest-divisible-subset](https://github.com/ashish-0280/LeetCode/tree/master/0368-largest-divisible-subset) |
 | [0392-is-subsequence](https://github.com/ashish-0280/LeetCode/tree/master/0392-is-subsequence) |
 | [0416-partition-equal-subset-sum](https://github.com/ashish-0280/LeetCode/tree/master/0416-partition-equal-subset-sum) |
+| [0494-target-sum](https://github.com/ashish-0280/LeetCode/tree/master/0494-target-sum) |
 | [0516-longest-palindromic-subsequence](https://github.com/ashish-0280/LeetCode/tree/master/0516-longest-palindromic-subsequence) |
 | [0518-coin-change-ii](https://github.com/ashish-0280/LeetCode/tree/master/0518-coin-change-ii) |
 | [0542-01-matrix](https://github.com/ashish-0280/LeetCode/tree/master/0542-01-matrix) |
@@ -992,6 +994,7 @@
 | [0131-palindrome-partitioning](https://github.com/ashish-0280/LeetCode/tree/master/0131-palindrome-partitioning) |
 | [0216-combination-sum-iii](https://github.com/ashish-0280/LeetCode/tree/master/0216-combination-sum-iii) |
 | [0357-count-numbers-with-unique-digits](https://github.com/ashish-0280/LeetCode/tree/master/0357-count-numbers-with-unique-digits) |
+| [0494-target-sum](https://github.com/ashish-0280/LeetCode/tree/master/0494-target-sum) |
 | [0813-all-paths-from-source-to-target](https://github.com/ashish-0280/LeetCode/tree/master/0813-all-paths-from-source-to-target) |
 | [1007-numbers-with-same-consecutive-differences](https://github.com/ashish-0280/LeetCode/tree/master/1007-numbers-with-same-consecutive-differences) |
 | [1160-letter-tile-possibilities](https://github.com/ashish-0280/LeetCode/tree/master/1160-letter-tile-possibilities) |
