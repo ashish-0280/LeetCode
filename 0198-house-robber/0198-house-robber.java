@@ -1,18 +1,18 @@
 class Solution {
+    Integer dp[];
     public int rob(int[] nums) {
-        int dp[] = new int[nums.length+1];
-        Arrays.fill(dp, -1);
-        return helper(nums, 0, dp);
+        dp = new Integer[nums.length];
+        return solve(nums, 0);
     }
-    public int helper(int[] nums, int i, int dp[]){
-        if(i >= nums.length){
+    public int solve(int nums[], int idx){
+        if(idx >= nums.length){
             return 0;
         }
-        if(dp[i] != -1){
-            return dp[i];
+        if(dp[idx] != null){
+            return dp[idx];
         }
-        int take = nums[i] + helper(nums, i+2, dp);
-        int skip = helper(nums, i+1, dp);
-        return dp[i] = Math.max(take, skip);
+        int include = nums[idx] + solve(nums, idx+2);
+        int exclude = solve(nums, idx+1);
+        return dp[idx] = Math.max(include, exclude);
     }
 }
