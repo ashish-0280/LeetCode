@@ -1,23 +1,28 @@
 class Solution {
-    Integer dp[][];
+    Integer[][] dp;
+    int offset = 1000;
+
     public int findTargetSumWays(int[] nums, int target) {
-        dp = new Integer[nums.length][20001];
-        return solve(nums, target, 0);
+        dp = new Integer[nums.length][2001];
+        return solve(nums, 0, target);
     }
-    public int solve(int nums[], int target, int idx){
-        if(idx >= nums.length){
+
+    public int solve(int[] nums, int idx, int target) {
+        if (idx == nums.length) {
             return target == 0 ? 1 : 0;
         }
-        if(target >= 0){
-            if(dp[idx][target] != null){
-                return dp[idx][target];
-            }
+
+        if (target + offset < 0 || target + offset > 2000) {
+            return 0;
         }
-        int include = solve(nums, target-nums[idx], idx+1);
-        int exclude = solve(nums, target+nums[idx], idx+1);
-        if(target >= 0){
-            dp[idx][target] = include + exclude;
+
+        if (dp[idx][target + offset] != null) {
+            return dp[idx][target + offset];
         }
-        return include + exclude;
+
+        int add = solve(nums, idx + 1, target - nums[idx]);
+        int subtract = solve(nums, idx + 1, target + nums[idx]);
+
+        return dp[idx][target + offset] = add + subtract;
     }
 }
