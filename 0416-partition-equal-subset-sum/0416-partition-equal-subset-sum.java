@@ -6,8 +6,8 @@ class Solution {
             sum += num;
         }
         if(sum % 2 != 0) return false;
-        dp = new Boolean[nums.length+1][sum+1];
         int target = sum/2;
+        dp = new Boolean[nums.length][target+1];
         return solve(nums, target, 0);
     }
     public boolean solve(int nums[], int target, int idx){
