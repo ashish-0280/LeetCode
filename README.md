@@ -281,6 +281,7 @@
 | [0079-word-search](https://github.com/ashish-0280/LeetCode/tree/master/0079-word-search) |
 | [0115-distinct-subsequences](https://github.com/ashish-0280/LeetCode/tree/master/0115-distinct-subsequences) |
 | [0131-palindrome-partitioning](https://github.com/ashish-0280/LeetCode/tree/master/0131-palindrome-partitioning) |
+| [0132-palindrome-partitioning-ii](https://github.com/ashish-0280/LeetCode/tree/master/0132-palindrome-partitioning-ii) |
 | [0179-largest-number](https://github.com/ashish-0280/LeetCode/tree/master/0179-largest-number) |
 | [0214-shortest-palindrome](https://github.com/ashish-0280/LeetCode/tree/master/0214-shortest-palindrome) |
 | [0241-different-ways-to-add-parentheses](https://github.com/ashish-0280/LeetCode/tree/master/0241-different-ways-to-add-parentheses) |
@@ -656,6 +657,7 @@
 | [0115-distinct-subsequences](https://github.com/ashish-0280/LeetCode/tree/master/0115-distinct-subsequences) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/ashish-0280/LeetCode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0131-palindrome-partitioning](https://github.com/ashish-0280/LeetCode/tree/master/0131-palindrome-partitioning) |
+| [0132-palindrome-partitioning-ii](https://github.com/ashish-0280/LeetCode/tree/master/0132-palindrome-partitioning-ii) |
 | [0152-maximum-product-subarray](https://github.com/ashish-0280/LeetCode/tree/master/0152-maximum-product-subarray) |
 | [0198-house-robber](https://github.com/ashish-0280/LeetCode/tree/master/0198-house-robber) |
 | [0233-number-of-digit-one](https://github.com/ashish-0280/LeetCode/tree/master/0233-number-of-digit-one) |
