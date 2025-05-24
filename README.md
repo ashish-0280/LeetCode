@@ -279,6 +279,7 @@
 | [0072-edit-distance](https://github.com/ashish-0280/LeetCode/tree/master/0072-edit-distance) |
 | [0076-minimum-window-substring](https://github.com/ashish-0280/LeetCode/tree/master/0076-minimum-window-substring) |
 | [0079-word-search](https://github.com/ashish-0280/LeetCode/tree/master/0079-word-search) |
+| [0087-scramble-string](https://github.com/ashish-0280/LeetCode/tree/master/0087-scramble-string) |
 | [0115-distinct-subsequences](https://github.com/ashish-0280/LeetCode/tree/master/0115-distinct-subsequences) |
 | [0131-palindrome-partitioning](https://github.com/ashish-0280/LeetCode/tree/master/0131-palindrome-partitioning) |
 | [0132-palindrome-partitioning-ii](https://github.com/ashish-0280/LeetCode/tree/master/0132-palindrome-partitioning-ii) |
@@ -654,6 +655,7 @@
 | [0064-minimum-path-sum](https://github.com/ashish-0280/LeetCode/tree/master/0064-minimum-path-sum) |
 | [0070-climbing-stairs](https://github.com/ashish-0280/LeetCode/tree/master/0070-climbing-stairs) |
 | [0072-edit-distance](https://github.com/ashish-0280/LeetCode/tree/master/0072-edit-distance) |
+| [0087-scramble-string](https://github.com/ashish-0280/LeetCode/tree/master/0087-scramble-string) |
 | [0115-distinct-subsequences](https://github.com/ashish-0280/LeetCode/tree/master/0115-distinct-subsequences) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/ashish-0280/LeetCode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0131-palindrome-partitioning](https://github.com/ashish-0280/LeetCode/tree/master/0131-palindrome-partitioning) |
