@@ -104,6 +104,7 @@
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/ashish-0280/LeetCode/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/ashish-0280/LeetCode/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1656-count-good-triplets](https://github.com/ashish-0280/LeetCode/tree/master/1656-count-good-triplets) |
+| [1669-minimum-cost-to-cut-a-stick](https://github.com/ashish-0280/LeetCode/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [1694-make-sum-divisible-by-p](https://github.com/ashish-0280/LeetCode/tree/master/1694-make-sum-divisible-by-p) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/ashish-0280/LeetCode/tree/master/1786-count-the-number-of-consistent-strings) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/ashish-0280/LeetCode/tree/master/1798-max-number-of-k-sum-pairs) |
@@ -548,6 +549,7 @@
 | [1256-rank-transform-of-an-array](https://github.com/ashish-0280/LeetCode/tree/master/1256-rank-transform-of-an-array) |
 | [1352-maximum-profit-in-job-scheduling](https://github.com/ashish-0280/LeetCode/tree/master/1352-maximum-profit-in-job-scheduling) |
 | [1503-reducing-dishes](https://github.com/ashish-0280/LeetCode/tree/master/1503-reducing-dishes) |
+| [1669-minimum-cost-to-cut-a-stick](https://github.com/ashish-0280/LeetCode/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [1777-determine-if-two-strings-are-close](https://github.com/ashish-0280/LeetCode/tree/master/1777-determine-if-two-strings-are-close) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/ashish-0280/LeetCode/tree/master/1798-max-number-of-k-sum-pairs) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/ashish-0280/LeetCode/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
@@ -703,6 +705,7 @@
 | [1559-cherry-pickup-ii](https://github.com/ashish-0280/LeetCode/tree/master/1559-cherry-pickup-ii) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/ashish-0280/LeetCode/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/ashish-0280/LeetCode/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
+| [1669-minimum-cost-to-cut-a-stick](https://github.com/ashish-0280/LeetCode/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/ashish-0280/LeetCode/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
 | [2022-maximum-alternating-subsequence-sum](https://github.com/ashish-0280/LeetCode/tree/master/2022-maximum-alternating-subsequence-sum) |
 | [2061-painting-a-grid-with-three-different-colors](https://github.com/ashish-0280/LeetCode/tree/master/2061-painting-a-grid-with-three-different-colors) |
