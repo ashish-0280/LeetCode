@@ -801,6 +801,7 @@
 | [0606-construct-string-from-binary-tree](https://github.com/ashish-0280/LeetCode/tree/master/0606-construct-string-from-binary-tree) |
 | [0695-max-area-of-island](https://github.com/ashish-0280/LeetCode/tree/master/0695-max-area-of-island) |
 | [0721-accounts-merge](https://github.com/ashish-0280/LeetCode/tree/master/0721-accounts-merge) |
+| [0744-network-delay-time](https://github.com/ashish-0280/LeetCode/tree/master/0744-network-delay-time) |
 | [0801-is-graph-bipartite](https://github.com/ashish-0280/LeetCode/tree/master/0801-is-graph-bipartite) |
 | [0813-all-paths-from-source-to-target](https://github.com/ashish-0280/LeetCode/tree/master/0813-all-paths-from-source-to-target) |
 | [0820-find-eventual-safe-states](https://github.com/ashish-0280/LeetCode/tree/master/0820-find-eventual-safe-states) |
@@ -843,6 +844,7 @@
 | [0547-number-of-provinces](https://github.com/ashish-0280/LeetCode/tree/master/0547-number-of-provinces) |
 | [0695-max-area-of-island](https://github.com/ashish-0280/LeetCode/tree/master/0695-max-area-of-island) |
 | [0721-accounts-merge](https://github.com/ashish-0280/LeetCode/tree/master/0721-accounts-merge) |
+| [0744-network-delay-time](https://github.com/ashish-0280/LeetCode/tree/master/0744-network-delay-time) |
 | [0801-is-graph-bipartite](https://github.com/ashish-0280/LeetCode/tree/master/0801-is-graph-bipartite) |
 | [0813-all-paths-from-source-to-target](https://github.com/ashish-0280/LeetCode/tree/master/0813-all-paths-from-source-to-target) |
 | [0820-find-eventual-safe-states](https://github.com/ashish-0280/LeetCode/tree/master/0820-find-eventual-safe-states) |
@@ -940,6 +942,7 @@
 | [0239-sliding-window-maximum](https://github.com/ashish-0280/LeetCode/tree/master/0239-sliding-window-maximum) |
 | [0347-top-k-frequent-elements](https://github.com/ashish-0280/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/ashish-0280/LeetCode/tree/master/0451-sort-characters-by-frequency) |
+| [0744-network-delay-time](https://github.com/ashish-0280/LeetCode/tree/master/0744-network-delay-time) |
 | [2413-smallest-number-in-infinite-set](https://github.com/ashish-0280/LeetCode/tree/master/2413-smallest-number-in-infinite-set) |
 | [2434-design-a-number-container-system](https://github.com/ashish-0280/LeetCode/tree/master/2434-design-a-number-container-system) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/ashish-0280/LeetCode/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
@@ -988,6 +991,7 @@
 | [0207-course-schedule](https://github.com/ashish-0280/LeetCode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/ashish-0280/LeetCode/tree/master/0210-course-schedule-ii) |
 | [0547-number-of-provinces](https://github.com/ashish-0280/LeetCode/tree/master/0547-number-of-provinces) |
+| [0744-network-delay-time](https://github.com/ashish-0280/LeetCode/tree/master/0744-network-delay-time) |
 | [0801-is-graph-bipartite](https://github.com/ashish-0280/LeetCode/tree/master/0801-is-graph-bipartite) |
 | [0813-all-paths-from-source-to-target](https://github.com/ashish-0280/LeetCode/tree/master/0813-all-paths-from-source-to-target) |
 | [0820-find-eventual-safe-states](https://github.com/ashish-0280/LeetCode/tree/master/0820-find-eventual-safe-states) |
@@ -1175,6 +1179,7 @@
 ## Shortest Path
 |  |
 | ------- |
+| [0744-network-delay-time](https://github.com/ashish-0280/LeetCode/tree/master/0744-network-delay-time) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/ashish-0280/LeetCode/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 ## Binary Indexed Tree
 |  |
