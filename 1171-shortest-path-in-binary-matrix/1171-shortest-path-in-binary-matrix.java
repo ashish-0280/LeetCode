@@ -1,29 +1,28 @@
 class Solution {
     public int shortestPathBinaryMatrix(int[][] grid) {
-        int m = grid.length; int n = grid[0].length;
-        if(grid[0][0] == 1 || grid[m-1][n-1] == 1){
-            return -1;
-        }
-        boolean vis[][] = new boolean[m][n];
-        int directions[][] = {{1,0}, {0,1}, {1,1}, {-1,0}, {0,-1}, {-1,-1}, {1,-1}, {-1,1}};
+        int m = grid.length;
+        int n = grid[0].length;
+        if(grid[0][0] != 0 || grid[m-1][n-1] != 0) return -1;
+        if(m == 1 && n == 1) return 1;
         Queue <int[]> q = new LinkedList<>();
-        q.offer(new int[]{0,0});
-        vis[0][0] = true;
+        q.add(new int[]{0,0});
+        int dx[] = {0, 0, 1, -1, 1, -1, 1, -1};
+        int dy[] = {1, -1, 1, -1, 0, 0, -1, 1};
         int steps = 1;
-        int min = Integer.MAX_VALUE;
         while(!q.isEmpty()){
             int size = q.size();
-            for(int i=0; i<size; i++){
+            for(int k=0; k<size; k++){
                 int cell[] = q.poll();
-                int x = cell[0]; int y = cell[1];
-                if (x == m - 1 && y == n - 1) {
-                    return steps;
-                }
-                for(int dir[]: directions){
-                    int nx = x + dir[0]; int ny = y + dir[1];
-                    if(nx>=0 && ny>=0 && nx<m && ny<n && grid[nx][ny] == 0 && !vis[nx][ny]){
-                        vis[nx][ny] = true;
-                        q.offer(new int[]{nx, ny});
+                int row = cell[0]; int col = cell[1];
+                for(int i=0; i<8; i++){
+                    int x = row + dx[i];
+                    int y = col + dy[i];
+                    if(x == m-1 && y == n-1){
+                        return steps+1;
+                    }
+                    if(x>=0 && y>=0 && x<m && y<n && grid[x][y] == 0){
+                        grid[x][y] = 2;
+                        q.offer(new int[]{x, y});
                     }
                 }
             }
