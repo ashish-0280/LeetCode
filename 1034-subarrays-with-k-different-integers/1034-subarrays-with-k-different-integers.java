@@ -3,28 +3,27 @@ class Solution {
         return atMostK(nums, k) - atMostK(nums, k - 1);
     }
 
-    private int atMostK(int[] nums, int k) {
+    public int atMostK(int nums[], int k){
         int n = nums.length;
-        int i = 0, res = 0;
-        Map<Integer, Integer> freq = new HashMap<>();
-
-        for (int j = 0; j < n; j++) {
-            freq.put(nums[j], freq.getOrDefault(nums[j], 0) + 1);
-            if (freq.get(nums[j]) == 1) {
-                k--;
-            }
-
-            while (k < 0) {
-                freq.put(nums[i], freq.get(nums[i]) - 1);
-                if (freq.get(nums[i]) == 0) {
-                    k++;
+        int cnt = 0;
+        int i=0; int j=0;
+        HashMap<Integer, Integer> map = new HashMap<>();
+        while(j<n){
+            int num = nums[j];
+            map.put(num, map.getOrDefault(num, 0)+1);
+            while(map.size() > k){
+                int x = nums[i];
+                if(map.containsKey(x)){
+                    map.put(x, map.get(x)-1);
+                    if(map.get(x) == 0){
+                        map.remove(x);
+                    }
                 }
                 i++;
             }
-
-            res += j - i + 1;
+            cnt += j-i+1;
+            j++;
         }
-
-        return res;
+        return cnt;
     }
 }
