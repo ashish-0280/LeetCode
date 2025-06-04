@@ -933,6 +933,7 @@
 | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/ashish-0280/LeetCode/tree/master/0021-merge-two-sorted-lists) |
 | [0023-merge-k-sorted-lists](https://github.com/ashish-0280/LeetCode/tree/master/0023-merge-k-sorted-lists) |
+| [0206-reverse-linked-list](https://github.com/ashish-0280/LeetCode/tree/master/0206-reverse-linked-list) |
 | [0328-odd-even-linked-list](https://github.com/ashish-0280/LeetCode/tree/master/0328-odd-even-linked-list) |
 | [0432-all-oone-data-structure](https://github.com/ashish-0280/LeetCode/tree/master/0432-all-oone-data-structure) |
 | [0725-split-linked-list-in-parts](https://github.com/ashish-0280/LeetCode/tree/master/0725-split-linked-list-in-parts) |
@@ -947,6 +948,7 @@
 | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/ashish-0280/LeetCode/tree/master/0021-merge-two-sorted-lists) |
 | [0060-permutation-sequence](https://github.com/ashish-0280/LeetCode/tree/master/0060-permutation-sequence) |
+| [0206-reverse-linked-list](https://github.com/ashish-0280/LeetCode/tree/master/0206-reverse-linked-list) |
 | [0231-power-of-two](https://github.com/ashish-0280/LeetCode/tree/master/0231-power-of-two) |
 | [0233-number-of-digit-one](https://github.com/ashish-0280/LeetCode/tree/master/0233-number-of-digit-one) |
 | [0241-different-ways-to-add-parentheses](https://github.com/ashish-0280/LeetCode/tree/master/0241-different-ways-to-add-parentheses) |
