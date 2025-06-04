@@ -50,6 +50,7 @@
 | [0542-01-matrix](https://github.com/ashish-0280/LeetCode/tree/master/0542-01-matrix) |
 | [0560-subarray-sum-equals-k](https://github.com/ashish-0280/LeetCode/tree/master/0560-subarray-sum-equals-k) |
 | [0605-can-place-flowers](https://github.com/ashish-0280/LeetCode/tree/master/0605-can-place-flowers) |
+| [0621-task-scheduler](https://github.com/ashish-0280/LeetCode/tree/master/0621-task-scheduler) |
 | [0643-maximum-average-subarray-i](https://github.com/ashish-0280/LeetCode/tree/master/0643-maximum-average-subarray-i) |
 | [0646-maximum-length-of-pair-chain](https://github.com/ashish-0280/LeetCode/tree/master/0646-maximum-length-of-pair-chain) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/ashish-0280/LeetCode/tree/master/0673-number-of-longest-increasing-subsequence) |
@@ -213,6 +214,7 @@
 | [0523-continuous-subarray-sum](https://github.com/ashish-0280/LeetCode/tree/master/0523-continuous-subarray-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/ashish-0280/LeetCode/tree/master/0560-subarray-sum-equals-k) |
 | [0567-permutation-in-string](https://github.com/ashish-0280/LeetCode/tree/master/0567-permutation-in-string) |
+| [0621-task-scheduler](https://github.com/ashish-0280/LeetCode/tree/master/0621-task-scheduler) |
 | [0721-accounts-merge](https://github.com/ashish-0280/LeetCode/tree/master/0721-accounts-merge) |
 | [0768-partition-labels](https://github.com/ashish-0280/LeetCode/tree/master/0768-partition-labels) |
 | [0797-rabbits-in-forest](https://github.com/ashish-0280/LeetCode/tree/master/0797-rabbits-in-forest) |
@@ -363,6 +365,7 @@
 | [0229-majority-element-ii](https://github.com/ashish-0280/LeetCode/tree/master/0229-majority-element-ii) |
 | [0347-top-k-frequent-elements](https://github.com/ashish-0280/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/ashish-0280/LeetCode/tree/master/0451-sort-characters-by-frequency) |
+| [0621-task-scheduler](https://github.com/ashish-0280/LeetCode/tree/master/0621-task-scheduler) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/ashish-0280/LeetCode/tree/master/0920-uncommon-words-from-two-sentences) |
 | [1034-subarrays-with-k-different-integers](https://github.com/ashish-0280/LeetCode/tree/master/1034-subarrays-with-k-different-integers) |
 | [1160-letter-tile-possibilities](https://github.com/ashish-0280/LeetCode/tree/master/1160-letter-tile-possibilities) |
@@ -498,6 +501,7 @@
 | [0179-largest-number](https://github.com/ashish-0280/LeetCode/tree/master/0179-largest-number) |
 | [0334-increasing-triplet-subsequence](https://github.com/ashish-0280/LeetCode/tree/master/0334-increasing-triplet-subsequence) |
 | [0605-can-place-flowers](https://github.com/ashish-0280/LeetCode/tree/master/0605-can-place-flowers) |
+| [0621-task-scheduler](https://github.com/ashish-0280/LeetCode/tree/master/0621-task-scheduler) |
 | [0646-maximum-length-of-pair-chain](https://github.com/ashish-0280/LeetCode/tree/master/0646-maximum-length-of-pair-chain) |
 | [0649-dota2-senate](https://github.com/ashish-0280/LeetCode/tree/master/0649-dota2-senate) |
 | [0768-partition-labels](https://github.com/ashish-0280/LeetCode/tree/master/0768-partition-labels) |
@@ -553,6 +557,7 @@
 | [0368-largest-divisible-subset](https://github.com/ashish-0280/LeetCode/tree/master/0368-largest-divisible-subset) |
 | [0451-sort-characters-by-frequency](https://github.com/ashish-0280/LeetCode/tree/master/0451-sort-characters-by-frequency) |
 | [0539-minimum-time-difference](https://github.com/ashish-0280/LeetCode/tree/master/0539-minimum-time-difference) |
+| [0621-task-scheduler](https://github.com/ashish-0280/LeetCode/tree/master/0621-task-scheduler) |
 | [0646-maximum-length-of-pair-chain](https://github.com/ashish-0280/LeetCode/tree/master/0646-maximum-length-of-pair-chain) |
 | [0721-accounts-merge](https://github.com/ashish-0280/LeetCode/tree/master/0721-accounts-merge) |
 | [0876-hand-of-straights](https://github.com/ashish-0280/LeetCode/tree/master/0876-hand-of-straights) |
@@ -958,6 +963,7 @@
 | [0239-sliding-window-maximum](https://github.com/ashish-0280/LeetCode/tree/master/0239-sliding-window-maximum) |
 | [0347-top-k-frequent-elements](https://github.com/ashish-0280/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/ashish-0280/LeetCode/tree/master/0451-sort-characters-by-frequency) |
+| [0621-task-scheduler](https://github.com/ashish-0280/LeetCode/tree/master/0621-task-scheduler) |
 | [0744-network-delay-time](https://github.com/ashish-0280/LeetCode/tree/master/0744-network-delay-time) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/ashish-0280/LeetCode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1753-path-with-minimum-effort](https://github.com/ashish-0280/LeetCode/tree/master/1753-path-with-minimum-effort) |
