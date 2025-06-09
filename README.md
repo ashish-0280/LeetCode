@@ -394,6 +394,7 @@
 | ------- |
 | [0002-add-two-numbers](https://github.com/ashish-0280/LeetCode/tree/master/0002-add-two-numbers) |
 | [0013-roman-to-integer](https://github.com/ashish-0280/LeetCode/tree/master/0013-roman-to-integer) |
+| [0029-divide-two-integers](https://github.com/ashish-0280/LeetCode/tree/master/0029-divide-two-integers) |
 | [0060-permutation-sequence](https://github.com/ashish-0280/LeetCode/tree/master/0060-permutation-sequence) |
 | [0062-unique-paths](https://github.com/ashish-0280/LeetCode/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/ashish-0280/LeetCode/tree/master/0070-climbing-stairs) |
@@ -1134,6 +1135,7 @@
 ## Bit Manipulation
 |  |
 | ------- |
+| [0029-divide-two-integers](https://github.com/ashish-0280/LeetCode/tree/master/0029-divide-two-integers) |
 | [0078-subsets](https://github.com/ashish-0280/LeetCode/tree/master/0078-subsets) |
 | [0089-gray-code](https://github.com/ashish-0280/LeetCode/tree/master/0089-gray-code) |
 | [0090-subsets-ii](https://github.com/ashish-0280/LeetCode/tree/master/0090-subsets-ii) |
