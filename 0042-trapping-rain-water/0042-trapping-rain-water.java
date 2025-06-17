@@ -1,26 +1,22 @@
 class Solution {
     public int trap(int[] height) {
+        int arr[] = height;
+        int leftMax[] = new int[arr.length];
+        int rightMax[] = new int[arr.length];
+        leftMax[0] = arr[0]; rightMax[arr.length-1] = arr[arr.length-1];
+        for(int i=1; i<arr.length; i++){
+            leftMax[i] = Math.max(leftMax[i-1], arr[i]);
+        }
+        for(int i=arr.length-2; i>=0; i--){
+            rightMax[i] = Math.max(rightMax[i+1], arr[i]);
+        }
+        leftMax[0] = 0; rightMax[arr.length-1] = 0;
         int totalWater = 0;
-        int a[] = new int[height.length];
-        int b[] = new int[height.length];
-        solve(height, a, b);
-        for(int i=0; i<height.length; i++){
-            int ht = Math.min(a[i], b[i])-height[i];
-            totalWater += ht;
+        for(int i=0; i<arr.length; i++){
+            int ht = Math.min(leftMax[i], rightMax[i]);
+            if(ht <= arr[i]) continue;
+            totalWater += ht - arr[i];
         }
         return totalWater;
     }
-    public void solve(int[] height, int mxl[], int mxr[]){
-        int i=1;
-        int j=height.length-2;
-        mxl[0] = height[0];
-        mxr[j+1] = height[height.length-1];
-        while(i<height.length && j>=0){
-            mxl[i] = Math.max(mxl[i-1], height[i]);
-            mxr[j] = Math.max(mxr[j+1], height[j]);
-            i++;
-            j--;
-        }
-    }
-    
 }
