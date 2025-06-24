@@ -57,6 +57,7 @@
 | [0646-maximum-length-of-pair-chain](https://github.com/ashish-0280/LeetCode/tree/master/0646-maximum-length-of-pair-chain) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/ashish-0280/LeetCode/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0695-max-area-of-island](https://github.com/ashish-0280/LeetCode/tree/master/0695-max-area-of-island) |
+| [0698-partition-to-k-equal-sum-subsets](https://github.com/ashish-0280/LeetCode/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [0713-subarray-product-less-than-k](https://github.com/ashish-0280/LeetCode/tree/master/0713-subarray-product-less-than-k) |
 | [0721-accounts-merge](https://github.com/ashish-0280/LeetCode/tree/master/0721-accounts-merge) |
 | [0724-find-pivot-index](https://github.com/ashish-0280/LeetCode/tree/master/0724-find-pivot-index) |
@@ -721,6 +722,7 @@
 | [0600-non-negative-integers-without-consecutive-ones](https://github.com/ashish-0280/LeetCode/tree/master/0600-non-negative-integers-without-consecutive-ones) |
 | [0646-maximum-length-of-pair-chain](https://github.com/ashish-0280/LeetCode/tree/master/0646-maximum-length-of-pair-chain) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/ashish-0280/LeetCode/tree/master/0673-number-of-longest-increasing-subsequence) |
+| [0698-partition-to-k-equal-sum-subsets](https://github.com/ashish-0280/LeetCode/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/ashish-0280/LeetCode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0806-domino-and-tromino-tiling](https://github.com/ashish-0280/LeetCode/tree/master/0806-domino-and-tromino-tiling) |
 | [0868-push-dominoes](https://github.com/ashish-0280/LeetCode/tree/master/0868-push-dominoes) |
@@ -944,6 +946,7 @@
 | [0070-climbing-stairs](https://github.com/ashish-0280/LeetCode/tree/master/0070-climbing-stairs) |
 | [0139-word-break](https://github.com/ashish-0280/LeetCode/tree/master/0139-word-break) |
 | [0241-different-ways-to-add-parentheses](https://github.com/ashish-0280/LeetCode/tree/master/0241-different-ways-to-add-parentheses) |
+| [0698-partition-to-k-equal-sum-subsets](https://github.com/ashish-0280/LeetCode/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [1236-n-th-tribonacci-number](https://github.com/ashish-0280/LeetCode/tree/master/1236-n-th-tribonacci-number) |
 ## Linked List
 |  |
@@ -1093,6 +1096,7 @@
 | [0216-combination-sum-iii](https://github.com/ashish-0280/LeetCode/tree/master/0216-combination-sum-iii) |
 | [0357-count-numbers-with-unique-digits](https://github.com/ashish-0280/LeetCode/tree/master/0357-count-numbers-with-unique-digits) |
 | [0494-target-sum](https://github.com/ashish-0280/LeetCode/tree/master/0494-target-sum) |
+| [0698-partition-to-k-equal-sum-subsets](https://github.com/ashish-0280/LeetCode/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [0813-all-paths-from-source-to-target](https://github.com/ashish-0280/LeetCode/tree/master/0813-all-paths-from-source-to-target) |
 | [1007-numbers-with-same-consecutive-differences](https://github.com/ashish-0280/LeetCode/tree/master/1007-numbers-with-same-consecutive-differences) |
 | [1160-letter-tile-possibilities](https://github.com/ashish-0280/LeetCode/tree/master/1160-letter-tile-possibilities) |
@@ -1141,6 +1145,7 @@
 | [0090-subsets-ii](https://github.com/ashish-0280/LeetCode/tree/master/0090-subsets-ii) |
 | [0231-power-of-two](https://github.com/ashish-0280/LeetCode/tree/master/0231-power-of-two) |
 | [0338-counting-bits](https://github.com/ashish-0280/LeetCode/tree/master/0338-counting-bits) |
+| [0698-partition-to-k-equal-sum-subsets](https://github.com/ashish-0280/LeetCode/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [0795-k-th-symbol-in-grammar](https://github.com/ashish-0280/LeetCode/tree/master/0795-k-th-symbol-in-grammar) |
 | [1360-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/ashish-0280/LeetCode/tree/master/1360-maximum-length-of-a-concatenated-string-with-unique-characters) |
 | [1435-xor-queries-of-a-subarray](https://github.com/ashish-0280/LeetCode/tree/master/1435-xor-queries-of-a-subarray) |
@@ -1260,4 +1265,8 @@
 | [0023-merge-k-sorted-lists](https://github.com/ashish-0280/LeetCode/tree/master/0023-merge-k-sorted-lists) |
 | [0148-sort-list](https://github.com/ashish-0280/LeetCode/tree/master/0148-sort-list) |
 | [2280-count-good-triplets-in-an-array](https://github.com/ashish-0280/LeetCode/tree/master/2280-count-good-triplets-in-an-array) |
+## Bitmask
+|  |
+| ------- |
+| [0698-partition-to-k-equal-sum-subsets](https://github.com/ashish-0280/LeetCode/tree/master/0698-partition-to-k-equal-sum-subsets) |
 <!---LeetCode Topics End-->
