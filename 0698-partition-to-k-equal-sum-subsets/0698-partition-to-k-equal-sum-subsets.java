@@ -7,33 +7,23 @@ class Solution {
         if(sum % k != 0) return false;
         int target = sum/k;
         Arrays.sort(nums);
-        Boolean[] dp = new Boolean[1 << n]; // memoization
-        int[] subsetSum = new int[1 << n];  // current subset sum for each bitmask
-
-        return canPartition((1 << n) - 1, 0, nums, dp, subsetSum, target);
+        Boolean dp[] = new Boolean[1<<n];
+        return solve(nums, (1<<n)-1, 0, target, dp);   
     }
-
-    private boolean canPartition(int mask, int currSum, int[] nums, Boolean[] dp, int[] subsetSum, int target) {
-        if (mask == 0) return true; // all elements used
-
-        if (dp[mask] != null) return dp[mask];
-
-        int n = nums.length;
+    public boolean solve(int nums[], int mask, int currSum, int target, Boolean dp[]){
+        if(mask == 0) return true;
+        if(dp[mask] != null) return dp[mask];
         dp[mask] = false;
-
-        for (int i = 0; i < n; i++) {
-            int bit = 1 << i;
-            if ((mask & bit) != 0) { // if nums[i] is not used yet
-                int newSum = (currSum + nums[i]);
-                if (newSum > target) continue;
-
-                int newMask = mask ^ bit; // mark nums[i] as used
-                if (canPartition(newMask, newSum % target, nums, dp, subsetSum, target)) {
+        for(int i=0; i<nums.length; i++){
+            if((mask & (1<<i)) != 0){
+                int newSum = nums[i] + currSum;
+                if(newSum > target) continue;
+                int newMask = mask ^ (1<<i);
+                if(solve(nums, newMask, newSum%target, target, dp)){
                     return dp[mask] = true;
                 }
             }
         }
-
         return dp[mask];
     }
 }
