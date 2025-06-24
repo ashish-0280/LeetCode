@@ -1,61 +1,63 @@
 class Solution {
     public int[] findOrder(int numCourses, int[][] prerequisites) {
-        int n = numCourses;
-        List<List<Integer>> adj = new ArrayList<>();
-        for(int i=0; i<n; i++){
-            adj.add(new ArrayList<>());
+        int indegree[] = new int[numCourses];
+        List<List<Integer>> graph = new ArrayList<>();
+        for(int i=0; i<numCourses; i++){
+            graph.add(new ArrayList<>());
         }
-        for(int i=0; i<prerequisites.length; i++){
-            adj.get(prerequisites[i][1]).add(prerequisites[i][0]);
+        for(int arr[]: prerequisites){
+            graph.get(arr[0]).add(arr[1]);
+            indegree[arr[1]]++;
         }
-        
-        boolean vis1[] = new boolean[adj.size()];
-        boolean rec[] = new boolean[adj.size()];
-        for(int i=0; i<adj.size(); i++){
-            if(!vis1[i]){
-                if(cycle(adj, vis1, i, rec)){
-                    return new int[0];
+        if(isCycle(graph, numCourses)) return new int[0];
+        List<Integer> ans = new ArrayList<>();
+        Queue<Integer> q = new LinkedList<>();
+        for(int i=0; i<numCourses; i++){
+            if(indegree[i] == 0){
+                q.add(i);
+            }
+        }
+        while(!q.isEmpty()){
+            int curr = q.poll();
+            ans.add(curr);
+            for(int num: graph.get(curr)){
+                indegree[num]--;
+                if(indegree[num] == 0){
+                    q.add(num);
                 }
             }
         }
-        boolean vis[] = new boolean[adj.size()];
-        Stack <Integer> s = new Stack<>();
-        for(int i=0; i<adj.size(); i++){
-            if(!vis[i]){
-                dfs(adj, i, vis, s);
-            }
-        }
-        int arr[] = new int[s.size()];
+        Collections.reverse(ans);
+        int arr[] = new int[ans.size()];
         int i=0;
-        while(!s.isEmpty()){
-            arr[i] = s.pop();
+        for(int num: ans){
+            arr[i] = num;
             i++;
         }
         return arr;
     }
-    public static void dfs(List<List<Integer>> adj, int curr, boolean vis[], Stack<Integer> s){
-        vis[curr] = true;
-        for(int i=0; i<adj.get(curr).size(); i++){
-            int neighbour = adj.get(curr).get(i);
-            if(!vis[neighbour]){
-                vis[neighbour] = true;
-                dfs(adj, neighbour, vis, s);
-            } 
-        }
-        if(vis[curr]){
-            s.push(curr);
-        }
-    }
-    public boolean cycle(List<List<Integer>> adj, boolean vis[], int curr, boolean rec[]){
-        vis[curr] = true; rec[curr] = true;
-        for(int i=0; i<adj.get(curr).size(); i++){
-            int neighbour = adj.get(curr).get(i);
-            if(!vis[neighbour]){
-                if(cycle(adj, vis, neighbour, rec)){
+    public boolean isCycle(List<List<Integer>> graph, int n){
+        boolean rec[] = new boolean[n];
+        boolean vis[] = new boolean[n];
+        for(int i=0; i<n; i++){
+            if(!vis[i]){
+                if(dfs(graph, n, vis, rec, i)){
                     return true;
                 }
-            } else if(rec[neighbour]){
-                return true;
+            }
+        }
+        return false;
+    }
+    public boolean dfs(List<List<Integer>> graph, int n, boolean vis[], boolean rec[], int curr){
+        vis[curr] = true;
+        rec[curr] = true;
+        for(int neighbour: graph.get(curr)){
+            if(!vis[neighbour]){
+                if(dfs(graph, n, vis, rec, neighbour)){
+                    return true;
+                }
+            } else {
+                if(rec[neighbour]) return true;
             }
         }
         rec[curr] = false;
