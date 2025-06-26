@@ -789,6 +789,7 @@
 ## Tree
 |  |
 | ------- |
+| [0100-same-tree](https://github.com/ashish-0280/LeetCode/tree/master/0100-same-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/ashish-0280/LeetCode/tree/master/0102-binary-tree-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/ashish-0280/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/ashish-0280/LeetCode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
@@ -822,6 +823,7 @@
 |  |
 | ------- |
 | [0079-word-search](https://github.com/ashish-0280/LeetCode/tree/master/0079-word-search) |
+| [0100-same-tree](https://github.com/ashish-0280/LeetCode/tree/master/0100-same-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/ashish-0280/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/ashish-0280/LeetCode/tree/master/0112-path-sum) |
 | [0113-path-sum-ii](https://github.com/ashish-0280/LeetCode/tree/master/0113-path-sum-ii) |
@@ -873,6 +875,7 @@
 ## Breadth-First Search
 |  |
 | ------- |
+| [0100-same-tree](https://github.com/ashish-0280/LeetCode/tree/master/0100-same-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/ashish-0280/LeetCode/tree/master/0102-binary-tree-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/ashish-0280/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/ashish-0280/LeetCode/tree/master/0112-path-sum) |
@@ -920,6 +923,7 @@
 ## Binary Tree
 |  |
 | ------- |
+| [0100-same-tree](https://github.com/ashish-0280/LeetCode/tree/master/0100-same-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/ashish-0280/LeetCode/tree/master/0102-binary-tree-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/ashish-0280/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/ashish-0280/LeetCode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
