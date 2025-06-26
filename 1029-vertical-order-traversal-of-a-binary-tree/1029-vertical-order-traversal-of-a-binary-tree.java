@@ -18,10 +18,10 @@ class Solution {
     public List<List<Integer>> verticalTraversal(TreeNode root) {
         solve(root, 0, 0);
          Collections.sort(ls, (a, b) -> {
-            if (a[0] != b[0]) return a[0] - b[0];        
-            else if (a[1] != b[1]) return a[1] - b[1];   
-            else return a[2] - b[2];                     
-        });
+            if(a[0] != b[0]) return a[0]-b[0];
+            else if(a[1] != b[1]) return a[1]-b[1];
+            else return a[2]-b[2];
+         });
         List<List<Integer>> list = new ArrayList<>();
          int prevCol = Integer.MIN_VALUE;
         List<Integer> currList = new ArrayList<>();
