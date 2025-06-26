@@ -14,18 +14,27 @@
  * }
  */
 class Solution {
-    int max = Integer.MIN_VALUE;
+    int res = Integer.MIN_VALUE;
+
     public int maxPathSum(TreeNode root) {
-        Sum(root);
-        return max;
+        solve(root);
+        return res;
     }
-    public int Sum(TreeNode root) {
-        if(root == null){
-            return 0;
-        }
-        int sum1 = Math.max(0, Sum(root.left));
-        int sum2 = Math.max(0, Sum(root.right));
-        max = Math.max(max, sum1 + sum2 + root.val);
-        return Math.max(sum1, sum2) + root.val;
+
+    public int solve(TreeNode root) {
+        if (root == null) return 0;
+
+        // Recursively get max path from left and right
+        int left = Math.max(0, solve(root.left));   // ignore negative paths
+        int right = Math.max(0, solve(root.right));
+
+        // Possible max path **through** the root
+        int currentPath = left + right + root.val;
+
+        // Update the global max path if needed
+        res = Math.max(res, currentPath);
+
+        // Return the best path going **upwards**
+        return Math.max(left, right) + root.val;
     }
 }
