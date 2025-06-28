@@ -1,44 +1,48 @@
 class Solution {
+    int ans[] = new int[2];
     public int[] searchRange(int[] nums, int target) {
-        int ans[] = new int[2];
         ans[0] = -1; ans[1] = -1;
-        int low = 0; int high = nums.length-1;
-        while(low <= high){
-            int mid = (low + high)/2;
+        int i=0; int j=nums.length-1;
+        while(i<=j){
+            int mid = (i+j)/2;
             if(nums[mid] == target){
-                ans[0] = floor(nums, target);
-                ans[1] = ceil(nums, target);
+                ans[0] = findCeil(nums, target);
+                ans[1] = findFloor(nums, target);
                 return ans;
-            } else if(nums[mid] < target){
-                low = mid+1;
+            } else if(nums[mid] > target){
+                j = mid-1;
             } else {
-                high = mid-1;
+                i = mid+1;
             }
         }
         return ans;
     }
-    public int floor(int nums[], int target){
-        int low = 0; int high = nums.length-1;
-        while(low <= high){
-            int mid = (low+high)/2;
-            if(nums[mid] < target){
-                low = mid+1;
+    public int findFloor(int[] arr, int x) {
+        // write code here
+        int i=0; int j=arr.length-1;
+        while(i<=j){
+            int mid = (i+j)/2;
+            if(arr[mid] <= x){
+                i = mid+1;
             } else {
-                high = mid-1;
+                j= mid-1;
             }
         }
-        return low;
+        return j;
     }
-    public int ceil(int nums[], int target){
-        int low = 0; int high = nums.length-1;
-        while(low <= high){
-            int mid = (low+high)/2;
-            if(nums[mid] <= target){
-                low = mid+1;
+    public int findCeil(int[] arr, int x) {
+        // code here
+        int i=0; int j=arr.length-1;
+        while(i<=j){
+            int mid = (i+j)/2;
+            if(arr[mid] < x){
+                i = mid+1;
             } else {
-                high = mid-1;
+                j= mid-1;
             }
         }
-        return high;
+        if(i==arr.length) return -1;
+        
+        return i;
     }
 }
