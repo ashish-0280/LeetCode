@@ -6,9 +6,9 @@ class Solution {
             if(nums[mid] == target){
                 return mid;
             } else if(nums[mid] > target){
-                j=mid-1;
+                j = mid-1;
             } else {
-                i=mid+1;
+                i = mid+1;
             }
         }
         return -1;
