@@ -147,6 +147,7 @@
 | [2265-partition-array-according-to-given-pivot](https://github.com/ashish-0280/LeetCode/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2277-count-equal-and-divisible-pairs-in-an-array](https://github.com/ashish-0280/LeetCode/tree/master/2277-count-equal-and-divisible-pairs-in-an-array) |
 | [2280-count-good-triplets-in-an-array](https://github.com/ashish-0280/LeetCode/tree/master/2280-count-good-triplets-in-an-array) |
+| [2294-minimum-time-to-complete-trips](https://github.com/ashish-0280/LeetCode/tree/master/2294-minimum-time-to-complete-trips) |
 | [2308-divide-array-into-equal-pairs](https://github.com/ashish-0280/LeetCode/tree/master/2308-divide-array-into-equal-pairs) |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/ashish-0280/LeetCode/tree/master/2394-count-subarrays-with-score-less-than-k) |
 | [2411-spiral-matrix-iv](https://github.com/ashish-0280/LeetCode/tree/master/2411-spiral-matrix-iv) |
@@ -696,6 +697,7 @@
 | [2047-find-a-peak-element-ii](https://github.com/ashish-0280/LeetCode/tree/master/2047-find-a-peak-element-ii) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/ashish-0280/LeetCode/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2280-count-good-triplets-in-an-array](https://github.com/ashish-0280/LeetCode/tree/master/2280-count-good-triplets-in-an-array) |
+| [2294-minimum-time-to-complete-trips](https://github.com/ashish-0280/LeetCode/tree/master/2294-minimum-time-to-complete-trips) |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/ashish-0280/LeetCode/tree/master/2394-count-subarrays-with-score-less-than-k) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/ashish-0280/LeetCode/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 | [2665-minimum-time-to-repair-cars](https://github.com/ashish-0280/LeetCode/tree/master/2665-minimum-time-to-repair-cars) |
