@@ -28,6 +28,7 @@
 | [0130-surrounded-regions](https://github.com/ashish-0280/LeetCode/tree/master/0130-surrounded-regions) |
 | [0139-word-break](https://github.com/ashish-0280/LeetCode/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/ashish-0280/LeetCode/tree/master/0152-maximum-product-subarray) |
+| [0153-find-minimum-in-rotated-sorted-array](https://github.com/ashish-0280/LeetCode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/ashish-0280/LeetCode/tree/master/0162-find-peak-element) |
 | [0179-largest-number](https://github.com/ashish-0280/LeetCode/tree/master/0179-largest-number) |
 | [0198-house-robber](https://github.com/ashish-0280/LeetCode/tree/master/0198-house-robber) |
@@ -674,6 +675,7 @@
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/ashish-0280/LeetCode/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0035-search-insert-position](https://github.com/ashish-0280/LeetCode/tree/master/0035-search-insert-position) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/ashish-0280/LeetCode/tree/master/0081-search-in-rotated-sorted-array-ii) |
+| [0153-find-minimum-in-rotated-sorted-array](https://github.com/ashish-0280/LeetCode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/ashish-0280/LeetCode/tree/master/0162-find-peak-element) |
 | [0240-search-a-2d-matrix-ii](https://github.com/ashish-0280/LeetCode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0300-longest-increasing-subsequence](https://github.com/ashish-0280/LeetCode/tree/master/0300-longest-increasing-subsequence) |
