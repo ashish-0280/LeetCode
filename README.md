@@ -79,6 +79,7 @@
 | [0890-lemonade-change](https://github.com/ashish-0280/LeetCode/tree/master/0890-lemonade-change) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/ashish-0280/LeetCode/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [0906-walking-robot-simulation](https://github.com/ashish-0280/LeetCode/tree/master/0906-walking-robot-simulation) |
+| [0907-koko-eating-bananas](https://github.com/ashish-0280/LeetCode/tree/master/0907-koko-eating-bananas) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/ashish-0280/LeetCode/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [0938-numbers-at-most-n-given-digit-set](https://github.com/ashish-0280/LeetCode/tree/master/0938-numbers-at-most-n-given-digit-set) |
 | [0966-binary-subarrays-with-sum](https://github.com/ashish-0280/LeetCode/tree/master/0966-binary-subarrays-with-sum) |
@@ -686,6 +687,7 @@
 | [0731-my-calendar-ii](https://github.com/ashish-0280/LeetCode/tree/master/0731-my-calendar-ii) |
 | [0745-find-smallest-letter-greater-than-target](https://github.com/ashish-0280/LeetCode/tree/master/0745-find-smallest-letter-greater-than-target) |
 | [0792-binary-search](https://github.com/ashish-0280/LeetCode/tree/master/0792-binary-search) |
+| [0907-koko-eating-bananas](https://github.com/ashish-0280/LeetCode/tree/master/0907-koko-eating-bananas) |
 | [0923-super-egg-drop](https://github.com/ashish-0280/LeetCode/tree/master/0923-super-egg-drop) |
 | [0938-numbers-at-most-n-given-digit-set](https://github.com/ashish-0280/LeetCode/tree/master/0938-numbers-at-most-n-given-digit-set) |
 | [1046-max-consecutive-ones-iii](https://github.com/ashish-0280/LeetCode/tree/master/1046-max-consecutive-ones-iii) |
