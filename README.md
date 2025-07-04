@@ -454,6 +454,7 @@
 | [3321-type-of-triangle](https://github.com/ashish-0280/LeetCode/tree/master/3321-type-of-triangle) |
 | [3548-find-the-count-of-good-integers](https://github.com/ashish-0280/LeetCode/tree/master/3548-find-the-count-of-good-integers) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/ashish-0280/LeetCode/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
+| [3601-find-the-k-th-character-in-string-game-ii](https://github.com/ashish-0280/LeetCode/tree/master/3601-find-the-k-th-character-in-string-game-ii) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/ashish-0280/LeetCode/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/ashish-0280/LeetCode/tree/master/3630-total-characters-in-string-after-transformations-ii) |
 ## Design
@@ -1034,6 +1035,7 @@
 | [0394-decode-string](https://github.com/ashish-0280/LeetCode/tree/master/0394-decode-string) |
 | [0795-k-th-symbol-in-grammar](https://github.com/ashish-0280/LeetCode/tree/master/0795-k-th-symbol-in-grammar) |
 | [2050-count-good-numbers](https://github.com/ashish-0280/LeetCode/tree/master/2050-count-good-numbers) |
+| [3601-find-the-k-th-character-in-string-game-ii](https://github.com/ashish-0280/LeetCode/tree/master/3601-find-the-k-th-character-in-string-game-ii) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -1220,6 +1222,7 @@
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/ashish-0280/LeetCode/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 | [3348-minimum-cost-walk-in-weighted-graph](https://github.com/ashish-0280/LeetCode/tree/master/3348-minimum-cost-walk-in-weighted-graph) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/ashish-0280/LeetCode/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
+| [3601-find-the-k-th-character-in-string-game-ii](https://github.com/ashish-0280/LeetCode/tree/master/3601-find-the-k-th-character-in-string-game-ii) |
 ## Brainteaser
 |  |
 | ------- |
