@@ -224,6 +224,7 @@
 | [0076-minimum-window-substring](https://github.com/ashish-0280/LeetCode/tree/master/0076-minimum-window-substring) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/ashish-0280/LeetCode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0139-word-break](https://github.com/ashish-0280/LeetCode/tree/master/0139-word-break) |
+| [0146-lru-cache](https://github.com/ashish-0280/LeetCode/tree/master/0146-lru-cache) |
 | [0229-majority-element-ii](https://github.com/ashish-0280/LeetCode/tree/master/0229-majority-element-ii) |
 | [0347-top-k-frequent-elements](https://github.com/ashish-0280/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0424-longest-repeating-character-replacement](https://github.com/ashish-0280/LeetCode/tree/master/0424-longest-repeating-character-replacement) |
@@ -465,6 +466,7 @@
 ## Design
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/ashish-0280/LeetCode/tree/master/0146-lru-cache) |
 | [0432-all-oone-data-structure](https://github.com/ashish-0280/LeetCode/tree/master/0432-all-oone-data-structure) |
 | [0729-my-calendar-i](https://github.com/ashish-0280/LeetCode/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/ashish-0280/LeetCode/tree/master/0731-my-calendar-ii) |
@@ -1014,6 +1016,7 @@
 | [0002-add-two-numbers](https://github.com/ashish-0280/LeetCode/tree/master/0002-add-two-numbers) |
 | [0021-merge-two-sorted-lists](https://github.com/ashish-0280/LeetCode/tree/master/0021-merge-two-sorted-lists) |
 | [0023-merge-k-sorted-lists](https://github.com/ashish-0280/LeetCode/tree/master/0023-merge-k-sorted-lists) |
+| [0146-lru-cache](https://github.com/ashish-0280/LeetCode/tree/master/0146-lru-cache) |
 | [0148-sort-list](https://github.com/ashish-0280/LeetCode/tree/master/0148-sort-list) |
 | [0206-reverse-linked-list](https://github.com/ashish-0280/LeetCode/tree/master/0206-reverse-linked-list) |
 | [0328-odd-even-linked-list](https://github.com/ashish-0280/LeetCode/tree/master/0328-odd-even-linked-list) |
@@ -1266,6 +1269,7 @@
 ## Doubly-Linked List
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/ashish-0280/LeetCode/tree/master/0146-lru-cache) |
 | [0432-all-oone-data-structure](https://github.com/ashish-0280/LeetCode/tree/master/0432-all-oone-data-structure) |
 ## Monotonic Stack
 |  |
