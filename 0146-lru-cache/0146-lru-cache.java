@@ -7,15 +7,16 @@ class LRUCache {
             this.val = val;
         }
     }
-    int capacity;
-    Node head; Node tail;
+    int capacity; Node head; Node tail;
     Map<Integer, Node> map;
     public LRUCache(int capacity) {
         this.capacity = capacity;
         head = new Node(0, 0);
         tail = new Node(0, 0);
-        head.next = tail; tail.prev = head;
+        head.next = tail;
+        tail.prev = head;
         map = new HashMap<>();
+
     }
     
     public int get(int key) {
