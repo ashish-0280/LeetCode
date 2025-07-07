@@ -1,15 +1,14 @@
 class Solution {
     public int climbStairs(int n) {
-        int n1 = 1; int n2 = 2;
-        if(n==1 || n==2){
-            return n;
+        int ways[] = new int[n+1];
+        ways[0] = 1;
+        ways[1] = 1;
+        for(int i=2; i<=n; i++){
+            // if(ways[i] != 0){
+            //     continue;
+            // }
+            ways[i] = ways[i-1]+ways[i-2];
         }
-        int cnt = 3;
-        while(cnt != n+1){
-            int temp = n1+n2;
-            n1 = n2;
-            n2 = temp; cnt++;
-        }
-        return n2;
+        return ways[n];
     }
 }
