@@ -134,6 +134,7 @@
 | [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/ashish-0280/LeetCode/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
 | [1833-find-the-highest-altitude](https://github.com/ashish-0280/LeetCode/tree/master/1833-find-the-highest-altitude) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/ashish-0280/LeetCode/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
+| [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/ashish-0280/LeetCode/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/ashish-0280/LeetCode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [1906-maximize-score-after-n-operations](https://github.com/ashish-0280/LeetCode/tree/master/1906-maximize-score-after-n-operations) |
 | [1923-sentence-similarity-iii](https://github.com/ashish-0280/LeetCode/tree/master/1923-sentence-similarity-iii) |
@@ -615,6 +616,7 @@
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/ashish-0280/LeetCode/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [1777-determine-if-two-strings-are-close](https://github.com/ashish-0280/LeetCode/tree/master/1777-determine-if-two-strings-are-close) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/ashish-0280/LeetCode/tree/master/1798-max-number-of-k-sum-pairs) |
+| [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/ashish-0280/LeetCode/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/ashish-0280/LeetCode/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/ashish-0280/LeetCode/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2215-finding-3-digit-even-numbers](https://github.com/ashish-0280/LeetCode/tree/master/2215-finding-3-digit-even-numbers) |
@@ -718,6 +720,7 @@
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/ashish-0280/LeetCode/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1646-kth-missing-positive-number](https://github.com/ashish-0280/LeetCode/tree/master/1646-kth-missing-positive-number) |
 | [1753-path-with-minimum-effort](https://github.com/ashish-0280/LeetCode/tree/master/1753-path-with-minimum-effort) |
+| [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/ashish-0280/LeetCode/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/ashish-0280/LeetCode/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2047-find-a-peak-element-ii](https://github.com/ashish-0280/LeetCode/tree/master/2047-find-a-peak-element-ii) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/ashish-0280/LeetCode/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
@@ -789,6 +792,7 @@
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/ashish-0280/LeetCode/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/ashish-0280/LeetCode/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/ashish-0280/LeetCode/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
+| [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/ashish-0280/LeetCode/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
 | [1906-maximize-score-after-n-operations](https://github.com/ashish-0280/LeetCode/tree/master/1906-maximize-score-after-n-operations) |
 | [2022-maximum-alternating-subsequence-sum](https://github.com/ashish-0280/LeetCode/tree/master/2022-maximum-alternating-subsequence-sum) |
 | [2061-painting-a-grid-with-three-different-colors](https://github.com/ashish-0280/LeetCode/tree/master/2061-painting-a-grid-with-three-different-colors) |
