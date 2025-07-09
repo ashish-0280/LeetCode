@@ -8,7 +8,7 @@ class Solution {
         }
         gap[n] = eventTime - endTime[n-1];
         int window = k + 1;
-        if(window > gap.length){
+        if(k>=n){
             int total = 0;
             for(int i=0; i<startTime.length; i++){
                 total += endTime[i] - startTime[i];
