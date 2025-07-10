@@ -7,20 +7,13 @@ class Solution {
             int duration = endTime[0] - startTime[0];
             return eventTime - duration;
         }
-
-        // Sort intervals by start time
-        int[] start = Arrays.copyOf(startTime, n);
-        int[] end = Arrays.copyOf(endTime, n);
-        Arrays.sort(start);
-        Arrays.sort(end);
-
         // Build gap array
         int[] gap = new int[n + 1];
-        gap[0] = start[0];
+        gap[0] = startTime[0];
         for (int i = 1; i < n; i++) {
-            gap[i] = start[i] - end[i - 1];
+            gap[i] = startTime[i] - endTime[i - 1];
         }
-        gap[n] = eventTime - end[n - 1];
+        gap[n] = eventTime - endTime[n - 1];
 
         // Precompute suffix max array
         int[] suffixMax = new int[n + 2];
@@ -34,7 +27,7 @@ class Solution {
         int prefixMax = 0;
 
         for (int i = 0; i < n; i++) {
-            int duration = end[i] - start[i];
+            int duration = endTime[i] - startTime[i];
 
             // Remove meeting i → merge gaps i and i+1
             int mergedGap = gap[i] + gap[i + 1];
@@ -61,13 +54,7 @@ class Solution {
 
             prefixMax = Math.max(prefixMax, gap[i]);
         }
-
-        // Consider all gaps as standalone max gaps
-        for (int g : gap) {
-            maxFree = Math.max(maxFree, g);
-        }
-
         return maxFree;
-        
+
     }
 }
