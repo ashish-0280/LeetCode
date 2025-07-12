@@ -806,6 +806,7 @@
 | [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/ashish-0280/LeetCode/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
 | [1906-maximize-score-after-n-operations](https://github.com/ashish-0280/LeetCode/tree/master/1906-maximize-score-after-n-operations) |
 | [2022-maximum-alternating-subsequence-sum](https://github.com/ashish-0280/LeetCode/tree/master/2022-maximum-alternating-subsequence-sum) |
+| [2028-the-earliest-and-latest-rounds-where-players-compete](https://github.com/ashish-0280/LeetCode/tree/master/2028-the-earliest-and-latest-rounds-where-players-compete) |
 | [2061-painting-a-grid-with-three-different-colors](https://github.com/ashish-0280/LeetCode/tree/master/2061-painting-a-grid-with-three-different-colors) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/ashish-0280/LeetCode/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2262-solving-questions-with-brainpower](https://github.com/ashish-0280/LeetCode/tree/master/2262-solving-questions-with-brainpower) |
@@ -1034,6 +1035,7 @@
 | [0241-different-ways-to-add-parentheses](https://github.com/ashish-0280/LeetCode/tree/master/0241-different-ways-to-add-parentheses) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/ashish-0280/LeetCode/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [1236-n-th-tribonacci-number](https://github.com/ashish-0280/LeetCode/tree/master/1236-n-th-tribonacci-number) |
+| [2028-the-earliest-and-latest-rounds-where-players-compete](https://github.com/ashish-0280/LeetCode/tree/master/2028-the-earliest-and-latest-rounds-where-players-compete) |
 ## Linked List
 |  |
 | ------- |
