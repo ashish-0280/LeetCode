@@ -156,6 +156,7 @@
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/ashish-0280/LeetCode/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2262-solving-questions-with-brainpower](https://github.com/ashish-0280/LeetCode/tree/master/2262-solving-questions-with-brainpower) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/ashish-0280/LeetCode/tree/master/2265-partition-array-according-to-given-pivot) |
+| [2267-minimum-difference-in-sums-after-removal-of-elements](https://github.com/ashish-0280/LeetCode/tree/master/2267-minimum-difference-in-sums-after-removal-of-elements) |
 | [2277-count-equal-and-divisible-pairs-in-an-array](https://github.com/ashish-0280/LeetCode/tree/master/2277-count-equal-and-divisible-pairs-in-an-array) |
 | [2280-count-good-triplets-in-an-array](https://github.com/ashish-0280/LeetCode/tree/master/2280-count-good-triplets-in-an-array) |
 | [2294-minimum-time-to-complete-trips](https://github.com/ashish-0280/LeetCode/tree/master/2294-minimum-time-to-complete-trips) |
@@ -818,6 +819,7 @@
 | [2061-painting-a-grid-with-three-different-colors](https://github.com/ashish-0280/LeetCode/tree/master/2061-painting-a-grid-with-three-different-colors) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/ashish-0280/LeetCode/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2262-solving-questions-with-brainpower](https://github.com/ashish-0280/LeetCode/tree/master/2262-solving-questions-with-brainpower) |
+| [2267-minimum-difference-in-sums-after-removal-of-elements](https://github.com/ashish-0280/LeetCode/tree/master/2267-minimum-difference-in-sums-after-removal-of-elements) |
 | [2755-extra-characters-in-a-string](https://github.com/ashish-0280/LeetCode/tree/master/2755-extra-characters-in-a-string) |
 | [3142-longest-unequal-adjacent-groups-subsequence-ii](https://github.com/ashish-0280/LeetCode/tree/master/3142-longest-unequal-adjacent-groups-subsequence-ii) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/ashish-0280/LeetCode/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
@@ -1107,6 +1109,7 @@
 | [0803-cheapest-flights-within-k-stops](https://github.com/ashish-0280/LeetCode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/ashish-0280/LeetCode/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1753-path-with-minimum-effort](https://github.com/ashish-0280/LeetCode/tree/master/1753-path-with-minimum-effort) |
+| [2267-minimum-difference-in-sums-after-removal-of-elements](https://github.com/ashish-0280/LeetCode/tree/master/2267-minimum-difference-in-sums-after-removal-of-elements) |
 | [2413-smallest-number-in-infinite-set](https://github.com/ashish-0280/LeetCode/tree/master/2413-smallest-number-in-infinite-set) |
 | [2434-design-a-number-container-system](https://github.com/ashish-0280/LeetCode/tree/master/2434-design-a-number-container-system) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/ashish-0280/LeetCode/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
