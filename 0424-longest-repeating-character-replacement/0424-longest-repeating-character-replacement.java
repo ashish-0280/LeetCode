@@ -9,7 +9,7 @@ class Solution {
             map.put(s.charAt(j), map.getOrDefault(s.charAt(j),0)+1);
             maxfreq = Math.max(maxfreq, map.get(s.charAt(j)));
 
-            if((j-i+1) - maxfreq > k){
+            while((j-i+1) - maxfreq > k){
                 char left = s.charAt(i);
                 map.put(left, map.get(left)-1);
                 i++;
