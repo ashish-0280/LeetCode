@@ -4,16 +4,18 @@ class Solution {
         int j = 0;
         int maxfreq = 0;
         HashMap <Character, Integer> map = new HashMap<>();
-        for(int i=0; i<s.length(); i++){
-            map.put(s.charAt(i), map.getOrDefault(s.charAt(i),0)+1);
-            maxfreq = Math.max(maxfreq, map.get(s.charAt(i)));
+        int i=0;
+        while(j<s.length()){
+            map.put(s.charAt(j), map.getOrDefault(s.charAt(j),0)+1);
+            maxfreq = Math.max(maxfreq, map.get(s.charAt(j)));
 
-            if((i-j+1) - maxfreq > k){
-                char left = s.charAt(j);
+            if((j-i+1) - maxfreq > k){
+                char left = s.charAt(i);
                 map.put(left, map.get(left)-1);
-                j++;
+                i++;
             }
-            max = Math.max(max, i-j+1);
+            max = Math.max(max, j-i+1);
+            j++;
         }
         return max==Integer.MIN_VALUE ? 0 : max;
     }
