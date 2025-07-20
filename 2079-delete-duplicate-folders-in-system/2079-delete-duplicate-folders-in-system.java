@@ -14,7 +14,6 @@ class Solution {
     public List<List<String>> deleteDuplicateFolder(List<List<String>> paths) {
         TrieNode root = new TrieNode("");
 
-        // Step 1: Trie banana
         for (List<String> path : paths) {
             TrieNode curr = root;
             for (String folder : path) {
@@ -23,10 +22,8 @@ class Solution {
             }
         }
 
-        // Step 2: Serialize har node ka subtree
-        serialize(root);
+        solve(root);
 
-        // Step 3: Duplicate nodes ko delete mark karo
         for (List<TrieNode> group : map.values()) {
             if (group.size() > 1) {
                 for (TrieNode node : group) {
@@ -35,23 +32,22 @@ class Solution {
             }
         }
 
-        // Step 4: Final DFS to collect remaining folders
         List<List<String>> result = new ArrayList<>();
         collectPaths(root, new ArrayList<>(), result);
         return result;
     }
 
-    private String serialize(TrieNode node) {
+    public String solve(TrieNode node) {
         if (node.children.isEmpty()) return "";
 
-        List<String> serializedChildren = new ArrayList<>();
+        List<String> list = new ArrayList<>();
         for (TrieNode child : node.children.values()) {
-            String serialized = serialize(child);  // Recursively call
-            serializedChildren.add("(" + child.name + serialized + ")");
+            String str = solve(child);  
+            list.add("(" + child.name + str + ")");
         }
 
-        Collections.sort(serializedChildren);  // Important for unordered comparison
-        String structure = String.join("", serializedChildren);
+        Collections.sort(list);
+        String structure = String.join("", list);
 
         if (!node.name.equals("")) {
             map.computeIfAbsent(structure, k -> new ArrayList<>()).add(node);
@@ -72,6 +68,6 @@ class Solution {
             collectPaths(child, path, result);
         }
 
-        if (!path.isEmpty()) path.remove(path.size() - 1); // Backtrack
+        if (!path.isEmpty()) path.remove(path.size() - 1);
     }
 }
