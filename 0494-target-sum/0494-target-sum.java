@@ -27,6 +27,9 @@ class Solution {
     // Recursive function with memoization
     private int countSubsets(int[] nums, int index, int sum) {
         // Base case: if we’ve gone through all elements
+        if(sum < 0){
+            return 0;
+        }
         if (index == nums.length) {
             return sum == 0 ? 1 : 0;
         }
@@ -40,10 +43,8 @@ class Solution {
         int notTake = countSubsets(nums, index + 1, sum);
 
         // Option 2: Include current element (only if it's not more than sum)
-        int take = 0;
-        if (nums[index] <= sum) {
-            take = countSubsets(nums, index + 1, sum - nums[index]);
-        }
+        int take = countSubsets(nums, index + 1, sum - nums[index]);
+        
 
         // Save result and return
         return dp[index][sum] = take + notTake;
