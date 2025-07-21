@@ -370,6 +370,7 @@
 | [1146-greatest-common-divisor-of-strings](https://github.com/ashish-0280/LeetCode/tree/master/1146-greatest-common-divisor-of-strings) |
 | [1160-letter-tile-possibilities](https://github.com/ashish-0280/LeetCode/tree/master/1160-letter-tile-possibilities) |
 | [1170-shortest-common-supersequence](https://github.com/ashish-0280/LeetCode/tree/master/1170-shortest-common-supersequence) |
+| [1302-delete-characters-to-make-fancy-string](https://github.com/ashish-0280/LeetCode/tree/master/1302-delete-characters-to-make-fancy-string) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/ashish-0280/LeetCode/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1360-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/ashish-0280/LeetCode/tree/master/1360-maximum-length-of-a-concatenated-string-with-unique-characters) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/ashish-0280/LeetCode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
