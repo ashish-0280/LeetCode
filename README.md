@@ -165,6 +165,7 @@
 | [2294-minimum-time-to-complete-trips](https://github.com/ashish-0280/LeetCode/tree/master/2294-minimum-time-to-complete-trips) |
 | [2308-divide-array-into-equal-pairs](https://github.com/ashish-0280/LeetCode/tree/master/2308-divide-array-into-equal-pairs) |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/ashish-0280/LeetCode/tree/master/2394-count-subarrays-with-score-less-than-k) |
+| [2400-minimum-score-after-removals-on-a-tree](https://github.com/ashish-0280/LeetCode/tree/master/2400-minimum-score-after-removals-on-a-tree) |
 | [2411-spiral-matrix-iv](https://github.com/ashish-0280/LeetCode/tree/master/2411-spiral-matrix-iv) |
 | [2428-equal-row-and-column-pairs](https://github.com/ashish-0280/LeetCode/tree/master/2428-equal-row-and-column-pairs) |
 | [2448-count-number-of-bad-pairs](https://github.com/ashish-0280/LeetCode/tree/master/2448-count-number-of-bad-pairs) |
@@ -906,6 +907,7 @@
 | [1484-linked-list-in-binary-tree](https://github.com/ashish-0280/LeetCode/tree/master/1484-linked-list-in-binary-tree) |
 | [1492-time-needed-to-inform-all-employees](https://github.com/ashish-0280/LeetCode/tree/master/1492-time-needed-to-inform-all-employees) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/ashish-0280/LeetCode/tree/master/1544-count-good-nodes-in-binary-tree) |
+| [2400-minimum-score-after-removals-on-a-tree](https://github.com/ashish-0280/LeetCode/tree/master/2400-minimum-score-after-removals-on-a-tree) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/ashish-0280/LeetCode/tree/master/2564-most-profitable-path-in-a-tree) |
 ## Depth-First Search
 |  |
@@ -962,6 +964,7 @@
 | [1544-count-good-nodes-in-binary-tree](https://github.com/ashish-0280/LeetCode/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [1753-path-with-minimum-effort](https://github.com/ashish-0280/LeetCode/tree/master/1753-path-with-minimum-effort) |
 | [2121-find-if-path-exists-in-graph](https://github.com/ashish-0280/LeetCode/tree/master/2121-find-if-path-exists-in-graph) |
+| [2400-minimum-score-after-removals-on-a-tree](https://github.com/ashish-0280/LeetCode/tree/master/2400-minimum-score-after-removals-on-a-tree) |
 | [2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://github.com/ashish-0280/LeetCode/tree/master/2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/ashish-0280/LeetCode/tree/master/2564-most-profitable-path-in-a-tree) |
 | [2793-count-the-number-of-complete-components](https://github.com/ashish-0280/LeetCode/tree/master/2793-count-the-number-of-complete-components) |
@@ -1281,6 +1284,7 @@
 | [1993-sum-of-all-subset-xor-totals](https://github.com/ashish-0280/LeetCode/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2308-divide-array-into-equal-pairs](https://github.com/ashish-0280/LeetCode/tree/master/2308-divide-array-into-equal-pairs) |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/ashish-0280/LeetCode/tree/master/2323-minimum-bit-flips-to-convert-number) |
+| [2400-minimum-score-after-removals-on-a-tree](https://github.com/ashish-0280/LeetCode/tree/master/2400-minimum-score-after-removals-on-a-tree) |
 | [2478-longest-nice-subarray](https://github.com/ashish-0280/LeetCode/tree/master/2478-longest-nice-subarray) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/ashish-0280/LeetCode/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 | [3348-minimum-cost-walk-in-weighted-graph](https://github.com/ashish-0280/LeetCode/tree/master/3348-minimum-cost-walk-in-weighted-graph) |
