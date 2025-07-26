@@ -47,12 +47,15 @@ class Solution {
                 base += (long)(minR - i);
 
                 if (cnt[minR] == 1) {
-                    int ki = first.k;
-                    // create dummy pair to simulate upper_bound(minR, m)
-                    Pair dummy = new Pair(minR, m);
-                    SortedSet<Pair> tail = active.tailSet(dummy, false);
-                    int secondMinR = tail.isEmpty() ? (n + 1) : tail.first().R;
-                    improvement[ki] += (long)(secondMinR - minR);
+                    int conflictIndex = first.k;
+
+                    // Find the next smallest R value in active set after minR
+                    Pair upperBound = new Pair(minR, Integer.MAX_VALUE);
+                    Pair nextConflict = active.higher(upperBound);
+
+                    int nextMinR = (nextConflict == null) ? (n + 1) : nextConflict.R;
+
+                    improvement[conflictIndex] += (long)(nextMinR - minR);
                 }
             }
         }
