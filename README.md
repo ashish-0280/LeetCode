@@ -15,6 +15,7 @@
 | [0042-trapping-rain-water](https://github.com/ashish-0280/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0046-permutations](https://github.com/ashish-0280/LeetCode/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/ashish-0280/LeetCode/tree/master/0047-permutations-ii) |
+| [0049-group-anagrams](https://github.com/ashish-0280/LeetCode/tree/master/0049-group-anagrams) |
 | [0051-n-queens](https://github.com/ashish-0280/LeetCode/tree/master/0051-n-queens) |
 | [0053-maximum-subarray](https://github.com/ashish-0280/LeetCode/tree/master/0053-maximum-subarray) |
 | [0064-minimum-path-sum](https://github.com/ashish-0280/LeetCode/tree/master/0064-minimum-path-sum) |
@@ -239,6 +240,7 @@
 | [0013-roman-to-integer](https://github.com/ashish-0280/LeetCode/tree/master/0013-roman-to-integer) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/ashish-0280/LeetCode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0037-sudoku-solver](https://github.com/ashish-0280/LeetCode/tree/master/0037-sudoku-solver) |
+| [0049-group-anagrams](https://github.com/ashish-0280/LeetCode/tree/master/0049-group-anagrams) |
 | [0073-set-matrix-zeroes](https://github.com/ashish-0280/LeetCode/tree/master/0073-set-matrix-zeroes) |
 | [0076-minimum-window-substring](https://github.com/ashish-0280/LeetCode/tree/master/0076-minimum-window-substring) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/ashish-0280/LeetCode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
@@ -337,6 +339,7 @@
 | [0022-generate-parentheses](https://github.com/ashish-0280/LeetCode/tree/master/0022-generate-parentheses) |
 | [0032-longest-valid-parentheses](https://github.com/ashish-0280/LeetCode/tree/master/0032-longest-valid-parentheses) |
 | [0038-count-and-say](https://github.com/ashish-0280/LeetCode/tree/master/0038-count-and-say) |
+| [0049-group-anagrams](https://github.com/ashish-0280/LeetCode/tree/master/0049-group-anagrams) |
 | [0072-edit-distance](https://github.com/ashish-0280/LeetCode/tree/master/0072-edit-distance) |
 | [0076-minimum-window-substring](https://github.com/ashish-0280/LeetCode/tree/master/0076-minimum-window-substring) |
 | [0079-word-search](https://github.com/ashish-0280/LeetCode/tree/master/0079-word-search) |
@@ -628,6 +631,7 @@
 |  |
 | ------- |
 | [0047-permutations-ii](https://github.com/ashish-0280/LeetCode/tree/master/0047-permutations-ii) |
+| [0049-group-anagrams](https://github.com/ashish-0280/LeetCode/tree/master/0049-group-anagrams) |
 | [0075-sort-colors](https://github.com/ashish-0280/LeetCode/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/ashish-0280/LeetCode/tree/master/0088-merge-sorted-array) |
 | [0148-sort-list](https://github.com/ashish-0280/LeetCode/tree/master/0148-sort-list) |
