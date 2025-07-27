@@ -164,6 +164,7 @@
 | [2280-count-good-triplets-in-an-array](https://github.com/ashish-0280/LeetCode/tree/master/2280-count-good-triplets-in-an-array) |
 | [2294-minimum-time-to-complete-trips](https://github.com/ashish-0280/LeetCode/tree/master/2294-minimum-time-to-complete-trips) |
 | [2308-divide-array-into-equal-pairs](https://github.com/ashish-0280/LeetCode/tree/master/2308-divide-array-into-equal-pairs) |
+| [2316-count-hills-and-valleys-in-an-array](https://github.com/ashish-0280/LeetCode/tree/master/2316-count-hills-and-valleys-in-an-array) |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/ashish-0280/LeetCode/tree/master/2394-count-subarrays-with-score-less-than-k) |
 | [2400-minimum-score-after-removals-on-a-tree](https://github.com/ashish-0280/LeetCode/tree/master/2400-minimum-score-after-removals-on-a-tree) |
 | [2411-spiral-matrix-iv](https://github.com/ashish-0280/LeetCode/tree/master/2411-spiral-matrix-iv) |
