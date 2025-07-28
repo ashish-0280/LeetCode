@@ -1,38 +1,34 @@
 class Solution {
     public long numOfSubsequences(String s) {
         int n = s.length();
-        int[] prefL = new int[n];
-        int[] suffT = new int[n];
+        int pre[] = new int[n];
+        int suff[] = new int[n];
 
-        // Build prefix sum for 'L'
-        for (int i = 0; i < n; i++) {
-            if (i > 0) prefL[i] = prefL[i - 1];
-            if (s.charAt(i) == 'L') prefL[i]++;
-        }
-
-        // Build suffix sum for 'T'
-        for (int i = n - 1; i >= 0; i--) {
-            if (i + 1 < n) suffT[i] = suffT[i + 1];
-            if (s.charAt(i) == 'T') suffT[i]++;
-        }
-
-        long ans = 0, best = 0, ansL = 0, ansT = 0;
-
-        for (int i = 0; i < n; i++) {
-            long p = (i - 1 >= 0) ? prefL[i - 1] : 0;
-            long sf = (i + 1 < n) ? suffT[i + 1] : 0;
-
-            if (s.charAt(i) == 'C') {
-                ans += p * sf;
-                ansL += (p + 1) * sf;
-                ansT += p * (sf + 1);
+        for(int i=0; i<n; i++){
+            if(i-1 >= 0) pre[i] = pre[i-1];
+            if(s.charAt(i) == 'L'){
+                pre[i]++;
             }
-
-            // Consider inserting a 'C' here
-            p = prefL[i];
-            best = Math.max(best, p * sf);
         }
+        for(int i=n-1; i>=0; i--){
+            if(i+1 <= n-1) suff[i] = suff[i+1];
+            if(s.charAt(i) == 'T'){
+                suff[i]++;
+            }
+        }
+        long best = 0, ans = 0, ansL = 0, ansT = 0;
+        for(int i=0; i<n; i++){
+            long x = i-1 >= 0 ? pre[i-1] : 0;
+            long y = i+1 <= n-1 ? suff[i+1] : 0;
 
-        return Math.max(Math.max(ans + best, ansL), ansT);
+            if(s.charAt(i) == 'C'){
+                ans += x * y;
+                ansL += (x+1) * y;
+                ansT += x * (y+1);
+            }
+            x = pre[i];
+            best = Math.max(best, x * y);
+        }
+        return Math.max((best + ans), Math.max(ansL, ansT));
     }
 }
