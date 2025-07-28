@@ -11,13 +11,8 @@ class Solution {
         if(idx == nums.length){
             return target == temp ? 1 : 0;
         }
-        if(idx > nums.length){
-            return 0;
-        }
-        int pick = 0;
-        pick = solve(nums, target, idx+1, temp | nums[idx]);
-        int notPick = 0;
-        notPick =  solve(nums, target, idx+1, temp);
+        int pick = solve(nums, target, idx+1, temp | nums[idx]);
+        int notPick =  solve(nums, target, idx+1, temp);
         return pick + notPick;
     }
 }
