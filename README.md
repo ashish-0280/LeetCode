@@ -155,6 +155,7 @@
 | [2155-find-missing-observations](https://github.com/ashish-0280/LeetCode/tree/master/2155-find-missing-observations) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/ashish-0280/LeetCode/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/ashish-0280/LeetCode/tree/master/2163-kth-distinct-string-in-an-array) |
+| [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/ashish-0280/LeetCode/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/ashish-0280/LeetCode/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2215-finding-3-digit-even-numbers](https://github.com/ashish-0280/LeetCode/tree/master/2215-finding-3-digit-even-numbers) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/ashish-0280/LeetCode/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
@@ -1245,6 +1246,7 @@
 | [1906-maximize-score-after-n-operations](https://github.com/ashish-0280/LeetCode/tree/master/1906-maximize-score-after-n-operations) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/ashish-0280/LeetCode/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2107-find-unique-binary-string](https://github.com/ashish-0280/LeetCode/tree/master/2107-find-unique-binary-string) |
+| [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/ashish-0280/LeetCode/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/ashish-0280/LeetCode/tree/master/2456-construct-smallest-number-from-di-string) |
 | [2802-find-the-punishment-number-of-an-integer](https://github.com/ashish-0280/LeetCode/tree/master/2802-find-the-punishment-number-of-an-integer) |
 ## Queue
@@ -1295,6 +1297,7 @@
 | [1786-count-the-number-of-consistent-strings](https://github.com/ashish-0280/LeetCode/tree/master/1786-count-the-number-of-consistent-strings) |
 | [1906-maximize-score-after-n-operations](https://github.com/ashish-0280/LeetCode/tree/master/1906-maximize-score-after-n-operations) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/ashish-0280/LeetCode/tree/master/1993-sum-of-all-subset-xor-totals) |
+| [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/ashish-0280/LeetCode/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [2308-divide-array-into-equal-pairs](https://github.com/ashish-0280/LeetCode/tree/master/2308-divide-array-into-equal-pairs) |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/ashish-0280/LeetCode/tree/master/2323-minimum-bit-flips-to-convert-number) |
 | [2400-minimum-score-after-removals-on-a-tree](https://github.com/ashish-0280/LeetCode/tree/master/2400-minimum-score-after-removals-on-a-tree) |
@@ -1393,6 +1396,7 @@
 | ------- |
 | [1656-count-good-triplets](https://github.com/ashish-0280/LeetCode/tree/master/1656-count-good-triplets) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/ashish-0280/LeetCode/tree/master/1993-sum-of-all-subset-xor-totals) |
+| [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/ashish-0280/LeetCode/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [2215-finding-3-digit-even-numbers](https://github.com/ashish-0280/LeetCode/tree/master/2215-finding-3-digit-even-numbers) |
 | [2998-count-symmetric-integers](https://github.com/ashish-0280/LeetCode/tree/master/2998-count-symmetric-integers) |
 | [3270-minimum-moves-to-capture-the-queen](https://github.com/ashish-0280/LeetCode/tree/master/3270-minimum-moves-to-capture-the-queen) |
