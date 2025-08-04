@@ -90,6 +90,7 @@
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/ashish-0280/LeetCode/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [0934-bitwise-ors-of-subarrays](https://github.com/ashish-0280/LeetCode/tree/master/0934-bitwise-ors-of-subarrays) |
 | [0938-numbers-at-most-n-given-digit-set](https://github.com/ashish-0280/LeetCode/tree/master/0938-numbers-at-most-n-given-digit-set) |
+| [0940-fruit-into-baskets](https://github.com/ashish-0280/LeetCode/tree/master/0940-fruit-into-baskets) |
 | [0966-binary-subarrays-with-sum](https://github.com/ashish-0280/LeetCode/tree/master/0966-binary-subarrays-with-sum) |
 | [0971-shortest-bridge](https://github.com/ashish-0280/LeetCode/tree/master/0971-shortest-bridge) |
 | [1002-maximum-width-ramp](https://github.com/ashish-0280/LeetCode/tree/master/1002-maximum-width-ramp) |
@@ -280,6 +281,7 @@
 | [0906-walking-robot-simulation](https://github.com/ashish-0280/LeetCode/tree/master/0906-walking-robot-simulation) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/ashish-0280/LeetCode/tree/master/0920-uncommon-words-from-two-sentences) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/ashish-0280/LeetCode/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
+| [0940-fruit-into-baskets](https://github.com/ashish-0280/LeetCode/tree/master/0940-fruit-into-baskets) |
 | [0966-binary-subarrays-with-sum](https://github.com/ashish-0280/LeetCode/tree/master/0966-binary-subarrays-with-sum) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/ashish-0280/LeetCode/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/ashish-0280/LeetCode/tree/master/1016-subarray-sums-divisible-by-k) |
@@ -702,6 +704,7 @@
 | [0567-permutation-in-string](https://github.com/ashish-0280/LeetCode/tree/master/0567-permutation-in-string) |
 | [0643-maximum-average-subarray-i](https://github.com/ashish-0280/LeetCode/tree/master/0643-maximum-average-subarray-i) |
 | [0713-subarray-product-less-than-k](https://github.com/ashish-0280/LeetCode/tree/master/0713-subarray-product-less-than-k) |
+| [0940-fruit-into-baskets](https://github.com/ashish-0280/LeetCode/tree/master/0940-fruit-into-baskets) |
 | [0966-binary-subarrays-with-sum](https://github.com/ashish-0280/LeetCode/tree/master/0966-binary-subarrays-with-sum) |
 | [1034-subarrays-with-k-different-integers](https://github.com/ashish-0280/LeetCode/tree/master/1034-subarrays-with-k-different-integers) |
 | [1046-max-consecutive-ones-iii](https://github.com/ashish-0280/LeetCode/tree/master/1046-max-consecutive-ones-iii) |
