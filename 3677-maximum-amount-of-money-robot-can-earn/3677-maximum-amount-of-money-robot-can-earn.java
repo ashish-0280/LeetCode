@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 class Solution {
     Integer[][][] dp;
     
@@ -27,7 +25,7 @@ class Solution {
         
         if (i == m - 1 && j == n - 1) {
             if (coins[i][j] < 0 && k > 0) {
-                return Math.max(coins[i][j], 0);
+                return 0;
             } else {
                 return coins[i][j];
             }
