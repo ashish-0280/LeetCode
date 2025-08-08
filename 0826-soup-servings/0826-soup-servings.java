@@ -1,7 +1,7 @@
 class Solution {
     Map<String, Double> map;
     public double soupServings(int n) {
-        if(n > 10000) return 1.0;
+        if(n > 4500) return 1.0;
         map = new HashMap<>();
         return solve(n, n);
     }
