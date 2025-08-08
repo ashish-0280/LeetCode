@@ -234,6 +234,7 @@
 | [3648-find-the-maximum-number-of-fruits-collected](https://github.com/ashish-0280/LeetCode/tree/master/3648-find-the-maximum-number-of-fruits-collected) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/ashish-0280/LeetCode/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
 | [3657-check-if-grid-can-be-cut-into-sections](https://github.com/ashish-0280/LeetCode/tree/master/3657-check-if-grid-can-be-cut-into-sections) |
+| [3677-maximum-amount-of-money-robot-can-earn](https://github.com/ashish-0280/LeetCode/tree/master/3677-maximum-amount-of-money-robot-can-earn) |
 | [3685-count-subarrays-of-length-three-with-a-condition](https://github.com/ashish-0280/LeetCode/tree/master/3685-count-subarrays-of-length-three-with-a-condition) |
 | [3715-maximum-coins-from-k-consecutive-bags](https://github.com/ashish-0280/LeetCode/tree/master/3715-maximum-coins-from-k-consecutive-bags) |
 | [3741-reschedule-meetings-for-maximum-free-time-ii](https://github.com/ashish-0280/LeetCode/tree/master/3741-reschedule-meetings-for-maximum-free-time-ii) |
@@ -562,6 +563,7 @@
 | [3227-find-missing-and-repeated-values](https://github.com/ashish-0280/LeetCode/tree/master/3227-find-missing-and-repeated-values) |
 | [3516-design-neighbor-sum-service](https://github.com/ashish-0280/LeetCode/tree/master/3516-design-neighbor-sum-service) |
 | [3648-find-the-maximum-number-of-fruits-collected](https://github.com/ashish-0280/LeetCode/tree/master/3648-find-the-maximum-number-of-fruits-collected) |
+| [3677-maximum-amount-of-money-robot-can-earn](https://github.com/ashish-0280/LeetCode/tree/master/3677-maximum-amount-of-money-robot-can-earn) |
 | [3764-maximum-sum-with-at-most-k-elements](https://github.com/ashish-0280/LeetCode/tree/master/3764-maximum-sum-with-at-most-k-elements) |
 ## Simulation
 |  |
@@ -896,6 +898,7 @@
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/ashish-0280/LeetCode/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/ashish-0280/LeetCode/tree/master/3630-total-characters-in-string-after-transformations-ii) |
 | [3648-find-the-maximum-number-of-fruits-collected](https://github.com/ashish-0280/LeetCode/tree/master/3648-find-the-maximum-number-of-fruits-collected) |
+| [3677-maximum-amount-of-money-robot-can-earn](https://github.com/ashish-0280/LeetCode/tree/master/3677-maximum-amount-of-money-robot-can-earn) |
 ## Stack
 |  |
 | ------- |
