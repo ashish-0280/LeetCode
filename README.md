@@ -481,6 +481,7 @@
 | [0539-minimum-time-difference](https://github.com/ashish-0280/LeetCode/tree/master/0539-minimum-time-difference) |
 | [0795-k-th-symbol-in-grammar](https://github.com/ashish-0280/LeetCode/tree/master/0795-k-th-symbol-in-grammar) |
 | [0797-rabbits-in-forest](https://github.com/ashish-0280/LeetCode/tree/master/0797-rabbits-in-forest) |
+| [0826-soup-servings](https://github.com/ashish-0280/LeetCode/tree/master/0826-soup-servings) |
 | [0923-super-egg-drop](https://github.com/ashish-0280/LeetCode/tree/master/0923-super-egg-drop) |
 | [0938-numbers-at-most-n-given-digit-set](https://github.com/ashish-0280/LeetCode/tree/master/0938-numbers-at-most-n-given-digit-set) |
 | [1057-numbers-with-repeated-digits](https://github.com/ashish-0280/LeetCode/tree/master/1057-numbers-with-repeated-digits) |
@@ -857,6 +858,7 @@
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/ashish-0280/LeetCode/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/ashish-0280/LeetCode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0806-domino-and-tromino-tiling](https://github.com/ashish-0280/LeetCode/tree/master/0806-domino-and-tromino-tiling) |
+| [0826-soup-servings](https://github.com/ashish-0280/LeetCode/tree/master/0826-soup-servings) |
 | [0868-push-dominoes](https://github.com/ashish-0280/LeetCode/tree/master/0868-push-dominoes) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/ashish-0280/LeetCode/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [0923-super-egg-drop](https://github.com/ashish-0280/LeetCode/tree/master/0923-super-egg-drop) |
@@ -1471,4 +1473,8 @@
 | ------- |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/ashish-0280/LeetCode/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [1906-maximize-score-after-n-operations](https://github.com/ashish-0280/LeetCode/tree/master/1906-maximize-score-after-n-operations) |
+## Probability and Statistics
+|  |
+| ------- |
+| [0826-soup-servings](https://github.com/ashish-0280/LeetCode/tree/master/0826-soup-servings) |
 <!---LeetCode Topics End-->
