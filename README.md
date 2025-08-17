@@ -491,6 +491,7 @@
 | [0795-k-th-symbol-in-grammar](https://github.com/ashish-0280/LeetCode/tree/master/0795-k-th-symbol-in-grammar) |
 | [0797-rabbits-in-forest](https://github.com/ashish-0280/LeetCode/tree/master/0797-rabbits-in-forest) |
 | [0826-soup-servings](https://github.com/ashish-0280/LeetCode/tree/master/0826-soup-servings) |
+| [0867-new-21-game](https://github.com/ashish-0280/LeetCode/tree/master/0867-new-21-game) |
 | [0900-reordered-power-of-2](https://github.com/ashish-0280/LeetCode/tree/master/0900-reordered-power-of-2) |
 | [0923-super-egg-drop](https://github.com/ashish-0280/LeetCode/tree/master/0923-super-egg-drop) |
 | [0938-numbers-at-most-n-given-digit-set](https://github.com/ashish-0280/LeetCode/tree/master/0938-numbers-at-most-n-given-digit-set) |
@@ -729,6 +730,7 @@
 | [0567-permutation-in-string](https://github.com/ashish-0280/LeetCode/tree/master/0567-permutation-in-string) |
 | [0643-maximum-average-subarray-i](https://github.com/ashish-0280/LeetCode/tree/master/0643-maximum-average-subarray-i) |
 | [0713-subarray-product-less-than-k](https://github.com/ashish-0280/LeetCode/tree/master/0713-subarray-product-less-than-k) |
+| [0867-new-21-game](https://github.com/ashish-0280/LeetCode/tree/master/0867-new-21-game) |
 | [0940-fruit-into-baskets](https://github.com/ashish-0280/LeetCode/tree/master/0940-fruit-into-baskets) |
 | [0966-binary-subarrays-with-sum](https://github.com/ashish-0280/LeetCode/tree/master/0966-binary-subarrays-with-sum) |
 | [1034-subarrays-with-k-different-integers](https://github.com/ashish-0280/LeetCode/tree/master/1034-subarrays-with-k-different-integers) |
@@ -875,6 +877,7 @@
 | [0803-cheapest-flights-within-k-stops](https://github.com/ashish-0280/LeetCode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0806-domino-and-tromino-tiling](https://github.com/ashish-0280/LeetCode/tree/master/0806-domino-and-tromino-tiling) |
 | [0826-soup-servings](https://github.com/ashish-0280/LeetCode/tree/master/0826-soup-servings) |
+| [0867-new-21-game](https://github.com/ashish-0280/LeetCode/tree/master/0867-new-21-game) |
 | [0868-push-dominoes](https://github.com/ashish-0280/LeetCode/tree/master/0868-push-dominoes) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/ashish-0280/LeetCode/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [0923-super-egg-drop](https://github.com/ashish-0280/LeetCode/tree/master/0923-super-egg-drop) |
@@ -1496,4 +1499,5 @@
 |  |
 | ------- |
 | [0826-soup-servings](https://github.com/ashish-0280/LeetCode/tree/master/0826-soup-servings) |
+| [0867-new-21-game](https://github.com/ashish-0280/LeetCode/tree/master/0867-new-21-game) |
 <!---LeetCode Topics End-->
