@@ -1,36 +1,27 @@
 class Solution {
-    int[][] memo;
-    int[][] matrix;
-    int m, n;
-    
+    Integer dp[][];
+    int matrix[][];
     public int countSquares(int[][] matrix) {
         this.matrix = matrix;
-        m = matrix.length;
-        n = matrix[0].length;
-        memo = new int[m][n];
-        
-        for (int i = 0; i < m; i++) {
-            Arrays.fill(memo[i], -1);
-        }
+        int m = matrix.length;
+        int n = matrix[0].length;
+        dp = new Integer[m][n];
         
         int total = 0;
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
-                total += dfs(i, j);
+                total += solve(i, j);
             }
         }
         return total;
     }
     
-    private int dfs(int i, int j) {
+    private int solve(int i, int j) {
         if (i < 0 || j < 0) return 0;
         if (matrix[i][j] == 0) return 0;
-        if (memo[i][j] != -1) return memo[i][j];
+        if (dp[i][j] != null) return dp[i][j];
         
-            memo[i][j] = 1 + Math.min(
-                Math.min(dfs(i-1, j), dfs(i, j-1)),
-                dfs(i-1, j-1)
-            );
-        return memo[i][j];
+        dp[i][j] = 1 + Math.min(Math.min(solve(i-1, j), solve(i, j-1)),solve(i-1, j-1));
+        return dp[i][j];
     }
 }
