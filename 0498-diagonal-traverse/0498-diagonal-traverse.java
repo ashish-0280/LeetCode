@@ -11,10 +11,18 @@ class Solution {
             row -= d;
             col += d;
             
-            if (row >= n) { row = n - 1; col += 2; d = -d; }
-            if (col >= m) { col = m - 1; row += 2; d = -d; }
-            if (row < 0)  { row = 0; d = -d; }
-            if (col < 0)  { col = 0; d = -d; }
+            if(row >= n){
+                row = n-1; col += 2; d = -d;
+            }
+            if(col >= m){
+                col = m-1; row += 2; d = -d;
+            }
+            if(row < 0){
+                row = 0; d = -d;
+            }
+            if(col < 0){
+                col = 0; d = -d;
+            }
         }
         
         return ans;
