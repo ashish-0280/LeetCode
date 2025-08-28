@@ -51,6 +51,7 @@
 | [0239-sliding-window-maximum](https://github.com/ashish-0280/LeetCode/tree/master/0239-sliding-window-maximum) |
 | [0240-search-a-2d-matrix-ii](https://github.com/ashish-0280/LeetCode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0283-move-zeroes](https://github.com/ashish-0280/LeetCode/tree/master/0283-move-zeroes) |
+| [0287-find-the-duplicate-number](https://github.com/ashish-0280/LeetCode/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/ashish-0280/LeetCode/tree/master/0300-longest-increasing-subsequence) |
 | [0312-burst-balloons](https://github.com/ashish-0280/LeetCode/tree/master/0312-burst-balloons) |
 | [0322-coin-change](https://github.com/ashish-0280/LeetCode/tree/master/0322-coin-change) |
@@ -668,6 +669,7 @@
 | [0148-sort-list](https://github.com/ashish-0280/LeetCode/tree/master/0148-sort-list) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/ashish-0280/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0283-move-zeroes](https://github.com/ashish-0280/LeetCode/tree/master/0283-move-zeroes) |
+| [0287-find-the-duplicate-number](https://github.com/ashish-0280/LeetCode/tree/master/0287-find-the-duplicate-number) |
 | [0345-reverse-vowels-of-a-string](https://github.com/ashish-0280/LeetCode/tree/master/0345-reverse-vowels-of-a-string) |
 | [0392-is-subsequence](https://github.com/ashish-0280/LeetCode/tree/master/0392-is-subsequence) |
 | [0443-string-compression](https://github.com/ashish-0280/LeetCode/tree/master/0443-string-compression) |
@@ -821,6 +823,7 @@
 | [0162-find-peak-element](https://github.com/ashish-0280/LeetCode/tree/master/0162-find-peak-element) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/ashish-0280/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0240-search-a-2d-matrix-ii](https://github.com/ashish-0280/LeetCode/tree/master/0240-search-a-2d-matrix-ii) |
+| [0287-find-the-duplicate-number](https://github.com/ashish-0280/LeetCode/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/ashish-0280/LeetCode/tree/master/0300-longest-increasing-subsequence) |
 | [0540-single-element-in-a-sorted-array](https://github.com/ashish-0280/LeetCode/tree/master/0540-single-element-in-a-sorted-array) |
 | [0713-subarray-product-less-than-k](https://github.com/ashish-0280/LeetCode/tree/master/0713-subarray-product-less-than-k) |
@@ -1378,6 +1381,7 @@
 | [0089-gray-code](https://github.com/ashish-0280/LeetCode/tree/master/0089-gray-code) |
 | [0090-subsets-ii](https://github.com/ashish-0280/LeetCode/tree/master/0090-subsets-ii) |
 | [0231-power-of-two](https://github.com/ashish-0280/LeetCode/tree/master/0231-power-of-two) |
+| [0287-find-the-duplicate-number](https://github.com/ashish-0280/LeetCode/tree/master/0287-find-the-duplicate-number) |
 | [0338-counting-bits](https://github.com/ashish-0280/LeetCode/tree/master/0338-counting-bits) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/ashish-0280/LeetCode/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [0795-k-th-symbol-in-grammar](https://github.com/ashish-0280/LeetCode/tree/master/0795-k-th-symbol-in-grammar) |
