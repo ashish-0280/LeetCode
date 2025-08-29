@@ -13,7 +13,7 @@ class Solution {
         } else {
             cntEven2 = m/2; cntOdd2 = m/2 + 1;
         }
-        ans = (long)ans + 1L * cntEven1 * cntOdd2 + 1L * cntEven2 * cntOdd1;
+        ans += 1L * cntEven1 * cntOdd2 + 1L * cntEven2 * cntOdd1;
         return ans; 
     }
 }
