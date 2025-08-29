@@ -535,6 +535,7 @@
 | [3227-find-missing-and-repeated-values](https://github.com/ashish-0280/LeetCode/tree/master/3227-find-missing-and-repeated-values) |
 | [3243-count-the-number-of-powerful-integers](https://github.com/ashish-0280/LeetCode/tree/master/3243-count-the-number-of-powerful-integers) |
 | [3270-minimum-moves-to-capture-the-queen](https://github.com/ashish-0280/LeetCode/tree/master/3270-minimum-moves-to-capture-the-queen) |
+| [3279-alice-and-bob-playing-flower-game](https://github.com/ashish-0280/LeetCode/tree/master/3279-alice-and-bob-playing-flower-game) |
 | [3321-type-of-triangle](https://github.com/ashish-0280/LeetCode/tree/master/3321-type-of-triangle) |
 | [3548-find-the-count-of-good-integers](https://github.com/ashish-0280/LeetCode/tree/master/3548-find-the-count-of-good-integers) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/ashish-0280/LeetCode/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
