@@ -487,6 +487,7 @@
 | [0002-add-two-numbers](https://github.com/ashish-0280/LeetCode/tree/master/0002-add-two-numbers) |
 | [0013-roman-to-integer](https://github.com/ashish-0280/LeetCode/tree/master/0013-roman-to-integer) |
 | [0029-divide-two-integers](https://github.com/ashish-0280/LeetCode/tree/master/0029-divide-two-integers) |
+| [0050-powx-n](https://github.com/ashish-0280/LeetCode/tree/master/0050-powx-n) |
 | [0060-permutation-sequence](https://github.com/ashish-0280/LeetCode/tree/master/0060-permutation-sequence) |
 | [0062-unique-paths](https://github.com/ashish-0280/LeetCode/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/ashish-0280/LeetCode/tree/master/0070-climbing-stairs) |
@@ -1197,6 +1198,7 @@
 | ------- |
 | [0002-add-two-numbers](https://github.com/ashish-0280/LeetCode/tree/master/0002-add-two-numbers) |
 | [0021-merge-two-sorted-lists](https://github.com/ashish-0280/LeetCode/tree/master/0021-merge-two-sorted-lists) |
+| [0050-powx-n](https://github.com/ashish-0280/LeetCode/tree/master/0050-powx-n) |
 | [0060-permutation-sequence](https://github.com/ashish-0280/LeetCode/tree/master/0060-permutation-sequence) |
 | [0206-reverse-linked-list](https://github.com/ashish-0280/LeetCode/tree/master/0206-reverse-linked-list) |
 | [0231-power-of-two](https://github.com/ashish-0280/LeetCode/tree/master/0231-power-of-two) |
