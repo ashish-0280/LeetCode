@@ -155,6 +155,7 @@
 | [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/ashish-0280/LeetCode/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/ashish-0280/LeetCode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [1906-maximize-score-after-n-operations](https://github.com/ashish-0280/LeetCode/tree/master/1906-maximize-score-after-n-operations) |
+| [1917-maximum-average-pass-ratio](https://github.com/ashish-0280/LeetCode/tree/master/1917-maximum-average-pass-ratio) |
 | [1923-sentence-similarity-iii](https://github.com/ashish-0280/LeetCode/tree/master/1923-sentence-similarity-iii) |
 | [1927-maximum-ascending-subarray-sum](https://github.com/ashish-0280/LeetCode/tree/master/1927-maximum-ascending-subarray-sum) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/ashish-0280/LeetCode/tree/master/1993-sum-of-all-subset-xor-totals) |
@@ -644,6 +645,7 @@
 | [1503-reducing-dishes](https://github.com/ashish-0280/LeetCode/tree/master/1503-reducing-dishes) |
 | [1770-minimum-deletions-to-make-character-frequencies-unique](https://github.com/ashish-0280/LeetCode/tree/master/1770-minimum-deletions-to-make-character-frequencies-unique) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/ashish-0280/LeetCode/tree/master/1818-maximum-score-from-removing-substrings) |
+| [1917-maximum-average-pass-ratio](https://github.com/ashish-0280/LeetCode/tree/master/1917-maximum-average-pass-ratio) |
 | [2032-largest-odd-number-in-string](https://github.com/ashish-0280/LeetCode/tree/master/2032-largest-odd-number-in-string) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/ashish-0280/LeetCode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/ashish-0280/LeetCode/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
@@ -1235,6 +1237,7 @@
 | [0803-cheapest-flights-within-k-stops](https://github.com/ashish-0280/LeetCode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/ashish-0280/LeetCode/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1753-path-with-minimum-effort](https://github.com/ashish-0280/LeetCode/tree/master/1753-path-with-minimum-effort) |
+| [1917-maximum-average-pass-ratio](https://github.com/ashish-0280/LeetCode/tree/master/1917-maximum-average-pass-ratio) |
 | [2267-minimum-difference-in-sums-after-removal-of-elements](https://github.com/ashish-0280/LeetCode/tree/master/2267-minimum-difference-in-sums-after-removal-of-elements) |
 | [2413-smallest-number-in-infinite-set](https://github.com/ashish-0280/LeetCode/tree/master/2413-smallest-number-in-infinite-set) |
 | [2434-design-a-number-container-system](https://github.com/ashish-0280/LeetCode/tree/master/2434-design-a-number-container-system) |
