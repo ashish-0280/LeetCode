@@ -1,25 +1,25 @@
 class Solution {
     public long maxProduct(int[] nums) {
-        int max_n = 0;
-        for (int num : nums) {
-            max_n = Math.max(max_n, num);
+        int max = Integer.MIN_VALUE;
+        for(int num: nums){
+            max = Math.max(max, num);
         }
-        int msb = (int) (Math.log(max_n) / Math.log(2));
-        int max_mask = (1 << (msb + 1)) - 1;
-        int[] dp = new int[max_mask + 1];
-        for (int x : nums) {
-            dp[x] = x;
+        int maxBit = Integer.toBinaryString(max).length();
+        int maxMask = (int)Math.pow(2, maxBit)-1;
+        int dp[] = new int[maxMask+1];
+        for(int num: nums){
+            dp[num] = num;
         }
-        for (int b = 0; b <= msb; ++b) {
-            for (int mask = 0; mask <= max_mask; ++mask) {
-                if ((mask & (1 << b)) > 0) {
-                    dp[mask] = Math.max(dp[mask], dp[mask ^ (1 << b)]);
+        for(int bit=0; bit<maxBit; bit++){
+            for(int mask=0; mask <= maxMask; mask++){
+                if((mask & (1<<bit)) != 0){
+                    dp[mask] = Math.max(dp[mask], dp[mask ^ (1<<bit)]);
                 }
             }
         }
         long ans = 0;
-        for (int n : nums) {
-            ans = Math.max(ans, (long) n * dp[max_mask ^ n]);
+        for(int num: nums){
+            ans = Math.max(ans, (long)num * dp[num ^ maxMask]);
         }
         return ans;
     }
