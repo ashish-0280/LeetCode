@@ -1,6 +1,6 @@
 class Solution {
     public int makeTheIntegerZero(int num1, int num2) {
-        for (long k = 1; k <= 40; ++k) {
+        for (long k = 1; k <= 32; ++k) {
             long target = num1 - k * num2;
             if (target < k) {
                 break;
