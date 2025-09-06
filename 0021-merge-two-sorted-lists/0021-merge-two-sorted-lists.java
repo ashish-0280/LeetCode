@@ -10,17 +10,24 @@
  */
 class Solution {
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
-        if(list1 == null) return list2;
-        if(list2 == null) return list1;
-
-        ListNode ans;
-        if(list1.val <= list2.val){
-            ans = list1;
-            ans.next = mergeTwoLists(list1.next, list2);
-        } else {
-            ans = list2;
-            ans.next = mergeTwoLists(list1, list2.next);
+        ListNode temp = list1;
+        List<Integer> list = new ArrayList<>(); 
+        while(temp != null){
+            list.add(temp.val);
+            temp = temp.next;
         }
-        return ans;
+        temp = list2;
+        while(temp != null){
+            list.add(temp.val);
+            temp = temp.next;
+        }
+        Collections.sort(list);
+        ListNode l = new ListNode(0);
+        ListNode tail = l;
+        for(int num: list){
+            tail.next = new ListNode(num);
+            tail = tail.next;
+        }
+        return l.next;
     }
 }
