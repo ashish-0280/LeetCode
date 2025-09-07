@@ -6,7 +6,7 @@ class Solution {
         int total = 1;
         for (int L = 1; L < bits; L++) {
             int len = (L + 1) / 2 - 1;
-            if (len >= 0) total += 1L << len;
+            if (len >= 0) total += 1 << len;
         }
 
         int half = (bits + 1) / 2;
