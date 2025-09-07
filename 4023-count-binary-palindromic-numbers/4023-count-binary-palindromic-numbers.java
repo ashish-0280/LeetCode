@@ -13,9 +13,6 @@ class Solution {
         long prefix = n >> (bits - half);
 
         String b = Long.toBinaryString(prefix);
-        if (b.length() < half) {
-            b = "0".repeat(half - b.length()) + b;
-        }
 
         String candidateStr;
         if (bits % 2 == 0) {
