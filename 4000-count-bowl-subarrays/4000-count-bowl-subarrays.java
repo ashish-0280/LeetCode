@@ -1,19 +1,19 @@
 class Solution {
     public long bowlSubarrays(int[] nums) {
         long count = 0;
-        Stack<Integer> stack = new Stack<>();
+        Stack<Integer> stk = new Stack<>();
 
-        for (int r = 0; r < nums.length; r++) {
-            while (!stack.isEmpty() && nums[stack.peek()] <= nums[r]) {
-                int l = stack.pop();
-                if (r - l + 1 >= 3) {
+        for (int right = 0; right < nums.length; right++) {
+            while (!stk.isEmpty() && nums[stk.peek()] <= nums[right]) {
+                int left = stk.pop();
+                if (right - left + 1 >= 3) {
                     count++;
                 }
             }
-            if (!stack.isEmpty() && r - stack.peek() + 1 >= 3) {
+            if (!stk.isEmpty() && right - stk.peek() + 1 >= 3) {
                 count++;
             }
-            stack.push(r);
+            stk.push(right);
         }
 
         return count;
