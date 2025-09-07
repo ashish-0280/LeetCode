@@ -1,31 +1,24 @@
 class Solution {
     public int countBinaryPalindromes(long n) {
-        if (n == 0) return 1;
-
-        int bits = Long.toBinaryString(n).length();
+        if(n == 0) return 1;
+        int bits = (int)Long.toBinaryString(n).length();
         int total = 1;
-        for (int L = 1; L < bits; L++) {
-            int len = (L + 1) / 2 - 1;
-            if (len >= 0) total += 1 << len;
+        for(int i=1; i<bits; i++){
+            int x = (i+1)/2 - 1;
+            total += Math.pow(2, x);
         }
-
-        int half = (bits + 1) / 2;
-        long prefix = n >> (bits - half);
-
-        String b = Long.toBinaryString(prefix);
-
-        String candidateStr;
-        if (bits % 2 == 0) {
-            candidateStr = b + new StringBuilder(b).reverse();
+        int half = (bits + 1)/2;
+        long prefix = (n >> (bits - half));
+        String binaryPrefix = Long.toBinaryString(prefix);
+        String str;
+        if(bits % 2 == 0){
+            str = binaryPrefix + new StringBuilder(binaryPrefix.substring(0, binaryPrefix.length())).reverse();
         } else {
-            candidateStr = b + new StringBuilder(b.substring(0, b.length() - 1)).reverse();
+            str = binaryPrefix + new StringBuilder(binaryPrefix.substring(0, binaryPrefix.length()-1)).reverse();
         }
-
-        long candidate = Long.parseLong(candidateStr, 2);
-
-        total += prefix - (1L << (half - 1));
-        if (candidate <= n) total++;
-
+        Long num = Long.parseLong(str, 2);
+        total += prefix - (long)Math.pow(2, half - 1);
+        if(num <= n) total++;
         return total;
     }
 }
