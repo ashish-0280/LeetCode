@@ -1,26 +1,22 @@
 class Solution {
-    int MOD = 1_000_000_007;
     public int peopleAwareOfSecret(int n, int delay, int forget) {
-        
-        HashMap<Integer, Integer> map = new HashMap<>();
-        map.put(1, 1);
-        long current = 0;
+        int MOD = 1_000_000_007;
+        long[] dp = new long[n + 1];
+        dp[1] = 1;
 
-        for (int i = 2; i <= n; i++) {
-            int num = map.getOrDefault(i - delay, 0);
-            current += num;
-            int f = map.getOrDefault(i - forget, 0) % MOD;
-            current -= f;
-            map.put(i, (int) (current % MOD));
+        for (int day = 2; day <= n; day++) {
+            for (int i = delay; i < forget; i++) {
+                if (day - i > 0) {
+                    dp[day] = (dp[day] + dp[day - i]) % MOD;
+                }
+            }
         }
 
-        long count = 0;
-        for (int i = 1; i <= n; i++) {
-            count += map.getOrDefault(i, 0);
-            int f = map.getOrDefault(i - forget, 0);
-            count -= f;
+        long res = 0;
+        for (int i = n - forget + 1; i <= n; i++) {
+            if (i > 0) res = (res + dp[i]) % MOD;
         }
 
-        return (int) ((count % MOD + MOD) % MOD);
+        return (int) res;
     }
 }
