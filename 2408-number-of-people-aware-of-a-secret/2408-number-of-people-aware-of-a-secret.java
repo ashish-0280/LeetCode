@@ -3,10 +3,10 @@ class Solution {
     public int peopleAwareOfSecret(int n, int delay, int forget) {
         
         HashMap<Integer, Integer> map = new HashMap<>();
-        map.put(0, 1);
+        map.put(1, 1);
         long current = 0;
 
-        for (int i = 1; i < n; i++) {
+        for (int i = 2; i <= n; i++) {
             int num = map.getOrDefault(i - delay, 0);
             current += num;
             int f = map.getOrDefault(i - forget, 0) % MOD;
@@ -15,7 +15,7 @@ class Solution {
         }
 
         long count = 0;
-        for (int i = 0; i < n; i++) {
+        for (int i = 1; i <= n; i++) {
             count += map.getOrDefault(i, 0);
             int f = map.getOrDefault(i - forget, 0);
             count -= f;
