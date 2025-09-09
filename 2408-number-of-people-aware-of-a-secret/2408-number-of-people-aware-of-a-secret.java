@@ -15,7 +15,8 @@ class Solution {
 
         long ans = 0;
         for (int i = n-forget+1; i <= n; i++) {
-            ans = (ans + dp[i]) % MOD;
+            ans += dp[i];
+            ans = ans % MOD;
         }
 
         return (int) ans;
