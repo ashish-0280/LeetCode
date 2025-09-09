@@ -1,24 +1,26 @@
 class Solution {
-    int MOD = 1000000007;
+    int MOD = 1_000_000_007;
     public int peopleAwareOfSecret(int n, int delay, int forget) {
         
-        long[] dp = new long[n + 1];
-        dp[1] = 1;
+        HashMap<Integer, Integer> map = new HashMap<>();
+        map.put(1, 1);
+        long current = 0;
 
         for (int i = 2; i <= n; i++) {
-            for (int j = delay; j < forget; j++) {
-                if (i - j > 0) {
-                    dp[i] = (dp[i] + dp[i - j]) % MOD;
-                }
-            }
+            int num = map.getOrDefault(i - delay, 0);
+            current += num;
+            int f = map.getOrDefault(i - forget, 0) % MOD;
+            current -= f;
+            map.put(i, (int) (current % MOD));
         }
 
-        long ans = 0;
-        for (int i = n-forget+1; i <= n; i++) {
-            ans += dp[i];
-            ans = ans % MOD;
+        long count = 0;
+        for (int i = 1; i <= n; i++) {
+            count += map.getOrDefault(i, 0);
+            int f = map.getOrDefault(i - forget, 0);
+            count -= f;
         }
 
-        return (int) ans;
+        return (int) ((count % MOD + MOD) % MOD);
     }
 }
