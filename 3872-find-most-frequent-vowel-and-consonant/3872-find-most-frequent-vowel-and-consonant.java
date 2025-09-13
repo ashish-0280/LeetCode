@@ -2,11 +2,10 @@ class Solution {
     public int maxFreqSum(String s) {
         int freq1[] = new int[26];
         int freq2[] = new int[26];
-
         for(int i=0; i<s.length(); i++){
             char ch = s.charAt(i);
-            if(ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u'){
-                freq1[ch - 'a']++;
+            if(ch == 'a' || ch == 'e' || ch == 'o' || ch == 'u' || ch == 'i'){
+                freq1[ch-'a']++;
             } else {
                 freq2[ch-'a']++;
             }
