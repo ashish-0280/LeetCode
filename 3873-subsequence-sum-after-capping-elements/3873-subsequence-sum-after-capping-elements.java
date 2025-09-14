@@ -1,29 +1,32 @@
 class Solution {
-    public boolean[] subsequenceSumAfterCapping(int[] nums, int K) {
+    public boolean[] subsequenceSumAfterCapping(int[] nums, int k) {
+        int n = nums.length;
+        boolean[] result = new boolean[n];
         Arrays.sort(nums);
-        int n=nums.length;
-        HashSet<Integer> sums=new HashSet<Integer>();
-        boolean[] ans=new boolean[n];
-        sums.add(0);
-        int j=0;
-        for(int i=1;i<=n;i++){
-            while(j<n&&nums[j]<=i){
-                ArrayList<Integer> temp=new ArrayList<Integer>(sums);
-                {
-                for(int k:temp)
-                    if(k+nums[j]<=K)
-                        sums.add(k+nums[j]);
-            j++;
-            }}
-            if(sums.contains(K))
-                ans[i-1]=true;
-            else{
-                for(int k=j;k<n;k++)
-                    if(sums.contains(K-(k-j+1)*i)){
-                        ans[i-1]=true;
-                        break;}
+        Set<Integer> set = new HashSet<>();
+        set.add(0);
+        int idx = 0;
+        for (int i = 1; i <= n; i++) {
+            while (idx < n && nums[idx] <= i) {
+                List<Integer> current = new ArrayList<>(set);
+                for (int sum : current) {
+                    if(sum + nums[idx] <= k){
+                        set.add(sum+nums[idx]);
+                    }
+                }
+                idx++;
+            }
+            if (set.contains(k)) {
+                result[i - 1] = true;
+            } else {
+                for(int p=idx; p<n; p++){
+                    if(set.contains(k-(p-idx+1)*i)){ 
+                        result[i-1]=true; 
+                        break;
+                    } 
+                }
             }
         }
-        return ans;
+        return result;
     }
 }
