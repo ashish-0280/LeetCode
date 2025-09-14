@@ -1,62 +1,44 @@
 class Solution {
     public String[] spellchecker(String[] wordlist, String[] queries) {
-        HashMap<String, List<String>> map = new HashMap<>();
-        for (int i = 0; i < wordlist.length; i++) {
-            String s = wordlist[i];
-            String key = s.toLowerCase();
-            map.putIfAbsent(key, new ArrayList<>());
-            map.get(key).add(s);
+        Set<String> set = new HashSet<>();
+        Map<String, String> map1 = new HashMap<>();
+        Map<String, String> map2 = new HashMap<>();
+
+        for(int i=0; i<wordlist.length; i++){
+            String s = wordlist[i].toLowerCase();
+            set.add(wordlist[i]);
+            map1.putIfAbsent(s, wordlist[i]);
+            map2.putIfAbsent(hash(s), wordlist[i]);
         }
-
-        int i = 0; 
-        String[] ans = new String[queries.length];
-
-        for (String query : queries) {
-            if (map.containsKey(query.toLowerCase())) {
-                List<String> s = map.get(query.toLowerCase());
-                if (s.contains(query)) {
-                    ans[i] = query; 
-                    i++;
-                    continue;
-                } else {
-                    ans[i] = s.get(0); 
-                    i++;
-                    continue;
-                }
-            }
-
-            String s1 = query.toLowerCase(); 
-            String vowels = "aeiou";
-            boolean found = false;
-
-            for (int j = 0; j < wordlist.length; j++) {
-                String s2 = wordlist[j].toLowerCase();
-                if (s1.length() != s2.length()) continue;
-
-                int p = 0;
-                while (p < s2.length()) {
-                    char c1 = s1.charAt(p), c2 = s2.charAt(p);
-                    if (vowels.indexOf(c1) != -1 && vowels.indexOf(c2) != -1) {
-                        p++;
-                        continue;
-                    }
-                    if (c1 != c2) break;
-                    p++;
-                }
-
-                if (p == s1.length()) {
-                    ans[i] = wordlist[j]; 
-                    i++;
-                    found = true;
-                    break;
-                }
-            }
-
-            if (!found) {
+        String ans[] = new String[queries.length];
+        int i = 0;
+        for(String query: queries){
+            String s = query.toLowerCase();
+            if(set.contains(query)){
+                ans[i] = query;
+            } else if(map1.containsKey(s)){
+                ans[i] = map1.get(s); 
+            } else if(map2.containsKey(hash(s))){
+                ans[i] = map2.get(hash(s)); 
+            } else {
                 ans[i] = ""; 
-                i++;
             }
+            i++;
         }
         return ans;
+    }
+    public String hash(String s){
+        int p = 0;
+        StringBuilder sb = new StringBuilder();
+        String vowels = "aeiou";
+        while(p < s.length()){
+            if(vowels.indexOf(s.charAt(p)) != -1){
+                sb.append('#');
+            } else {
+                sb.append(s.charAt(p));
+            }
+            p++;
+        }
+        return sb.toString();
     }
 }
