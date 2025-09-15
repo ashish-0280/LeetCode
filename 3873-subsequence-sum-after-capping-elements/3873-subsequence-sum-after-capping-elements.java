@@ -1,10 +1,8 @@
 class Solution {
     public boolean[] subsequenceSumAfterCapping(int[] nums, int k) {
-        int n = nums.length;
-        Arrays.sort(nums);
+        Arrays.sort(nums); int n = nums.length;
         Set<Integer> set = new HashSet<>();
-        set.add(0);
-        int idx = 0;
+        set.add(0); int idx = 0;
         boolean result[] = new boolean[n];
         for(int i=1; i<=n; i++){
             while(idx < n && nums[idx] <= i){
@@ -19,11 +17,10 @@ class Solution {
                 result[i-1] = true;
             } else {
                 for(int p=idx; p<n; p++){
-                    int right = p-idx+1;
-                    int needed = k - (right * i);
+                    int rightRemaining = p-idx+1;
+                    int needed = k - (rightRemaining * i);
                     if(set.contains(needed)){
-                        result[i-1] = true;
-                        break;
+                        result[i-1] = true; break;
                     }
                 }
             }
