@@ -1,16 +1,16 @@
 class Solution {
     public int canBeTypedWords(String text, String brokenLetters) {
         String arr[] = text.split(" ");
-        Set<Character> set = new HashSet<>();
-        int count = 0;
-        for(char c: brokenLetters.toCharArray()){
-            set.add(c);
+        HashSet<Character> set = new HashSet<>();
+        for(char ch: brokenLetters.toCharArray()){
+            set.add(ch);
         }
+        int count = 0;
         for(String s: arr){
             boolean flag = false;
-            for(char c: s.toCharArray()){
-                if(set.contains(c)){
-                    flag = true;  break;
+            for(char ch: s.toCharArray()){
+                if(set.contains(ch)){
+                    flag = true; break;
                 }
             }
             if(!flag) count++;
