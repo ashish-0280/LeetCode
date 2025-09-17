@@ -6,11 +6,11 @@ class FoodRatings {
             this.food = food;
             this.rating = rating;
         }
-        public int compareTo(Pair o) {
-            if (this.rating != o.rating) {
-                return o.rating - this.rating; 
+        public int compareTo(Pair p) {
+            if (this.rating != p.rating) {
+                return p.rating - this.rating; 
             }
-            return this.food.compareTo(o.food);
+            return this.food.compareTo(p.food);
         }
     }
 
