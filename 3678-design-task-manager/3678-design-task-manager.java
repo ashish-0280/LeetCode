@@ -14,8 +14,7 @@ class TaskManager {
     public TaskManager(List<List<Integer>> tasks) {
         set = new TreeSet<>((a, b) -> {
             if (b.priority != a.priority) return b.priority - a.priority;
-            if (b.taskId != a.taskId) return b.taskId - a.taskId;
-            return b.userId - a.userId;
+            return b.taskId - a.taskId;
         });
         map = new HashMap<>();
         for (List<Integer> l : tasks) {
