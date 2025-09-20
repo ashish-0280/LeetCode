@@ -19,7 +19,7 @@ class Router {
     }
     Set<Pair> set;
     Map<Integer, List<Pair>> map;
-    Deque<Pair> dq;
+    Queue<Pair> dq;
     int limit;
     public Router(int memoryLimit) {
         set = new HashSet<>();
@@ -32,20 +32,20 @@ class Router {
         Pair p = new Pair(source, destination, timestamp);
         if(set.contains(p)) return false;
         if(set.size() == limit){
-            Pair p1 = dq.pollFirst();
+            Pair p1 = dq.poll();
             set.remove(p1);
             map.get(p1.destination).removeAll(Collections.singleton(p1));
         }
         set.add(p);
         map.computeIfAbsent(destination, k -> new ArrayList<>());
         map.get(destination).add(p);
-        dq.addLast(p);
+        dq.add(p);
         return true;
     }
     
     public int[] forwardPacket() {
         if(set.size() == 0) return new int[0];
-        Pair p = dq.pollFirst();
+        Pair p = dq.poll();
         set.remove(p);
         map.get(p.destination).removeAll(Collections.singleton(p));
         return new int[]{p.source, p.destination, p.timestamp};
