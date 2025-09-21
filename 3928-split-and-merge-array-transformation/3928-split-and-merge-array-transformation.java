@@ -9,32 +9,33 @@ class Solution {
         if (start.equals(target)) return 0;
 
         Queue<List<Integer>> q = new LinkedList<>();
-        Set<List<Integer>> seen = new HashSet<>();
+        Set<List<Integer>> vis = new HashSet<>();
         q.add(start);
-        seen.add(start);
+        vis.add(start);
 
         int moves = 0;
         while (!q.isEmpty()) {
-            int sz = q.size();
-            while (sz-- > 0) {
-                List<Integer> cur = q.poll();
-                if (cur.equals(target)) return moves;
+            int size = q.size();
+            while (size > 0) {
+                List<Integer> curr = q.poll();
+                if (curr.equals(target)) return moves;
 
                 for (int l = 0; l < n; l++) {
                     for (int r = l; r < n; r++) {
-                        List<Integer> cut = new ArrayList<>(cur.subList(l, r + 1));
-                        List<Integer> remain = new ArrayList<>();
-                        remain.addAll(cur.subList(0, l));
-                        remain.addAll(cur.subList(r + 1, n));
+                        List<Integer> cut = new ArrayList<>(curr.subList(l, r + 1));
+                        List<Integer> remaining = new ArrayList<>();
+                        remaining.addAll(curr.subList(0, l));
+                        remaining.addAll(curr.subList(r + 1, n));
 
-                        for (int pos = 0; pos <= remain.size(); pos++) {
+                        for (int pos = 0; pos <= remaining.size(); pos++) {
                             if (pos == l) continue;
-                            List<Integer> next = new ArrayList<>(remain);
-                            next.addAll(pos, cut);
-                            if (seen.add(next)) q.add(next);
+                            List<Integer> list = new ArrayList<>(remaining);
+                            list.addAll(pos, cut);
+                            if (vis.add(list)) q.add(list);
                         }
                     }
                 }
+                size--;
             }
             moves++;
         }
