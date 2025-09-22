@@ -4,20 +4,13 @@ class Solution {
         int freq[] = new int[101];
         for(int num: nums){
             freq[num]++;
-        }
-        for(int num: freq){
-            if(num == max){
+            if(freq[num] == max){
                 cnt++;
-            } else if(num > max){
-                max = num;
+            } else if(freq[num] > max){
+                max = freq[num];
                 cnt = 1;
             }
         }
-        // for(int num: freq){
-        //     if(num == max){
-        //         cnt++;
-        //     }
-        // }
         return cnt*max;
     }
 }
