@@ -6,13 +6,18 @@ class Solution {
             freq[num]++;
         }
         for(int num: freq){
-            max = Math.max(max, num);
-        }
-        for(int num: freq){
             if(num == max){
                 cnt++;
+            } else if(num > max){
+                max = num;
+                cnt = 1;
             }
         }
+        // for(int num: freq){
+        //     if(num == max){
+        //         cnt++;
+        //     }
+        // }
         return cnt*max;
     }
 }
