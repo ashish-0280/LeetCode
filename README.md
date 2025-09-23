@@ -1233,6 +1233,7 @@
 | [0146-lru-cache](https://github.com/ashish-0280/LeetCode/tree/master/0146-lru-cache) |
 | [0148-sort-list](https://github.com/ashish-0280/LeetCode/tree/master/0148-sort-list) |
 | [0206-reverse-linked-list](https://github.com/ashish-0280/LeetCode/tree/master/0206-reverse-linked-list) |
+| [0237-delete-node-in-a-linked-list](https://github.com/ashish-0280/LeetCode/tree/master/0237-delete-node-in-a-linked-list) |
 | [0328-odd-even-linked-list](https://github.com/ashish-0280/LeetCode/tree/master/0328-odd-even-linked-list) |
 | [0432-all-oone-data-structure](https://github.com/ashish-0280/LeetCode/tree/master/0432-all-oone-data-structure) |
 | [0725-split-linked-list-in-parts](https://github.com/ashish-0280/LeetCode/tree/master/0725-split-linked-list-in-parts) |
