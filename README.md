@@ -287,6 +287,7 @@
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/ashish-0280/LeetCode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0139-word-break](https://github.com/ashish-0280/LeetCode/tree/master/0139-word-break) |
 | [0146-lru-cache](https://github.com/ashish-0280/LeetCode/tree/master/0146-lru-cache) |
+| [0160-intersection-of-two-linked-lists](https://github.com/ashish-0280/LeetCode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0229-majority-element-ii](https://github.com/ashish-0280/LeetCode/tree/master/0229-majority-element-ii) |
 | [0242-valid-anagram](https://github.com/ashish-0280/LeetCode/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/ashish-0280/LeetCode/tree/master/0347-top-k-frequent-elements) |
@@ -714,6 +715,7 @@
 | [0075-sort-colors](https://github.com/ashish-0280/LeetCode/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/ashish-0280/LeetCode/tree/master/0088-merge-sorted-array) |
 | [0148-sort-list](https://github.com/ashish-0280/LeetCode/tree/master/0148-sort-list) |
+| [0160-intersection-of-two-linked-lists](https://github.com/ashish-0280/LeetCode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0165-compare-version-numbers](https://github.com/ashish-0280/LeetCode/tree/master/0165-compare-version-numbers) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/ashish-0280/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0283-move-zeroes](https://github.com/ashish-0280/LeetCode/tree/master/0283-move-zeroes) |
@@ -1232,6 +1234,7 @@
 | [0023-merge-k-sorted-lists](https://github.com/ashish-0280/LeetCode/tree/master/0023-merge-k-sorted-lists) |
 | [0146-lru-cache](https://github.com/ashish-0280/LeetCode/tree/master/0146-lru-cache) |
 | [0148-sort-list](https://github.com/ashish-0280/LeetCode/tree/master/0148-sort-list) |
+| [0160-intersection-of-two-linked-lists](https://github.com/ashish-0280/LeetCode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0206-reverse-linked-list](https://github.com/ashish-0280/LeetCode/tree/master/0206-reverse-linked-list) |
 | [0237-delete-node-in-a-linked-list](https://github.com/ashish-0280/LeetCode/tree/master/0237-delete-node-in-a-linked-list) |
 | [0328-odd-even-linked-list](https://github.com/ashish-0280/LeetCode/tree/master/0328-odd-even-linked-list) |
