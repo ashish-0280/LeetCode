@@ -89,6 +89,7 @@
 | [0745-find-smallest-letter-greater-than-target](https://github.com/ashish-0280/LeetCode/tree/master/0745-find-smallest-letter-greater-than-target) |
 | [0792-binary-search](https://github.com/ashish-0280/LeetCode/tree/master/0792-binary-search) |
 | [0797-rabbits-in-forest](https://github.com/ashish-0280/LeetCode/tree/master/0797-rabbits-in-forest) |
+| [0830-largest-triangle-area](https://github.com/ashish-0280/LeetCode/tree/master/0830-largest-triangle-area) |
 | [0859-design-circular-deque](https://github.com/ashish-0280/LeetCode/tree/master/0859-design-circular-deque) |
 | [0869-similar-string-groups](https://github.com/ashish-0280/LeetCode/tree/master/0869-similar-string-groups) |
 | [0876-hand-of-straights](https://github.com/ashish-0280/LeetCode/tree/master/0876-hand-of-straights) |
@@ -541,6 +542,7 @@
 | [0795-k-th-symbol-in-grammar](https://github.com/ashish-0280/LeetCode/tree/master/0795-k-th-symbol-in-grammar) |
 | [0797-rabbits-in-forest](https://github.com/ashish-0280/LeetCode/tree/master/0797-rabbits-in-forest) |
 | [0826-soup-servings](https://github.com/ashish-0280/LeetCode/tree/master/0826-soup-servings) |
+| [0830-largest-triangle-area](https://github.com/ashish-0280/LeetCode/tree/master/0830-largest-triangle-area) |
 | [0867-new-21-game](https://github.com/ashish-0280/LeetCode/tree/master/0867-new-21-game) |
 | [0900-reordered-power-of-2](https://github.com/ashish-0280/LeetCode/tree/master/0900-reordered-power-of-2) |
 | [0923-super-egg-drop](https://github.com/ashish-0280/LeetCode/tree/master/0923-super-egg-drop) |
@@ -1627,6 +1629,7 @@
 ## Geometry
 |  |
 | ------- |
+| [0830-largest-triangle-area](https://github.com/ashish-0280/LeetCode/tree/master/0830-largest-triangle-area) |
 | [3278-find-the-number-of-ways-to-place-people-i](https://github.com/ashish-0280/LeetCode/tree/master/3278-find-the-number-of-ways-to-place-people-i) |
 ## Game Theory
 |  |
