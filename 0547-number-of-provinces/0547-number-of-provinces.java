@@ -1,37 +1,34 @@
 class Solution {
     public int findCircleNum(int[][] isConnected) {
         List<List<Integer>> adj = new ArrayList<>();
-        for(int i=0; i<isConnected.length; i++){
-            List<Integer> list = new ArrayList<>();
-            for(int j=0; j<isConnected[i].length; j++){
-                if(i!=j){
-                    if(isConnected[i][j] == 1){
-                        list.add(j);
-                    }
+        int n = isConnected.length;
+        for(int i=0; i<n; i++){
+            adj.add(new ArrayList<>());
+        }
+        for(int i=0; i<n; i++){
+            for(int j=0; j<n; j++){
+                if(i != j && isConnected[i][j] == 1){
+                    adj.get(i).add(j);
                 }
             }
-            adj.add(list);
         }
-        int cnt = 0;
-        boolean vis[] = new boolean[adj.size()];
-        Queue <Integer> q = new LinkedList<>();
+        boolean vis[] = new boolean[n];
+        int count = 0;
         for(int i=0; i<adj.size(); i++){
             if(!vis[i]){
-                cnt++;
-                q.offer(i);
-                bfs(adj, q, vis);
+                count++;
+                dfs(adj, i, vis);
             }
         }
-        return cnt;
+        return count;
     }
-    public void bfs(List<List<Integer>> adj, Queue <Integer> q, boolean vis[]){
-        while(!q.isEmpty()){
-            int curr = q.poll();
-            for(int i=0; i<adj.get(curr).size(); i++){
-                if(!vis[adj.get(curr).get(i)]){
-                    q.offer(adj.get(curr).get(i));
-                    vis[adj.get(curr).get(i)] = true;
-                }
+    public void dfs(List<List<Integer>> adj, int curr, boolean vis[]){
+        vis[curr] = true;
+
+        for(int neighbour: adj.get(curr)){
+            if(!vis[neighbour]){
+                vis[neighbour] = true;
+                dfs(adj, neighbour, vis);
             }
         }
     }
