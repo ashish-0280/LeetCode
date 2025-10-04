@@ -17,18 +17,21 @@ class Solution {
         for(int i=0; i<adj.size(); i++){
             if(!vis[i]){
                 count++;
-                dfs(adj, i, vis);
+                bfs(adj, i, vis);
             }
         }
         return count;
     }
-    public void dfs(List<List<Integer>> adj, int curr, boolean vis[]){
-        vis[curr] = true;
-
-        for(int neighbour: adj.get(curr)){
-            if(!vis[neighbour]){
-                vis[neighbour] = true;
-                dfs(adj, neighbour, vis);
+    public void bfs(List<List<Integer>> adj, int curr, boolean vis[]){
+        Queue<Integer> q = new LinkedList<>();
+        q.add(curr); vis[curr] = true;
+        while(!q.isEmpty()){
+            int current = q.poll();
+            for(int neighbour: adj.get(current)){
+                if(!vis[neighbour]){
+                    q.add(neighbour);
+                    vis[neighbour] = true;
+                }
             }
         }
     }
