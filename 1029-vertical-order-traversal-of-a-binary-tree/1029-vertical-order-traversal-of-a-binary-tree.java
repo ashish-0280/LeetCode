@@ -1,54 +1,44 @@
-/**
- * Definition for a binary tree node.
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode() {}
- *     TreeNode(int val) { this.val = val; }
- *     TreeNode(int val, TreeNode left, TreeNode right) {
- *         this.val = val;
- *         this.left = left;
- *         this.right = right;
- *     }
- * }
- */
 class Solution {
-    List<int[]> ls = new ArrayList<>();
-    public List<List<Integer>> verticalTraversal(TreeNode root) {
-        solve(root, 0, 0);
-         Collections.sort(ls, (a, b) -> {
-            if(a[0] != b[0]) return a[0]-b[0];
-            else if(a[1] != b[1]) return a[1]-b[1];
-            else return a[2]-b[2];
-         });
-        List<List<Integer>> list = new ArrayList<>();
-         int prevCol = Integer.MIN_VALUE;
-        List<Integer> currList = new ArrayList<>();
+    class Pair {
+        TreeNode node;
+        int hd, level;
+        public Pair(TreeNode node, int hd, int level) {
+            this.node = node;
+            this.hd = hd;
+            this.level = level;
+        }
+    }
 
-        for (int[] entry : ls) {
-            int col = entry[0], val = entry[2];
-            if (col != prevCol) {
-                if (!currList.isEmpty()) list.add(new ArrayList<>(currList));
-                currList.clear();
-                prevCol = col;
-            }
-            currList.add(val);
+    public List<List<Integer>> verticalTraversal(TreeNode root) {
+        TreeMap<Integer, TreeMap<Integer, PriorityQueue<Integer>>> map = new TreeMap<>();
+        Queue<Pair> q = new LinkedList<>();
+        q.add(new Pair(root, 0, 0));
+
+        while (!q.isEmpty()) {
+            Pair p = q.poll();
+            TreeNode node = p.node;
+            int hd = p.hd, level = p.level;
+
+            map.putIfAbsent(hd, new TreeMap<>());
+            map.get(hd).putIfAbsent(level, new PriorityQueue<>());
+            map.get(hd).get(level).add(node.val);
+
+            if (node.left != null) q.add(new Pair(node.left, hd - 1, level + 1));
+            if (node.right != null) q.add(new Pair(node.right, hd + 1, level + 1));
         }
 
-        list.add(currList); 
-        return list;
-    }
-    public int height(TreeNode root){
-        if(root == null) return 0;
+        List<List<Integer>> ans = new ArrayList<>();
 
-        return Math.max(height(root.left), height(root.right)) + 1;
-    }
-    public void solve(TreeNode root, int first, int second){
-        if(root == null) return;
+        for (TreeMap<Integer, PriorityQueue<Integer>> ys : map.values()) {
+            List<Integer> col = new ArrayList<>();
+            for (PriorityQueue<Integer> nodes : ys.values()) {
+                while (!nodes.isEmpty()) {
+                    col.add(nodes.poll());
+                }
+            }
+            ans.add(col);
+        }
 
-        ls.add(new int[]{first, second, root.val});
-        solve(root.left, first-1, second+1);
-        solve(root.right, first+1, second+1);
+        return ans;
     }
 }
