@@ -4,20 +4,14 @@ class Solution {
         for(int i=0; i<=n; i++){
             graph.add(new ArrayList<>());
         }
+        int indegree[] = new int[n];
         for(int row[]: trust){
-            graph.get(row[0]).add(row[1]);
+            graph.get(row[0]-1).add(row[1]-1);
+            indegree[row[1]-1]++;
         }
-        for(int i=1; i<graph.size(); i++){
-            if(graph.get(i).size() == 0){
-                int c = 0;
-                for(int j=1; j<graph.size(); j++){
-                    if(graph.get(j).contains(i)){
-                        c++;
-                    }
-                }
-                if(c == graph.size()-2){
-                    return i;
-                }
+        for(int i=0; i<n; i++){
+            if(indegree[i] == n-1 && graph.get(i).size() == 0){
+                return i+1;
             }
         }
         return -1;
