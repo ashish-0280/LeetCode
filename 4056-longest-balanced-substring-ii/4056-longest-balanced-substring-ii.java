@@ -34,9 +34,9 @@ class Solution {
         return maxLen;
     }
 
-    private int maxPair(String s, char x, char y, char skip) {
+    public int maxPair(String s, char x, char y, char skip) {
         int n = s.length(), best = 0;
-        for (int i = 0; i < n; ) {
+        for (int i = 0; i < n; i++) {
             while (i < n && s.charAt(i) == skip) i++;
             if (i >= n) break;
             int start = i;
