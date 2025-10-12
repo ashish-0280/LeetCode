@@ -1,62 +1,64 @@
+import java.util.*;
+
 class Solution {
     public int longestBalanced(String s) {
-        int len = s.length();
-        if (len == 0) return 0;
+        int n = s.length();
+        if (n == 0) return 0;
 
-        int champ = 1, streak = 1;
-        for (int i = 1; i < len; i++) {
-            if (s.charAt(i) == s.charAt(i - 1)) streak++;
+        int maxLen = 1, runLen = 1;
+        for (int i = 1; i < n; i++) {
+            if (s.charAt(i) == s.charAt(i - 1)) runLen++;
             else {
-                champ = Math.max(champ, streak);
-                streak = 1;
+                maxLen = Math.max(maxLen, runLen);
+                runLen = 1;
             }
         }
-        champ = Math.max(champ, streak);
+        maxLen = Math.max(maxLen, runLen);
 
-        int u = 0, v = 0, w = 0;
-        Map<String, Integer> tracker = new HashMap<>();
-        tracker.put("0,0", -1);
-        for (int i = 0; i < len; i++) {
+        int cntA = 0, cntB = 0, cntC = 0;
+        Map<String, Integer> diffMap = new HashMap<>();
+        diffMap.put("0,0", -1);
+        for (int i = 0; i < n; i++) {
             char ch = s.charAt(i);
-            if (ch == 'a') u++;
-            else if (ch == 'b') v++;
-            else if (ch == 'c') w++;
+            if (ch == 'a') cntA++;
+            else if (ch == 'b') cntB++;
+            else if (ch == 'c') cntC++;
 
-            String key = (u - v) + "," + (u - w);
-            if (tracker.containsKey(key)) champ = Math.max(champ, i - tracker.get(key));
-            else tracker.put(key, i);
+            String key = (cntA - cntB) + "," + (cntA - cntC);
+            if (diffMap.containsKey(key)) maxLen = Math.max(maxLen, i - diffMap.get(key));
+            else diffMap.put(key, i);
         }
 
-        champ = Math.max(champ, maxPairRun(s, 'a', 'b', 'c'));
-        champ = Math.max(champ, maxPairRun(s, 'a', 'c', 'b'));
-        champ = Math.max(champ, maxPairRun(s, 'b', 'c', 'a'));
+        maxLen = Math.max(maxLen, maxPair(s, 'a', 'b', 'c'));
+        maxLen = Math.max(maxLen, maxPair(s, 'a', 'c', 'b'));
+        maxLen = Math.max(maxLen, maxPair(s, 'b', 'c', 'a'));
 
-        return champ;
+        return maxLen;
     }
 
-    private int maxPairRun(String s, char x, char y, char sep) {
+    private int maxPair(String s, char x, char y, char skip) {
         int n = s.length(), best = 0;
         for (int i = 0; i < n; ) {
-            while (i < n && s.charAt(i) == sep) i++;
+            while (i < n && s.charAt(i) == skip) i++;
             if (i >= n) break;
             int start = i;
-            while (i < n && s.charAt(i) != sep) i++;
+            while (i < n && s.charAt(i) != skip) i++;
             best = Math.max(best, pairBalance(s, start, i - 1, x, y));
         }
         return best;
     }
 
     private int pairBalance(String s, int start, int end, char x, char y) {
-        Map<Integer, Integer> tracker = new HashMap<>();
+        Map<Integer, Integer> diffMap = new HashMap<>();
         int diff = 0, best = 0;
-        tracker.put(0, start - 1);
+        diffMap.put(0, start - 1);
 
         for (int i = start; i <= end; i++) {
             char ch = s.charAt(i);
             if (ch == x) diff++;
             else if (ch == y) diff--;
-            if (tracker.containsKey(diff)) best = Math.max(best, i - tracker.get(diff));
-            else tracker.put(diff, i);
+            if (diffMap.containsKey(diff)) best = Math.max(best, i - diffMap.get(diff));
+            else diffMap.put(diff, i);
         }
         return best;
     }
