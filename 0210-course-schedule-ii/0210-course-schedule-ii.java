@@ -6,8 +6,8 @@ class Solution {
             graph.add(new ArrayList<>());
         }
         for(int arr[]: prerequisites){
-            graph.get(arr[0]).add(arr[1]);
-            indegree[arr[1]]++;
+            graph.get(arr[1]).add(arr[0]);
+            indegree[arr[0]]++;
         }
         List<Integer> ans = new ArrayList<>();
         Queue<Integer> q = new LinkedList<>();
@@ -28,7 +28,6 @@ class Solution {
             }
         }
         if(count < numCourses) return new int[0];
-        Collections.reverse(ans);
         int arr[] = new int[ans.size()];
         int i=0;
         for(int num: ans){
