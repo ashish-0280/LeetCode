@@ -1,37 +1,31 @@
 class Solution {
     public boolean canFinish(int numCourses, int[][] prerequisites) {
-        int n = numCourses;
-        List<List<Integer>> adj = new ArrayList<>();
-        for(int i=0; i<n; i++){
-            adj.add(new ArrayList<>());
+        List<List<Integer>> list = new ArrayList<>();
+        for(int i=0; i<numCourses; i++){
+            list.add(new ArrayList<>());
         }
-        for(int i=0; i<prerequisites.length; i++){
-            adj.get(prerequisites[i][1]).add(prerequisites[i][0]);
+        int indegree[] = new int[numCourses];
+        for(int row[]: prerequisites){
+            list.get(row[1]).add(row[0]);
+            indegree[row[0]]++;
         }
-        boolean vis[] = new boolean[adj.size()];
-        boolean rec[] = new boolean[adj.size()];
-        for(int i=0; i<adj.size(); i++){
-            if(!vis[i]){
-                if(dfs(adj, vis, i, rec)){
-                    return false;
+        Queue<Integer> q = new LinkedList<>();
+        for(int i=0; i<numCourses; i++){
+            if(indegree[i] == 0){
+                q.add(i);
+            }
+        }
+        int count = 0;
+        while(!q.isEmpty()){
+            int curr = q.poll();
+            count++;
+            for(int neighbour: list.get(curr)){
+                indegree[neighbour]--;
+                if(indegree[neighbour] == 0){
+                    q.add(neighbour);
                 }
             }
         }
-        return true;
-    }
-    public boolean dfs(List<List<Integer>> adj, boolean vis[], int curr, boolean rec[]){
-        vis[curr] = true; rec[curr] = true;
-        for(int i=0; i<adj.get(curr).size(); i++){
-            int neighbour = adj.get(curr).get(i);
-            if(!vis[neighbour]){
-                if(dfs(adj, vis, neighbour, rec)){
-                    return true;
-                }
-            } else if(rec[neighbour]){
-                return true;
-            }
-        }
-        rec[curr] = false;
-        return false;
+        return count == numCourses;
     }
 }
