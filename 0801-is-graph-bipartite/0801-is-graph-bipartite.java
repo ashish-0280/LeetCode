@@ -1,28 +1,30 @@
 class Solution {
     public boolean isBipartite(int[][] graph) {
-        int color[] = new int[graph.length];
-        Arrays.fill(color, -1);
-        for(int i=0; i<graph.length; i++){
-            if(color[i] == -1){
-                if(!dfs(graph, color, i, 0)){
-                    return false;
+        int n = graph.length;
+        int[] color = new int[n];
+        Arrays.fill(color, -1);  // -1 = uncolored
+
+        for (int start = 0; start < n; start++) {
+            if (color[start] != -1) continue;  // already visited
+
+            Queue<Integer> q = new LinkedList<>();
+            q.offer(start);
+            color[start] = 0; // start coloring
+
+            while (!q.isEmpty()) {
+                int node = q.poll();
+                for (int neighbor : graph[node]) {
+                    if (color[neighbor] == -1) {
+                        color[neighbor] = 1 - color[node];
+                        q.offer(neighbor);
+                    } else if (color[neighbor] == color[node]) {
+                        // same color on both ends of an edge → not bipartite
+                        return false;
+                    }
                 }
             }
         }
-        return true;
-    }
-    public boolean dfs(int[][] graph, int color[], int curr, int currColor){
-        color[curr] = currColor;
-        for(int v: graph[curr]){
-            if(color[v] == color[curr]){
-                return false;
-            }
-            if(color[v] == -1){
-                if(!dfs(graph, color, v, 1-currColor)){
-                    return false;
-                }
-            }
-        }
-        return true;
+
+        return true;  // no conflicts found
     }
 }
