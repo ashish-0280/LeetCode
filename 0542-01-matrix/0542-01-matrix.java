@@ -12,7 +12,7 @@ class Solution {
                 }
             }
         }
-        int result[][] = new int[m][n];
+        //int result[][] = new int[m][n];
         int steps = 1;
         int dx[] = {-1, 1, 0, 0};
         int dy[] = {0, 0, 1, -1};
@@ -26,13 +26,13 @@ class Solution {
                     int y = col + dy[j];
                     if(x>=0 && y>=0 && x<m && y<n && !vis[x][y]){
                         vis[x][y] = true;
-                        result[x][y] = steps;
+                        mat[x][y] = steps;
                         q.offer(new int[]{x, y});
                     }
                 }
             }
             steps++;
         }
-        return result;
+        return mat;
     }
 }
