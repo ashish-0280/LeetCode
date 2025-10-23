@@ -1,39 +1,61 @@
 class Solution {
     public int[] findOrder(int numCourses, int[][] prerequisites) {
-        int indegree[] = new int[numCourses];
-        List<List<Integer>> graph = new ArrayList<>();
+        List<List<Integer>> list = new ArrayList<>();
         for(int i=0; i<numCourses; i++){
-            graph.add(new ArrayList<>());
+            list.add(new ArrayList<>());
         }
-        for(int arr[]: prerequisites){
-            graph.get(arr[1]).add(arr[0]);
-            indegree[arr[0]]++;
+        for(int row[]: prerequisites){
+            list.get(row[1]).add(row[0]);
         }
-        List<Integer> ans = new ArrayList<>();
-        Queue<Integer> q = new LinkedList<>();
+        boolean vis[] = new boolean[numCourses];
+        boolean rec[] = new boolean[numCourses];
         for(int i=0; i<numCourses; i++){
-            if(indegree[i] == 0){
-                q.add(i);
-            }
-        }
-        int count = 0;
-        while(!q.isEmpty()){
-            int curr = q.poll(); count++;
-            ans.add(curr);
-            for(int num: graph.get(curr)){
-                indegree[num]--;
-                if(indegree[num] == 0){
-                    q.add(num);
+            if(!vis[i]){
+                if(dfs(list, i, vis, rec)){
+                    return new int[0];
                 }
             }
         }
-        if(count < numCourses) return new int[0];
-        int arr[] = new int[ans.size()];
-        int i=0;
-        for(int num: ans){
-            arr[i] = num;
-            i++;
+        Arrays.fill(vis, false);
+        Stack<Integer> s = new Stack<>();
+        for(int i=0; i<numCourses; i++){
+            if(!vis[i]){
+                solve(list, s, i, vis);
+            }
         }
-        return arr;
+        int ans[] = new int[numCourses];
+        int p=0;
+        while(!s.isEmpty()){
+            ans[p] = s.pop();
+            p++;
+        }
+        return ans;
+    }
+    public boolean dfs(List<List<Integer>> list, int curr, boolean vis[], boolean rec[]){
+        vis[curr] = true;
+        rec[curr] = true;
+
+        for(int neighbour: list.get(curr)){
+            if(!vis[neighbour]){
+                if(dfs(list, neighbour, vis, rec)){
+                    return true;
+                }
+            } else {
+                if(rec[neighbour]){
+                    return true;
+                }
+            }
+        }
+        rec[curr] = false;
+        return false;
+    }
+    public void solve(List<List<Integer>> list, Stack<Integer> s, int curr, boolean vis[]){
+        vis[curr] = true;
+        for(int neighbour: list.get(curr)){
+            if(!vis[neighbour]){
+                solve(list, s, neighbour, vis);
+            }
+        }
+        s.push(curr);
     }
 }
