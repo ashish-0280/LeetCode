@@ -4,28 +4,36 @@ class Solution {
         for(int i=0; i<numCourses; i++){
             list.add(new ArrayList<>());
         }
-        int indegree[] = new int[numCourses];
         for(int row[]: prerequisites){
             list.get(row[1]).add(row[0]);
-            indegree[row[0]]++;
         }
-        Queue<Integer> q = new LinkedList<>();
+        boolean vis[] = new boolean[numCourses];
+        boolean rec[] = new boolean[numCourses];
         for(int i=0; i<numCourses; i++){
-            if(indegree[i] == 0){
-                q.add(i);
-            }
-        }
-        int count = 0;
-        while(!q.isEmpty()){
-            int curr = q.poll();
-            count++;
-            for(int neighbour: list.get(curr)){
-                indegree[neighbour]--;
-                if(indegree[neighbour] == 0){
-                    q.add(neighbour);
+            if(!vis[i]){
+                if(dfs(list, i, vis, rec)){
+                    return false;
                 }
             }
         }
-        return count == numCourses;
+        return true;
+    }
+    public boolean dfs(List<List<Integer>> list, int curr, boolean vis[], boolean rec[]){
+        vis[curr] = true;
+        rec[curr] = true;
+
+        for(int neighbour: list.get(curr)){
+            if(!vis[neighbour]){
+                if(dfs(list, neighbour, vis, rec)){
+                    return true;
+                }
+            } else {
+                if(rec[neighbour]){
+                    return true;
+                }
+            }
+        }
+        rec[curr] = false;
+        return false;
     }
 }
