@@ -15,19 +15,19 @@ class Solution {
         return low;
     }
 
-    public boolean check(int[] d, int[] r, long mid, long l){
-        long x = mid / r[0];
+    public boolean check(int d[], int r[], long mid, long l){
+        long x = mid / r[0]; 
         long y = mid / r[1];
-        long both = mid / l;
+        long together = mid / l;
 
-        long drone1 = Math.max(0, y - both);
-        long drone2 = Math.max(0, x - both);
-        long idle = mid - (x + y - both);
+        long drone1 = Math.max(0, y - together);
+        long drone2 = Math.max(0, x - together);
+        long anyone = mid - (x + y - together);
 
         long needed1 = Math.max(0, d[0] - drone1);
         long needed2 = Math.max(0, d[1] - drone2);
 
-        return (needed1 + needed2) <= idle;
+        return (needed1 + needed2) <= anyone;
     }
 
     public long gcd(long a, long b){
