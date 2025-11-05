@@ -499,6 +499,7 @@
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/ashish-0280/LeetCode/tree/master/3630-total-characters-in-string-after-transformations-ii) |
 | [3797-design-spreadsheet](https://github.com/ashish-0280/LeetCode/tree/master/3797-design-spreadsheet) |
 | [3872-find-most-frequent-vowel-and-consonant](https://github.com/ashish-0280/LeetCode/tree/master/3872-find-most-frequent-vowel-and-consonant) |
+| [4037-lexicographically-smallest-palindromic-permutation-greater-than-target](https://github.com/ashish-0280/LeetCode/tree/master/4037-lexicographically-smallest-palindromic-permutation-greater-than-target) |
 ## Counting
 |  |
 | ------- |
@@ -766,6 +767,7 @@
 | [2699-count-the-number-of-fair-pairs](https://github.com/ashish-0280/LeetCode/tree/master/2699-count-the-number-of-fair-pairs) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/ashish-0280/LeetCode/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [3755-maximum-product-of-first-and-last-elements-of-a-subsequence](https://github.com/ashish-0280/LeetCode/tree/master/3755-maximum-product-of-first-and-last-elements-of-a-subsequence) |
+| [4037-lexicographically-smallest-palindromic-permutation-greater-than-target](https://github.com/ashish-0280/LeetCode/tree/master/4037-lexicographically-smallest-palindromic-permutation-greater-than-target) |
 ## Sorting
 |  |
 | ------- |
@@ -1621,6 +1623,7 @@
 | [3548-find-the-count-of-good-integers](https://github.com/ashish-0280/LeetCode/tree/master/3548-find-the-count-of-good-integers) |
 | [3741-reschedule-meetings-for-maximum-free-time-ii](https://github.com/ashish-0280/LeetCode/tree/master/3741-reschedule-meetings-for-maximum-free-time-ii) |
 | [3789-maximize-subarrays-after-removing-one-conflicting-pair](https://github.com/ashish-0280/LeetCode/tree/master/3789-maximize-subarrays-after-removing-one-conflicting-pair) |
+| [4037-lexicographically-smallest-palindromic-permutation-greater-than-target](https://github.com/ashish-0280/LeetCode/tree/master/4037-lexicographically-smallest-palindromic-permutation-greater-than-target) |
 ## Shortest Path
 |  |
 | ------- |
