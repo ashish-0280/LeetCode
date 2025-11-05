@@ -16,19 +16,19 @@ class Solution {
         int left = 0;
 
         for (int right = 0; right < nums.length; right++) {
-            long[] cur = freq.getOrDefault(nums[right], new long[2]);
+            long[] curr = freq.getOrDefault(nums[right], new long[2]);
 
-            if (top.contains(cur)) {
-                sum -= cur[0] * cur[1];
-                top.remove(cur);
+            if (top.contains(curr)) {
+                sum -= curr[0] * curr[1];
+                top.remove(curr);
             } else {
-                rest.remove(cur);
+                rest.remove(curr);
             }
 
-            cur[0] = nums[right];
-            cur[1]++;
-            freq.put(nums[right], cur);
-            rest.add(cur);
+            curr[0] = nums[right];
+            curr[1]++;
+            freq.put(nums[right], curr);
+            rest.add(curr);
 
             if (left + k - 1 == right) {
                 while (top.size() < x && !rest.isEmpty()) {
