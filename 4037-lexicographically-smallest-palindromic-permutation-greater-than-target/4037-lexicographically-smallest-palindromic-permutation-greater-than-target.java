@@ -31,7 +31,7 @@ class Solution {
         return halfPart.toString();
     }
 
-    public boolean buildHalfPalindrome(int idx, boolean matchTargetPrefix, StringBuilder half, int[] freq, int len, String target) {
+    public boolean buildHalfPalindrome(int idx, boolean targetPrefix, StringBuilder half, int[] freq, int len, String target) {
 
         if (idx == (len + 1) / 2) {
             return isPalindromeGreater(len, half.toString(), target);
@@ -40,7 +40,7 @@ class Solution {
         for (char ch = 'a'; ch <= 'z'; ++ch) {
             int i = ch - 'a';
 
-            if (matchTargetPrefix) {
+            if (targetPrefix) {
                 if (ch >= target.charAt(idx) &&
                     (freq[i] >= 2 ||
                      (freq[i] >= 1 && isMiddle(idx, len)))) {
