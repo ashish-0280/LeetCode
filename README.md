@@ -281,6 +281,7 @@
 | [3791-fruits-into-baskets-iii](https://github.com/ashish-0280/LeetCode/tree/master/3791-fruits-into-baskets-iii) |
 | [3797-design-spreadsheet](https://github.com/ashish-0280/LeetCode/tree/master/3797-design-spreadsheet) |
 | [3827-implement-router](https://github.com/ashish-0280/LeetCode/tree/master/3827-implement-router) |
+| [3863-power-grid-maintenance](https://github.com/ashish-0280/LeetCode/tree/master/3863-power-grid-maintenance) |
 ## Hash Table
 |  |
 | ------- |
@@ -396,6 +397,7 @@
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/ashish-0280/LeetCode/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
 | [3797-design-spreadsheet](https://github.com/ashish-0280/LeetCode/tree/master/3797-design-spreadsheet) |
 | [3827-implement-router](https://github.com/ashish-0280/LeetCode/tree/master/3827-implement-router) |
+| [3863-power-grid-maintenance](https://github.com/ashish-0280/LeetCode/tree/master/3863-power-grid-maintenance) |
 | [3872-find-most-frequent-vowel-and-consonant](https://github.com/ashish-0280/LeetCode/tree/master/3872-find-most-frequent-vowel-and-consonant) |
 ## String
 |  |
@@ -1164,6 +1166,7 @@
 | [2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://github.com/ashish-0280/LeetCode/tree/master/2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/ashish-0280/LeetCode/tree/master/2564-most-profitable-path-in-a-tree) |
 | [2793-count-the-number-of-complete-components](https://github.com/ashish-0280/LeetCode/tree/master/2793-count-the-number-of-complete-components) |
+| [3863-power-grid-maintenance](https://github.com/ashish-0280/LeetCode/tree/master/3863-power-grid-maintenance) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -1216,6 +1219,7 @@
 | [2564-most-profitable-path-in-a-tree](https://github.com/ashish-0280/LeetCode/tree/master/2564-most-profitable-path-in-a-tree) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/ashish-0280/LeetCode/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2793-count-the-number-of-complete-components](https://github.com/ashish-0280/LeetCode/tree/master/2793-count-the-number-of-complete-components) |
+| [3863-power-grid-maintenance](https://github.com/ashish-0280/LeetCode/tree/master/3863-power-grid-maintenance) |
 ## Binary Tree
 |  |
 | ------- |
@@ -1349,6 +1353,7 @@
 | [3678-design-task-manager](https://github.com/ashish-0280/LeetCode/tree/master/3678-design-task-manager) |
 | [3759-choose-k-elements-with-maximum-sum](https://github.com/ashish-0280/LeetCode/tree/master/3759-choose-k-elements-with-maximum-sum) |
 | [3764-maximum-sum-with-at-most-k-elements](https://github.com/ashish-0280/LeetCode/tree/master/3764-maximum-sum-with-at-most-k-elements) |
+| [3863-power-grid-maintenance](https://github.com/ashish-0280/LeetCode/tree/master/3863-power-grid-maintenance) |
 ## Quickselect
 |  |
 | ------- |
@@ -1385,6 +1390,7 @@
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/ashish-0280/LeetCode/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2793-count-the-number-of-complete-components](https://github.com/ashish-0280/LeetCode/tree/master/2793-count-the-number-of-complete-components) |
 | [3348-minimum-cost-walk-in-weighted-graph](https://github.com/ashish-0280/LeetCode/tree/master/3348-minimum-cost-walk-in-weighted-graph) |
+| [3863-power-grid-maintenance](https://github.com/ashish-0280/LeetCode/tree/master/3863-power-grid-maintenance) |
 ## Graph
 |  |
 | ------- |
@@ -1411,6 +1417,7 @@
 | [2564-most-profitable-path-in-a-tree](https://github.com/ashish-0280/LeetCode/tree/master/2564-most-profitable-path-in-a-tree) |
 | [2793-count-the-number-of-complete-components](https://github.com/ashish-0280/LeetCode/tree/master/2793-count-the-number-of-complete-components) |
 | [3348-minimum-cost-walk-in-weighted-graph](https://github.com/ashish-0280/LeetCode/tree/master/3348-minimum-cost-walk-in-weighted-graph) |
+| [3863-power-grid-maintenance](https://github.com/ashish-0280/LeetCode/tree/master/3863-power-grid-maintenance) |
 ## Backtracking
 |  |
 | ------- |
@@ -1560,6 +1567,7 @@
 | [3790-fruits-into-baskets-ii](https://github.com/ashish-0280/LeetCode/tree/master/3790-fruits-into-baskets-ii) |
 | [3791-fruits-into-baskets-iii](https://github.com/ashish-0280/LeetCode/tree/master/3791-fruits-into-baskets-iii) |
 | [3827-implement-router](https://github.com/ashish-0280/LeetCode/tree/master/3827-implement-router) |
+| [3863-power-grid-maintenance](https://github.com/ashish-0280/LeetCode/tree/master/3863-power-grid-maintenance) |
 ## Doubly-Linked List
 |  |
 | ------- |
