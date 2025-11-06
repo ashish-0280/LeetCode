@@ -282,6 +282,7 @@
 | [3797-design-spreadsheet](https://github.com/ashish-0280/LeetCode/tree/master/3797-design-spreadsheet) |
 | [3827-implement-router](https://github.com/ashish-0280/LeetCode/tree/master/3827-implement-router) |
 | [3863-power-grid-maintenance](https://github.com/ashish-0280/LeetCode/tree/master/3863-power-grid-maintenance) |
+| [3994-find-the-least-frequent-digit](https://github.com/ashish-0280/LeetCode/tree/master/3994-find-the-least-frequent-digit) |
 ## Hash Table
 |  |
 | ------- |
@@ -399,6 +400,7 @@
 | [3827-implement-router](https://github.com/ashish-0280/LeetCode/tree/master/3827-implement-router) |
 | [3863-power-grid-maintenance](https://github.com/ashish-0280/LeetCode/tree/master/3863-power-grid-maintenance) |
 | [3872-find-most-frequent-vowel-and-consonant](https://github.com/ashish-0280/LeetCode/tree/master/3872-find-most-frequent-vowel-and-consonant) |
+| [3994-find-the-least-frequent-digit](https://github.com/ashish-0280/LeetCode/tree/master/3994-find-the-least-frequent-digit) |
 ## String
 |  |
 | ------- |
@@ -530,6 +532,7 @@
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/ashish-0280/LeetCode/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/ashish-0280/LeetCode/tree/master/3630-total-characters-in-string-after-transformations-ii) |
 | [3872-find-most-frequent-vowel-and-consonant](https://github.com/ashish-0280/LeetCode/tree/master/3872-find-most-frequent-vowel-and-consonant) |
+| [3994-find-the-least-frequent-digit](https://github.com/ashish-0280/LeetCode/tree/master/3994-find-the-least-frequent-digit) |
 ## Math
 |  |
 | ------- |
@@ -602,6 +605,7 @@
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/ashish-0280/LeetCode/tree/master/3630-total-characters-in-string-after-transformations-ii) |
 | [3744-minimum-operations-to-make-array-elements-zero](https://github.com/ashish-0280/LeetCode/tree/master/3744-minimum-operations-to-make-array-elements-zero) |
 | [3830-find-closest-person](https://github.com/ashish-0280/LeetCode/tree/master/3830-find-closest-person) |
+| [3994-find-the-least-frequent-digit](https://github.com/ashish-0280/LeetCode/tree/master/3994-find-the-least-frequent-digit) |
 ## Design
 |  |
 | ------- |
