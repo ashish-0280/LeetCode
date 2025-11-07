@@ -41,9 +41,7 @@ class Solution {
                 currAdd += need;
                 int pos = Math.min(n - 1, i + r);
                 int expire = pos + r + 1;
-                if (expire <= n - 1) {
-                    diff[expire] -= need;
-                } else if (expire == n) {
+                if (expire <= n) {
                     diff[expire] -= need;
                 }
             }
