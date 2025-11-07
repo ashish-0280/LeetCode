@@ -215,6 +215,7 @@
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/ashish-0280/LeetCode/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/ashish-0280/LeetCode/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/ashish-0280/LeetCode/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
+| [2618-maximize-the-minimum-powered-city](https://github.com/ashish-0280/LeetCode/tree/master/2618-maximize-the-minimum-powered-city) |
 | [2626-count-the-number-of-good-subarrays](https://github.com/ashish-0280/LeetCode/tree/master/2626-count-the-number-of-good-subarrays) |
 | [2636-maximum-subsequence-score](https://github.com/ashish-0280/LeetCode/tree/master/2636-maximum-subsequence-score) |
 | [2665-minimum-time-to-repair-cars](https://github.com/ashish-0280/LeetCode/tree/master/2665-minimum-time-to-repair-cars) |
@@ -725,6 +726,7 @@
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/ashish-0280/LeetCode/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/ashish-0280/LeetCode/tree/master/2456-construct-smallest-number-from-di-string) |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/ashish-0280/LeetCode/tree/master/2497-maximum-matching-of-players-with-trainers) |
+| [2618-maximize-the-minimum-powered-city](https://github.com/ashish-0280/LeetCode/tree/master/2618-maximize-the-minimum-powered-city) |
 | [2636-maximum-subsequence-score](https://github.com/ashish-0280/LeetCode/tree/master/2636-maximum-subsequence-score) |
 | [2681-put-marbles-in-bags](https://github.com/ashish-0280/LeetCode/tree/master/2681-put-marbles-in-bags) |
 | [2689-rearranging-fruits](https://github.com/ashish-0280/LeetCode/tree/master/2689-rearranging-fruits) |
@@ -858,6 +860,7 @@
 | [2478-longest-nice-subarray](https://github.com/ashish-0280/LeetCode/tree/master/2478-longest-nice-subarray) |
 | [2498-smallest-subarrays-with-maximum-bitwise-or](https://github.com/ashish-0280/LeetCode/tree/master/2498-smallest-subarrays-with-maximum-bitwise-or) |
 | [2527-count-subarrays-with-fixed-bounds](https://github.com/ashish-0280/LeetCode/tree/master/2527-count-subarrays-with-fixed-bounds) |
+| [2618-maximize-the-minimum-powered-city](https://github.com/ashish-0280/LeetCode/tree/master/2618-maximize-the-minimum-powered-city) |
 | [2626-count-the-number-of-good-subarrays](https://github.com/ashish-0280/LeetCode/tree/master/2626-count-the-number-of-good-subarrays) |
 | [2856-count-complete-subarrays-in-an-array](https://github.com/ashish-0280/LeetCode/tree/master/2856-count-complete-subarrays-in-an-array) |
 | [3213-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/ashish-0280/LeetCode/tree/master/3213-count-subarrays-where-max-element-appears-at-least-k-times) |
@@ -894,6 +897,7 @@
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/ashish-0280/LeetCode/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2229-maximum-fruits-harvested-after-at-most-k-steps](https://github.com/ashish-0280/LeetCode/tree/master/2229-maximum-fruits-harvested-after-at-most-k-steps) |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/ashish-0280/LeetCode/tree/master/2394-count-subarrays-with-score-less-than-k) |
+| [2618-maximize-the-minimum-powered-city](https://github.com/ashish-0280/LeetCode/tree/master/2618-maximize-the-minimum-powered-city) |
 | [2915-count-of-interesting-subarrays](https://github.com/ashish-0280/LeetCode/tree/master/2915-count-of-interesting-subarrays) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/ashish-0280/LeetCode/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3639-zero-array-transformation-i](https://github.com/ashish-0280/LeetCode/tree/master/3639-zero-array-transformation-i) |
@@ -943,6 +947,7 @@
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/ashish-0280/LeetCode/tree/master/2394-count-subarrays-with-score-less-than-k) |
 | [2498-smallest-subarrays-with-maximum-bitwise-or](https://github.com/ashish-0280/LeetCode/tree/master/2498-smallest-subarrays-with-maximum-bitwise-or) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/ashish-0280/LeetCode/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
+| [2618-maximize-the-minimum-powered-city](https://github.com/ashish-0280/LeetCode/tree/master/2618-maximize-the-minimum-powered-city) |
 | [2665-minimum-time-to-repair-cars](https://github.com/ashish-0280/LeetCode/tree/master/2665-minimum-time-to-repair-cars) |
 | [2690-house-robber-iv](https://github.com/ashish-0280/LeetCode/tree/master/2690-house-robber-iv) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/ashish-0280/LeetCode/tree/master/2699-count-the-number-of-fair-pairs) |
@@ -1467,6 +1472,7 @@
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/ashish-0280/LeetCode/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2408-number-of-people-aware-of-a-secret](https://github.com/ashish-0280/LeetCode/tree/master/2408-number-of-people-aware-of-a-secret) |
 | [2527-count-subarrays-with-fixed-bounds](https://github.com/ashish-0280/LeetCode/tree/master/2527-count-subarrays-with-fixed-bounds) |
+| [2618-maximize-the-minimum-powered-city](https://github.com/ashish-0280/LeetCode/tree/master/2618-maximize-the-minimum-powered-city) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/ashish-0280/LeetCode/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3827-implement-router](https://github.com/ashish-0280/LeetCode/tree/master/3827-implement-router) |
 ## Data Stream
