@@ -1,12 +1,12 @@
 class Solution {
     public int minimumDistance(int[] nums) {
         Map<Integer, Integer> map = new HashMap<>();
-        Map<Integer, TreeSet<Integer>> map2 = new HashMap<>();
+        Map<Integer, List<Integer>> map2 = new HashMap<>();
 
         for(int i=0; i<nums.length; i++){
             map.put(nums[i], map.getOrDefault(nums[i], 0) + 1);
             if(!map2.containsKey(nums[i])){
-                map2.put(nums[i], new TreeSet<>());
+                map2.put(nums[i], new ArrayList<>());
             }
             map2.get(nums[i]).add(i);
         }
@@ -18,10 +18,7 @@ class Solution {
         }
         return min == Integer.MAX_VALUE ? -1 : min;
     }
-    public int minValue(TreeSet<Integer> set) {
-        if (set.size() < 3) return -1; 
-
-        List<Integer> list = new ArrayList<>(set);
+    public int minValue(List<Integer> list) {
         int min = Integer.MAX_VALUE;
 
         for (int i = 0; i + 2 < list.size(); i++) {
