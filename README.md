@@ -224,6 +224,7 @@
 | [2690-house-robber-iv](https://github.com/ashish-0280/LeetCode/tree/master/2690-house-robber-iv) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/ashish-0280/LeetCode/tree/master/2699-count-the-number-of-fair-pairs) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/ashish-0280/LeetCode/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
+| [2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1](https://github.com/ashish-0280/LeetCode/tree/master/2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1) |
 | [2755-extra-characters-in-a-string](https://github.com/ashish-0280/LeetCode/tree/master/2755-extra-characters-in-a-string) |
 | [2856-count-complete-subarrays-in-an-array](https://github.com/ashish-0280/LeetCode/tree/master/2856-count-complete-subarrays-in-an-array) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/ashish-0280/LeetCode/tree/master/2888-minimum-index-of-a-valid-split) |
@@ -592,6 +593,7 @@
 | [2448-count-number-of-bad-pairs](https://github.com/ashish-0280/LeetCode/tree/master/2448-count-number-of-bad-pairs) |
 | [2610-closest-prime-numbers-in-range](https://github.com/ashish-0280/LeetCode/tree/master/2610-closest-prime-numbers-in-range) |
 | [2649-count-total-number-of-colored-cells](https://github.com/ashish-0280/LeetCode/tree/master/2649-count-total-number-of-colored-cells) |
+| [2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1](https://github.com/ashish-0280/LeetCode/tree/master/2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1) |
 | [2802-find-the-punishment-number-of-an-integer](https://github.com/ashish-0280/LeetCode/tree/master/2802-find-the-punishment-number-of-an-integer) |
 | [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/ashish-0280/LeetCode/tree/master/2903-insert-greatest-common-divisors-in-linked-list) |
 | [2998-count-symmetric-integers](https://github.com/ashish-0280/LeetCode/tree/master/2998-count-symmetric-integers) |
@@ -1509,6 +1511,7 @@
 | [1906-maximize-score-after-n-operations](https://github.com/ashish-0280/LeetCode/tree/master/1906-maximize-score-after-n-operations) |
 | [2307-replace-non-coprime-numbers-in-array](https://github.com/ashish-0280/LeetCode/tree/master/2307-replace-non-coprime-numbers-in-array) |
 | [2610-closest-prime-numbers-in-range](https://github.com/ashish-0280/LeetCode/tree/master/2610-closest-prime-numbers-in-range) |
+| [2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1](https://github.com/ashish-0280/LeetCode/tree/master/2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1) |
 | [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/ashish-0280/LeetCode/tree/master/2903-insert-greatest-common-divisors-in-linked-list) |
 | [3001-apply-operations-to-maximize-score](https://github.com/ashish-0280/LeetCode/tree/master/3001-apply-operations-to-maximize-score) |
 ## Bit Manipulation
