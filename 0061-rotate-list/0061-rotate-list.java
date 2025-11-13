@@ -22,14 +22,22 @@ class Solution {
         int diff = size - k;
         ListNode slow = head; ListNode fast = head;
         while(k-- > 0){
-            fast = fast.next;
+            temp = head;
+            while(temp.next.next != null){
+                temp = temp.next;
+            }
+            ListNode temp2 = temp.next;
+            temp.next = null;
+            temp2.next = head;
+            head = temp2;
         }
-        while(slow.next != null && fast.next != null){
-            slow = slow.next; fast = fast.next;
-        }
-        temp = slow.next;
-        slow.next = null;
-        fast.next = head;
-        return temp;
+        return head;
+        // while(slow.next != null && fast.next != null){
+        //     slow = slow.next; fast = fast.next;
+        // }
+        // temp = slow.next;
+        // slow.next = null;
+        // fast.next = head;
+        // return temp;
     }
 }
