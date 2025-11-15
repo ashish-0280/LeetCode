@@ -10,15 +10,15 @@ class Solution {
             }
         }
         int ans = 0;
-        for(int right = 1; right <= n; right++){
-            int zeroes = s.charAt(right-1) == '0' ? 1 : 0;
-            int left = right;
-            while(left > 0 && zeroes * zeroes <= n){
-                int ones = right - preIdx[left] - zeroes;
+        for(int r = 1; r <= n; r++){
+            int zeroes = s.charAt(r-1) == '0' ? 1 : 0;
+            int l = r;
+            while(l > 0 && zeroes * zeroes <= n){
+                int ones = r - preIdx[l] - zeroes;
                 if(ones >= zeroes * zeroes){
-                    ans += Math.min(left - preIdx[left], ones - zeroes*zeroes + 1);
+                    ans += Math.min(l - preIdx[l], ones - zeroes*zeroes + 1);
                 }
-                left = preIdx[left];
+                l = preIdx[l];
                 zeroes++;
             }
         }
