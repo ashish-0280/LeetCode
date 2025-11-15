@@ -2,7 +2,6 @@ class Solution {
     public int numberOfSubstrings(String s) {
         int n = s.length();
         int preIdx[] = new int[n+1];
-        preIdx[0] = -1;
         for(int i=0; i<n; i++){
             if(i == 0 || s.charAt(i-1) == '0'){
                 preIdx[i+1] = i;
