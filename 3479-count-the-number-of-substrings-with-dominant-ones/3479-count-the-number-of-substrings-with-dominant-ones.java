@@ -9,7 +9,7 @@ class Solution {
                 preIdx[i+1] = preIdx[i];
             }
         }
-        int ans = 0;
+        int ans = 0; int cnt = 0;
         for(int r = 1; r <= n; r++){
             int zeroes = s.charAt(r-1) == '0' ? 1 : 0;
             int l = r;
@@ -22,6 +22,7 @@ class Solution {
                 zeroes++;
             }
         }
+        System.out.println(cnt);
         return ans;
     }
 }
