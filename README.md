@@ -61,6 +61,7 @@
 | [0368-largest-divisible-subset](https://github.com/ashish-0280/LeetCode/tree/master/0368-largest-divisible-subset) |
 | [0416-partition-equal-subset-sum](https://github.com/ashish-0280/LeetCode/tree/master/0416-partition-equal-subset-sum) |
 | [0474-ones-and-zeroes](https://github.com/ashish-0280/LeetCode/tree/master/0474-ones-and-zeroes) |
+| [0485-max-consecutive-ones](https://github.com/ashish-0280/LeetCode/tree/master/0485-max-consecutive-ones) |
 | [0494-target-sum](https://github.com/ashish-0280/LeetCode/tree/master/0494-target-sum) |
 | [0496-next-greater-element-i](https://github.com/ashish-0280/LeetCode/tree/master/0496-next-greater-element-i) |
 | [0498-diagonal-traverse](https://github.com/ashish-0280/LeetCode/tree/master/0498-diagonal-traverse) |
