@@ -28,8 +28,6 @@ class Solution {
             int cut = Math.min(nextBreak[l], r+1);
             if(cut > 0){
                 ans[i] = count[r] - count[cut-1];
-            } else {
-                ans[i] = count[r];
             }
             long left = cut - l;
             ans[i] += (left * (left+1))/2;
