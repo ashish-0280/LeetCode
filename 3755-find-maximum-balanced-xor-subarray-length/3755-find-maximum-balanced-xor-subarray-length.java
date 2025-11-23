@@ -1,17 +1,17 @@
 class Solution {
     public int maxBalancedSubarray(int[] nums) {
-        int xorSum = 0;
+        int xor = 0;
         int diff = 0;
         int maxLen = 0;
 
         Map<String, Integer> map = new HashMap<>();
-        map.put("0#0", -1);
+        map.put("0$0", -1);
 
         for (int i = 0; i < nums.length; i++) {
-            xorSum ^= nums[i];
+            xor ^= nums[i];
             diff += (nums[i] % 2 == 0) ? 1 : -1;
 
-            String key = xorSum + "#" + diff;
+            String key = xor + "$" + diff;
 
             if (map.containsKey(key)) {
                 maxLen = Math.max(maxLen, i - map.get(key));
