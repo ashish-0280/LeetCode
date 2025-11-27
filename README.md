@@ -286,6 +286,7 @@
 | [3744-minimum-operations-to-make-array-elements-zero](https://github.com/ashish-0280/LeetCode/tree/master/3744-minimum-operations-to-make-array-elements-zero) |
 | [3748-sort-matrix-by-diagonals](https://github.com/ashish-0280/LeetCode/tree/master/3748-sort-matrix-by-diagonals) |
 | [3755-maximum-product-of-first-and-last-elements-of-a-subsequence](https://github.com/ashish-0280/LeetCode/tree/master/3755-maximum-product-of-first-and-last-elements-of-a-subsequence) |
+| [3757-number-of-effective-subsequences](https://github.com/ashish-0280/LeetCode/tree/master/3757-number-of-effective-subsequences) |
 | [3759-choose-k-elements-with-maximum-sum](https://github.com/ashish-0280/LeetCode/tree/master/3759-choose-k-elements-with-maximum-sum) |
 | [3760-assign-elements-to-groups-with-constraints](https://github.com/ashish-0280/LeetCode/tree/master/3760-assign-elements-to-groups-with-constraints) |
 | [3764-maximum-sum-with-at-most-k-elements](https://github.com/ashish-0280/LeetCode/tree/master/3764-maximum-sum-with-at-most-k-elements) |
@@ -635,6 +636,7 @@
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/ashish-0280/LeetCode/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/ashish-0280/LeetCode/tree/master/3630-total-characters-in-string-after-transformations-ii) |
 | [3744-minimum-operations-to-make-array-elements-zero](https://github.com/ashish-0280/LeetCode/tree/master/3744-minimum-operations-to-make-array-elements-zero) |
+| [3757-number-of-effective-subsequences](https://github.com/ashish-0280/LeetCode/tree/master/3757-number-of-effective-subsequences) |
 | [3830-find-closest-person](https://github.com/ashish-0280/LeetCode/tree/master/3830-find-closest-person) |
 | [3994-find-the-least-frequent-digit](https://github.com/ashish-0280/LeetCode/tree/master/3994-find-the-least-frequent-digit) |
 ## Design
@@ -1097,6 +1099,7 @@
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/ashish-0280/LeetCode/tree/master/3630-total-characters-in-string-after-transformations-ii) |
 | [3648-find-the-maximum-number-of-fruits-collected](https://github.com/ashish-0280/LeetCode/tree/master/3648-find-the-maximum-number-of-fruits-collected) |
 | [3677-maximum-amount-of-money-robot-can-earn](https://github.com/ashish-0280/LeetCode/tree/master/3677-maximum-amount-of-money-robot-can-earn) |
+| [3757-number-of-effective-subsequences](https://github.com/ashish-0280/LeetCode/tree/master/3757-number-of-effective-subsequences) |
 ## Stack
 |  |
 | ------- |
@@ -1555,6 +1558,7 @@
 | [0062-unique-paths](https://github.com/ashish-0280/LeetCode/tree/master/0062-unique-paths) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/ashish-0280/LeetCode/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [3548-find-the-count-of-good-integers](https://github.com/ashish-0280/LeetCode/tree/master/3548-find-the-count-of-good-integers) |
+| [3757-number-of-effective-subsequences](https://github.com/ashish-0280/LeetCode/tree/master/3757-number-of-effective-subsequences) |
 ## Number Theory
 |  |
 | ------- |
@@ -1598,6 +1602,7 @@
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/ashish-0280/LeetCode/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3601-find-the-k-th-character-in-string-game-ii](https://github.com/ashish-0280/LeetCode/tree/master/3601-find-the-k-th-character-in-string-game-ii) |
 | [3744-minimum-operations-to-make-array-elements-zero](https://github.com/ashish-0280/LeetCode/tree/master/3744-minimum-operations-to-make-array-elements-zero) |
+| [3757-number-of-effective-subsequences](https://github.com/ashish-0280/LeetCode/tree/master/3757-number-of-effective-subsequences) |
 ## Brainteaser
 |  |
 | ------- |
