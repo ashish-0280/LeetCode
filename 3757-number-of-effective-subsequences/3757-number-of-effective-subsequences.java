@@ -1,18 +1,18 @@
 class Solution {
     long MOD = 1000000007L;
 
-    public int countEffective(int[] a) {
-        int n = a.length;
+    public int countEffective(int[] nums) {
+        int n = nums.length;
 
         int OR = 0;
-        for (int x : a) OR |= x;
+        for (int x : nums) OR |= x;
 
         int B = 63 - Long.numberOfLeadingZeros(OR) + 1;
 
         int size = 1 << B;
         long[] dp = new long[size];
 
-        for (int x : a) dp[x]++;
+        for (int x : nums) dp[x]++;
 
         for (int j = 1; j < size; j <<= 1) {
             for (int i = 0; i < size; i++) {
