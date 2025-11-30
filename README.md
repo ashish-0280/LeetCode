@@ -193,6 +193,7 @@
 | [2215-finding-3-digit-even-numbers](https://github.com/ashish-0280/LeetCode/tree/master/2215-finding-3-digit-even-numbers) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/ashish-0280/LeetCode/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2229-maximum-fruits-harvested-after-at-most-k-steps](https://github.com/ashish-0280/LeetCode/tree/master/2229-maximum-fruits-harvested-after-at-most-k-steps) |
+| [2257-count-unguarded-cells-in-the-grid](https://github.com/ashish-0280/LeetCode/tree/master/2257-count-unguarded-cells-in-the-grid) |
 | [2262-solving-questions-with-brainpower](https://github.com/ashish-0280/LeetCode/tree/master/2262-solving-questions-with-brainpower) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/ashish-0280/LeetCode/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2267-minimum-difference-in-sums-after-removal-of-elements](https://github.com/ashish-0280/LeetCode/tree/master/2267-minimum-difference-in-sums-after-removal-of-elements) |
@@ -695,6 +696,7 @@
 | [2047-find-a-peak-element-ii](https://github.com/ashish-0280/LeetCode/tree/master/2047-find-a-peak-element-ii) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/ashish-0280/LeetCode/tree/master/2132-convert-1d-array-into-2d-array) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/ashish-0280/LeetCode/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
+| [2257-count-unguarded-cells-in-the-grid](https://github.com/ashish-0280/LeetCode/tree/master/2257-count-unguarded-cells-in-the-grid) |
 | [2411-spiral-matrix-iv](https://github.com/ashish-0280/LeetCode/tree/master/2411-spiral-matrix-iv) |
 | [2428-equal-row-and-column-pairs](https://github.com/ashish-0280/LeetCode/tree/master/2428-equal-row-and-column-pairs) |
 | [2435-paths-in-matrix-whose-sum-is-divisible-by-k](https://github.com/ashish-0280/LeetCode/tree/master/2435-paths-in-matrix-whose-sum-is-divisible-by-k) |
@@ -723,6 +725,7 @@
 | [2132-convert-1d-array-into-2d-array](https://github.com/ashish-0280/LeetCode/tree/master/2132-convert-1d-array-into-2d-array) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/ashish-0280/LeetCode/tree/master/2137-final-value-of-variable-after-performing-operations) |
 | [2155-find-missing-observations](https://github.com/ashish-0280/LeetCode/tree/master/2155-find-missing-observations) |
+| [2257-count-unguarded-cells-in-the-grid](https://github.com/ashish-0280/LeetCode/tree/master/2257-count-unguarded-cells-in-the-grid) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/ashish-0280/LeetCode/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2274-keep-multiplying-found-values-by-two](https://github.com/ashish-0280/LeetCode/tree/master/2274-keep-multiplying-found-values-by-two) |
 | [2288-count-operations-to-obtain-zero](https://github.com/ashish-0280/LeetCode/tree/master/2288-count-operations-to-obtain-zero) |
