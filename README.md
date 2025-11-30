@@ -247,6 +247,7 @@
 | [3154-maximum-value-of-an-ordered-triplet-i](https://github.com/ashish-0280/LeetCode/tree/master/3154-maximum-value-of-an-ordered-triplet-i) |
 | [3190-find-minimum-operations-to-make-all-elements-divisible-by-three](https://github.com/ashish-0280/LeetCode/tree/master/3190-find-minimum-operations-to-make-all-elements-divisible-by-three) |
 | [3213-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/ashish-0280/LeetCode/tree/master/3213-count-subarrays-where-max-element-appears-at-least-k-times) |
+| [3217-delete-nodes-from-linked-list-present-in-array](https://github.com/ashish-0280/LeetCode/tree/master/3217-delete-nodes-from-linked-list-present-in-array) |
 | [3227-find-missing-and-repeated-values](https://github.com/ashish-0280/LeetCode/tree/master/3227-find-missing-and-repeated-values) |
 | [3242-count-elements-with-maximum-frequency](https://github.com/ashish-0280/LeetCode/tree/master/3242-count-elements-with-maximum-frequency) |
 | [3251-maximum-area-of-longest-diagonal-rectangle](https://github.com/ashish-0280/LeetCode/tree/master/3251-maximum-area-of-longest-diagonal-rectangle) |
@@ -403,6 +404,7 @@
 | [2856-count-complete-subarrays-in-an-array](https://github.com/ashish-0280/LeetCode/tree/master/2856-count-complete-subarrays-in-an-array) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/ashish-0280/LeetCode/tree/master/2888-minimum-index-of-a-valid-split) |
 | [2915-count-of-interesting-subarrays](https://github.com/ashish-0280/LeetCode/tree/master/2915-count-of-interesting-subarrays) |
+| [3217-delete-nodes-from-linked-list-present-in-array](https://github.com/ashish-0280/LeetCode/tree/master/3217-delete-nodes-from-linked-list-present-in-array) |
 | [3227-find-missing-and-repeated-values](https://github.com/ashish-0280/LeetCode/tree/master/3227-find-missing-and-repeated-values) |
 | [3242-count-elements-with-maximum-frequency](https://github.com/ashish-0280/LeetCode/tree/master/3242-count-elements-with-maximum-frequency) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/ashish-0280/LeetCode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
@@ -1375,6 +1377,7 @@
 | [2236-maximum-twin-sum-of-a-linked-list](https://github.com/ashish-0280/LeetCode/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
 | [2411-spiral-matrix-iv](https://github.com/ashish-0280/LeetCode/tree/master/2411-spiral-matrix-iv) |
 | [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/ashish-0280/LeetCode/tree/master/2903-insert-greatest-common-divisors-in-linked-list) |
+| [3217-delete-nodes-from-linked-list-present-in-array](https://github.com/ashish-0280/LeetCode/tree/master/3217-delete-nodes-from-linked-list-present-in-array) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/ashish-0280/LeetCode/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 ## Recursion
 |  |
