@@ -278,6 +278,7 @@
 | [3592-find-x-sum-of-all-k-long-subarrays-ii](https://github.com/ashish-0280/LeetCode/tree/master/3592-find-x-sum-of-all-k-long-subarrays-ii) |
 | [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/ashish-0280/LeetCode/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
 | [3623-count-number-of-trapezoids-i](https://github.com/ashish-0280/LeetCode/tree/master/3623-count-number-of-trapezoids-i) |
+| [3625-count-number-of-trapezoids-ii](https://github.com/ashish-0280/LeetCode/tree/master/3625-count-number-of-trapezoids-ii) |
 | [3639-zero-array-transformation-i](https://github.com/ashish-0280/LeetCode/tree/master/3639-zero-array-transformation-i) |
 | [3643-zero-array-transformation-ii](https://github.com/ashish-0280/LeetCode/tree/master/3643-zero-array-transformation-ii) |
 | [3647-zero-array-transformation-iii](https://github.com/ashish-0280/LeetCode/tree/master/3647-zero-array-transformation-iii) |
@@ -420,6 +421,7 @@
 | [3592-find-x-sum-of-all-k-long-subarrays-ii](https://github.com/ashish-0280/LeetCode/tree/master/3592-find-x-sum-of-all-k-long-subarrays-ii) |
 | [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/ashish-0280/LeetCode/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
 | [3623-count-number-of-trapezoids-i](https://github.com/ashish-0280/LeetCode/tree/master/3623-count-number-of-trapezoids-i) |
+| [3625-count-number-of-trapezoids-ii](https://github.com/ashish-0280/LeetCode/tree/master/3625-count-number-of-trapezoids-ii) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/ashish-0280/LeetCode/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/ashish-0280/LeetCode/tree/master/3630-total-characters-in-string-after-transformations-ii) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/ashish-0280/LeetCode/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
@@ -644,6 +646,7 @@
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/ashish-0280/LeetCode/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 | [3601-find-the-k-th-character-in-string-game-ii](https://github.com/ashish-0280/LeetCode/tree/master/3601-find-the-k-th-character-in-string-game-ii) |
 | [3623-count-number-of-trapezoids-i](https://github.com/ashish-0280/LeetCode/tree/master/3623-count-number-of-trapezoids-i) |
+| [3625-count-number-of-trapezoids-ii](https://github.com/ashish-0280/LeetCode/tree/master/3625-count-number-of-trapezoids-ii) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/ashish-0280/LeetCode/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/ashish-0280/LeetCode/tree/master/3630-total-characters-in-string-after-transformations-ii) |
 | [3744-minimum-operations-to-make-array-elements-zero](https://github.com/ashish-0280/LeetCode/tree/master/3744-minimum-operations-to-make-array-elements-zero) |
@@ -1772,6 +1775,7 @@
 | [0830-largest-triangle-area](https://github.com/ashish-0280/LeetCode/tree/master/0830-largest-triangle-area) |
 | [3278-find-the-number-of-ways-to-place-people-i](https://github.com/ashish-0280/LeetCode/tree/master/3278-find-the-number-of-ways-to-place-people-i) |
 | [3623-count-number-of-trapezoids-i](https://github.com/ashish-0280/LeetCode/tree/master/3623-count-number-of-trapezoids-i) |
+| [3625-count-number-of-trapezoids-ii](https://github.com/ashish-0280/LeetCode/tree/master/3625-count-number-of-trapezoids-ii) |
 ## Game Theory
 |  |
 | ------- |
