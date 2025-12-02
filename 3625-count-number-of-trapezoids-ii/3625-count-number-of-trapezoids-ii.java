@@ -36,8 +36,8 @@ class Solution {
         for (Map<Integer, Integer> map : slope.values()) {
 
             Map<Integer, Integer> counts = new HashMap<>();
-            for (int rep : map.values()) {
-                counts.merge(rep, 1, Integer::sum);
+            for (int val : map.values()) {
+                counts.put(val, counts.getOrDefault(val, 0)+1);
             }
 
             int prevPairs = 0;
@@ -58,7 +58,7 @@ class Solution {
                 int[] p1 = points[seg[0]];
                 int[] p2 = points[seg[1]];
                 String key = getSlope(p1, p2);
-                slopeCount.merge(key, 1, Integer::sum);
+                slopeCount.put(key, slopeCount.getOrDefault(key, 0)+1);
             }
 
             int prev = 0;
