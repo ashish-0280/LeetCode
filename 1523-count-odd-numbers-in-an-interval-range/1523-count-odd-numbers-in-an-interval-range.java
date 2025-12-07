@@ -6,7 +6,7 @@ class Solution {
         } else {
             if(low % 2 == 0){
                 return total/2;
-            } 
+            }
         }
         return total/2 + 1;
     }
