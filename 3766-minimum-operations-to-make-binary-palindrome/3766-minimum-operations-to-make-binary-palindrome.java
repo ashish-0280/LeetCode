@@ -22,13 +22,18 @@ class Solution {
                     low = mid+1;
                 }
             }
-            if(ans[i] != 0) {
-                if(low < m) ans[i] = Math.min(ans[i], Math.abs(nums[i] - l.get(low)));
-                if(high >= 0) ans[i] = Math.min(ans[i], Math.abs(l.get(high) - nums[i]));
+            if (ans[i] != 0) {
+                int best = Integer.MAX_VALUE;
+                if (low < m)
+                    best = Math.min(best, Math.abs(nums[i] - l.get(low)));
+                if (high >= 0)
+                    best = Math.min(best, Math.abs(nums[i] - l.get(high)));
+
+                ans[i] = best;
             }
+
         }
         return ans;
-
     }
     public boolean solve(String s){
         int l = 0; int r = s.length()-1;
