@@ -1,45 +1,46 @@
 class Solution {
-    List<List<Integer>> adj;
-    int[] w, down, up, res;
-
+    int cnt = 0;
     public int[] maxSubgraphScore(int n, int[][] edges, int[] good) {
-        adj = new ArrayList<>();
-        for (int i = 0; i < n; i++) adj.add(new ArrayList<>());
-
-        for (int[] e : edges) {
-            adj.get(e[0]).add(e[1]);
-            adj.get(e[1]).add(e[0]);
+        List<List<Integer>> list = new ArrayList<>();
+        for(int i=0; i<n; i++){
+            list.add(new ArrayList<>());
         }
+        for(int edge[]: edges){
+            int u = edge[0]; int v = edge[1];
+            list.get(u).add(v);
+            list.get(v).add(u);
+        }
+        int weight[] = new int[n];
+        for(int i=0; i<n; i++){
+            if(good[i] == 0){
+                weight[i] = -1;
+            } else {
+                weight[i] = 1;
+            }
+        }
+        int ans[] = new int[n];
+        int downScore[] = new int[n];
+        int upScore[] = new int[n];
 
-        w = new int[n];
-        for (int i = 0; i < n; i++) w[i] = good[i] == 1 ? 1 : -1;
-
-        down = new int[n];
-        up = new int[n];
-        res = new int[n];
-
-        dfs1(0, -1);
-        dfs2(0, -1);
-
-        return res;
+        dfs1(0, -1, list, weight, downScore);
+        dfs2(0, -1, list, weight, upScore, downScore, ans);
+        return ans;
     }
-
-    void dfs1(int u, int p) {
-        down[u] = w[u];
-        for (int v : adj.get(u)) {
-            if (v == p) continue;
-            dfs1(v, u);
-            down[u] += Math.max(0, down[v]);
+    public void dfs1(int curr, int parent, List<List<Integer>> list, int weight[], int downScore[]){
+        downScore[curr] = weight[curr];
+        for(int neighbour: list.get(curr)){
+            if(neighbour == parent) continue;
+            dfs1(neighbour, curr, list, weight, downScore);
+            downScore[curr] += Math.max(0, downScore[neighbour]);
         }
     }
-
-    void dfs2(int u, int p) {
-        res[u] = down[u] + up[u];
-        for (int v : adj.get(u)) {
-            if (v == p) continue;
-            int rem = down[u] - Math.max(0, down[v]);
-            up[v] = Math.max(0, up[u] + rem);
-            dfs2(v, u);
+    public void dfs2(int curr, int parent, List<List<Integer>> list, int weight[], int upScore[], int downScore[], int ans[]){
+        ans[curr] = downScore[curr] + upScore[curr];
+        for(int neighbour : list.get(curr)){
+            if(neighbour == parent) continue;
+            int removeChildContrib = downScore[curr] - Math.max(0, downScore[neighbour]);
+            upScore[neighbour] = Math.max(0, upScore[curr] + removeChildContrib);
+            dfs2(neighbour, curr, list, weight, upScore, downScore, ans);
         }
     }
 }
