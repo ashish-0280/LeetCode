@@ -276,6 +276,7 @@
 | [3522-find-the-power-of-k-size-subarrays-i](https://github.com/ashish-0280/LeetCode/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
 | [3523-find-the-power-of-k-size-subarrays-ii](https://github.com/ashish-0280/LeetCode/tree/master/3523-find-the-power-of-k-size-subarrays-ii) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/ashish-0280/LeetCode/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
+| [3577-count-the-number-of-computer-unlocking-permutations](https://github.com/ashish-0280/LeetCode/tree/master/3577-count-the-number-of-computer-unlocking-permutations) |
 | [3578-count-partitions-with-max-min-difference-at-most-k](https://github.com/ashish-0280/LeetCode/tree/master/3578-count-partitions-with-max-min-difference-at-most-k) |
 | [3583-count-special-triplets](https://github.com/ashish-0280/LeetCode/tree/master/3583-count-special-triplets) |
 | [3592-find-x-sum-of-all-k-long-subarrays-ii](https://github.com/ashish-0280/LeetCode/tree/master/3592-find-x-sum-of-all-k-long-subarrays-ii) |
@@ -653,6 +654,7 @@
 | [3512-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/ashish-0280/LeetCode/tree/master/3512-minimum-operations-to-make-array-sum-divisible-by-k) |
 | [3548-find-the-count-of-good-integers](https://github.com/ashish-0280/LeetCode/tree/master/3548-find-the-count-of-good-integers) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/ashish-0280/LeetCode/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
+| [3577-count-the-number-of-computer-unlocking-permutations](https://github.com/ashish-0280/LeetCode/tree/master/3577-count-the-number-of-computer-unlocking-permutations) |
 | [3601-find-the-k-th-character-in-string-game-ii](https://github.com/ashish-0280/LeetCode/tree/master/3601-find-the-k-th-character-in-string-game-ii) |
 | [3623-count-number-of-trapezoids-i](https://github.com/ashish-0280/LeetCode/tree/master/3623-count-number-of-trapezoids-i) |
 | [3625-count-number-of-trapezoids-ii](https://github.com/ashish-0280/LeetCode/tree/master/3625-count-number-of-trapezoids-ii) |
@@ -1597,6 +1599,7 @@
 | [0062-unique-paths](https://github.com/ashish-0280/LeetCode/tree/master/0062-unique-paths) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/ashish-0280/LeetCode/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [3548-find-the-count-of-good-integers](https://github.com/ashish-0280/LeetCode/tree/master/3548-find-the-count-of-good-integers) |
+| [3577-count-the-number-of-computer-unlocking-permutations](https://github.com/ashish-0280/LeetCode/tree/master/3577-count-the-number-of-computer-unlocking-permutations) |
 | [3757-number-of-effective-subsequences](https://github.com/ashish-0280/LeetCode/tree/master/3757-number-of-effective-subsequences) |
 ## Number Theory
 |  |
@@ -1648,6 +1651,7 @@
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/ashish-0280/LeetCode/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 | [2837-minimum-operations-to-make-the-integer-zero](https://github.com/ashish-0280/LeetCode/tree/master/2837-minimum-operations-to-make-the-integer-zero) |
 | [3462-vowels-game-in-a-string](https://github.com/ashish-0280/LeetCode/tree/master/3462-vowels-game-in-a-string) |
+| [3577-count-the-number-of-computer-unlocking-permutations](https://github.com/ashish-0280/LeetCode/tree/master/3577-count-the-number-of-computer-unlocking-permutations) |
 ## Rolling Hash
 |  |
 | ------- |
