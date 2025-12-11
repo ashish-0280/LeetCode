@@ -275,6 +275,7 @@
 | [3516-design-neighbor-sum-service](https://github.com/ashish-0280/LeetCode/tree/master/3516-design-neighbor-sum-service) |
 | [3522-find-the-power-of-k-size-subarrays-i](https://github.com/ashish-0280/LeetCode/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
 | [3523-find-the-power-of-k-size-subarrays-ii](https://github.com/ashish-0280/LeetCode/tree/master/3523-find-the-power-of-k-size-subarrays-ii) |
+| [3531-count-covered-buildings](https://github.com/ashish-0280/LeetCode/tree/master/3531-count-covered-buildings) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/ashish-0280/LeetCode/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 | [3577-count-the-number-of-computer-unlocking-permutations](https://github.com/ashish-0280/LeetCode/tree/master/3577-count-the-number-of-computer-unlocking-permutations) |
 | [3578-count-partitions-with-max-min-difference-at-most-k](https://github.com/ashish-0280/LeetCode/tree/master/3578-count-partitions-with-max-min-difference-at-most-k) |
@@ -420,6 +421,7 @@
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/ashish-0280/LeetCode/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/ashish-0280/LeetCode/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3516-design-neighbor-sum-service](https://github.com/ashish-0280/LeetCode/tree/master/3516-design-neighbor-sum-service) |
+| [3531-count-covered-buildings](https://github.com/ashish-0280/LeetCode/tree/master/3531-count-covered-buildings) |
 | [3548-find-the-count-of-good-integers](https://github.com/ashish-0280/LeetCode/tree/master/3548-find-the-count-of-good-integers) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/ashish-0280/LeetCode/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 | [3583-count-special-triplets](https://github.com/ashish-0280/LeetCode/tree/master/3583-count-special-triplets) |
@@ -904,6 +906,7 @@
 | [3278-find-the-number-of-ways-to-place-people-i](https://github.com/ashish-0280/LeetCode/tree/master/3278-find-the-number-of-ways-to-place-people-i) |
 | [3321-type-of-triangle](https://github.com/ashish-0280/LeetCode/tree/master/3321-type-of-triangle) |
 | [3430-count-days-without-meetings](https://github.com/ashish-0280/LeetCode/tree/master/3430-count-days-without-meetings) |
+| [3531-count-covered-buildings](https://github.com/ashish-0280/LeetCode/tree/master/3531-count-covered-buildings) |
 | [3647-zero-array-transformation-iii](https://github.com/ashish-0280/LeetCode/tree/master/3647-zero-array-transformation-iii) |
 | [3657-check-if-grid-can-be-cut-into-sections](https://github.com/ashish-0280/LeetCode/tree/master/3657-check-if-grid-can-be-cut-into-sections) |
 | [3715-maximum-coins-from-k-consecutive-bags](https://github.com/ashish-0280/LeetCode/tree/master/3715-maximum-coins-from-k-consecutive-bags) |
