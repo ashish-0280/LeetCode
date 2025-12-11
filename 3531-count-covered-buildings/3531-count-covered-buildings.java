@@ -1,28 +1,33 @@
 class Solution {
     public int countCoveredBuildings(int n, int[][] buildings) {
-        Map<Integer, TreeSet<Integer>> rowToCol = new HashMap<>();
-        Map<Integer, TreeSet<Integer>> colToRow = new HashMap<>();
+        Map<Integer, int[]> rowToCol = new HashMap<>();
+        Map<Integer, int[]> colToRow = new HashMap<>();
         
         for (int[] building : buildings) {
             int x = building[0], y = building[1];
-            rowToCol.computeIfAbsent(x, k -> new TreeSet<>()).add(y);
-            colToRow.computeIfAbsent(y, k -> new TreeSet<>()).add(x);
+            rowToCol.putIfAbsent(x, new int[]{Integer.MAX_VALUE, Integer.MIN_VALUE});
+            int arr[] = rowToCol.get(x);
+            arr[0] = Math.min(arr[0], y); arr[1] = Math.max(arr[1], y);
+            
+            colToRow.putIfAbsent(y, new int[]{Integer.MAX_VALUE, Integer.MIN_VALUE});
+            int arr2[] = colToRow.get(y);
+            arr2[0] = Math.min(arr2[0], x); arr2[1] = Math.max(arr2[1], x);
         }
         
         int cnt = 0;
         for (int[] building : buildings) {
             int x = building[0], y = building[1];
             
-            TreeSet<Integer> cols = rowToCol.get(x);
-            TreeSet<Integer> rows = colToRow.get(y);
+            int[] cols = rowToCol.get(x);
+            int[] rows = colToRow.get(y);
             
 
-            Integer left = cols.lower(y);
-            Integer right = cols.higher(y);
-            Integer up = rows.lower(x);
-            Integer down = rows.higher(x);
+            Integer down = cols[0];
+            Integer up = cols[1];
+            Integer right = rows[1];
+            Integer left = rows[0];
             
-            if ((left != null) && (right != null) && (up != null) && (down != null)) {
+            if (x > left && x < right && y < up && y > down) {
                 cnt++;
             }
         }
