@@ -10,7 +10,7 @@ class Solution {
         List<String[]> valid = new ArrayList<>();
 
         for (int i = 0; i < code.length; i++) {
-            if (isActive[i] && map.containsKey(businessLine[i]) && code[i].matches("^[A-Za-z0-9_]+$")) {
+            if (isActive[i] && map.containsKey(businessLine[i]) && code[i].matches("^[A-Za-z0-9_]+")) {
                 valid.add(new String[]{code[i], businessLine[i]});
             }
         }
