@@ -17,7 +17,7 @@ class Solution {
                 ans += take * i;
             
 
-            if(val < 0 && balance[right] > 0){
+            if(val < 0){
                 long take2 = Math.min(balance[right], -val);
                 val += take2;
                 ans += take2 * i;
