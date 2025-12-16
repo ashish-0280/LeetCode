@@ -279,6 +279,7 @@
 | [3523-find-the-power-of-k-size-subarrays-ii](https://github.com/ashish-0280/LeetCode/tree/master/3523-find-the-power-of-k-size-subarrays-ii) |
 | [3531-count-covered-buildings](https://github.com/ashish-0280/LeetCode/tree/master/3531-count-covered-buildings) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/ashish-0280/LeetCode/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
+| [3562-maximum-profit-from-trading-stocks-with-discounts](https://github.com/ashish-0280/LeetCode/tree/master/3562-maximum-profit-from-trading-stocks-with-discounts) |
 | [3577-count-the-number-of-computer-unlocking-permutations](https://github.com/ashish-0280/LeetCode/tree/master/3577-count-the-number-of-computer-unlocking-permutations) |
 | [3578-count-partitions-with-max-min-difference-at-most-k](https://github.com/ashish-0280/LeetCode/tree/master/3578-count-partitions-with-max-min-difference-at-most-k) |
 | [3583-count-special-triplets](https://github.com/ashish-0280/LeetCode/tree/master/3583-count-special-triplets) |
@@ -1147,6 +1148,7 @@
 | [3243-count-the-number-of-powerful-integers](https://github.com/ashish-0280/LeetCode/tree/master/3243-count-the-number-of-powerful-integers) |
 | [3490-find-the-maximum-length-of-valid-subsequence-i](https://github.com/ashish-0280/LeetCode/tree/master/3490-find-the-maximum-length-of-valid-subsequence-i) |
 | [3491-find-the-maximum-length-of-valid-subsequence-ii](https://github.com/ashish-0280/LeetCode/tree/master/3491-find-the-maximum-length-of-valid-subsequence-ii) |
+| [3562-maximum-profit-from-trading-stocks-with-discounts](https://github.com/ashish-0280/LeetCode/tree/master/3562-maximum-profit-from-trading-stocks-with-discounts) |
 | [3578-count-partitions-with-max-min-difference-at-most-k](https://github.com/ashish-0280/LeetCode/tree/master/3578-count-partitions-with-max-min-difference-at-most-k) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/ashish-0280/LeetCode/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/ashish-0280/LeetCode/tree/master/3630-total-characters-in-string-after-transformations-ii) |
@@ -1232,6 +1234,7 @@
 | [2400-minimum-score-after-removals-on-a-tree](https://github.com/ashish-0280/LeetCode/tree/master/2400-minimum-score-after-removals-on-a-tree) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/ashish-0280/LeetCode/tree/master/2564-most-profitable-path-in-a-tree) |
 | [2872-maximum-number-of-k-divisible-components](https://github.com/ashish-0280/LeetCode/tree/master/2872-maximum-number-of-k-divisible-components) |
+| [3562-maximum-profit-from-trading-stocks-with-discounts](https://github.com/ashish-0280/LeetCode/tree/master/3562-maximum-profit-from-trading-stocks-with-discounts) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -1294,6 +1297,7 @@
 | [2564-most-profitable-path-in-a-tree](https://github.com/ashish-0280/LeetCode/tree/master/2564-most-profitable-path-in-a-tree) |
 | [2793-count-the-number-of-complete-components](https://github.com/ashish-0280/LeetCode/tree/master/2793-count-the-number-of-complete-components) |
 | [2872-maximum-number-of-k-divisible-components](https://github.com/ashish-0280/LeetCode/tree/master/2872-maximum-number-of-k-divisible-components) |
+| [3562-maximum-profit-from-trading-stocks-with-discounts](https://github.com/ashish-0280/LeetCode/tree/master/3562-maximum-profit-from-trading-stocks-with-discounts) |
 | [3863-power-grid-maintenance](https://github.com/ashish-0280/LeetCode/tree/master/3863-power-grid-maintenance) |
 ## Breadth-First Search
 |  |
