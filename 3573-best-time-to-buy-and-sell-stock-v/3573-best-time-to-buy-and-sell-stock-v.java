@@ -13,7 +13,7 @@ class Solution {
         int b = (buy) ? 1 : 0;
         int s = (sell) ? 1 : 0; 
         if(dp[idx][k][b][s] != null) return dp[idx][k][b][s];
-        long ans = Long.MIN_VALUE/4;
+        long ans = Long.MIN_VALUE;
         if(!buy && !sell){
             ans = Math.max(ans, -prices[idx] + solve(prices, idx+1, k, true, false));
             ans = Math.max(ans, prices[idx] + solve(prices, idx+1, k, false, true));
