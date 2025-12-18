@@ -14,8 +14,7 @@ class Solution {
         for(int i=0; i+k <=n; i++){
             long oldGain = prefixProfit[i+k] - prefixProfit[i];
             long newGain = prefixPrice[i+k] - prefixPrice[i+k/2];
-            long gain = newGain - oldGain;
-            maxGain = Math.max(gain, maxGain);
+            maxGain = Math.max(maxGain, newGain - oldGain);
         }
         return initialProfit + maxGain;
     }
