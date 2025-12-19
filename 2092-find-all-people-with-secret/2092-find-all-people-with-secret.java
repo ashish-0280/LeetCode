@@ -19,10 +19,6 @@ class Solution {
         }
     }
 
-    boolean connected(int a, int b) {
-        return find(a) == find(b);
-    }
-
     void reset(int x) {
         parent[x] = x;
         rank[x] = 0;
@@ -42,17 +38,17 @@ class Solution {
 
         while (i < m) {
             int time = meetings[i][2];
-            List<Integer> people = new ArrayList<>();
+            List<Integer> list = new ArrayList<>();
 
             while (i < m && meetings[i][2] == time) {
                 union(meetings[i][0], meetings[i][1]);
-                people.add(meetings[i][0]);
-                people.add(meetings[i][1]);
+                list.add(meetings[i][0]);
+                list.add(meetings[i][1]);
                 i++;
             }
 
-            for (int p : people) {
-                if (!connected(0, p)) {
+            for (int p : list) {
+                if (find(0) != find(p)) {
                     reset(p);
                 }
             }
@@ -60,7 +56,7 @@ class Solution {
 
         List<Integer> ans = new ArrayList<>();
         for (int p = 0; p < n; p++) {
-            if (connected(0, p)) ans.add(p);
+            if (find(0) == find(p)) ans.add(p);
         }
         return ans;
     }
