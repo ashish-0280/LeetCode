@@ -900,6 +900,7 @@
 | [1777-determine-if-two-strings-are-close](https://github.com/ashish-0280/LeetCode/tree/master/1777-determine-if-two-strings-are-close) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/ashish-0280/LeetCode/tree/master/1798-max-number-of-k-sum-pairs) |
 | [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/ashish-0280/LeetCode/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
+| [2092-find-all-people-with-secret](https://github.com/ashish-0280/LeetCode/tree/master/2092-find-all-people-with-secret) |
 | [2141-maximum-running-time-of-n-computers](https://github.com/ashish-0280/LeetCode/tree/master/2141-maximum-running-time-of-n-computers) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/ashish-0280/LeetCode/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/ashish-0280/LeetCode/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
@@ -1296,6 +1297,7 @@
 | [1492-time-needed-to-inform-all-employees](https://github.com/ashish-0280/LeetCode/tree/master/1492-time-needed-to-inform-all-employees) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/ashish-0280/LeetCode/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [1753-path-with-minimum-effort](https://github.com/ashish-0280/LeetCode/tree/master/1753-path-with-minimum-effort) |
+| [2092-find-all-people-with-secret](https://github.com/ashish-0280/LeetCode/tree/master/2092-find-all-people-with-secret) |
 | [2121-find-if-path-exists-in-graph](https://github.com/ashish-0280/LeetCode/tree/master/2121-find-if-path-exists-in-graph) |
 | [2400-minimum-score-after-removals-on-a-tree](https://github.com/ashish-0280/LeetCode/tree/master/2400-minimum-score-after-removals-on-a-tree) |
 | [2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://github.com/ashish-0280/LeetCode/tree/master/2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph) |
@@ -1351,6 +1353,7 @@
 | [1492-time-needed-to-inform-all-employees](https://github.com/ashish-0280/LeetCode/tree/master/1492-time-needed-to-inform-all-employees) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/ashish-0280/LeetCode/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [1753-path-with-minimum-effort](https://github.com/ashish-0280/LeetCode/tree/master/1753-path-with-minimum-effort) |
+| [2092-find-all-people-with-secret](https://github.com/ashish-0280/LeetCode/tree/master/2092-find-all-people-with-secret) |
 | [2121-find-if-path-exists-in-graph](https://github.com/ashish-0280/LeetCode/tree/master/2121-find-if-path-exists-in-graph) |
 | [2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://github.com/ashish-0280/LeetCode/tree/master/2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/ashish-0280/LeetCode/tree/master/2564-most-profitable-path-in-a-tree) |
@@ -1530,6 +1533,7 @@
 | [1380-number-of-closed-islands](https://github.com/ashish-0280/LeetCode/tree/master/1380-number-of-closed-islands) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/ashish-0280/LeetCode/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [1753-path-with-minimum-effort](https://github.com/ashish-0280/LeetCode/tree/master/1753-path-with-minimum-effort) |
+| [2092-find-all-people-with-secret](https://github.com/ashish-0280/LeetCode/tree/master/2092-find-all-people-with-secret) |
 | [2121-find-if-path-exists-in-graph](https://github.com/ashish-0280/LeetCode/tree/master/2121-find-if-path-exists-in-graph) |
 | [2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://github.com/ashish-0280/LeetCode/tree/master/2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/ashish-0280/LeetCode/tree/master/2588-maximum-number-of-points-from-grid-queries) |
@@ -1556,6 +1560,7 @@
 | [1661-minimum-number-of-vertices-to-reach-all-nodes](https://github.com/ashish-0280/LeetCode/tree/master/1661-minimum-number-of-vertices-to-reach-all-nodes) |
 | [1738-maximal-network-rank](https://github.com/ashish-0280/LeetCode/tree/master/1738-maximal-network-rank) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/ashish-0280/LeetCode/tree/master/2090-number-of-ways-to-arrive-at-destination) |
+| [2092-find-all-people-with-secret](https://github.com/ashish-0280/LeetCode/tree/master/2092-find-all-people-with-secret) |
 | [2121-find-if-path-exists-in-graph](https://github.com/ashish-0280/LeetCode/tree/master/2121-find-if-path-exists-in-graph) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/ashish-0280/LeetCode/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://github.com/ashish-0280/LeetCode/tree/master/2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph) |
