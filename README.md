@@ -106,6 +106,7 @@
 | [0940-fruit-into-baskets](https://github.com/ashish-0280/LeetCode/tree/master/0940-fruit-into-baskets) |
 | [0944-delete-columns-to-make-sorted](https://github.com/ashish-0280/LeetCode/tree/master/0944-delete-columns-to-make-sorted) |
 | [0955-delete-columns-to-make-sorted-ii](https://github.com/ashish-0280/LeetCode/tree/master/0955-delete-columns-to-make-sorted-ii) |
+| [0960-delete-columns-to-make-sorted-iii](https://github.com/ashish-0280/LeetCode/tree/master/0960-delete-columns-to-make-sorted-iii) |
 | [0966-binary-subarrays-with-sum](https://github.com/ashish-0280/LeetCode/tree/master/0966-binary-subarrays-with-sum) |
 | [0971-shortest-bridge](https://github.com/ashish-0280/LeetCode/tree/master/0971-shortest-bridge) |
 | [1002-maximum-width-ramp](https://github.com/ashish-0280/LeetCode/tree/master/1002-maximum-width-ramp) |
@@ -499,6 +500,7 @@
 | [0944-delete-columns-to-make-sorted](https://github.com/ashish-0280/LeetCode/tree/master/0944-delete-columns-to-make-sorted) |
 | [0955-delete-columns-to-make-sorted-ii](https://github.com/ashish-0280/LeetCode/tree/master/0955-delete-columns-to-make-sorted-ii) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/ashish-0280/LeetCode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
+| [0960-delete-columns-to-make-sorted-iii](https://github.com/ashish-0280/LeetCode/tree/master/0960-delete-columns-to-make-sorted-iii) |
 | [0962-flip-string-to-monotone-increasing](https://github.com/ashish-0280/LeetCode/tree/master/0962-flip-string-to-monotone-increasing) |
 | [1006-vowel-spellchecker](https://github.com/ashish-0280/LeetCode/tree/master/1006-vowel-spellchecker) |
 | [1032-satisfiability-of-equality-equations](https://github.com/ashish-0280/LeetCode/tree/master/1032-satisfiability-of-equality-equations) |
@@ -1120,6 +1122,7 @@
 | [0923-super-egg-drop](https://github.com/ashish-0280/LeetCode/tree/master/0923-super-egg-drop) |
 | [0934-bitwise-ors-of-subarrays](https://github.com/ashish-0280/LeetCode/tree/master/0934-bitwise-ors-of-subarrays) |
 | [0938-numbers-at-most-n-given-digit-set](https://github.com/ashish-0280/LeetCode/tree/master/0938-numbers-at-most-n-given-digit-set) |
+| [0960-delete-columns-to-make-sorted-iii](https://github.com/ashish-0280/LeetCode/tree/master/0960-delete-columns-to-make-sorted-iii) |
 | [0962-flip-string-to-monotone-increasing](https://github.com/ashish-0280/LeetCode/tree/master/0962-flip-string-to-monotone-increasing) |
 | [1025-minimum-cost-for-tickets](https://github.com/ashish-0280/LeetCode/tree/master/1025-minimum-cost-for-tickets) |
 | [1057-numbers-with-repeated-digits](https://github.com/ashish-0280/LeetCode/tree/master/1057-numbers-with-repeated-digits) |
