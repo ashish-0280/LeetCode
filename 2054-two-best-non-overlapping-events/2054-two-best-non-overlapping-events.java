@@ -10,9 +10,10 @@ class Solution {
         if(idx == events.length || cnt == 2) return 0;
         if(dp[idx][cnt] != null) return dp[idx][cnt];
 
-        int exclude = solve(events, idx+1, cnt);
+        
         int nextIdx = compute(events, idx);
         int include = events[idx][2] + solve(events, nextIdx, cnt+1);
+        int exclude = solve(events, idx+1, cnt);
     
         return dp[idx][cnt] = Math.max(include, exclude);
     }
