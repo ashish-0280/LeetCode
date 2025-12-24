@@ -313,6 +313,7 @@
 | [3759-choose-k-elements-with-maximum-sum](https://github.com/ashish-0280/LeetCode/tree/master/3759-choose-k-elements-with-maximum-sum) |
 | [3760-assign-elements-to-groups-with-constraints](https://github.com/ashish-0280/LeetCode/tree/master/3760-assign-elements-to-groups-with-constraints) |
 | [3764-maximum-sum-with-at-most-k-elements](https://github.com/ashish-0280/LeetCode/tree/master/3764-maximum-sum-with-at-most-k-elements) |
+| [3786-total-sum-of-interaction-cost-in-tree-groups](https://github.com/ashish-0280/LeetCode/tree/master/3786-total-sum-of-interaction-cost-in-tree-groups) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/ashish-0280/LeetCode/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
 | [3789-maximize-subarrays-after-removing-one-conflicting-pair](https://github.com/ashish-0280/LeetCode/tree/master/3789-maximize-subarrays-after-removing-one-conflicting-pair) |
 | [3790-fruits-into-baskets-ii](https://github.com/ashish-0280/LeetCode/tree/master/3790-fruits-into-baskets-ii) |
@@ -1256,6 +1257,7 @@
 | [2564-most-profitable-path-in-a-tree](https://github.com/ashish-0280/LeetCode/tree/master/2564-most-profitable-path-in-a-tree) |
 | [2872-maximum-number-of-k-divisible-components](https://github.com/ashish-0280/LeetCode/tree/master/2872-maximum-number-of-k-divisible-components) |
 | [3562-maximum-profit-from-trading-stocks-with-discounts](https://github.com/ashish-0280/LeetCode/tree/master/3562-maximum-profit-from-trading-stocks-with-discounts) |
+| [3786-total-sum-of-interaction-cost-in-tree-groups](https://github.com/ashish-0280/LeetCode/tree/master/3786-total-sum-of-interaction-cost-in-tree-groups) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -1320,6 +1322,7 @@
 | [2793-count-the-number-of-complete-components](https://github.com/ashish-0280/LeetCode/tree/master/2793-count-the-number-of-complete-components) |
 | [2872-maximum-number-of-k-divisible-components](https://github.com/ashish-0280/LeetCode/tree/master/2872-maximum-number-of-k-divisible-components) |
 | [3562-maximum-profit-from-trading-stocks-with-discounts](https://github.com/ashish-0280/LeetCode/tree/master/3562-maximum-profit-from-trading-stocks-with-discounts) |
+| [3786-total-sum-of-interaction-cost-in-tree-groups](https://github.com/ashish-0280/LeetCode/tree/master/3786-total-sum-of-interaction-cost-in-tree-groups) |
 | [3863-power-grid-maintenance](https://github.com/ashish-0280/LeetCode/tree/master/3863-power-grid-maintenance) |
 ## Breadth-First Search
 |  |
