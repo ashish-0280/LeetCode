@@ -548,6 +548,7 @@
 | [2456-construct-smallest-number-from-di-string](https://github.com/ashish-0280/LeetCode/tree/master/2456-construct-smallest-number-from-di-string) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/ashish-0280/LeetCode/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [2470-removing-stars-from-a-string](https://github.com/ashish-0280/LeetCode/tree/master/2470-removing-stars-from-a-string) |
+| [2483-minimum-penalty-for-a-shop](https://github.com/ashish-0280/LeetCode/tree/master/2483-minimum-penalty-for-a-shop) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/ashish-0280/LeetCode/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [2755-extra-characters-in-a-string](https://github.com/ashish-0280/LeetCode/tree/master/2755-extra-characters-in-a-string) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/ashish-0280/LeetCode/tree/master/2800-minimum-string-length-after-removing-substrings) |
@@ -1014,6 +1015,7 @@
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/ashish-0280/LeetCode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2229-maximum-fruits-harvested-after-at-most-k-steps](https://github.com/ashish-0280/LeetCode/tree/master/2229-maximum-fruits-harvested-after-at-most-k-steps) |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/ashish-0280/LeetCode/tree/master/2394-count-subarrays-with-score-less-than-k) |
+| [2483-minimum-penalty-for-a-shop](https://github.com/ashish-0280/LeetCode/tree/master/2483-minimum-penalty-for-a-shop) |
 | [2618-maximize-the-minimum-powered-city](https://github.com/ashish-0280/LeetCode/tree/master/2618-maximize-the-minimum-powered-city) |
 | [2625-increment-submatrices-by-one](https://github.com/ashish-0280/LeetCode/tree/master/2625-increment-submatrices-by-one) |
 | [2915-count-of-interesting-subarrays](https://github.com/ashish-0280/LeetCode/tree/master/2915-count-of-interesting-subarrays) |
