@@ -17,7 +17,7 @@ class Solution {
                 }
             }
             if(free != -1){
-                endTimes[free] = start + duration;
+                endTimes[free] = end;
                 meetingCount[free]++;
             } else {
                 int earlyRoom = 0;
