@@ -11,14 +11,14 @@ class Solution {
         return cnt;
     }
     public boolean solve(int grid[][], int i, int j){
-        Set<Integer> set = new HashSet<>();
+        boolean check[] = new boolean[10];
         for(int p=i; p<i+3; p++){
             for(int q=j; q<j+3; q++){
                 int num = grid[p][q];
-                if(set.contains(num) || num < 1 || num > 9){
+                if(num < 1 || num > 9 || check[num]){
                     return false;
                 }
-                set.add(num);
+                check[num] = true;
             }
         }
         int sum = grid[i][j] + grid[i][j+1] + grid[i][j+2];
