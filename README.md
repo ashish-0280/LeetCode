@@ -22,6 +22,7 @@
 | [0053-maximum-subarray](https://github.com/ashish-0280/LeetCode/tree/master/0053-maximum-subarray) |
 | [0056-merge-intervals](https://github.com/ashish-0280/LeetCode/tree/master/0056-merge-intervals) |
 | [0064-minimum-path-sum](https://github.com/ashish-0280/LeetCode/tree/master/0064-minimum-path-sum) |
+| [0066-plus-one](https://github.com/ashish-0280/LeetCode/tree/master/0066-plus-one) |
 | [0073-set-matrix-zeroes](https://github.com/ashish-0280/LeetCode/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/ashish-0280/LeetCode/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/ashish-0280/LeetCode/tree/master/0075-sort-colors) |
@@ -617,6 +618,7 @@
 | [0050-powx-n](https://github.com/ashish-0280/LeetCode/tree/master/0050-powx-n) |
 | [0060-permutation-sequence](https://github.com/ashish-0280/LeetCode/tree/master/0060-permutation-sequence) |
 | [0062-unique-paths](https://github.com/ashish-0280/LeetCode/tree/master/0062-unique-paths) |
+| [0066-plus-one](https://github.com/ashish-0280/LeetCode/tree/master/0066-plus-one) |
 | [0070-climbing-stairs](https://github.com/ashish-0280/LeetCode/tree/master/0070-climbing-stairs) |
 | [0089-gray-code](https://github.com/ashish-0280/LeetCode/tree/master/0089-gray-code) |
 | [0166-fraction-to-recurring-decimal](https://github.com/ashish-0280/LeetCode/tree/master/0166-fraction-to-recurring-decimal) |
