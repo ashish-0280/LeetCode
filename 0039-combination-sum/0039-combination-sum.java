@@ -9,12 +9,11 @@ class Solution {
             list.add(new ArrayList<>(sublist));
             return;
         }
-        if(target < 0 || idx == arr.length){
-            return;
+        if(idx == arr.length || target < 0) return;
+        for(int i=idx; i<arr.length; i++){
+            sublist.add(arr[i]);
+            solve(list, arr, target - arr[i], sublist, i);
+            sublist.remove(sublist.size()-1);
         }
-        sublist.add(arr[idx]);
-        solve(list, arr, target-arr[idx], sublist, idx);
-        sublist.remove(sublist.size() - 1);
-        solve(list, arr, target, sublist, idx+1);
     }
 }
