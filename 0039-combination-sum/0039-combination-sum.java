@@ -1,24 +1,20 @@
 class Solution {
-    //Set <List<Integer>> set = new HashSet<>();
-    List<List<Integer>> ans = new ArrayList<>();
     public List<List<Integer>> combinationSum(int[] candidates, int target) {
-        List<Integer> list = new ArrayList<>();
-        solve(candidates, list, target, candidates.length-1);
-        
-        return ans;
+        List<List<Integer>> list = new ArrayList<>();
+        solve(list, candidates, target, new ArrayList<>(), 0);
+        return list;
     }
-    public void solve(int arr[], List<Integer> l, int target, int i){
-        //Base Condition
+    public void solve(List<List<Integer>> list, int arr[], int target, List<Integer> sublist, int idx){
         if(target == 0){
-            ans.add(new ArrayList<>(l));
-            return;
-        } 
-        if(i<0 || target<0){
+            list.add(new ArrayList<>(sublist));
             return;
         }
-        l.add(arr[i]);
-        solve(arr, l, target-arr[i], i);
-        l.remove(l.size()-1);
-        solve(arr, l, target, i-1);
+        if(target < 0 || idx == arr.length){
+            return;
+        }
+        sublist.add(arr[idx]);
+        solve(list, arr, target-arr[idx], sublist, idx);
+        sublist.remove(sublist.size() - 1);
+        solve(list, arr, target, sublist, idx+1);
     }
 }
