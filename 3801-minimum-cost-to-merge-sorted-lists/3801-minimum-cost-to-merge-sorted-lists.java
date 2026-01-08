@@ -23,7 +23,7 @@ class Solution {
         return solve(totalMasks - 1, dp, len, median);
     }
 
-    long solve(int mask, long[] dp, int[] len, int[] median) {
+    public long solve(int mask, long[] dp, int[] len, int[] median) {
         if ((mask & (mask - 1)) == 0) return 0;
         if (dp[mask] != -1) return dp[mask];
 
@@ -45,7 +45,7 @@ class Solution {
         return dp[mask] = ans;
     }
 
-    int findMedian(int[][] lists, int mask) {
+    public int findMedian(int[][] lists, int mask) {
         List<int[]> included = new ArrayList<>();
         int total = 0;
         int minVal = Integer.MAX_VALUE, maxVal = Integer.MIN_VALUE;
@@ -61,25 +61,33 @@ class Solution {
 
         int k = (total - 1) / 2;
         int l = minVal, r = maxVal;
-
+        int ans = -1;
         while (l <= r) {
             int mid = l + (r - l) / 2;
             int cnt = 0;
             for (int[] arr : included)
                 cnt += upperBound(arr, mid);
 
-            if (cnt <= k) l = mid + 1;
-            else r = mid - 1;
+            if (cnt <= k){
+                l = mid + 1;
+            } else {
+                ans = mid;
+                r = mid - 1;
+            }
         }
-        return l;
+        return ans;
     }
 
-    int upperBound(int[] arr, int x) {
-        int l = 0, r = arr.length - 1;
+    public int upperBound(int[] arr, int x) {
+        int l = 0, r = arr.length - 1, ans = -1;
         while (l <= r) {
-            int m = (l + r) / 2;
-            if (arr[m] <= x) l = m + 1;
-            else r = m - 1;
+            int mid = (l + r) / 2;
+            if(arr[mid] <= x){
+                ans = mid;
+                l = mid+1;
+            } else {
+                r = mid-1;
+            }
         }
         return l;
     }
