@@ -73,11 +73,11 @@ class Solution {
     }
 
     public int upperBound(int[] arr, int target) {
-        int l = 0, r = arr.length;
-        while (l < r) {
+        int l = 0, r = arr.length-1;
+        while (l <= r) {
             int m = l + (r - l) / 2;
             if (arr[m] <= target) l = m + 1;
-            else r = m;
+            else r = m - 1;
         }
         return l;
     }
