@@ -329,6 +329,7 @@
 | [3790-fruits-into-baskets-ii](https://github.com/ashish-0280/LeetCode/tree/master/3790-fruits-into-baskets-ii) |
 | [3791-fruits-into-baskets-iii](https://github.com/ashish-0280/LeetCode/tree/master/3791-fruits-into-baskets-iii) |
 | [3797-design-spreadsheet](https://github.com/ashish-0280/LeetCode/tree/master/3797-design-spreadsheet) |
+| [3801-minimum-cost-to-merge-sorted-lists](https://github.com/ashish-0280/LeetCode/tree/master/3801-minimum-cost-to-merge-sorted-lists) |
 | [3827-implement-router](https://github.com/ashish-0280/LeetCode/tree/master/3827-implement-router) |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/ashish-0280/LeetCode/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
 | [3863-power-grid-maintenance](https://github.com/ashish-0280/LeetCode/tree/master/3863-power-grid-maintenance) |
@@ -900,6 +901,7 @@
 | [2699-count-the-number-of-fair-pairs](https://github.com/ashish-0280/LeetCode/tree/master/2699-count-the-number-of-fair-pairs) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/ashish-0280/LeetCode/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [3755-maximum-product-of-first-and-last-elements-of-a-subsequence](https://github.com/ashish-0280/LeetCode/tree/master/3755-maximum-product-of-first-and-last-elements-of-a-subsequence) |
+| [3801-minimum-cost-to-merge-sorted-lists](https://github.com/ashish-0280/LeetCode/tree/master/3801-minimum-cost-to-merge-sorted-lists) |
 | [4037-lexicographically-smallest-palindromic-permutation-greater-than-target](https://github.com/ashish-0280/LeetCode/tree/master/4037-lexicographically-smallest-palindromic-permutation-greater-than-target) |
 ## Sorting
 |  |
@@ -1107,6 +1109,7 @@
 | [3715-maximum-coins-from-k-consecutive-bags](https://github.com/ashish-0280/LeetCode/tree/master/3715-maximum-coins-from-k-consecutive-bags) |
 | [3790-fruits-into-baskets-ii](https://github.com/ashish-0280/LeetCode/tree/master/3790-fruits-into-baskets-ii) |
 | [3791-fruits-into-baskets-iii](https://github.com/ashish-0280/LeetCode/tree/master/3791-fruits-into-baskets-iii) |
+| [3801-minimum-cost-to-merge-sorted-lists](https://github.com/ashish-0280/LeetCode/tree/master/3801-minimum-cost-to-merge-sorted-lists) |
 | [3827-implement-router](https://github.com/ashish-0280/LeetCode/tree/master/3827-implement-router) |
 ## Dynamic Programming
 |  |
@@ -1210,6 +1213,7 @@
 | [3648-find-the-maximum-number-of-fruits-collected](https://github.com/ashish-0280/LeetCode/tree/master/3648-find-the-maximum-number-of-fruits-collected) |
 | [3677-maximum-amount-of-money-robot-can-earn](https://github.com/ashish-0280/LeetCode/tree/master/3677-maximum-amount-of-money-robot-can-earn) |
 | [3757-number-of-effective-subsequences](https://github.com/ashish-0280/LeetCode/tree/master/3757-number-of-effective-subsequences) |
+| [3801-minimum-cost-to-merge-sorted-lists](https://github.com/ashish-0280/LeetCode/tree/master/3801-minimum-cost-to-merge-sorted-lists) |
 ## Stack
 |  |
 | ------- |
@@ -1741,6 +1745,7 @@
 | [3601-find-the-k-th-character-in-string-game-ii](https://github.com/ashish-0280/LeetCode/tree/master/3601-find-the-k-th-character-in-string-game-ii) |
 | [3744-minimum-operations-to-make-array-elements-zero](https://github.com/ashish-0280/LeetCode/tree/master/3744-minimum-operations-to-make-array-elements-zero) |
 | [3757-number-of-effective-subsequences](https://github.com/ashish-0280/LeetCode/tree/master/3757-number-of-effective-subsequences) |
+| [3801-minimum-cost-to-merge-sorted-lists](https://github.com/ashish-0280/LeetCode/tree/master/3801-minimum-cost-to-merge-sorted-lists) |
 ## Brainteaser
 |  |
 | ------- |
