@@ -17,9 +17,6 @@ class Solution {
                     sum += lists[i].length;
             }
             len[mask] = sum;
-        }
-
-        for (int mask = 1; mask < totalMasks; mask++) {
             median[mask] = findMedian(lists, mask);
         }
 
