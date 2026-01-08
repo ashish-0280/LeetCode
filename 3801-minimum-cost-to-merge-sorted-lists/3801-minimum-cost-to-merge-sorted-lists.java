@@ -1,12 +1,9 @@
 class Solution {
-
     public long minMergeCost(int[][] lists) {
         int n = lists.length;
         int totalMasks = 1 << n;
-
         long[] dp = new long[totalMasks];
         Arrays.fill(dp, -1);
-
         int[] len = new int[totalMasks];
         int[] median = new int[totalMasks];
 
