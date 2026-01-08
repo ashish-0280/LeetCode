@@ -1,82 +1,87 @@
 class Solution {
+
     public long minMergeCost(int[][] lists) {
         int n = lists.length;
         int totalMasks = 1 << n;
 
         long[] dp = new long[totalMasks];
-        Arrays.fill(dp, Long.MAX_VALUE);
-        dp[0] = 0;
+        Arrays.fill(dp, -1);
 
         int[] len = new int[totalMasks];
         int[] median = new int[totalMasks];
 
         for (int mask = 1; mask < totalMasks; mask++) {
-            int totalLen = 0;
+            int sum = 0;
             for (int i = 0; i < n; i++) {
-                if ((mask & (1 << i)) != 0) {
-                    totalLen += lists[i].length;
-                }
+                if ((mask & (1 << i)) != 0)
+                    sum += lists[i].length;
             }
-            len[mask] = totalLen;
+            len[mask] = sum;
         }
 
         for (int mask = 1; mask < totalMasks; mask++) {
             median[mask] = findMedian(lists, mask);
         }
 
-        for (int mask = 1; mask < totalMasks; mask++) {
-            if ((mask & (mask - 1)) == 0) {
-                dp[mask] = 0;
-                continue;
-            }
-
-            for (int sub = (mask - 1) & mask; sub > 0; sub = (sub - 1) & mask) {
-                int other = mask ^ sub;
-                if (other == 0) continue;
-                long cost = dp[sub] + dp[other]
-                        + len[sub] + len[other]
-                        + Math.abs((long) median[sub] - median[other]);
-                dp[mask] = Math.min(dp[mask], cost);
-            }
-        }
-
-        return dp[totalMasks - 1];
+        return solve(totalMasks - 1, dp, len, median);
     }
 
-    public int findMedian(int[][] lists, int mask) {
+    long solve(int mask, long[] dp, int[] len, int[] median) {
+        if ((mask & (mask - 1)) == 0) return 0;
+        if (dp[mask] != -1) return dp[mask];
+
+        long ans = Long.MAX_VALUE;
+
+        for (int sub = (mask - 1) & mask; sub > 0; sub = (sub - 1) & mask) {
+            int other = mask ^ sub;
+            if (other == 0) continue;
+
+            long cost =
+                    solve(sub, dp, len, median) +
+                    solve(other, dp, len, median) +
+                    len[sub] + len[other] +
+                    Math.abs((long) median[sub] - median[other]);
+
+            ans = Math.min(ans, cost);
+        }
+
+        return dp[mask] = ans;
+    }
+
+    int findMedian(int[][] lists, int mask) {
         List<int[]> included = new ArrayList<>();
-        int totalLen = 0;
+        int total = 0;
         int minVal = Integer.MAX_VALUE, maxVal = Integer.MIN_VALUE;
 
         for (int i = 0; i < lists.length; i++) {
             if ((mask & (1 << i)) != 0) {
                 included.add(lists[i]);
-                totalLen += lists[i].length;
+                total += lists[i].length;
                 minVal = Math.min(minVal, lists[i][0]);
                 maxVal = Math.max(maxVal, lists[i][lists[i].length - 1]);
             }
         }
 
-        int k = (totalLen - 1) / 2;
+        int k = (total - 1) / 2;
+        int l = minVal, r = maxVal;
 
-        int left = minVal, right = maxVal;
-        while (left < right) {
-            int mid = left + (right - left) / 2;
-            int count = 0;
-            for (int[] arr : included) {
-                count += upperBound(arr, mid);
-            }
-            if (count <= k) left = mid + 1;
-            else right = mid;
+        while (l <= r) {
+            int mid = l + (r - l) / 2;
+            int cnt = 0;
+            for (int[] arr : included)
+                cnt += upperBound(arr, mid);
+
+            if (cnt <= k) l = mid + 1;
+            else r = mid - 1;
         }
-        return left;
+        return l;
     }
 
-    public int upperBound(int[] arr, int target) {
-        int l = 0, r = arr.length-1;
+    int upperBound(int[] arr, int x) {
+        int l = 0, r = arr.length - 1;
         while (l <= r) {
-            int m = l + (r - l) / 2;
-            if (arr[m] <= target) l = m + 1;
+            int m = (l + r) / 2;
+            if (arr[m] <= x) l = m + 1;
             else r = m - 1;
         }
         return l;
