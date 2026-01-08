@@ -148,6 +148,7 @@
 | [1428-jump-game-iii](https://github.com/ashish-0280/LeetCode/tree/master/1428-jump-game-iii) |
 | [1435-xor-queries-of-a-subarray](https://github.com/ashish-0280/LeetCode/tree/master/1435-xor-queries-of-a-subarray) |
 | [1457-minimum-difficulty-of-a-job-schedule](https://github.com/ashish-0280/LeetCode/tree/master/1457-minimum-difficulty-of-a-job-schedule) |
+| [1458-max-dot-product-of-two-subsequences](https://github.com/ashish-0280/LeetCode/tree/master/1458-max-dot-product-of-two-subsequences) |
 | [1477-product-of-the-last-k-numbers](https://github.com/ashish-0280/LeetCode/tree/master/1477-product-of-the-last-k-numbers) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/ashish-0280/LeetCode/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1503-reducing-dishes](https://github.com/ashish-0280/LeetCode/tree/master/1503-reducing-dishes) |
@@ -1171,6 +1172,7 @@
 | [1402-count-square-submatrices-with-all-ones](https://github.com/ashish-0280/LeetCode/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1411-number-of-ways-to-paint-n-3-grid](https://github.com/ashish-0280/LeetCode/tree/master/1411-number-of-ways-to-paint-n-3-grid) |
 | [1457-minimum-difficulty-of-a-job-schedule](https://github.com/ashish-0280/LeetCode/tree/master/1457-minimum-difficulty-of-a-job-schedule) |
+| [1458-max-dot-product-of-two-subsequences](https://github.com/ashish-0280/LeetCode/tree/master/1458-max-dot-product-of-two-subsequences) |
 | [1474-longest-zigzag-path-in-a-binary-tree](https://github.com/ashish-0280/LeetCode/tree/master/1474-longest-zigzag-path-in-a-binary-tree) |
 | [1503-reducing-dishes](https://github.com/ashish-0280/LeetCode/tree/master/1503-reducing-dishes) |
 | [1559-cherry-pickup-ii](https://github.com/ashish-0280/LeetCode/tree/master/1559-cherry-pickup-ii) |
