@@ -371,6 +371,7 @@
 | [0768-partition-labels](https://github.com/ashish-0280/LeetCode/tree/master/0768-partition-labels) |
 | [0797-rabbits-in-forest](https://github.com/ashish-0280/LeetCode/tree/master/0797-rabbits-in-forest) |
 | [0840-magic-squares-in-grid](https://github.com/ashish-0280/LeetCode/tree/master/0840-magic-squares-in-grid) |
+| [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/ashish-0280/LeetCode/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
 | [0869-similar-string-groups](https://github.com/ashish-0280/LeetCode/tree/master/0869-similar-string-groups) |
 | [0876-hand-of-straights](https://github.com/ashish-0280/LeetCode/tree/master/0876-hand-of-straights) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/ashish-0280/LeetCode/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
@@ -1277,6 +1278,7 @@
 | [0606-construct-string-from-binary-tree](https://github.com/ashish-0280/LeetCode/tree/master/0606-construct-string-from-binary-tree) |
 | [0783-search-in-a-binary-search-tree](https://github.com/ashish-0280/LeetCode/tree/master/0783-search-in-a-binary-search-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/ashish-0280/LeetCode/tree/master/0789-kth-largest-element-in-a-stream) |
+| [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/ashish-0280/LeetCode/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/ashish-0280/LeetCode/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0896-smallest-subtree-with-all-the-deepest-nodes](https://github.com/ashish-0280/LeetCode/tree/master/0896-smallest-subtree-with-all-the-deepest-nodes) |
 | [0904-leaf-similar-trees](https://github.com/ashish-0280/LeetCode/tree/master/0904-leaf-similar-trees) |
@@ -1331,6 +1333,7 @@
 | [0803-cheapest-flights-within-k-stops](https://github.com/ashish-0280/LeetCode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0813-all-paths-from-source-to-target](https://github.com/ashish-0280/LeetCode/tree/master/0813-all-paths-from-source-to-target) |
 | [0820-find-eventual-safe-states](https://github.com/ashish-0280/LeetCode/tree/master/0820-find-eventual-safe-states) |
+| [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/ashish-0280/LeetCode/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
 | [0869-similar-string-groups](https://github.com/ashish-0280/LeetCode/tree/master/0869-similar-string-groups) |
 | [0871-keys-and-rooms](https://github.com/ashish-0280/LeetCode/tree/master/0871-keys-and-rooms) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/ashish-0280/LeetCode/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
@@ -1392,6 +1395,7 @@
 | [0803-cheapest-flights-within-k-stops](https://github.com/ashish-0280/LeetCode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0813-all-paths-from-source-to-target](https://github.com/ashish-0280/LeetCode/tree/master/0813-all-paths-from-source-to-target) |
 | [0820-find-eventual-safe-states](https://github.com/ashish-0280/LeetCode/tree/master/0820-find-eventual-safe-states) |
+| [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/ashish-0280/LeetCode/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
 | [0869-similar-string-groups](https://github.com/ashish-0280/LeetCode/tree/master/0869-similar-string-groups) |
 | [0871-keys-and-rooms](https://github.com/ashish-0280/LeetCode/tree/master/0871-keys-and-rooms) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/ashish-0280/LeetCode/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
@@ -1448,6 +1452,7 @@
 | [0606-construct-string-from-binary-tree](https://github.com/ashish-0280/LeetCode/tree/master/0606-construct-string-from-binary-tree) |
 | [0783-search-in-a-binary-search-tree](https://github.com/ashish-0280/LeetCode/tree/master/0783-search-in-a-binary-search-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/ashish-0280/LeetCode/tree/master/0789-kth-largest-element-in-a-stream) |
+| [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/ashish-0280/LeetCode/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/ashish-0280/LeetCode/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0896-smallest-subtree-with-all-the-deepest-nodes](https://github.com/ashish-0280/LeetCode/tree/master/0896-smallest-subtree-with-all-the-deepest-nodes) |
 | [0904-leaf-similar-trees](https://github.com/ashish-0280/LeetCode/tree/master/0904-leaf-similar-trees) |
