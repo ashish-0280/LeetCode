@@ -10,7 +10,10 @@ class Solution {
         }
         double target = totalArea/2;
         double low = min; double high = max;
-        for(int i=0; i<80; i++){
+        while(low < high){
+            if(high - low < Math.pow(10, -5)){
+                break;
+            }
             double mid = (low + high)/2;
             if(areaBelow(mid, squares) < target){
                 low = mid;
