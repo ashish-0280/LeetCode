@@ -1,6 +1,5 @@
 class Solution {
-
-    private void updateTree(
+    public void updateTree(
             int node,
             int start,
             int end,
@@ -33,7 +32,7 @@ class Solution {
         }
     }
 
-    static class SweepEvent {
+    class SweepEvent {
         double y;
         int type;
         int xStart;
