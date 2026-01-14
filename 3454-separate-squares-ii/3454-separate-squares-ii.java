@@ -112,7 +112,6 @@ class Solution {
             double area = width * (y2 - y1);
 
             if (sum + area >= half) {
-                if (width == 0) return y1;
                 return y1 + (half - sum) / width;
             }
             sum += area;
