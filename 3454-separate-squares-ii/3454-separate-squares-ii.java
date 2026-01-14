@@ -6,7 +6,7 @@ class Solution {
             int left,
             int right,
             int value,
-            int[] xCoords,
+            int[] x,
             int[] coverCount,
             double[] coveredLength
     ) {
@@ -16,12 +16,12 @@ class Solution {
             coverCount[node] += value;
         } else {
             int mid = (start + end) / 2;
-            updateTree(node * 2, start, mid, left, right, value, xCoords, coverCount, coveredLength);
-            updateTree(node * 2 + 1, mid, end, left, right, value, xCoords, coverCount, coveredLength);
+            updateTree(node * 2, start, mid, left, right, value, x, coverCount, coveredLength);
+            updateTree(node * 2 + 1, mid, end, left, right, value, x, coverCount, coveredLength);
         }
 
         if (coverCount[node] > 0) {
-            coveredLength[node] = xCoords[end] - xCoords[start];
+            coveredLength[node] = x[end] - x[start];
         } else {
             if (end - start == 1) {
                 coveredLength[node] = 0;
@@ -32,13 +32,13 @@ class Solution {
         }
     }
 
-    class SweepEvent {
+    class event {
         double y;
         int type;
         int xStart;
         int xEnd;
 
-        SweepEvent(double y, int type, int xStart, int xEnd) {
+        event(double y, int type, int xStart, int xEnd) {
             this.y = y;
             this.type = type;
             this.xStart = xStart;
@@ -48,7 +48,7 @@ class Solution {
 
     public double separateSquares(int[][] squares) {
 
-        List<SweepEvent> events = new ArrayList<>();
+        List<event> events = new ArrayList<>();
         Set<Integer> set = new HashSet<>();
 
         for (int[] sq : squares) {
@@ -56,19 +56,19 @@ class Solution {
             int y = sq[1];
             int size = sq[2];
 
-            events.add(new SweepEvent(y, 1, x, x + size));
-            events.add(new SweepEvent(y + size, -1, x, x + size));
+            events.add(new event(y, 1, x, x + size));
+            events.add(new event(y + size, -1, x, x + size));
 
             set.add(x);
             set.add(x + size);
         }
         int n = set.size();
-        int xCoords[] = new int[n]; int p = 0;
+        int x[] = new int[n]; int p = 0;
         for(int num: set){
-            xCoords[p] = num;
+            x[p] = num;
             p++;
         }
-        Arrays.sort(xCoords);
+        Arrays.sort(x);
 
         events.sort(Comparator.comparingDouble(e -> e.y));
 
@@ -93,10 +93,10 @@ class Solution {
             }
 
             while (i < events.size() && events.get(i).y == currY) {
-                SweepEvent e = events.get(i);
-                int left = Arrays.binarySearch(xCoords, e.xStart);
-                int right = Arrays.binarySearch(xCoords, e.xEnd);
-                updateTree(1, 0, n, left, right, e.type, xCoords, coverCount, coveredLength);
+                event e = events.get(i);
+                int left = Arrays.binarySearch(x, e.xStart);
+                int right = Arrays.binarySearch(x, e.xEnd);
+                updateTree(1, 0, n, left, right, e.type, x, coverCount, coveredLength);
                 i++;
             }
         }
