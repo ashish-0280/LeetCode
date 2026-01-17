@@ -92,6 +92,7 @@
 | [0735-asteroid-collision](https://github.com/ashish-0280/LeetCode/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/ashish-0280/LeetCode/tree/master/0739-daily-temperatures) |
 | [0745-find-smallest-letter-greater-than-target](https://github.com/ashish-0280/LeetCode/tree/master/0745-find-smallest-letter-greater-than-target) |
+| [0746-min-cost-climbing-stairs](https://github.com/ashish-0280/LeetCode/tree/master/0746-min-cost-climbing-stairs) |
 | [0759-set-intersection-size-at-least-two](https://github.com/ashish-0280/LeetCode/tree/master/0759-set-intersection-size-at-least-two) |
 | [0792-binary-search](https://github.com/ashish-0280/LeetCode/tree/master/0792-binary-search) |
 | [0797-rabbits-in-forest](https://github.com/ashish-0280/LeetCode/tree/master/0797-rabbits-in-forest) |
@@ -1173,6 +1174,7 @@
 | [0673-number-of-longest-increasing-subsequence](https://github.com/ashish-0280/LeetCode/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/ashish-0280/LeetCode/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/ashish-0280/LeetCode/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
+| [0746-min-cost-climbing-stairs](https://github.com/ashish-0280/LeetCode/tree/master/0746-min-cost-climbing-stairs) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/ashish-0280/LeetCode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0806-domino-and-tromino-tiling](https://github.com/ashish-0280/LeetCode/tree/master/0806-domino-and-tromino-tiling) |
 | [0826-soup-servings](https://github.com/ashish-0280/LeetCode/tree/master/0826-soup-servings) |
