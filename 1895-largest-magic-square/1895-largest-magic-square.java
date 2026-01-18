@@ -3,8 +3,8 @@ class Solution {
         int n = grid.length; int m = grid[0].length;
         int maxSize = Math.min(m, n);
         while(maxSize > 0){
-            for(int i=0; i<n; i++){
-                for(int j=0; j<m; j++){
+            for(int i=0; i+maxSize<=n; i++){
+                for(int j=0; j+maxSize<=m; j++){
                     if(check(grid, i, j, maxSize)){
                         return maxSize;
                     }
