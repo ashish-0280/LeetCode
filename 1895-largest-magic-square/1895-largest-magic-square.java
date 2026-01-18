@@ -1,11 +1,21 @@
 class Solution {
     public int largestMagicSquare(int[][] grid) {
         int n = grid.length; int m = grid[0].length;
+        int prefixRow[][] = new int[n][m+1];
+        int prefixCol[][] = new int[n+1][m];
+
+        for(int i=0; i<n; i++){
+            for(int j=0; j<m; j++){
+                prefixRow[i][j+1] = prefixRow[i][j] + grid[i][j];
+                prefixCol[i+1][j] = prefixCol[i][j] + grid[i][j];
+            }
+        }
+
         int maxSize = Math.min(m, n);
-        while(maxSize > 0){
+        while(maxSize >= 2){
             for(int i=0; i+maxSize<=n; i++){
                 for(int j=0; j+maxSize<=m; j++){
-                    if(check(grid, i, j, maxSize)){
+                    if(check(grid, i, j, prefixRow, prefixCol, maxSize)){
                         return maxSize;
                     }
                 }
@@ -14,44 +24,28 @@ class Solution {
         }
         return 1;
     }
-    public boolean check(int grid[][], int i, int j, int size){
-        if(i + size > grid.length || j+size > grid[0].length) return false;
-        int target = 0;
-        for(int k=i; k<i+size; k++){
-            target += grid[k][j];
-        }
-        int col = j;
-        while(col < j + size){
-            int sum = 0;
-            for(int row=i; row <i + size; row++){
-                sum += grid[row][col];
+    public boolean check(int grid[][], int row, int col, int prefixRow[][], int prefixCol[][], int size){
+        int target = prefixRow[row][col + size] - prefixRow[row][col];
+
+        for(int i=row; i<row+size; i++){
+            if(prefixRow[i][col + size] - prefixRow[i][col] != target){
+                return false;
             }
-            if(sum != target) return false;
-            col++;
         }
-        int row = i;
-        while(row < i + size){
-            int sum = 0;
-            for(col=j; col <j + size; col++){
-                sum += grid[row][col];
+
+        for(int j=col; j<col+size; j++){
+            if(prefixCol[row+size][j] - prefixCol[row][j] != target){
+                return false;
             }
-            if(sum != target) return false;
-            row++;
         }
-        row = i; col = j;
-        int sum = 0;
-        while(row < i + size && col < j + size){
-            sum += grid[row][col];
-            row++; col++;
+
+        int d1 = 0; int d2 = 0;
+        for(int i=0; i<size; i++){
+            d1 += grid[row + i][col + i];
+            d2 += grid[row + i][col + size - 1 - i];
         }
-        if(sum != target) return false;
-        row = i; col = j+size-1;
-        sum = 0;
-        while(row < i + size && col >= j){
-            sum += grid[row][col];
-            row++; col--;
-        }
-        if(sum != target) return false;
+        if(d1 != target || d2 != target) return false;
+
         return true;
     }
 }
