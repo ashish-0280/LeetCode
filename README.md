@@ -182,6 +182,7 @@
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/ashish-0280/LeetCode/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
 | [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/ashish-0280/LeetCode/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/ashish-0280/LeetCode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
+| [1895-largest-magic-square](https://github.com/ashish-0280/LeetCode/tree/master/1895-largest-magic-square) |
 | [1906-maximize-score-after-n-operations](https://github.com/ashish-0280/LeetCode/tree/master/1906-maximize-score-after-n-operations) |
 | [1917-maximum-average-pass-ratio](https://github.com/ashish-0280/LeetCode/tree/master/1917-maximum-average-pass-ratio) |
 | [1923-sentence-similarity-iii](https://github.com/ashish-0280/LeetCode/tree/master/1923-sentence-similarity-iii) |
@@ -771,6 +772,7 @@
 | [1559-cherry-pickup-ii](https://github.com/ashish-0280/LeetCode/tree/master/1559-cherry-pickup-ii) |
 | [1628-count-submatrices-with-all-ones](https://github.com/ashish-0280/LeetCode/tree/master/1628-count-submatrices-with-all-ones) |
 | [1753-path-with-minimum-effort](https://github.com/ashish-0280/LeetCode/tree/master/1753-path-with-minimum-effort) |
+| [1895-largest-magic-square](https://github.com/ashish-0280/LeetCode/tree/master/1895-largest-magic-square) |
 | [1970-last-day-where-you-can-still-cross](https://github.com/ashish-0280/LeetCode/tree/master/1970-last-day-where-you-can-still-cross) |
 | [1975-maximum-matrix-sum](https://github.com/ashish-0280/LeetCode/tree/master/1975-maximum-matrix-sum) |
 | [2047-find-a-peak-element-ii](https://github.com/ashish-0280/LeetCode/tree/master/2047-find-a-peak-element-ii) |
@@ -1053,6 +1055,7 @@
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/ashish-0280/LeetCode/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1694-make-sum-divisible-by-p](https://github.com/ashish-0280/LeetCode/tree/master/1694-make-sum-divisible-by-p) |
 | [1833-find-the-highest-altitude](https://github.com/ashish-0280/LeetCode/tree/master/1833-find-the-highest-altitude) |
+| [1895-largest-magic-square](https://github.com/ashish-0280/LeetCode/tree/master/1895-largest-magic-square) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/ashish-0280/LeetCode/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/ashish-0280/LeetCode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2229-maximum-fruits-harvested-after-at-most-k-steps](https://github.com/ashish-0280/LeetCode/tree/master/2229-maximum-fruits-harvested-after-at-most-k-steps) |
