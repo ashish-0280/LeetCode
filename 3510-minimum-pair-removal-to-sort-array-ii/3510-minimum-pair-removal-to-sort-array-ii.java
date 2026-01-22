@@ -1,84 +1,65 @@
 class Solution {
-    class Pair {
-        long sum;
-        int l, r;
-        int time;
 
-        Pair(long sum, int l, int r, int time) {
-            this.sum = sum;
-            this.l = l;
-            this.r = r;
-            this.time = time;
+    static class Pair {
+        long sum;
+        int l, r, ver;
+        Pair(long s, int l, int r, int v) {
+            sum = s; this.l = l; this.r = r; ver = v;
         }
     }
+
     public int minimumPairRemoval(int[] nums) {
 
-        TreeMap<Integer, Long> map = new TreeMap<>();
-        for (int i = 0; i < nums.length; i++) {
-            map.put(i, (long) nums[i]);
-        }
+        TreeMap<Integer, Long> arr = new TreeMap<>();
+        for (int i = 0; i < nums.length; i++)
+            arr.put(i, (long) nums[i]);
 
         int bad = 0;
-        for (int i = 1; i < nums.length; i++) {
+        for (int i = 1; i < nums.length; i++)
             if (nums[i] < nums[i - 1]) bad++;
-        }
 
-        PriorityQueue<Pair> heap = new PriorityQueue<>(
+        PriorityQueue<Pair> pq = new PriorityQueue<>(
             (a, b) -> a.sum != b.sum ?
                 Long.compare(a.sum, b.sum) :
                 Integer.compare(a.l, b.l)
         );
 
-        for (int i = 0; i < nums.length - 1; i++) {
-            heap.add(new Pair(nums[i] + nums[i + 1], i, i + 1, 0));
-        }
+        for (int i = 0; i + 1 < nums.length; i++)
+            pq.add(new Pair(nums[i] + nums[i + 1], i, i + 1, 0));
 
-        int[] time = new int[nums.length];
+        int[] ver = new int[nums.length];
         int ans = 0;
 
         while (bad > 0) {
 
-            Pair p = heap.poll();
-
-            if (!map.containsKey(p.l) || !map.containsKey(p.r))
-                continue;
-
-            if (time[p.l] > p.time || time[p.r] > p.time)
-                continue;
+            Pair p = pq.poll();
+            if (!arr.containsKey(p.l) || !arr.containsKey(p.r)) continue;
+            if (ver[p.l] > p.ver || ver[p.r] > p.ver) continue;
 
             ans++;
-            time[p.l] = ans;
-            time[p.r] = ans;
+            ver[p.l] = ver[p.r] = ans;
 
-            long leftVal = map.get(p.l);
-            long rightVal = map.get(p.r);
+            long L = arr.get(p.l), R = arr.get(p.r);
+            arr.remove(p.r);
+            if (R < L) bad--;
 
-            map.remove(p.r);
+            long merged = L + R;
+            arr.put(p.l, merged);
 
-            if (rightVal < leftVal) bad--;
-
-            map.put(p.l, p.sum);
-
-            Map.Entry<Integer, Long> left = map.lowerEntry(p.l);
+            Integer left = arr.lowerKey(p.l);
             if (left != null) {
-                long v = left.getValue();
-                if (p.sum < v) {
-                    if (leftVal >= v) bad++;
-                } else {
-                    if (leftVal < v) bad--;
-                }
-                heap.add(new Pair(v + p.sum, left.getKey(), p.l, ans));
+                long v = arr.get(left);
+                if (merged < v && L >= v) bad++;
+                if (merged >= v && L < v) bad--;
+                pq.add(new Pair(v + merged, left, p.l, ans));
             }
 
-            Map.Entry<Integer, Long> right = map.higherEntry(p.l);
+            Integer right = arr.higherKey(p.l);
             if (right != null) {
-                long v = right.getValue();
-                if (v < p.sum) {
-                    if (rightVal <= v) bad++;
-                } else {
-                    if (rightVal > v) bad--;
-                }
-                heap.add(new Pair(v + p.sum, p.l, right.getKey(), ans));
+                long v = arr.get(right);
+                if (v < merged && R <= v) bad++;
+                if (v >= merged && R > v) bad--;
+                pq.add(new Pair(v + merged, p.l, right, ans));
             }
         }
         return ans;
