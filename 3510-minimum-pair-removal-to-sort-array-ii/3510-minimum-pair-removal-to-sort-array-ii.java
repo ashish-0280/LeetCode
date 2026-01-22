@@ -1,65 +1,76 @@
 class Solution {
 
-    static class Pair {
-        long sum;
-        int l, r, ver;
-        Pair(long s, int l, int r, int v) {
-            sum = s; this.l = l; this.r = r; ver = v;
+    class Pair implements Comparable<Pair> {
+        int l;
+        long val, sum;
+        Pair left, right;
+
+        Pair(int l, long val) {
+            this.l = l;
+            this.val = val;
+        }
+        public int compareTo(Pair o) {
+            if (this.right == null || o.right == null) {
+                return this.right == null ? 1 : -1;
+            }
+            long d = this.sum - o.sum;
+            return d != 0 ? (d < 0 ? -1 : 1) : (this.l - o.l);
         }
     }
 
     public int minimumPairRemoval(int[] nums) {
 
-        TreeMap<Integer, Long> arr = new TreeMap<>();
-        for (int i = 0; i < nums.length; i++)
-            arr.put(i, (long) nums[i]);
-
+        TreeSet<Pair> heap = new TreeSet<>();
         int bad = 0;
-        for (int i = 1; i < nums.length; i++)
-            if (nums[i] < nums[i - 1]) bad++;
 
-        PriorityQueue<Pair> pq = new PriorityQueue<>(
-            (a, b) -> a.sum != b.sum ?
-                Long.compare(a.sum, b.sum) :
-                Integer.compare(a.l, b.l)
-        );
+        Pair cur = null;
+        for (int i = 0; i < nums.length; i++) {
+            Pair p = new Pair(i, nums[i]);
+            if (cur == null) {
+                cur = p;
+            } else {
+                if (p.val < cur.val) bad++;
+                cur.right = p;
+                p.left = cur;
+                cur.sum = cur.val + p.val;
+                heap.add(cur);
+                cur = p;
+            }
+        }
+        heap.add(cur);
 
-        for (int i = 0; i + 1 < nums.length; i++)
-            pq.add(new Pair(nums[i] + nums[i + 1], i, i + 1, 0));
-
-        int[] ver = new int[nums.length];
         int ans = 0;
 
         while (bad > 0) {
-
-            Pair p = pq.poll();
-            if (!arr.containsKey(p.l) || !arr.containsKey(p.r)) continue;
-            if (ver[p.l] > p.ver || ver[p.r] > p.ver) continue;
-
             ans++;
-            ver[p.l] = ver[p.r] = ans;
 
-            long L = arr.get(p.l), R = arr.get(p.r);
-            arr.remove(p.r);
-            if (R < L) bad--;
+            Pair best = heap.pollFirst();
 
-            long merged = L + R;
-            arr.put(p.l, merged);
+            if (best.right.val < best.val) bad--;
 
-            Integer left = arr.lowerKey(p.l);
-            if (left != null) {
-                long v = arr.get(left);
-                if (merged < v && L >= v) bad++;
-                if (merged >= v && L < v) bad--;
-                pq.add(new Pair(v + merged, left, p.l, ans));
+            best.sum = best.val + best.right.sum;
+            best.val = best.val + best.right.val;
+
+            Pair del = best.right;
+            best.right = del.right;
+
+            if (del.right != null) {
+                if (del.right.val < del.val) bad--;
+                del.right.left = best;
+                if (best.val > best.right.val) bad++;
             }
 
-            Integer right = arr.higherKey(p.l);
-            if (right != null) {
-                long v = arr.get(right);
-                if (v < merged && R <= v) bad++;
-                if (v >= merged && R > v) bad--;
-                pq.add(new Pair(v + merged, p.l, right, ans));
+            heap.remove(del);
+            heap.add(best);
+
+            Pair left = best.left;
+            if (left != null) {
+                heap.remove(left);
+                if (left.val > left.sum - left.val) bad--;
+                if (left.val > best.val) bad++;
+                left.sum = left.val + best.val;
+                left.right = best;
+                heap.add(left);
             }
         }
         return ans;
