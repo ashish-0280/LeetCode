@@ -182,6 +182,7 @@
 | [1833-find-the-highest-altitude](https://github.com/ashish-0280/LeetCode/tree/master/1833-find-the-highest-altitude) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/ashish-0280/LeetCode/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
 | [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/ashish-0280/LeetCode/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
+| [1877-minimize-maximum-pair-sum-in-array](https://github.com/ashish-0280/LeetCode/tree/master/1877-minimize-maximum-pair-sum-in-array) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/ashish-0280/LeetCode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [1895-largest-magic-square](https://github.com/ashish-0280/LeetCode/tree/master/1895-largest-magic-square) |
 | [1906-maximize-score-after-n-operations](https://github.com/ashish-0280/LeetCode/tree/master/1906-maximize-score-after-n-operations) |
@@ -865,6 +866,7 @@
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/ashish-0280/LeetCode/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [1770-minimum-deletions-to-make-character-frequencies-unique](https://github.com/ashish-0280/LeetCode/tree/master/1770-minimum-deletions-to-make-character-frequencies-unique) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/ashish-0280/LeetCode/tree/master/1818-maximum-score-from-removing-substrings) |
+| [1877-minimize-maximum-pair-sum-in-array](https://github.com/ashish-0280/LeetCode/tree/master/1877-minimize-maximum-pair-sum-in-array) |
 | [1917-maximum-average-pass-ratio](https://github.com/ashish-0280/LeetCode/tree/master/1917-maximum-average-pass-ratio) |
 | [1975-maximum-matrix-sum](https://github.com/ashish-0280/LeetCode/tree/master/1975-maximum-matrix-sum) |
 | [2032-largest-odd-number-in-string](https://github.com/ashish-0280/LeetCode/tree/master/2032-largest-odd-number-in-string) |
@@ -917,6 +919,7 @@
 | [0868-push-dominoes](https://github.com/ashish-0280/LeetCode/tree/master/0868-push-dominoes) |
 | [0908-middle-of-the-linked-list](https://github.com/ashish-0280/LeetCode/tree/master/0908-middle-of-the-linked-list) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/ashish-0280/LeetCode/tree/master/1798-max-number-of-k-sum-pairs) |
+| [1877-minimize-maximum-pair-sum-in-array](https://github.com/ashish-0280/LeetCode/tree/master/1877-minimize-maximum-pair-sum-in-array) |
 | [1923-sentence-similarity-iii](https://github.com/ashish-0280/LeetCode/tree/master/1923-sentence-similarity-iii) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/ashish-0280/LeetCode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2236-maximum-twin-sum-of-a-linked-list](https://github.com/ashish-0280/LeetCode/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
@@ -967,6 +970,7 @@
 | [1777-determine-if-two-strings-are-close](https://github.com/ashish-0280/LeetCode/tree/master/1777-determine-if-two-strings-are-close) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/ashish-0280/LeetCode/tree/master/1798-max-number-of-k-sum-pairs) |
 | [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/ashish-0280/LeetCode/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
+| [1877-minimize-maximum-pair-sum-in-array](https://github.com/ashish-0280/LeetCode/tree/master/1877-minimize-maximum-pair-sum-in-array) |
 | [2054-two-best-non-overlapping-events](https://github.com/ashish-0280/LeetCode/tree/master/2054-two-best-non-overlapping-events) |
 | [2092-find-all-people-with-secret](https://github.com/ashish-0280/LeetCode/tree/master/2092-find-all-people-with-secret) |
 | [2141-maximum-running-time-of-n-computers](https://github.com/ashish-0280/LeetCode/tree/master/2141-maximum-running-time-of-n-computers) |
