@@ -129,6 +129,7 @@
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/ashish-0280/LeetCode/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1073-number-of-enclaves](https://github.com/ashish-0280/LeetCode/tree/master/1073-number-of-enclaves) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/ashish-0280/LeetCode/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1200-minimum-absolute-difference](https://github.com/ashish-0280/LeetCode/tree/master/1200-minimum-absolute-difference) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/ashish-0280/LeetCode/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1256-rank-transform-of-an-array](https://github.com/ashish-0280/LeetCode/tree/master/1256-rank-transform-of-an-array) |
 | [1262-greatest-sum-divisible-by-three](https://github.com/ashish-0280/LeetCode/tree/master/1262-greatest-sum-divisible-by-three) |
@@ -961,6 +962,7 @@
 | [0900-reordered-power-of-2](https://github.com/ashish-0280/LeetCode/tree/master/0900-reordered-power-of-2) |
 | [1018-largest-perimeter-triangle](https://github.com/ashish-0280/LeetCode/tree/master/1018-largest-perimeter-triangle) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/ashish-0280/LeetCode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1200-minimum-absolute-difference](https://github.com/ashish-0280/LeetCode/tree/master/1200-minimum-absolute-difference) |
 | [1256-rank-transform-of-an-array](https://github.com/ashish-0280/LeetCode/tree/master/1256-rank-transform-of-an-array) |
 | [1262-greatest-sum-divisible-by-three](https://github.com/ashish-0280/LeetCode/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1352-maximum-profit-in-job-scheduling](https://github.com/ashish-0280/LeetCode/tree/master/1352-maximum-profit-in-job-scheduling) |
