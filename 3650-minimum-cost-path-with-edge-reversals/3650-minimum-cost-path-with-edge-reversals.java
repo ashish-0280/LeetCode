@@ -18,7 +18,7 @@ class Solution {
         for(int i=0; i<edges.length; i++){
             int a = edges[i][0]; int b = edges[i][1]; int c = edges[i][2];
             graph.get(a).add(new int[]{b, c});
-            graph.get(b).add(new int[]{a, 2*c});
+            rev.get(b).add(new int[]{a, 2*c});
         }
         long d[] = new long[n];
         Arrays.fill(d, Long.MAX_VALUE);
