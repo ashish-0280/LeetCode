@@ -20,7 +20,6 @@ class Solution {
             graph.get(a).add(new int[]{b, c});
             graph.get(b).add(new int[]{a, 2*c});
         }
-        int vis[] = new int[n];
         long d[] = new long[n];
         Arrays.fill(d, Long.MAX_VALUE);
         d[0] = 0;
