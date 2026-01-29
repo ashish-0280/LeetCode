@@ -38,7 +38,7 @@ class Solution {
         }
 
         long[][] dist = new long[idCounter][idCounter];
-        long INF = Long.MAX_VALUE / 2;
+        long INF = Long.MAX_VALUE;
         for (long[] row : dist) Arrays.fill(row, INF);
         for (int i = 0; i < idCounter; i++) dist[i][i] = 0;
 
