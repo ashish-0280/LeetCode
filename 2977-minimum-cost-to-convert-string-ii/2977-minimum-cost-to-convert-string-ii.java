@@ -1,14 +1,10 @@
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Map;
-
 class Solution {
-    private class TrieNode {
+    class TrieNode {
         TrieNode[] next = new TrieNode[26];
         int id = -1;
     }
 
-    private void insert(TrieNode root, String s, int id) {
+    public void insert(TrieNode root, String s, int id) {
         TrieNode node = root;
         for (char c : s.toCharArray()) {
             int idx = c - 'a';
