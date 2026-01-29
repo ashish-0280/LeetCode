@@ -50,9 +50,8 @@ class Solution {
 
         for (int k = 0; k < idCounter; k++) {
             for (int i = 0; i < idCounter; i++) {
-                if (dist[i][k] == INF) continue;
                 for (int j = 0; j < idCounter; j++) {
-                    if (dist[k][j] == INF) continue;
+                    if (dist[i][k] == INF || dist[k][j] == INF) continue;
                     dist[i][j] = Math.min(dist[i][j], dist[i][k] + dist[k][j]);
                 }
             }
