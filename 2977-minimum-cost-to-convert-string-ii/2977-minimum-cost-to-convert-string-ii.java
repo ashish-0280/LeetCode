@@ -101,10 +101,6 @@ class Solution {
                 }
             }
         }
-
-        for (int i = 0; i <= n; i++) {
-            System.out.print(dp[i] + " Ok ");
-        }
         return dp[n] == INF ? -1 : dp[n];
     }
 }
