@@ -50,8 +50,9 @@ class Solution {
 
         for (int k = 0; k < idCounter; k++) {
             for (int i = 0; i < idCounter; i++) {
+                if (dist[i][k] == INF) continue;
                 for (int j = 0; j < idCounter; j++) {
-                    if (dist[i][k] == INF || dist[k][j] == INF) continue;
+                    if (dist[k][j] == INF) continue;
                     dist[i][j] = Math.min(dist[i][j], dist[i][k] + dist[k][j]);
                 }
             }
@@ -61,13 +62,13 @@ class Solution {
         Arrays.fill(dp, INF);
         dp[0] = 0;
 
-        char[] sChars = source.toCharArray();
-        char[] tChars = target.toCharArray();
+        char[] s = source.toCharArray();
+        char[] t = target.toCharArray();
 
         for (int i = 0; i < n; i++) {
             if (dp[i] == INF) continue;
 
-            if (sChars[i] == tChars[i]) {
+            if (s[i] == t[i]) {
                 dp[i + 1] = Math.min(dp[i + 1], dp[i]);
             }
 
@@ -75,7 +76,7 @@ class Solution {
             Map<Integer, Integer> lenToTargetId = new HashMap<>();
             
             for (int j = i; j < n; j++) {
-                int idx = tChars[j] - 'a';
+                int idx = t[j] - 'a';
                 if (tNode.next[idx] == null) break;
                 tNode = tNode.next[idx];
                 if (tNode.id != -1) {
@@ -85,7 +86,7 @@ class Solution {
 
             TrieNode sNode = root;
             for (int j = i; j < n; j++) {
-                int idx = sChars[j] - 'a';
+                int idx = s[j] - 'a';
                 if (sNode.next[idx] == null) break;
                 sNode = sNode.next[idx];
                 if (sNode.id != -1) {
@@ -101,6 +102,9 @@ class Solution {
             }
         }
 
+        for (int i = 0; i <= n; i++) {
+            System.out.print(dp[i] + " Ok ");
+        }
         return dp[n] == INF ? -1 : dp[n];
     }
 }
