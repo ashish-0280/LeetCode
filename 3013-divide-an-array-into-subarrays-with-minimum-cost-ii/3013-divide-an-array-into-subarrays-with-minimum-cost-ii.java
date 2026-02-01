@@ -2,69 +2,63 @@ class Solution {
     public long minimumCost(int[] nums, int k, int dist) {
 
         int n = nums.length;
-
-        Comparator<Integer> cmp = (i, j) -> {
-            if (nums[i] == nums[j]) return i - j;
-            return nums[i] - nums[j];
-        };
-
-        TreeSet<Integer> selected = new TreeSet<>((a, b) -> {
+        TreeSet<Integer> sel = new TreeSet<>((a, b) -> {
             if(nums[a] == nums[b]) return a-b;
             return nums[a] - nums[b];
         });
-        TreeSet<Integer> remaining = new TreeSet<>((a, b) -> {
+        TreeSet<Integer> rem = new TreeSet<>((a, b) -> {
             if(nums[a] == nums[b]) return a-b;
             return nums[a] - nums[b];
         });
 
         k = k - 1;
 
-        long currentSum = 0;
-        long answer = Long.MAX_VALUE;
-
-        for (int i = 1; i <= Math.min(dist + 1, n - 1); i++) {
-            currentSum += nums[i];
-            selected.add(i);
+        long currSum = 0;
+        long ans = Long.MAX_VALUE;
+        int last = Math.min(dist+1, n-1);
+        for (int i = 1; i <= last; i++) {
+            currSum += nums[i];
+            sel.add(i);
         }
 
-        while (selected.size() > k) {
-            int idx = selected.pollLast();
-            currentSum -= nums[idx];
-            remaining.add(idx);
+        while (sel.size() > k) {
+            int idx = sel.pollLast();
+            currSum -= nums[idx];
+            rem.add(idx);
         }
 
-        answer = currentSum;
+        ans = currSum;
 
-        for (int right = dist + 2, left = 1; right < n; right++, left++) {
+        for (int r = dist + 2, l= 1; r < n; r++, l++) {
 
-            remaining.add(right);
+            rem.add(r);
 
-            if (selected.contains(left)) {
-                selected.remove(left);
-                currentSum -= nums[left];
+            if (sel.contains(l)) {
+                sel.remove(l);
+                currSum -= nums[l];
 
-                int smallest = remaining.pollFirst();
-                selected.add(smallest);
-                currentSum += nums[smallest];
+                int smallest = rem.pollFirst();
+                sel.add(smallest);
+                currSum += nums[smallest];
             } else {
-                remaining.remove(left);
+                rem.remove(l);
 
-                if (!selected.isEmpty() && !remaining.isEmpty()
-                        && nums[selected.last()] > nums[remaining.first()]) {
+                if (!sel.isEmpty() && !rem.isEmpty()
+                        && nums[sel.last()] > nums[rem.first()]) {
 
-                    int big = selected.pollLast();
-                    currentSum -= nums[big];
-                    remaining.add(big);
+                    int big = sel.pollLast();
+                    currSum -= nums[big];
+                    rem.add(big);
 
-                    int small = remaining.pollFirst();
-                    selected.add(small);
-                    currentSum += nums[small];
+                    int small = rem.pollFirst();
+                    sel.add(small);
+                    currSum += nums[small];
                 }
             }
 
-            answer = Math.min(answer, currentSum);
+            ans = Math.min(ans, currSum);
         }
 
-        return nums[0] + answer;
+        return nums[0] + ans;
     }
 }
