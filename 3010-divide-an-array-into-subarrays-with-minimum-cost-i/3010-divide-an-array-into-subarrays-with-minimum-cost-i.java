@@ -1,13 +1,16 @@
 class Solution {
     public int minimumCost(int[] nums) {
-        int cost = nums[0];
-        List<Integer> list = new ArrayList<>();
+        int cost = nums[0]; int min1 = Integer.MAX_VALUE; int min2 = Integer.MAX_VALUE;
         for(int i=1; i<nums.length; i++){
-            list.add(nums[i]);
+            if(min1 > nums[i]){
+                min2 = min1;
+                min1 = nums[i];
+            } else if(nums[i] < min2){
+                min2 = nums[i];
+            }
         }
-        Collections.sort(list);
-        cost += list.get(0); 
-        cost += list.get(1);
+        cost += min1;
+        cost += min2;
         return cost;
     }
 }
