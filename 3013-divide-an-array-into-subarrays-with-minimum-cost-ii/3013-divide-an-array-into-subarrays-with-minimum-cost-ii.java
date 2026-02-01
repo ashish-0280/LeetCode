@@ -8,8 +8,14 @@ class Solution {
             return nums[i] - nums[j];
         };
 
-        TreeSet<Integer> selected = new TreeSet<>(cmp);
-        TreeSet<Integer> remaining = new TreeSet<>(cmp);
+        TreeSet<Integer> selected = new TreeSet<>((a, b) -> {
+            if(nums[a] == nums[b]) return a-b;
+            return nums[a] - nums[b];
+        });
+        TreeSet<Integer> remaining = new TreeSet<>((a, b) -> {
+            if(nums[a] == nums[b]) return a-b;
+            return nums[a] - nums[b];
+        });
 
         k = k - 1;
 
