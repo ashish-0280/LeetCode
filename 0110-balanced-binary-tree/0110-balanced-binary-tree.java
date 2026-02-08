@@ -18,18 +18,18 @@ class Solution {
         if(root == null){
             return true;
         }
-        boolean b1 = isBalanced(root.left);
-        boolean b2 = isBalanced(root.right);
-        int net = Math.abs(height(root.left)-height(root.right));
-        if(net > 1){
-            return false;
-        }
-        return b1 && b2;
+        int ans = height(root);
+        return (ans == -1) ? false : true;
     }
     public int height(TreeNode root){
         if(root == null){
             return 0;
         }
-        return Math.max(height(root.left), height(root.right))+1;
+        int l = height(root.left);
+        if(l == -1) return -1;
+        int r = height(root.right);
+        if(r == -1) return -1;
+        if(Math.abs(l - r) > 1) return -1;
+        return Math.max(l, r) + 1;
     }
 }
