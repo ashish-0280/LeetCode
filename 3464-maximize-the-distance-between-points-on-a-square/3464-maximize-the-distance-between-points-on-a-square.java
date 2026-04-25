@@ -1,5 +1,6 @@
 class Solution {
     public int maxDistance(int side, int[][] points, int k) {
+
         int n = points.length;
         long arr[] = new long[n];
         for(int i=0; i<n; i++){
@@ -64,11 +65,11 @@ class Solution {
         return false;
     }
     public int lowerBound(long arr[], long target, int left, int right){
-        while(left < right){
+        while(left <= right){
             int mid = left + (right - left) / 2;
 
             if(arr[mid] >= target){
-                right = mid;
+                right = mid - 1;
             } else {
                 left = mid + 1;
             }
