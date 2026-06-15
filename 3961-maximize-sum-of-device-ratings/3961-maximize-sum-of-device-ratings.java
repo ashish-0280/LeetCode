@@ -11,9 +11,9 @@ class Solution {
             return sum;
         }
         
-        long sumSecondMins = 0;
-        int minOfSecondMins = Integer.MAX_VALUE;
-        int globalMin = Integer.MAX_VALUE;
+        long sumSecondMin = 0;
+        int minOfSecondMin = Integer.MAX_VALUE;
+        int min = Integer.MAX_VALUE;
         
         for (int i = 0; i < m; i++) {
             int first = Integer.MAX_VALUE;
@@ -29,15 +29,15 @@ class Solution {
                 }
             }
             
-            sumSecondMins += second;
-            if (second < minOfSecondMins) {
-                minOfSecondMins = second;
+            sumSecondMin += second;
+            if (second < minOfSecondMin) {
+                minOfSecondMin = second;
             }
-            if (first < globalMin) {
-                globalMin = first;
+            if (first < min) {
+                min = first;
             }
         }
         
-        return sumSecondMins - minOfSecondMins + globalMin;
+        return sumSecondMin - minOfSecondMin + min;
     }
 }
