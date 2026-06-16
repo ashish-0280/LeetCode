@@ -12,8 +12,7 @@ class Solution {
                 if (l > 0) l--;
             } else if (c == '#') {
                 l *= 2;
-            } else if (c == '%') {
-            }
+            } 
             len[i] = l;
         }
         
@@ -29,7 +28,6 @@ class Solution {
                 if (k == prevLen) {
                     return c;
                 }
-            } else if (c == '*') {
             } else if (c == '#') {
                 if (k >= prevLen) {
                     k -= prevLen;
