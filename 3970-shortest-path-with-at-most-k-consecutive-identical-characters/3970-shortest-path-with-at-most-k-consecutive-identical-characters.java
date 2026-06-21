@@ -22,8 +22,6 @@ class Solution {
             int d = curr[1];
             int count = curr[2];
 
-            if(d > dist[node][count]) continue;
-
             if(node == n-1) return d;
 
             for(int e[]: graph.get(node)){
