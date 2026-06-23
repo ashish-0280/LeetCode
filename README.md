@@ -1137,6 +1137,7 @@
 | [3643-zero-array-transformation-ii](https://github.com/ashish-0280/LeetCode/tree/master/3643-zero-array-transformation-ii) |
 | [3647-zero-array-transformation-iii](https://github.com/ashish-0280/LeetCode/tree/master/3647-zero-array-transformation-iii) |
 | [3652-best-time-to-buy-and-sell-stock-using-strategy](https://github.com/ashish-0280/LeetCode/tree/master/3652-best-time-to-buy-and-sell-stock-using-strategy) |
+| [3699-number-of-zigzag-arrays-i](https://github.com/ashish-0280/LeetCode/tree/master/3699-number-of-zigzag-arrays-i) |
 | [3715-maximum-coins-from-k-consecutive-bags](https://github.com/ashish-0280/LeetCode/tree/master/3715-maximum-coins-from-k-consecutive-bags) |
 | [3789-maximize-subarrays-after-removing-one-conflicting-pair](https://github.com/ashish-0280/LeetCode/tree/master/3789-maximize-subarrays-after-removing-one-conflicting-pair) |
 ## Binary Search
@@ -1308,6 +1309,7 @@
 | [3648-find-the-maximum-number-of-fruits-collected](https://github.com/ashish-0280/LeetCode/tree/master/3648-find-the-maximum-number-of-fruits-collected) |
 | [3651-minimum-cost-path-with-teleportations](https://github.com/ashish-0280/LeetCode/tree/master/3651-minimum-cost-path-with-teleportations) |
 | [3677-maximum-amount-of-money-robot-can-earn](https://github.com/ashish-0280/LeetCode/tree/master/3677-maximum-amount-of-money-robot-can-earn) |
+| [3699-number-of-zigzag-arrays-i](https://github.com/ashish-0280/LeetCode/tree/master/3699-number-of-zigzag-arrays-i) |
 | [3757-number-of-effective-subsequences](https://github.com/ashish-0280/LeetCode/tree/master/3757-number-of-effective-subsequences) |
 | [3801-minimum-cost-to-merge-sorted-lists](https://github.com/ashish-0280/LeetCode/tree/master/3801-minimum-cost-to-merge-sorted-lists) |
 ## Stack
