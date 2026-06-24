@@ -756,6 +756,7 @@
 | [3625-count-number-of-trapezoids-ii](https://github.com/ashish-0280/LeetCode/tree/master/3625-count-number-of-trapezoids-ii) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/ashish-0280/LeetCode/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/ashish-0280/LeetCode/tree/master/3630-total-characters-in-string-after-transformations-ii) |
+| [3700-number-of-zigzag-arrays-ii](https://github.com/ashish-0280/LeetCode/tree/master/3700-number-of-zigzag-arrays-ii) |
 | [3744-minimum-operations-to-make-array-elements-zero](https://github.com/ashish-0280/LeetCode/tree/master/3744-minimum-operations-to-make-array-elements-zero) |
 | [3757-number-of-effective-subsequences](https://github.com/ashish-0280/LeetCode/tree/master/3757-number-of-effective-subsequences) |
 | [3830-find-closest-person](https://github.com/ashish-0280/LeetCode/tree/master/3830-find-closest-person) |
@@ -1310,6 +1311,7 @@
 | [3651-minimum-cost-path-with-teleportations](https://github.com/ashish-0280/LeetCode/tree/master/3651-minimum-cost-path-with-teleportations) |
 | [3677-maximum-amount-of-money-robot-can-earn](https://github.com/ashish-0280/LeetCode/tree/master/3677-maximum-amount-of-money-robot-can-earn) |
 | [3699-number-of-zigzag-arrays-i](https://github.com/ashish-0280/LeetCode/tree/master/3699-number-of-zigzag-arrays-i) |
+| [3700-number-of-zigzag-arrays-ii](https://github.com/ashish-0280/LeetCode/tree/master/3700-number-of-zigzag-arrays-ii) |
 | [3757-number-of-effective-subsequences](https://github.com/ashish-0280/LeetCode/tree/master/3757-number-of-effective-subsequences) |
 | [3801-minimum-cost-to-merge-sorted-lists](https://github.com/ashish-0280/LeetCode/tree/master/3801-minimum-cost-to-merge-sorted-lists) |
 ## Stack
