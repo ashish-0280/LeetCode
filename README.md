@@ -346,6 +346,7 @@
 | [3685-count-subarrays-of-length-three-with-a-condition](https://github.com/ashish-0280/LeetCode/tree/master/3685-count-subarrays-of-length-three-with-a-condition) |
 | [3715-maximum-coins-from-k-consecutive-bags](https://github.com/ashish-0280/LeetCode/tree/master/3715-maximum-coins-from-k-consecutive-bags) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/ashish-0280/LeetCode/tree/master/3737-count-subarrays-with-majority-element-i) |
+| [3739-count-subarrays-with-majority-element-ii](https://github.com/ashish-0280/LeetCode/tree/master/3739-count-subarrays-with-majority-element-ii) |
 | [3741-reschedule-meetings-for-maximum-free-time-ii](https://github.com/ashish-0280/LeetCode/tree/master/3741-reschedule-meetings-for-maximum-free-time-ii) |
 | [3743-reschedule-meetings-for-maximum-free-time-i](https://github.com/ashish-0280/LeetCode/tree/master/3743-reschedule-meetings-for-maximum-free-time-i) |
 | [3744-minimum-operations-to-make-array-elements-zero](https://github.com/ashish-0280/LeetCode/tree/master/3744-minimum-operations-to-make-array-elements-zero) |
@@ -500,6 +501,7 @@
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/ashish-0280/LeetCode/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
 | [3678-design-task-manager](https://github.com/ashish-0280/LeetCode/tree/master/3678-design-task-manager) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/ashish-0280/LeetCode/tree/master/3737-count-subarrays-with-majority-element-i) |
+| [3739-count-subarrays-with-majority-element-ii](https://github.com/ashish-0280/LeetCode/tree/master/3739-count-subarrays-with-majority-element-ii) |
 | [3760-assign-elements-to-groups-with-constraints](https://github.com/ashish-0280/LeetCode/tree/master/3760-assign-elements-to-groups-with-constraints) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/ashish-0280/LeetCode/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
 | [3797-design-spreadsheet](https://github.com/ashish-0280/LeetCode/tree/master/3797-design-spreadsheet) |
@@ -1144,6 +1146,7 @@
 | [3699-number-of-zigzag-arrays-i](https://github.com/ashish-0280/LeetCode/tree/master/3699-number-of-zigzag-arrays-i) |
 | [3715-maximum-coins-from-k-consecutive-bags](https://github.com/ashish-0280/LeetCode/tree/master/3715-maximum-coins-from-k-consecutive-bags) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/ashish-0280/LeetCode/tree/master/3737-count-subarrays-with-majority-element-i) |
+| [3739-count-subarrays-with-majority-element-ii](https://github.com/ashish-0280/LeetCode/tree/master/3739-count-subarrays-with-majority-element-ii) |
 | [3789-maximize-subarrays-after-removing-one-conflicting-pair](https://github.com/ashish-0280/LeetCode/tree/master/3789-maximize-subarrays-after-removing-one-conflicting-pair) |
 ## Binary Search
 |  |
@@ -1655,6 +1658,7 @@
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/ashish-0280/LeetCode/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [2280-count-good-triplets-in-an-array](https://github.com/ashish-0280/LeetCode/tree/master/2280-count-good-triplets-in-an-array) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/ashish-0280/LeetCode/tree/master/3737-count-subarrays-with-majority-element-i) |
+| [3739-count-subarrays-with-majority-element-ii](https://github.com/ashish-0280/LeetCode/tree/master/3739-count-subarrays-with-majority-element-ii) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -1913,6 +1917,7 @@
 | [2280-count-good-triplets-in-an-array](https://github.com/ashish-0280/LeetCode/tree/master/2280-count-good-triplets-in-an-array) |
 | [3454-separate-squares-ii](https://github.com/ashish-0280/LeetCode/tree/master/3454-separate-squares-ii) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/ashish-0280/LeetCode/tree/master/3737-count-subarrays-with-majority-element-i) |
+| [3739-count-subarrays-with-majority-element-ii](https://github.com/ashish-0280/LeetCode/tree/master/3739-count-subarrays-with-majority-element-ii) |
 | [3789-maximize-subarrays-after-removing-one-conflicting-pair](https://github.com/ashish-0280/LeetCode/tree/master/3789-maximize-subarrays-after-removing-one-conflicting-pair) |
 | [3790-fruits-into-baskets-ii](https://github.com/ashish-0280/LeetCode/tree/master/3790-fruits-into-baskets-ii) |
 | [3791-fruits-into-baskets-iii](https://github.com/ashish-0280/LeetCode/tree/master/3791-fruits-into-baskets-iii) |
@@ -2027,6 +2032,7 @@
 | [0148-sort-list](https://github.com/ashish-0280/LeetCode/tree/master/0148-sort-list) |
 | [2280-count-good-triplets-in-an-array](https://github.com/ashish-0280/LeetCode/tree/master/2280-count-good-triplets-in-an-array) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/ashish-0280/LeetCode/tree/master/3737-count-subarrays-with-majority-element-i) |
+| [3739-count-subarrays-with-majority-element-ii](https://github.com/ashish-0280/LeetCode/tree/master/3739-count-subarrays-with-majority-element-ii) |
 ## Bitmask
 |  |
 | ------- |
