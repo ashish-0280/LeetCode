@@ -434,6 +434,7 @@
 | [1256-rank-transform-of-an-array](https://github.com/ashish-0280/LeetCode/tree/master/1256-rank-transform-of-an-array) |
 | [1264-maximum-number-of-words-you-can-type](https://github.com/ashish-0280/LeetCode/tree/master/1264-maximum-number-of-words-you-can-type) |
 | [1267-remove-zero-sum-consecutive-nodes-from-linked-list](https://github.com/ashish-0280/LeetCode/tree/master/1267-remove-zero-sum-consecutive-nodes-from-linked-list) |
+| [1358-number-of-substrings-containing-all-three-characters](https://github.com/ashish-0280/LeetCode/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1364-tuple-with-same-product](https://github.com/ashish-0280/LeetCode/tree/master/1364-tuple-with-same-product) |
 | [1370-count-number-of-nice-subarrays](https://github.com/ashish-0280/LeetCode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/ashish-0280/LeetCode/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
@@ -581,6 +582,7 @@
 | [1264-maximum-number-of-words-you-can-type](https://github.com/ashish-0280/LeetCode/tree/master/1264-maximum-number-of-words-you-can-type) |
 | [1302-delete-characters-to-make-fancy-string](https://github.com/ashish-0280/LeetCode/tree/master/1302-delete-characters-to-make-fancy-string) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/ashish-0280/LeetCode/tree/master/1350-remove-sub-folders-from-the-filesystem) |
+| [1358-number-of-substrings-containing-all-three-characters](https://github.com/ashish-0280/LeetCode/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1360-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/ashish-0280/LeetCode/tree/master/1360-maximum-length-of-a-concatenated-string-with-unique-characters) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/ashish-0280/LeetCode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/ashish-0280/LeetCode/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
@@ -1079,6 +1081,7 @@
 | [0966-binary-subarrays-with-sum](https://github.com/ashish-0280/LeetCode/tree/master/0966-binary-subarrays-with-sum) |
 | [1034-subarrays-with-k-different-integers](https://github.com/ashish-0280/LeetCode/tree/master/1034-subarrays-with-k-different-integers) |
 | [1046-max-consecutive-ones-iii](https://github.com/ashish-0280/LeetCode/tree/master/1046-max-consecutive-ones-iii) |
+| [1358-number-of-substrings-containing-all-three-characters](https://github.com/ashish-0280/LeetCode/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1370-count-number-of-nice-subarrays](https://github.com/ashish-0280/LeetCode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/ashish-0280/LeetCode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/ashish-0280/LeetCode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
