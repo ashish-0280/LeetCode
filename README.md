@@ -297,6 +297,7 @@
 | [3242-count-elements-with-maximum-frequency](https://github.com/ashish-0280/LeetCode/tree/master/3242-count-elements-with-maximum-frequency) |
 | [3251-maximum-area-of-longest-diagonal-rectangle](https://github.com/ashish-0280/LeetCode/tree/master/3251-maximum-area-of-longest-diagonal-rectangle) |
 | [3278-find-the-number-of-ways-to-place-people-i](https://github.com/ashish-0280/LeetCode/tree/master/3278-find-the-number-of-ways-to-place-people-i) |
+| [3286-find-a-safe-walk-through-a-grid](https://github.com/ashish-0280/LeetCode/tree/master/3286-find-a-safe-walk-through-a-grid) |
 | [3314-construct-the-minimum-bitwise-array-i](https://github.com/ashish-0280/LeetCode/tree/master/3314-construct-the-minimum-bitwise-array-i) |
 | [3315-construct-the-minimum-bitwise-array-ii](https://github.com/ashish-0280/LeetCode/tree/master/3315-construct-the-minimum-bitwise-array-ii) |
 | [3321-type-of-triangle](https://github.com/ashish-0280/LeetCode/tree/master/3321-type-of-triangle) |
@@ -843,6 +844,7 @@
 | [2812-find-the-safest-path-in-a-grid](https://github.com/ashish-0280/LeetCode/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [3225-maximum-score-from-grid-operations](https://github.com/ashish-0280/LeetCode/tree/master/3225-maximum-score-from-grid-operations) |
 | [3227-find-missing-and-repeated-values](https://github.com/ashish-0280/LeetCode/tree/master/3227-find-missing-and-repeated-values) |
+| [3286-find-a-safe-walk-through-a-grid](https://github.com/ashish-0280/LeetCode/tree/master/3286-find-a-safe-walk-through-a-grid) |
 | [3459-find-the-minimum-area-to-cover-all-ones-ii](https://github.com/ashish-0280/LeetCode/tree/master/3459-find-the-minimum-area-to-cover-all-ones-ii) |
 | [3461-find-the-minimum-area-to-cover-all-ones-i](https://github.com/ashish-0280/LeetCode/tree/master/3461-find-the-minimum-area-to-cover-all-ones-i) |
 | [3516-design-neighbor-sum-service](https://github.com/ashish-0280/LeetCode/tree/master/3516-design-neighbor-sum-service) |
@@ -1555,6 +1557,7 @@
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/ashish-0280/LeetCode/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2793-count-the-number-of-complete-components](https://github.com/ashish-0280/LeetCode/tree/master/2793-count-the-number-of-complete-components) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/ashish-0280/LeetCode/tree/master/2812-find-the-safest-path-in-a-grid) |
+| [3286-find-a-safe-walk-through-a-grid](https://github.com/ashish-0280/LeetCode/tree/master/3286-find-a-safe-walk-through-a-grid) |
 | [3863-power-grid-maintenance](https://github.com/ashish-0280/LeetCode/tree/master/3863-power-grid-maintenance) |
 ## Binary Tree
 |  |
@@ -1703,6 +1706,7 @@
 | [2681-put-marbles-in-bags](https://github.com/ashish-0280/LeetCode/tree/master/2681-put-marbles-in-bags) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/ashish-0280/LeetCode/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [3013-divide-an-array-into-subarrays-with-minimum-cost-ii](https://github.com/ashish-0280/LeetCode/tree/master/3013-divide-an-array-into-subarrays-with-minimum-cost-ii) |
+| [3286-find-a-safe-walk-through-a-grid](https://github.com/ashish-0280/LeetCode/tree/master/3286-find-a-safe-walk-through-a-grid) |
 | [3332-minimum-operations-to-exceed-threshold-value-ii](https://github.com/ashish-0280/LeetCode/tree/master/3332-minimum-operations-to-exceed-threshold-value-ii) |
 | [3507-minimum-pair-removal-to-sort-array-i](https://github.com/ashish-0280/LeetCode/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
 | [3510-minimum-pair-removal-to-sort-array-ii](https://github.com/ashish-0280/LeetCode/tree/master/3510-minimum-pair-removal-to-sort-array-ii) |
@@ -2035,6 +2039,7 @@
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/ashish-0280/LeetCode/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2976-minimum-cost-to-convert-string-i](https://github.com/ashish-0280/LeetCode/tree/master/2976-minimum-cost-to-convert-string-i) |
 | [2977-minimum-cost-to-convert-string-ii](https://github.com/ashish-0280/LeetCode/tree/master/2977-minimum-cost-to-convert-string-ii) |
+| [3286-find-a-safe-walk-through-a-grid](https://github.com/ashish-0280/LeetCode/tree/master/3286-find-a-safe-walk-through-a-grid) |
 | [3650-minimum-cost-path-with-edge-reversals](https://github.com/ashish-0280/LeetCode/tree/master/3650-minimum-cost-path-with-edge-reversals) |
 ## Binary Indexed Tree
 |  |
@@ -2082,6 +2087,7 @@
 | ------- |
 | [2976-minimum-cost-to-convert-string-i](https://github.com/ashish-0280/LeetCode/tree/master/2976-minimum-cost-to-convert-string-i) |
 | [2977-minimum-cost-to-convert-string-ii](https://github.com/ashish-0280/LeetCode/tree/master/2977-minimum-cost-to-convert-string-ii) |
+| [3286-find-a-safe-walk-through-a-grid](https://github.com/ashish-0280/LeetCode/tree/master/3286-find-a-safe-walk-through-a-grid) |
 | [3650-minimum-cost-path-with-edge-reversals](https://github.com/ashish-0280/LeetCode/tree/master/3650-minimum-cost-path-with-edge-reversals) |
 ## Union-Find
 |  |
