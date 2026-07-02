@@ -1,43 +1,44 @@
 class Solution {
     public boolean findSafeWalk(List<List<Integer>> grid, int health) {
-        int n = grid.size();
-        int m = grid.get(0).size();
-
-        int[][] dir = {{0,1},{0,-1},{1,0},{-1,0}};
-        int startHealth = health - grid.get(0).get(0);
-        if(startHealth <= 0) return false;
-        Queue<int[]> q = new LinkedList<>();
-        q.offer(new int[]{0, 0, startHealth});
-        int[][] best = new int[n][m];
-
-        for(int i = 0; i < n; i++){
-            Arrays.fill(best[i], -1);
+        int m = grid.size();
+        int n = grid.get(0).size();
+        int[][] minCost = new int[m][n];
+        for (int[] row : minCost) {
+            Arrays.fill(row, Integer.MAX_VALUE);
         }
-        best[0][0] = startHealth;
-        while(!q.isEmpty()){
-            int[] curr = q.poll();
+        Deque<int[]> deque = new ArrayDeque<>();
+        minCost[0][0] = grid.get(0).get(0);
+        deque.offerFirst(new int[]{0, 0});
+        int[] dRow = {-1, 1, 0, 0};
+        int[] dCol = {0, 0, -1, 1};
+        
+        while (!deque.isEmpty()) {
+            int[] curr = deque.pollFirst();
             int r = curr[0];
             int c = curr[1];
-            int h = curr[2];
-            if(r == n - 1 && c == m - 1){
-                return true;
+            
+            if (r == m - 1 && c == n - 1) {
+                return minCost[r][c] < health;
             }
+            
+            for (int i = 0; i < 4; i++) {
+                int nr = r + dRow[i];
+                int nc = c + dCol[i];
+                if (nr >= 0 && nr < m && nc >= 0 && nc < n) {
+                    int cost = grid.get(nr).get(nc);
 
-            for(int[] d : dir){
-                int nr = r + d[0];
-                int nc = c + d[1];
-                if(nr < 0 || nr >= n || nc < 0 || nc >= m)
-                    continue;
-                int nh = h - grid.get(nr).get(nc);
-                if(nh <= 0)
-                    continue;
-                if(nh > best[nr][nc]){
-                    best[nr][nc] = nh;
-                    q.offer(new int[]{nr, nc, nh});
+                    if (minCost[r][c] + cost < minCost[nr][nc]) {
+                        minCost[nr][nc] = minCost[r][c] + cost;
+                        if (cost == 0) {
+                            deque.offerFirst(new int[]{nr, nc});
+
+                        } else {
+                            deque.offerLast(new int[]{nr, nc});
+                        }
+                    }
                 }
             }
         }
-
-        return false;
+        return minCost[m - 1][n - 1] < health;
     }
 }
